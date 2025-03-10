@@ -1,0 +1,10 @@
+Linear Regression Rating Cross-Validation RMSE: 0.3857 (± 0.0037)
+Linear Regression Rating Cross-Validation Time: 237.2442 seconds
+Linear Regression IMDB Score Cross-Validation RMSE: 0.5893 (± 0.0056)
+Linear Regression IMDB Score Cross-Validation Time: 201.1665 seconds
+Logistic Regression Cross-Validation Accuracy: 0.7991 (± 0.0045)
+Logistic Regression Cross-Validation Time: 24.8270 seconds
+Logistic Regression L1 Cross-Validation Accuracy: 0.8009 (± 0.0037)
+Logistic Regression L1 Cross-Validation Time: 62.3137 seconds
+Logistic Regression L2 Cross-Validation Accuracy: 0.7991 (± 0.0045)
+Logistic Regression L2 Cross-Validation Time: 24.3812 seconds

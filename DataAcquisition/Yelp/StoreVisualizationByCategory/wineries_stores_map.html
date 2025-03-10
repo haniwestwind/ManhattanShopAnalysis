@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40c0c47bb72e7be0bc1773154cc16ff7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40c0c47bb72e7be0bc1773154cc16ff7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40c0c47bb72e7be0bc1773154cc16ff7 = L.map(
+                "map_40c0c47bb72e7be0bc1773154cc16ff7",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9570523d48d898525a9da142a097900c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+            var circle_marker_bdfe7d7eaa56180eabe3f71e03f7daae = L.circleMarker(
+                [40.72340953254032, -73.95287351377351],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_8a10457bd3fb70dfba9032831239a9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_481ca6f77e3f907a879b9a172477f952 = $(`<div id="html_481ca6f77e3f907a879b9a172477f952" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Winery</b><br>Rating: 4.3<br>Reviews: 322<br>Success Score: 4.30</div>`)[0];
+                popup_8a10457bd3fb70dfba9032831239a9e7.setContent(html_481ca6f77e3f907a879b9a172477f952);
+            
+        
+
+        circle_marker_bdfe7d7eaa56180eabe3f71e03f7daae.bindPopup(popup_8a10457bd3fb70dfba9032831239a9e7)
+        ;
+
+        
+    
+    
+            var circle_marker_6196ad0f01935ef193cd1b7b36cd43b1 = L.circleMarker(
+                [40.72340953254032, -73.95287351377351],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39.99999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_1f009e63ebb69b8be1a648b845944a72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4357d6d812e3e05244e25b14e6fccc03 = $(`<div id="html_4357d6d812e3e05244e25b14e6fccc03" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Winery</b><br>Rating: 4.3<br>Reviews: 322<br>Success Score: 4.30</div>`)[0];
+                popup_1f009e63ebb69b8be1a648b845944a72.setContent(html_4357d6d812e3e05244e25b14e6fccc03);
+            
+        
+
+        circle_marker_6196ad0f01935ef193cd1b7b36cd43b1.bindPopup(popup_1f009e63ebb69b8be1a648b845944a72)
+        ;
+
+        
+    
+    
+            var circle_marker_2c66c0b097f8c618f3ba38f792f3b491 = L.circleMarker(
+                [40.67689171760841, -74.01816905833049],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_e73bcdcc5a102f533a25191903ee6b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d233066310afa72d59d1680576c4f149 = $(`<div id="html_d233066310afa72d59d1680576c4f149" style="width: 100.0%; height: 100.0%;"><b>The Red Hook Winery</b><br>Rating: 4.2<br>Reviews: 238<br>Success Score: 4.20</div>`)[0];
+                popup_e73bcdcc5a102f533a25191903ee6b08.setContent(html_d233066310afa72d59d1680576c4f149);
+            
+        
+
+        circle_marker_2c66c0b097f8c618f3ba38f792f3b491.bindPopup(popup_e73bcdcc5a102f533a25191903ee6b08)
+        ;
+
+        
+    
+    
+            var circle_marker_50f012e5b25438019196e6c4a608e2df = L.circleMarker(
+                [40.67689171760841, -74.01816905833049],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.565217391304344, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_a03fba0f99de194898a6d65a9ea3f6be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e7489738531675d7edef70e6b0bc4db = $(`<div id="html_4e7489738531675d7edef70e6b0bc4db" style="width: 100.0%; height: 100.0%;"><b>The Red Hook Winery</b><br>Rating: 4.2<br>Reviews: 238<br>Success Score: 4.20</div>`)[0];
+                popup_a03fba0f99de194898a6d65a9ea3f6be.setContent(html_4e7489738531675d7edef70e6b0bc4db);
+            
+        
+
+        circle_marker_50f012e5b25438019196e6c4a608e2df.bindPopup(popup_a03fba0f99de194898a6d65a9ea3f6be)
+        ;
+
+        
+    
+    
+            var circle_marker_4f8de1ab99b1d02b3585eea4fe8462a3 = L.circleMarker(
+                [40.7025733903159, -73.9698984748688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_bdc0abe4e3f395cbac8d0a153760c119 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6326c2fcc692390f83fd47ec8b575039 = $(`<div id="html_6326c2fcc692390f83fd47ec8b575039" style="width: 100.0%; height: 100.0%;"><b>Rooftop Reds</b><br>Rating: 4.1<br>Reviews: 197<br>Success Score: 4.10</div>`)[0];
+                popup_bdc0abe4e3f395cbac8d0a153760c119.setContent(html_6326c2fcc692390f83fd47ec8b575039);
+            
+        
+
+        circle_marker_4f8de1ab99b1d02b3585eea4fe8462a3.bindPopup(popup_bdc0abe4e3f395cbac8d0a153760c119)
+        ;
+
+        
+    
+    
+            var circle_marker_bf3187262fa8a38fb79b8527b68d4db6 = L.circleMarker(
+                [40.7025733903159, -73.9698984748688],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.472049689440993, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_d7edc00d9bcb0768417b07c4827fa4bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_197d732b8b38e468ff279b8b698491b6 = $(`<div id="html_197d732b8b38e468ff279b8b698491b6" style="width: 100.0%; height: 100.0%;"><b>Rooftop Reds</b><br>Rating: 4.1<br>Reviews: 197<br>Success Score: 4.10</div>`)[0];
+                popup_d7edc00d9bcb0768417b07c4827fa4bb.setContent(html_197d732b8b38e468ff279b8b698491b6);
+            
+        
+
+        circle_marker_bf3187262fa8a38fb79b8527b68d4db6.bindPopup(popup_d7edc00d9bcb0768417b07c4827fa4bb)
+        ;
+
+        
+    
+    
+            var circle_marker_074bce830e870dae094641adbc0d8acb = L.circleMarker(
+                [40.735404, -74.007533],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.4, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_e06ac0fc7e3b189f488a0b67d5779263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b2c4b3bf2e995172ef953ab105c9266 = $(`<div id="html_6b2c4b3bf2e995172ef953ab105c9266" style="width: 100.0%; height: 100.0%;"><b>NYC Wine Company</b><br>Rating: 4.6<br>Reviews: 47<br>Success Score: 4.60</div>`)[0];
+                popup_e06ac0fc7e3b189f488a0b67d5779263.setContent(html_6b2c4b3bf2e995172ef953ab105c9266);
+            
+        
+
+        circle_marker_074bce830e870dae094641adbc0d8acb.bindPopup(popup_e06ac0fc7e3b189f488a0b67d5779263)
+        ;
+
+        
+    
+    
+            var circle_marker_4be657b4319b6c397c731c63384ab2b2 = L.circleMarker(
+                [40.735404, -74.007533],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.838509316770186, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_44f004f0c9621990b40c602d22bdc31b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f4e5df02eef3b92879af008fba96c2e = $(`<div id="html_7f4e5df02eef3b92879af008fba96c2e" style="width: 100.0%; height: 100.0%;"><b>NYC Wine Company</b><br>Rating: 4.6<br>Reviews: 47<br>Success Score: 4.60</div>`)[0];
+                popup_44f004f0c9621990b40c602d22bdc31b.setContent(html_7f4e5df02eef3b92879af008fba96c2e);
+            
+        
+
+        circle_marker_4be657b4319b6c397c731c63384ab2b2.bindPopup(popup_44f004f0c9621990b40c602d22bdc31b)
+        ;
+
+        
+    
+    
+            var circle_marker_799240fa06106fdd1df9e13c40456678 = L.circleMarker(
+                [40.8430890524582, -74.1025676014328],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_58926481b562635f9cfc9d55dda10872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db1bde11e2b26f540ac6b02aff27af6 = $(`<div id="html_1db1bde11e2b26f540ac6b02aff27af6" style="width: 100.0%; height: 100.0%;"><b>Make Wine With Us</b><br>Rating: 4.2<br>Reviews: 31<br>Success Score: 4.20</div>`)[0];
+                popup_58926481b562635f9cfc9d55dda10872.setContent(html_1db1bde11e2b26f540ac6b02aff27af6);
+            
+        
+
+        circle_marker_799240fa06106fdd1df9e13c40456678.bindPopup(popup_58926481b562635f9cfc9d55dda10872)
+        ;
+
+        
+    
+    
+            var circle_marker_58de9b2121483ae1d0e1794b24dd14c0 = L.circleMarker(
+                [40.8430890524582, -74.1025676014328],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8509316770186333, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_76f444cd3ac40e669954d054880d7934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d20396076241d3495a2692477a9e6d2 = $(`<div id="html_5d20396076241d3495a2692477a9e6d2" style="width: 100.0%; height: 100.0%;"><b>Make Wine With Us</b><br>Rating: 4.2<br>Reviews: 31<br>Success Score: 4.20</div>`)[0];
+                popup_76f444cd3ac40e669954d054880d7934.setContent(html_5d20396076241d3495a2692477a9e6d2);
+            
+        
+
+        circle_marker_58de9b2121483ae1d0e1794b24dd14c0.bindPopup(popup_76f444cd3ac40e669954d054880d7934)
+        ;
+
+        
+    
+    
+            var circle_marker_b9241f64cbe92f6c7816d9587dffc899 = L.circleMarker(
+                [40.6920204, -73.9429245],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.2, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_757574c20d711d5efb3a153356252459 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50bd40d66c1bb670289046ab4da74af2 = $(`<div id="html_50bd40d66c1bb670289046ab4da74af2" style="width: 100.0%; height: 100.0%;"><b>Vin De Table</b><br>Rating: 3.8<br>Reviews: 20<br>Success Score: 3.80</div>`)[0];
+                popup_757574c20d711d5efb3a153356252459.setContent(html_50bd40d66c1bb670289046ab4da74af2);
+            
+        
+
+        circle_marker_b9241f64cbe92f6c7816d9587dffc899.bindPopup(popup_757574c20d711d5efb3a153356252459)
+        ;
+
+        
+    
+    
+            var circle_marker_9d43c26f9657ce4f745bec92c2ead679 = L.circleMarker(
+                [40.6920204, -73.9429245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.484472049689441, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_d3d67d60918066716b03283c2235138a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c72eab0a6bb08e01e8c41f9e1be0a576 = $(`<div id="html_c72eab0a6bb08e01e8c41f9e1be0a576" style="width: 100.0%; height: 100.0%;"><b>Vin De Table</b><br>Rating: 3.8<br>Reviews: 20<br>Success Score: 3.80</div>`)[0];
+                popup_d3d67d60918066716b03283c2235138a.setContent(html_c72eab0a6bb08e01e8c41f9e1be0a576);
+            
+        
+
+        circle_marker_9d43c26f9657ce4f745bec92c2ead679.bindPopup(popup_d3d67d60918066716b03283c2235138a)
+        ;
+
+        
+    
+    
+            var circle_marker_e03bbf9e4294185b9e509d82bb89ab11 = L.circleMarker(
+                [40.7721746876201, -73.86555421165667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.2, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_25f322a5932206250f14761bad842238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ff8ff7d572431d9508b7dac10c133af = $(`<div id="html_1ff8ff7d572431d9508b7dac10c133af" style="width: 100.0%; height: 100.0%;"><b>Wi-Bar</b><br>Rating: 2.3<br>Reviews: 15<br>Success Score: 2.30</div>`)[0];
+                popup_25f322a5932206250f14761bad842238.setContent(html_1ff8ff7d572431d9508b7dac10c133af);
+            
+        
+
+        circle_marker_e03bbf9e4294185b9e509d82bb89ab11.bindPopup(popup_25f322a5932206250f14761bad842238)
+        ;
+
+        
+    
+    
+            var circle_marker_f88b232ebd1cd6ef0be788c7c7142fc7 = L.circleMarker(
+                [40.7721746876201, -73.86555421165667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8633540372670807, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_1677e2b119b8283b09d2f5c48cfaab61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751d37f20cc411301285189fb252a2f5 = $(`<div id="html_751d37f20cc411301285189fb252a2f5" style="width: 100.0%; height: 100.0%;"><b>Wi-Bar</b><br>Rating: 2.3<br>Reviews: 15<br>Success Score: 2.30</div>`)[0];
+                popup_1677e2b119b8283b09d2f5c48cfaab61.setContent(html_751d37f20cc411301285189fb252a2f5);
+            
+        
+
+        circle_marker_f88b232ebd1cd6ef0be788c7c7142fc7.bindPopup(popup_1677e2b119b8283b09d2f5c48cfaab61)
+        ;
+
+        
+    
+    
+            var circle_marker_762892de9bb969b3e3b7539b3351ac0d = L.circleMarker(
+                [40.718112, -73.872646],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.200000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_84a39e91f6eddaa65a03525c201ce5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d4c4aec2f97e506d5405f8623e06e3 = $(`<div id="html_76d4c4aec2f97e506d5405f8623e06e3" style="width: 100.0%; height: 100.0%;"><b>Middle Village Wines & Liquors</b><br>Rating: 3.3<br>Reviews: 15<br>Success Score: 3.30</div>`)[0];
+                popup_84a39e91f6eddaa65a03525c201ce5b9.setContent(html_76d4c4aec2f97e506d5405f8623e06e3);
+            
+        
+
+        circle_marker_762892de9bb969b3e3b7539b3351ac0d.bindPopup(popup_84a39e91f6eddaa65a03525c201ce5b9)
+        ;
+
+        
+    
+    
+            var circle_marker_43ff342a01a8c60a7f4f6aca78d89352 = L.circleMarker(
+                [40.718112, -73.872646],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8633540372670807, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_fba21fef6114564eff9332797376e318 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59ad794131a017f11f4cb84d19bace6e = $(`<div id="html_59ad794131a017f11f4cb84d19bace6e" style="width: 100.0%; height: 100.0%;"><b>Middle Village Wines & Liquors</b><br>Rating: 3.3<br>Reviews: 15<br>Success Score: 3.30</div>`)[0];
+                popup_fba21fef6114564eff9332797376e318.setContent(html_59ad794131a017f11f4cb84d19bace6e);
+            
+        
+
+        circle_marker_43ff342a01a8c60a7f4f6aca78d89352.bindPopup(popup_fba21fef6114564eff9332797376e318)
+        ;
+
+        
+    
+    
+            var circle_marker_c8bf9f9a80bd297bb92d06820619b65d = L.circleMarker(
+                [40.5874886022569, -73.8134858384728],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.2, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_344e3b9dee209041481c62f0b78fed5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d606c58ee41691dab8cfe47fb7e14fa = $(`<div id="html_7d606c58ee41691dab8cfe47fb7e14fa" style="width: 100.0%; height: 100.0%;"><b>Ship To Shore Wine Shop</b><br>Rating: 3.8<br>Reviews: 11<br>Success Score: 3.80</div>`)[0];
+                popup_344e3b9dee209041481c62f0b78fed5d.setContent(html_7d606c58ee41691dab8cfe47fb7e14fa);
+            
+        
+
+        circle_marker_c8bf9f9a80bd297bb92d06820619b65d.bindPopup(popup_344e3b9dee209041481c62f0b78fed5d)
+        ;
+
+        
+    
+    
+            var circle_marker_55d3019d654a63dbae4731509518d399 = L.circleMarker(
+                [40.5874886022569, -73.8134858384728],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3664596273291925, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_bb6faac937172097a197ddca0e3658dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f04e47b27c4d6e3bbdbfa3b335a42fca = $(`<div id="html_f04e47b27c4d6e3bbdbfa3b335a42fca" style="width: 100.0%; height: 100.0%;"><b>Ship To Shore Wine Shop</b><br>Rating: 3.8<br>Reviews: 11<br>Success Score: 3.80</div>`)[0];
+                popup_bb6faac937172097a197ddca0e3658dd.setContent(html_f04e47b27c4d6e3bbdbfa3b335a42fca);
+            
+        
+
+        circle_marker_55d3019d654a63dbae4731509518d399.bindPopup(popup_bb6faac937172097a197ddca0e3658dd)
+        ;
+
+        
+    
+    
+            var circle_marker_2cc85642e55e0aefaf5e0e5854ffc409 = L.circleMarker(
+                [40.656960958378555, -74.12442168637372],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.4, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_b965608efb3326f31cf1f8eccc6f7865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8aea561cbcc25e291f452502c52e176 = $(`<div id="html_c8aea561cbcc25e291f452502c52e176" style="width: 100.0%; height: 100.0%;"><b>Harry's Wine Cellar</b><br>Rating: 2.6<br>Reviews: 10<br>Success Score: 2.60</div>`)[0];
+                popup_b965608efb3326f31cf1f8eccc6f7865.setContent(html_c8aea561cbcc25e291f452502c52e176);
+            
+        
+
+        circle_marker_2cc85642e55e0aefaf5e0e5854ffc409.bindPopup(popup_b965608efb3326f31cf1f8eccc6f7865)
+        ;
+
+        
+    
+    
+            var circle_marker_ca776f7464a467cb6f314520f3c0e1e0 = L.circleMarker(
+                [40.656960958378555, -74.12442168637372],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2422360248447204, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_56cac41f51f30ff085f792c943c507d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93003698510750eee5bc35a9b088e318 = $(`<div id="html_93003698510750eee5bc35a9b088e318" style="width: 100.0%; height: 100.0%;"><b>Harry's Wine Cellar</b><br>Rating: 2.6<br>Reviews: 10<br>Success Score: 2.60</div>`)[0];
+                popup_56cac41f51f30ff085f792c943c507d3.setContent(html_93003698510750eee5bc35a9b088e318);
+            
+        
+
+        circle_marker_ca776f7464a467cb6f314520f3c0e1e0.bindPopup(popup_56cac41f51f30ff085f792c943c507d3)
+        ;
+
+        
+    
+    
+            var circle_marker_0f1416e700b94a0f5e950c51c8705d75 = L.circleMarker(
+                [40.75678767769936, -74.00365557408989],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.600000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_46af0a5b488463c460d81dbd51825d04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68b90c36d0e331ca7eb568e9cba3d581 = $(`<div id="html_68b90c36d0e331ca7eb568e9cba3d581" style="width: 100.0%; height: 100.0%;"><b>New York Wine Expo</b><br>Rating: 3.4<br>Reviews: 8<br>Success Score: 3.40</div>`)[0];
+                popup_46af0a5b488463c460d81dbd51825d04.setContent(html_68b90c36d0e331ca7eb568e9cba3d581);
+            
+        
+
+        circle_marker_0f1416e700b94a0f5e950c51c8705d75.bindPopup(popup_46af0a5b488463c460d81dbd51825d04)
+        ;
+
+        
+    
+    
+            var circle_marker_e2d5b2f89167951ad0ee39fd5aa065a6 = L.circleMarker(
+                [40.75678767769936, -74.00365557408989],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9937888198757763, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_b404c31614b95a889a8e46bb7d7d4e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22129558b45ddafb103f1d1196765041 = $(`<div id="html_22129558b45ddafb103f1d1196765041" style="width: 100.0%; height: 100.0%;"><b>New York Wine Expo</b><br>Rating: 3.4<br>Reviews: 8<br>Success Score: 3.40</div>`)[0];
+                popup_b404c31614b95a889a8e46bb7d7d4e88.setContent(html_22129558b45ddafb103f1d1196765041);
+            
+        
+
+        circle_marker_e2d5b2f89167951ad0ee39fd5aa065a6.bindPopup(popup_b404c31614b95a889a8e46bb7d7d4e88)
+        ;
+
+        
+    
+    
+            var circle_marker_241cddd86896c43ca6e58a75be2d6298 = L.circleMarker(
+                [40.72554820927547, -74.00542478288966],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_eb769ee6631ae034a01fcbdcd298c453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0adb3258163ccc139244e59999f7f45 = $(`<div id="html_c0adb3258163ccc139244e59999f7f45" style="width: 100.0%; height: 100.0%;"><b>Mezzanine</b><br>Rating: 2.8<br>Reviews: 5<br>Success Score: 2.80</div>`)[0];
+                popup_eb769ee6631ae034a01fcbdcd298c453.setContent(html_c0adb3258163ccc139244e59999f7f45);
+            
+        
+
+        circle_marker_241cddd86896c43ca6e58a75be2d6298.bindPopup(popup_eb769ee6631ae034a01fcbdcd298c453)
+        ;
+
+        
+    
+    
+            var circle_marker_b134f2cf420dc6bfa13364749c2688d8 = L.circleMarker(
+                [40.72554820927547, -74.00542478288966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6211180124223602, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_4fcc33052dd51727f6bbaacf13f2a7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53f6feb700c20c467714cbac584e5d8 = $(`<div id="html_d53f6feb700c20c467714cbac584e5d8" style="width: 100.0%; height: 100.0%;"><b>Mezzanine</b><br>Rating: 2.8<br>Reviews: 5<br>Success Score: 2.80</div>`)[0];
+                popup_4fcc33052dd51727f6bbaacf13f2a7f0.setContent(html_d53f6feb700c20c467714cbac584e5d8);
+            
+        
+
+        circle_marker_b134f2cf420dc6bfa13364749c2688d8.bindPopup(popup_4fcc33052dd51727f6bbaacf13f2a7f0)
+        ;
+
+        
+    
+    
+            var circle_marker_20f76b6c9b12b99b3ba2577cfb931a89 = L.circleMarker(
+                [40.5911618471146, -73.9607099443674],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_b270279d760bed97ebb4adc59e5fd306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_deda057bdb1ac1b1800253fd8c25b88f = $(`<div id="html_deda057bdb1ac1b1800253fd8c25b88f" style="width: 100.0%; height: 100.0%;"><b>Flea Mart Wine & Liquor</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_b270279d760bed97ebb4adc59e5fd306.setContent(html_deda057bdb1ac1b1800253fd8c25b88f);
+            
+        
+
+        circle_marker_20f76b6c9b12b99b3ba2577cfb931a89.bindPopup(popup_b270279d760bed97ebb4adc59e5fd306)
+        ;
+
+        
+    
+    
+            var circle_marker_f378855dd0af6eceecfe9c05fd790f1e = L.circleMarker(
+                [40.5911618471146, -73.9607099443674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.49689440993788814, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_187c5c9b76d3557597544fc706fd23d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d1ca23ea2be868f2fb5e46e44d82a78 = $(`<div id="html_0d1ca23ea2be868f2fb5e46e44d82a78" style="width: 100.0%; height: 100.0%;"><b>Flea Mart Wine & Liquor</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_187c5c9b76d3557597544fc706fd23d6.setContent(html_0d1ca23ea2be868f2fb5e46e44d82a78);
+            
+        
+
+        circle_marker_f378855dd0af6eceecfe9c05fd790f1e.bindPopup(popup_187c5c9b76d3557597544fc706fd23d6)
+        ;
+
+        
+    
+    
+            var circle_marker_bb60c04213b689c0a5e9be694a46b9f5 = L.circleMarker(
+                [40.81491, -74.11435],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.000000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_d8266991af47ad67ca26d2baa1020050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33bf0670519e81ecffec48074eb49a2d = $(`<div id="html_33bf0670519e81ecffec48074eb49a2d" style="width: 100.0%; height: 100.0%;"><b>J&J Fine Wines & Liquors</b><br>Rating: 1.5<br>Reviews: 2<br>Success Score: 1.50</div>`)[0];
+                popup_d8266991af47ad67ca26d2baa1020050.setContent(html_33bf0670519e81ecffec48074eb49a2d);
+            
+        
+
+        circle_marker_bb60c04213b689c0a5e9be694a46b9f5.bindPopup(popup_d8266991af47ad67ca26d2baa1020050)
+        ;
+
+        
+    
+    
+            var circle_marker_98082745c4406f98b2bf761d93580e04 = L.circleMarker(
+                [40.81491, -74.11435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24844720496894407, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_e88a481e654a6858010b6e653e646e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9384bab08cc23a08c91dbc7d73bdfb69 = $(`<div id="html_9384bab08cc23a08c91dbc7d73bdfb69" style="width: 100.0%; height: 100.0%;"><b>J&J Fine Wines & Liquors</b><br>Rating: 1.5<br>Reviews: 2<br>Success Score: 1.50</div>`)[0];
+                popup_e88a481e654a6858010b6e653e646e0b.setContent(html_9384bab08cc23a08c91dbc7d73bdfb69);
+            
+        
+
+        circle_marker_98082745c4406f98b2bf761d93580e04.bindPopup(popup_e88a481e654a6858010b6e653e646e0b)
+        ;
+
+        
+    
+    
+            var circle_marker_a27b7c713a8d395b8cbba61bd1717df9 = L.circleMarker(
+                [40.7065887451172, -74.0096130371094],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_a061cfbe43a60f35c777ef6e0892dccc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f52410148a8c2f68f6b5c24da2f3c2 = $(`<div id="html_a1f52410148a8c2f68f6b5c24da2f3c2" style="width: 100.0%; height: 100.0%;"><b>Slush'd</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_a061cfbe43a60f35c777ef6e0892dccc.setContent(html_a1f52410148a8c2f68f6b5c24da2f3c2);
+            
+        
+
+        circle_marker_a27b7c713a8d395b8cbba61bd1717df9.bindPopup(popup_a061cfbe43a60f35c777ef6e0892dccc)
+        ;
+
+        
+    
+    
+            var circle_marker_51fcf0f983262ffeb5ed9886dfd5d74d = L.circleMarker(
+                [40.7065887451172, -74.0096130371094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.24844720496894407, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_86b6053e7f989034c00fd077529b7ec1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f55da42115e40b05d8056a3210cef9e9 = $(`<div id="html_f55da42115e40b05d8056a3210cef9e9" style="width: 100.0%; height: 100.0%;"><b>Slush'd</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_86b6053e7f989034c00fd077529b7ec1.setContent(html_f55da42115e40b05d8056a3210cef9e9);
+            
+        
+
+        circle_marker_51fcf0f983262ffeb5ed9886dfd5d74d.bindPopup(popup_86b6053e7f989034c00fd077529b7ec1)
+        ;
+
+        
+    
+    
+            var circle_marker_736af73b974a7aff7d3c4999a1f04483 = L.circleMarker(
+                [40.7255897521973, -73.997917175293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_be1cc983d4c171e15ba1972a4d4aee7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7c4da842014d7a4fd78a104eab4bf9a = $(`<div id="html_b7c4da842014d7a4fd78a104eab4bf9a" style="width: 100.0%; height: 100.0%;"><b>Avé Gourmet</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_be1cc983d4c171e15ba1972a4d4aee7e.setContent(html_b7c4da842014d7a4fd78a104eab4bf9a);
+            
+        
+
+        circle_marker_736af73b974a7aff7d3c4999a1f04483.bindPopup(popup_be1cc983d4c171e15ba1972a4d4aee7e)
+        ;
+
+        
+    
+    
+            var circle_marker_c4a5b8bc86df9c30ec82580bd2877166 = L.circleMarker(
+                [40.7255897521973, -73.997917175293],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_6a922fae3467a163466bdd377966dbfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cb361af2255271cc05a85c3981a3ede = $(`<div id="html_4cb361af2255271cc05a85c3981a3ede" style="width: 100.0%; height: 100.0%;"><b>Avé Gourmet</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_6a922fae3467a163466bdd377966dbfa.setContent(html_4cb361af2255271cc05a85c3981a3ede);
+            
+        
+
+        circle_marker_c4a5b8bc86df9c30ec82580bd2877166.bindPopup(popup_6a922fae3467a163466bdd377966dbfa)
+        ;
+
+        
+    
+    
+            var circle_marker_b10c2a2e66ad899aef6b2c6c6b342d25 = L.circleMarker(
+                [40.7508583068848, -73.97998046875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_f55e467d10f62433aa183c96c168244d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fffb0df7df3f204a36872f7a275863e = $(`<div id="html_4fffb0df7df3f204a36872f7a275863e" style="width: 100.0%; height: 100.0%;"><b>Ill Papa's</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_f55e467d10f62433aa183c96c168244d.setContent(html_4fffb0df7df3f204a36872f7a275863e);
+            
+        
+
+        circle_marker_b10c2a2e66ad899aef6b2c6c6b342d25.bindPopup(popup_f55e467d10f62433aa183c96c168244d)
+        ;
+
+        
+    
+    
+            var circle_marker_ca575383695bc93a7358a9ddab944578 = L.circleMarker(
+                [40.7508583068848, -73.97998046875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_6bed259f3fc44f1a24f5beaec999975b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09b384bf0db2e0323589d8ea8db5cec5 = $(`<div id="html_09b384bf0db2e0323589d8ea8db5cec5" style="width: 100.0%; height: 100.0%;"><b>Ill Papa's</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_6bed259f3fc44f1a24f5beaec999975b.setContent(html_09b384bf0db2e0323589d8ea8db5cec5);
+            
+        
+
+        circle_marker_ca575383695bc93a7358a9ddab944578.bindPopup(popup_6bed259f3fc44f1a24f5beaec999975b)
+        ;
+
+        
+    
+    
+            var circle_marker_a15e4bb2315e5225879f49616cd61992 = L.circleMarker(
+                [40.85664, -73.88647],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_a37a4a7227b6186833d3730874ee8128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_815ea4c6cd43b69b2b464b5eb0b2b49c = $(`<div id="html_815ea4c6cd43b69b2b464b5eb0b2b49c" style="width: 100.0%; height: 100.0%;"><b>Stone Castle Vineyards & Winery</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_a37a4a7227b6186833d3730874ee8128.setContent(html_815ea4c6cd43b69b2b464b5eb0b2b49c);
+            
+        
+
+        circle_marker_a15e4bb2315e5225879f49616cd61992.bindPopup(popup_a37a4a7227b6186833d3730874ee8128)
+        ;
+
+        
+    
+    
+            var circle_marker_010ec06dc5f9bf6b77a1cab0b985203e = L.circleMarker(
+                [40.85664, -73.88647],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_dad4ddd89871494cd1271171135fa3b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812662818b6314fae7dd5ec3035c8e58 = $(`<div id="html_812662818b6314fae7dd5ec3035c8e58" style="width: 100.0%; height: 100.0%;"><b>Stone Castle Vineyards & Winery</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_dad4ddd89871494cd1271171135fa3b1.setContent(html_812662818b6314fae7dd5ec3035c8e58);
+            
+        
+
+        circle_marker_010ec06dc5f9bf6b77a1cab0b985203e.bindPopup(popup_dad4ddd89871494cd1271171135fa3b1)
+        ;
+
+        
+    
+    
+            var circle_marker_4ac7949b3eafa37083285608cd2f6afd = L.circleMarker(
+                [40.694591, -73.900085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_3fad049520d405f4dc1776dc87774c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1ca7bf40f85b11c90aa186386fa37e2 = $(`<div id="html_d1ca7bf40f85b11c90aa186386fa37e2" style="width: 100.0%; height: 100.0%;"><b>Vintage Wine Warehouse</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_3fad049520d405f4dc1776dc87774c96.setContent(html_d1ca7bf40f85b11c90aa186386fa37e2);
+            
+        
+
+        circle_marker_4ac7949b3eafa37083285608cd2f6afd.bindPopup(popup_3fad049520d405f4dc1776dc87774c96)
+        ;
+
+        
+    
+    
+            var circle_marker_26bd0dbd431f2d15c264996d627a3dd9 = L.circleMarker(
+                [40.694591, -73.900085],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_f3ae669184515212ef2cf0ab02c4292d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd1ca314c4359af8c400f9a43ab5c61d = $(`<div id="html_dd1ca314c4359af8c400f9a43ab5c61d" style="width: 100.0%; height: 100.0%;"><b>Vintage Wine Warehouse</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_f3ae669184515212ef2cf0ab02c4292d.setContent(html_dd1ca314c4359af8c400f9a43ab5c61d);
+            
+        
+
+        circle_marker_26bd0dbd431f2d15c264996d627a3dd9.bindPopup(popup_f3ae669184515212ef2cf0ab02c4292d)
+        ;
+
+        
+    
+    
+            var circle_marker_19cf684aebdd92a18fedb19a99651981 = L.circleMarker(
+                [40.613516, -74.180702],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_5e385646b86eef1034e0b26fbc1ae5de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5bf0a2f18ed3df9ef05be0fc222b0e0 = $(`<div id="html_c5bf0a2f18ed3df9ef05be0fc222b0e0" style="width: 100.0%; height: 100.0%;"><b>Piazza Brothers Wine Room</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_5e385646b86eef1034e0b26fbc1ae5de.setContent(html_c5bf0a2f18ed3df9ef05be0fc222b0e0);
+            
+        
+
+        circle_marker_19cf684aebdd92a18fedb19a99651981.bindPopup(popup_5e385646b86eef1034e0b26fbc1ae5de)
+        ;
+
+        
+    
+    
+            var circle_marker_6b91395ef4eda11a05900509682d38d7 = L.circleMarker(
+                [40.613516, -74.180702],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_a21d7160a1bcc0545231d405bf8b19a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_362aa9825c982fe554448e492692a697 = $(`<div id="html_362aa9825c982fe554448e492692a697" style="width: 100.0%; height: 100.0%;"><b>Piazza Brothers Wine Room</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_a21d7160a1bcc0545231d405bf8b19a9.setContent(html_362aa9825c982fe554448e492692a697);
+            
+        
+
+        circle_marker_6b91395ef4eda11a05900509682d38d7.bindPopup(popup_a21d7160a1bcc0545231d405bf8b19a9)
+        ;
+
+        
+    
+    
+            var circle_marker_09869fd66e46a649c3a6e485e7114b29 = L.circleMarker(
+                [40.7522822, -73.9376289],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_df7617cbdc42292b7b08d861236881cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eaa7d5b455c689eae027f887343c116 = $(`<div id="html_5eaa7d5b455c689eae027f887343c116" style="width: 100.0%; height: 100.0%;"><b>Communal Brands</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_df7617cbdc42292b7b08d861236881cd.setContent(html_5eaa7d5b455c689eae027f887343c116);
+            
+        
+
+        circle_marker_09869fd66e46a649c3a6e485e7114b29.bindPopup(popup_df7617cbdc42292b7b08d861236881cd)
+        ;
+
+        
+    
+    
+            var circle_marker_a9df29de681b03a7d6468fcaea30aa0a = L.circleMarker(
+                [40.7522822, -73.9376289],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.12422360248447203, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_00837f3b3fb1e9697ed4a9c2cf964a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6eaa2067dd251d850e1c992d7581602 = $(`<div id="html_f6eaa2067dd251d850e1c992d7581602" style="width: 100.0%; height: 100.0%;"><b>Communal Brands</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_00837f3b3fb1e9697ed4a9c2cf964a89.setContent(html_f6eaa2067dd251d850e1c992d7581602);
+            
+        
+
+        circle_marker_a9df29de681b03a7d6468fcaea30aa0a.bindPopup(popup_00837f3b3fb1e9697ed4a9c2cf964a89)
+        ;
+
+        
+    
+    
+            var circle_marker_aa77aff156e70b23f05ba51dbac307c4 = L.circleMarker(
+                [40.6648254394531, -73.9452362060547],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_01b9f6fd968757df47214d1ff50f637d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d564c03591f0067c6801008facb3005 = $(`<div id="html_5d564c03591f0067c6801008facb3005" style="width: 100.0%; height: 100.0%;"><b>Joseph Zakon Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_01b9f6fd968757df47214d1ff50f637d.setContent(html_5d564c03591f0067c6801008facb3005);
+            
+        
+
+        circle_marker_aa77aff156e70b23f05ba51dbac307c4.bindPopup(popup_01b9f6fd968757df47214d1ff50f637d)
+        ;
+
+        
+    
+    
+            var circle_marker_fdafc66281ff3774b662221ec8c46bff = L.circleMarker(
+                [40.6648254394531, -73.9452362060547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_fcb1648cafb5bd7b37199494d29e51cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbb97624b23cc610b4c3d8d651ccd410 = $(`<div id="html_dbb97624b23cc610b4c3d8d651ccd410" style="width: 100.0%; height: 100.0%;"><b>Joseph Zakon Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_fcb1648cafb5bd7b37199494d29e51cd.setContent(html_dbb97624b23cc610b4c3d8d651ccd410);
+            
+        
+
+        circle_marker_fdafc66281ff3774b662221ec8c46bff.bindPopup(popup_fcb1648cafb5bd7b37199494d29e51cd)
+        ;
+
+        
+    
+    
+            var circle_marker_8d281d047acbc537c574d230dd35e06b = L.circleMarker(
+                [40.74303, -74.00779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_5bb575b00c266939c245d439113f5797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9a76df445d0a91b239fc96b5aed9633 = $(`<div id="html_d9a76df445d0a91b239fc96b5aed9633" style="width: 100.0%; height: 100.0%;"><b>Moet Hennessy USA</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_5bb575b00c266939c245d439113f5797.setContent(html_d9a76df445d0a91b239fc96b5aed9633);
+            
+        
+
+        circle_marker_8d281d047acbc537c574d230dd35e06b.bindPopup(popup_5bb575b00c266939c245d439113f5797)
+        ;
+
+        
+    
+    
+            var circle_marker_7961c8cd6446b8c9cb36503fc6403654 = L.circleMarker(
+                [40.74303, -74.00779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_da9bf075252ab1956b2eadaf4fc01f75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_309e362b707afdb6b7508dcca8e83c37 = $(`<div id="html_309e362b707afdb6b7508dcca8e83c37" style="width: 100.0%; height: 100.0%;"><b>Moet Hennessy USA</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_da9bf075252ab1956b2eadaf4fc01f75.setContent(html_309e362b707afdb6b7508dcca8e83c37);
+            
+        
+
+        circle_marker_7961c8cd6446b8c9cb36503fc6403654.bindPopup(popup_da9bf075252ab1956b2eadaf4fc01f75)
+        ;
+
+        
+    
+    
+            var circle_marker_54027e81a3f5e6c01d95da5791aa0d70 = L.circleMarker(
+                [40.7382357, -73.9881538],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_7f1d3fd97036a51fd40f7c83a2ad4679 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8488b9fbfcf56953b5c81615c48cc6fb = $(`<div id="html_8488b9fbfcf56953b5c81615c48cc6fb" style="width: 100.0%; height: 100.0%;"><b>Pernod Ricard</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7f1d3fd97036a51fd40f7c83a2ad4679.setContent(html_8488b9fbfcf56953b5c81615c48cc6fb);
+            
+        
+
+        circle_marker_54027e81a3f5e6c01d95da5791aa0d70.bindPopup(popup_7f1d3fd97036a51fd40f7c83a2ad4679)
+        ;
+
+        
+    
+    
+            var circle_marker_fe24afbdb771ee19baacc6f77230c3b8 = L.circleMarker(
+                [40.7382357, -73.9881538],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_418d7dfa0f5af47d89440612f3e40c01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b8581345dd62ecc92ca88f289591e5 = $(`<div id="html_33b8581345dd62ecc92ca88f289591e5" style="width: 100.0%; height: 100.0%;"><b>Pernod Ricard</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_418d7dfa0f5af47d89440612f3e40c01.setContent(html_33b8581345dd62ecc92ca88f289591e5);
+            
+        
+
+        circle_marker_fe24afbdb771ee19baacc6f77230c3b8.bindPopup(popup_418d7dfa0f5af47d89440612f3e40c01)
+        ;
+
+        
+    
+    
+            var circle_marker_83f2e554826a9a94e5bc9af318c64e03 = L.circleMarker(
+                [40.726139, -73.99559],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_0607fadf78d4c58123fcd67198cc3182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6004fe96b23350be90566040beba9f6 = $(`<div id="html_c6004fe96b23350be90566040beba9f6" style="width: 100.0%; height: 100.0%;"><b>Montecastelli Selections</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_0607fadf78d4c58123fcd67198cc3182.setContent(html_c6004fe96b23350be90566040beba9f6);
+            
+        
+
+        circle_marker_83f2e554826a9a94e5bc9af318c64e03.bindPopup(popup_0607fadf78d4c58123fcd67198cc3182)
+        ;
+
+        
+    
+    
+            var circle_marker_ba82f8ef8bf6459b510f570e2a05582c = L.circleMarker(
+                [40.726139, -73.99559],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_1cdba51194322d02e143dd6f7a1c47d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_386ee385cdf34a1c6053269c244e82ed = $(`<div id="html_386ee385cdf34a1c6053269c244e82ed" style="width: 100.0%; height: 100.0%;"><b>Montecastelli Selections</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_1cdba51194322d02e143dd6f7a1c47d0.setContent(html_386ee385cdf34a1c6053269c244e82ed);
+            
+        
+
+        circle_marker_ba82f8ef8bf6459b510f570e2a05582c.bindPopup(popup_1cdba51194322d02e143dd6f7a1c47d0)
+        ;
+
+        
+    
+    
+            var circle_marker_a87caf05d21689eec8716943e7e4bdf7 = L.circleMarker(
+                [40.6648254394531, -73.9452362060547],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_efa14e64242943f2ed563ecb26743761 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03723e37b25eb6fc822c51df482021b3 = $(`<div id="html_03723e37b25eb6fc822c51df482021b3" style="width: 100.0%; height: 100.0%;"><b>Crown Regal Wine Cellars</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_efa14e64242943f2ed563ecb26743761.setContent(html_03723e37b25eb6fc822c51df482021b3);
+            
+        
+
+        circle_marker_a87caf05d21689eec8716943e7e4bdf7.bindPopup(popup_efa14e64242943f2ed563ecb26743761)
+        ;
+
+        
+    
+    
+            var circle_marker_34cdd4216531dfb2785fde6e9d058e14 = L.circleMarker(
+                [40.6648254394531, -73.9452362060547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_7f2fb91c4d34cf053b7f286044b80d37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e48b38894b5cc090e085ab5da79c485e = $(`<div id="html_e48b38894b5cc090e085ab5da79c485e" style="width: 100.0%; height: 100.0%;"><b>Crown Regal Wine Cellars</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7f2fb91c4d34cf053b7f286044b80d37.setContent(html_e48b38894b5cc090e085ab5da79c485e);
+            
+        
+
+        circle_marker_34cdd4216531dfb2785fde6e9d058e14.bindPopup(popup_7f2fb91c4d34cf053b7f286044b80d37)
+        ;
+
+        
+    
+    
+            var circle_marker_8cd15d7db665d16d4be134b953df4a35 = L.circleMarker(
+                [40.630191, -73.978997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_b7875cec8171b963472478b329c4bab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_591a70d1a754af2ed2492f834c6a302e = $(`<div id="html_591a70d1a754af2ed2492f834c6a302e" style="width: 100.0%; height: 100.0%;"><b>Happy Hearts</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_b7875cec8171b963472478b329c4bab1.setContent(html_591a70d1a754af2ed2492f834c6a302e);
+            
+        
+
+        circle_marker_8cd15d7db665d16d4be134b953df4a35.bindPopup(popup_b7875cec8171b963472478b329c4bab1)
+        ;
+
+        
+    
+    
+            var circle_marker_538e52ef4edd0094348338f216a5cfb9 = L.circleMarker(
+                [40.630191, -73.978997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_7a89afff6925db657e12be97cbc8a378 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7573194fea3f04bbe40d06a4de9403d = $(`<div id="html_c7573194fea3f04bbe40d06a4de9403d" style="width: 100.0%; height: 100.0%;"><b>Happy Hearts</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7a89afff6925db657e12be97cbc8a378.setContent(html_c7573194fea3f04bbe40d06a4de9403d);
+            
+        
+
+        circle_marker_538e52ef4edd0094348338f216a5cfb9.bindPopup(popup_7a89afff6925db657e12be97cbc8a378)
+        ;
+
+        
+    
+    
+            var circle_marker_593de442b27433f20c7738cf69c1fc27 = L.circleMarker(
+                [40.72651, -73.94017],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_d45b8a858d6524e5f9bb685a96302fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fae20da744eebae0ba5dc6954574afc = $(`<div id="html_6fae20da744eebae0ba5dc6954574afc" style="width: 100.0%; height: 100.0%;"><b>Rashbi Wines</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d45b8a858d6524e5f9bb685a96302fa6.setContent(html_6fae20da744eebae0ba5dc6954574afc);
+            
+        
+
+        circle_marker_593de442b27433f20c7738cf69c1fc27.bindPopup(popup_d45b8a858d6524e5f9bb685a96302fa6)
+        ;
+
+        
+    
+    
+            var circle_marker_3848b2080eeec88dac903a9160cd58e5 = L.circleMarker(
+                [40.72651, -73.94017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_aeb8d6f99a0c4be12b5982360808aa36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9b95abce21cf656fbeada8c84555df1 = $(`<div id="html_a9b95abce21cf656fbeada8c84555df1" style="width: 100.0%; height: 100.0%;"><b>Rashbi Wines</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_aeb8d6f99a0c4be12b5982360808aa36.setContent(html_a9b95abce21cf656fbeada8c84555df1);
+            
+        
+
+        circle_marker_3848b2080eeec88dac903a9160cd58e5.bindPopup(popup_aeb8d6f99a0c4be12b5982360808aa36)
+        ;
+
+        
+    
+    
+            var circle_marker_349039c6fa028b5e3cbd301bcfebb55d = L.circleMarker(
+                [40.79137, -73.81357],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_88640ffc78b1d5c1e9b1cbda8eb7110f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96ab6685d83cc7d1eb738965b8f002a5 = $(`<div id="html_96ab6685d83cc7d1eb738965b8f002a5" style="width: 100.0%; height: 100.0%;"><b>La Famiglia Di Bugey</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_88640ffc78b1d5c1e9b1cbda8eb7110f.setContent(html_96ab6685d83cc7d1eb738965b8f002a5);
+            
+        
+
+        circle_marker_349039c6fa028b5e3cbd301bcfebb55d.bindPopup(popup_88640ffc78b1d5c1e9b1cbda8eb7110f)
+        ;
+
+        
+    
+    
+            var circle_marker_fc434845024c73d8dff3dfd6219f4390 = L.circleMarker(
+                [40.79137, -73.81357],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_e7d5d5b51820f0363e12069f7372111a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9da2bf07f3bc62b9cf9a19fd1c4e575 = $(`<div id="html_d9da2bf07f3bc62b9cf9a19fd1c4e575" style="width: 100.0%; height: 100.0%;"><b>La Famiglia Di Bugey</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_e7d5d5b51820f0363e12069f7372111a.setContent(html_d9da2bf07f3bc62b9cf9a19fd1c4e575);
+            
+        
+
+        circle_marker_fc434845024c73d8dff3dfd6219f4390.bindPopup(popup_e7d5d5b51820f0363e12069f7372111a)
+        ;
+
+        
+    
+    
+            var circle_marker_5cb52806ae141e4a2cd3d2913847e76d = L.circleMarker(
+                [40.7418125, -73.97913783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_d18896301b740d7dd1f924876e9b2f77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ee91c2dff5fa03b50e59d77dd407249 = $(`<div id="html_5ee91c2dff5fa03b50e59d77dd407249" style="width: 100.0%; height: 100.0%;"><b>The Somm effect</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d18896301b740d7dd1f924876e9b2f77.setContent(html_5ee91c2dff5fa03b50e59d77dd407249);
+            
+        
+
+        circle_marker_5cb52806ae141e4a2cd3d2913847e76d.bindPopup(popup_d18896301b740d7dd1f924876e9b2f77)
+        ;
+
+        
+    
+    
+            var circle_marker_20307ef221adfa0c72b9b7f4b215f22f = L.circleMarker(
+                [40.7418125, -73.97913783],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_34f03f42970778338e7380e92d5bbbc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae79598b28e15d11b2db1b2fc33768f = $(`<div id="html_dae79598b28e15d11b2db1b2fc33768f" style="width: 100.0%; height: 100.0%;"><b>The Somm effect</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_34f03f42970778338e7380e92d5bbbc4.setContent(html_dae79598b28e15d11b2db1b2fc33768f);
+            
+        
+
+        circle_marker_20307ef221adfa0c72b9b7f4b215f22f.bindPopup(popup_34f03f42970778338e7380e92d5bbbc4)
+        ;
+
+        
+    
+    
+            var circle_marker_01cc4f1fa853c5eba1af7f0f2183c8f0 = L.circleMarker(
+                [40.731991, -73.986847],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_aed37be5b1f70c263c95bea91621e3b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c985010ea642c751d847dc560c8190f8 = $(`<div id="html_c985010ea642c751d847dc560c8190f8" style="width: 100.0%; height: 100.0%;"><b>Wine Zeus HQ</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_aed37be5b1f70c263c95bea91621e3b3.setContent(html_c985010ea642c751d847dc560c8190f8);
+            
+        
+
+        circle_marker_01cc4f1fa853c5eba1af7f0f2183c8f0.bindPopup(popup_aed37be5b1f70c263c95bea91621e3b3)
+        ;
+
+        
+    
+    
+            var circle_marker_6f63e69907093c6674a05ac0f8a1f8f5 = L.circleMarker(
+                [40.731991, -73.986847],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_72fd44604731a5f7f0333e2ba7a316a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e3cce5139f066eabfdcfbbbd92ffcb = $(`<div id="html_28e3cce5139f066eabfdcfbbbd92ffcb" style="width: 100.0%; height: 100.0%;"><b>Wine Zeus HQ</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_72fd44604731a5f7f0333e2ba7a316a4.setContent(html_28e3cce5139f066eabfdcfbbbd92ffcb);
+            
+        
+
+        circle_marker_6f63e69907093c6674a05ac0f8a1f8f5.bindPopup(popup_72fd44604731a5f7f0333e2ba7a316a4)
+        ;
+
+        
+    
+    
+            var circle_marker_4a0020471fef9f60c80cbcceb0497799 = L.circleMarker(
+                [40.75015, -73.98139],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_ce65102ef53e4b6131086a53f80f3f85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c74f74d701859bf6325292a970e51dd = $(`<div id="html_8c74f74d701859bf6325292a970e51dd" style="width: 100.0%; height: 100.0%;"><b>Long Island Wine Academy</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_ce65102ef53e4b6131086a53f80f3f85.setContent(html_8c74f74d701859bf6325292a970e51dd);
+            
+        
+
+        circle_marker_4a0020471fef9f60c80cbcceb0497799.bindPopup(popup_ce65102ef53e4b6131086a53f80f3f85)
+        ;
+
+        
+    
+    
+            var circle_marker_f5513210bbaca129a5951ed55f2d9bc0 = L.circleMarker(
+                [40.75015, -73.98139],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_23f8f773a84e4ae71b76554df21e7750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b872113bbe5e3daa376f43abea7ed568 = $(`<div id="html_b872113bbe5e3daa376f43abea7ed568" style="width: 100.0%; height: 100.0%;"><b>Long Island Wine Academy</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_23f8f773a84e4ae71b76554df21e7750.setContent(html_b872113bbe5e3daa376f43abea7ed568);
+            
+        
+
+        circle_marker_f5513210bbaca129a5951ed55f2d9bc0.bindPopup(popup_23f8f773a84e4ae71b76554df21e7750)
+        ;
+
+        
+    
+    
+            var circle_marker_dbe7891343149933e05ccdf8d2c229e8 = L.circleMarker(
+                [40.83805, -74.06875],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_85f7179c42dfd420808877c49bd78c0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_265d1951dd79eb433cb58e15d966d98c = $(`<div id="html_265d1951dd79eb433cb58e15d966d98c" style="width: 100.0%; height: 100.0%;"><b>North River Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_85f7179c42dfd420808877c49bd78c0c.setContent(html_265d1951dd79eb433cb58e15d966d98c);
+            
+        
+
+        circle_marker_dbe7891343149933e05ccdf8d2c229e8.bindPopup(popup_85f7179c42dfd420808877c49bd78c0c)
+        ;
+
+        
+    
+    
+            var circle_marker_0fc5cf9afbe9a67365efa84263046272 = L.circleMarker(
+                [40.83805, -74.06875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_5a3e1dfc067a477beb4cf36afda8b2fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015b1c9a010960746bee1aa6673279a2 = $(`<div id="html_015b1c9a010960746bee1aa6673279a2" style="width: 100.0%; height: 100.0%;"><b>North River Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_5a3e1dfc067a477beb4cf36afda8b2fe.setContent(html_015b1c9a010960746bee1aa6673279a2);
+            
+        
+
+        circle_marker_0fc5cf9afbe9a67365efa84263046272.bindPopup(popup_5a3e1dfc067a477beb4cf36afda8b2fe)
+        ;
+
+        
+    
+    
+            var circle_marker_6478850f180b54e4ff167bd4fb6fc299 = L.circleMarker(
+                [40.760185, -73.984369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_ae67b0aede2ffc17b533df6bb098f836 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b42419bcbb5f0d2f6dfed62052e4ffb = $(`<div id="html_0b42419bcbb5f0d2f6dfed62052e4ffb" style="width: 100.0%; height: 100.0%;"><b>Sam and Lorenzo's Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_ae67b0aede2ffc17b533df6bb098f836.setContent(html_0b42419bcbb5f0d2f6dfed62052e4ffb);
+            
+        
+
+        circle_marker_6478850f180b54e4ff167bd4fb6fc299.bindPopup(popup_ae67b0aede2ffc17b533df6bb098f836)
+        ;
+
+        
+    
+    
+            var circle_marker_4cff306422885afb42c207f28ff0401c = L.circleMarker(
+                [40.760185, -73.984369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_c15509974994d9d1ddf1f6b0fc60697e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a7ef1850bca5a92766f4a38b0dcf360 = $(`<div id="html_2a7ef1850bca5a92766f4a38b0dcf360" style="width: 100.0%; height: 100.0%;"><b>Sam and Lorenzo's Winery</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_c15509974994d9d1ddf1f6b0fc60697e.setContent(html_2a7ef1850bca5a92766f4a38b0dcf360);
+            
+        
+
+        circle_marker_4cff306422885afb42c207f28ff0401c.bindPopup(popup_c15509974994d9d1ddf1f6b0fc60697e)
+        ;
+
+        
+    
+    
+            var circle_marker_a227b9c580955d44cc4ecf7928789a61 = L.circleMarker(
+                [40.71303, -74.01008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_54b652d46588a1cf453d0533296f4012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b168903d471d7a05b1d222c5fe44f77 = $(`<div id="html_9b168903d471d7a05b1d222c5fe44f77" style="width: 100.0%; height: 100.0%;"><b>New york vintners</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_54b652d46588a1cf453d0533296f4012.setContent(html_9b168903d471d7a05b1d222c5fe44f77);
+            
+        
+
+        circle_marker_a227b9c580955d44cc4ecf7928789a61.bindPopup(popup_54b652d46588a1cf453d0533296f4012)
+        ;
+
+        
+    
+    
+            var circle_marker_7d6970854d371931f472dd306e4c0ca4 = L.circleMarker(
+                [40.71303, -74.01008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_e088306abe09e51232389aa8dde674a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8263eb29182b708c139eed68e44c9797 = $(`<div id="html_8263eb29182b708c139eed68e44c9797" style="width: 100.0%; height: 100.0%;"><b>New york vintners</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_e088306abe09e51232389aa8dde674a6.setContent(html_8263eb29182b708c139eed68e44c9797);
+            
+        
+
+        circle_marker_7d6970854d371931f472dd306e4c0ca4.bindPopup(popup_e088306abe09e51232389aa8dde674a6)
+        ;
+
+        
+    
+    
+            var circle_marker_6fda0cb0f7940042b2ab8416e7181778 = L.circleMarker(
+                [40.73704, -74.0074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_4c7a8cb90163d729e95aad971e968999 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50689c8e94877e104fc53c3b5cb26b40 = $(`<div id="html_50689c8e94877e104fc53c3b5cb26b40" style="width: 100.0%; height: 100.0%;"><b>Michtom Vineyards</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_4c7a8cb90163d729e95aad971e968999.setContent(html_50689c8e94877e104fc53c3b5cb26b40);
+            
+        
+
+        circle_marker_6fda0cb0f7940042b2ab8416e7181778.bindPopup(popup_4c7a8cb90163d729e95aad971e968999)
+        ;
+
+        
+    
+    
+            var circle_marker_2efc82b6b5d554853e7058dae75698de = L.circleMarker(
+                [40.73704, -74.0074],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_6316ac213029d6906b96b7b1c2786fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57804b98d58292295d918d2005ef4676 = $(`<div id="html_57804b98d58292295d918d2005ef4676" style="width: 100.0%; height: 100.0%;"><b>Michtom Vineyards</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_6316ac213029d6906b96b7b1c2786fa0.setContent(html_57804b98d58292295d918d2005ef4676);
+            
+        
+
+        circle_marker_2efc82b6b5d554853e7058dae75698de.bindPopup(popup_6316ac213029d6906b96b7b1c2786fa0)
+        ;
+
+        
+    
+    
+            var circle_marker_6b50263175b37b3e02a1d6d03ddf9cf9 = L.circleMarker(
+                [40.74505, -73.9821599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_61fc9dbb00c74bf8f70655bcf9c41b11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_753e768a25cb1db8a79f9a246eb39cb7 = $(`<div id="html_753e768a25cb1db8a79f9a246eb39cb7" style="width: 100.0%; height: 100.0%;"><b>Wineberry</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_61fc9dbb00c74bf8f70655bcf9c41b11.setContent(html_753e768a25cb1db8a79f9a246eb39cb7);
+            
+        
+
+        circle_marker_6b50263175b37b3e02a1d6d03ddf9cf9.bindPopup(popup_61fc9dbb00c74bf8f70655bcf9c41b11)
+        ;
+
+        
+    
+    
+            var circle_marker_01c32adfa575842cbad390f930e7cfeb = L.circleMarker(
+                [40.74505, -73.9821599],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_5a3e28b01232541b88dfa74a52d4bacf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50586a60bdc42bc48c4b4e18b7bee59d = $(`<div id="html_50586a60bdc42bc48c4b4e18b7bee59d" style="width: 100.0%; height: 100.0%;"><b>Wineberry</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_5a3e28b01232541b88dfa74a52d4bacf.setContent(html_50586a60bdc42bc48c4b4e18b7bee59d);
+            
+        
+
+        circle_marker_01c32adfa575842cbad390f930e7cfeb.bindPopup(popup_5a3e28b01232541b88dfa74a52d4bacf)
+        ;
+
+        
+    
+    
+            var circle_marker_4c53ceaf31f3137b154f34aebeb91ff9 = L.circleMarker(
+                [40.70711, -74.00748],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_abf6dcbe985bc72b45d52f8e34513d6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1674083bd1b7254a26d8a445b820b6f0 = $(`<div id="html_1674083bd1b7254a26d8a445b820b6f0" style="width: 100.0%; height: 100.0%;"><b>Sopexia Food & Wines</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_abf6dcbe985bc72b45d52f8e34513d6a.setContent(html_1674083bd1b7254a26d8a445b820b6f0);
+            
+        
+
+        circle_marker_4c53ceaf31f3137b154f34aebeb91ff9.bindPopup(popup_abf6dcbe985bc72b45d52f8e34513d6a)
+        ;
+
+        
+    
+    
+            var circle_marker_518cb1dec7f4340266da3547a1c793d9 = L.circleMarker(
+                [40.70711, -74.00748],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_a7e13b8ec897654e566c74e8c43b617c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e4e8f8dbdddf1e7e8259fd13edc40f4 = $(`<div id="html_8e4e8f8dbdddf1e7e8259fd13edc40f4" style="width: 100.0%; height: 100.0%;"><b>Sopexia Food & Wines</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_a7e13b8ec897654e566c74e8c43b617c.setContent(html_8e4e8f8dbdddf1e7e8259fd13edc40f4);
+            
+        
+
+        circle_marker_518cb1dec7f4340266da3547a1c793d9.bindPopup(popup_a7e13b8ec897654e566c74e8c43b617c)
+        ;
+
+        
+    
+    
+            var circle_marker_6e24fb349e9c6f21974e3a0a173f6d17 = L.circleMarker(
+                [40.6383781433105, -73.9086151123047],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_58e469b34d32a8c91dbc915fd99a91c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fde9231413744951665997467749ed51 = $(`<div id="html_fde9231413744951665997467749ed51" style="width: 100.0%; height: 100.0%;"><b>Wine Master Liquor</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_58e469b34d32a8c91dbc915fd99a91c6.setContent(html_fde9231413744951665997467749ed51);
+            
+        
+
+        circle_marker_6e24fb349e9c6f21974e3a0a173f6d17.bindPopup(popup_58e469b34d32a8c91dbc915fd99a91c6)
+        ;
+
+        
+    
+    
+            var circle_marker_c70ea35714f532ee411086ebbff4ae13 = L.circleMarker(
+                [40.6383781433105, -73.9086151123047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_8230f0f80a90ebe3fe7e1cacdefb3127 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fd0e3b5a2d2a83f08620ec280b2b7f5 = $(`<div id="html_7fd0e3b5a2d2a83f08620ec280b2b7f5" style="width: 100.0%; height: 100.0%;"><b>Wine Master Liquor</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_8230f0f80a90ebe3fe7e1cacdefb3127.setContent(html_7fd0e3b5a2d2a83f08620ec280b2b7f5);
+            
+        
+
+        circle_marker_c70ea35714f532ee411086ebbff4ae13.bindPopup(popup_8230f0f80a90ebe3fe7e1cacdefb3127)
+        ;
+
+        
+    
+    
+            var circle_marker_04a50ee2cf728d92ad9642b9c9a0bc20 = L.circleMarker(
+                [40.6853613, -73.8446748],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_32a61f0c5960fd55940641ca9cf639b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc97a869e829a5b847bb9dbc5a560244 = $(`<div id="html_bc97a869e829a5b847bb9dbc5a560244" style="width: 100.0%; height: 100.0%;"><b>Amore' Wines & Chocolates</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_32a61f0c5960fd55940641ca9cf639b0.setContent(html_bc97a869e829a5b847bb9dbc5a560244);
+            
+        
+
+        circle_marker_04a50ee2cf728d92ad9642b9c9a0bc20.bindPopup(popup_32a61f0c5960fd55940641ca9cf639b0)
+        ;
+
+        
+    
+    
+            var circle_marker_c17ccc192f993e2415a3fb2ae763053e = L.circleMarker(
+                [40.6853613, -73.8446748],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_1b66c7cb45a1f69c0a7e6b4719f95c64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cf73b3d9bb5f37be91f2de70b82161c = $(`<div id="html_7cf73b3d9bb5f37be91f2de70b82161c" style="width: 100.0%; height: 100.0%;"><b>Amore' Wines & Chocolates</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_1b66c7cb45a1f69c0a7e6b4719f95c64.setContent(html_7cf73b3d9bb5f37be91f2de70b82161c);
+            
+        
+
+        circle_marker_c17ccc192f993e2415a3fb2ae763053e.bindPopup(popup_1b66c7cb45a1f69c0a7e6b4719f95c64)
+        ;
+
+        
+    
+    
+            var circle_marker_4f4a1ad9755ba70cd0b016024431c95d = L.circleMarker(
+                [40.70345, -73.9923],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_b244ba4821211d55450c277a947a7bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15cd9629d59cba48731038262fd9a796 = $(`<div id="html_15cd9629d59cba48731038262fd9a796" style="width: 100.0%; height: 100.0%;"><b>bar56</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_b244ba4821211d55450c277a947a7bd3.setContent(html_15cd9629d59cba48731038262fd9a796);
+            
+        
+
+        circle_marker_4f4a1ad9755ba70cd0b016024431c95d.bindPopup(popup_b244ba4821211d55450c277a947a7bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_47706763312acd0d199ca7bb774bb4be = L.circleMarker(
+                [40.70345, -73.9923],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_52a4763503a23527caa76486cf94e35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7c32d7e90f429210b4e9dfd1e575a06 = $(`<div id="html_a7c32d7e90f429210b4e9dfd1e575a06" style="width: 100.0%; height: 100.0%;"><b>bar56</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_52a4763503a23527caa76486cf94e35a.setContent(html_a7c32d7e90f429210b4e9dfd1e575a06);
+            
+        
+
+        circle_marker_47706763312acd0d199ca7bb774bb4be.bindPopup(popup_52a4763503a23527caa76486cf94e35a)
+        ;
+
+        
+    
+    
+            var circle_marker_c66551743f9c6c6cb8bc6738c9dbbe92 = L.circleMarker(
+                [40.732, -73.98884],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_2ca3486dcf989abbf0fc56534003d59f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b6d7c48e494eb3a135b20c9ee5b4268 = $(`<div id="html_9b6d7c48e494eb3a135b20c9ee5b4268" style="width: 100.0%; height: 100.0%;"><b>Wakozi</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_2ca3486dcf989abbf0fc56534003d59f.setContent(html_9b6d7c48e494eb3a135b20c9ee5b4268);
+            
+        
+
+        circle_marker_c66551743f9c6c6cb8bc6738c9dbbe92.bindPopup(popup_2ca3486dcf989abbf0fc56534003d59f)
+        ;
+
+        
+    
+    
+            var circle_marker_79cd5b241c68c2e581e2ae62dbe89f18 = L.circleMarker(
+                [40.732, -73.98884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40c0c47bb72e7be0bc1773154cc16ff7);
+        
+    
+        var popup_76d7a07676498eaf94c2b4f117e09e05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b69602f25c35d0a7425cf5d49d719840 = $(`<div id="html_b69602f25c35d0a7425cf5d49d719840" style="width: 100.0%; height: 100.0%;"><b>Wakozi</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_76d7a07676498eaf94c2b4f117e09e05.setContent(html_b69602f25c35d0a7425cf5d49d719840);
+            
+        
+
+        circle_marker_79cd5b241c68c2e581e2ae62dbe89f18.bindPopup(popup_76d7a07676498eaf94c2b4f117e09e05)
+        ;
+
+        
+    
+</script>
+</html>

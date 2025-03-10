@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dfaef763c7c027c423aff3bcfb4b167b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dfaef763c7c027c423aff3bcfb4b167b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dfaef763c7c027c423aff3bcfb4b167b = L.map(
+                "map_dfaef763c7c027c423aff3bcfb4b167b",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad6b3fa76f16dfa9c7b22e1c797aeefd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_f85a36c7f1adbfb8440992f77750cb3b = L.marker(
+                [40.77221, -73.99171],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_59a92572c94efd93b209218c8cb6aefb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f85a36c7f1adbfb8440992f77750cb3b.setIcon(icon_59a92572c94efd93b209218c8cb6aefb);
+        
+    
+        var popup_fe2364fb349f7c6a312ef2f9960e9562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d385eba79ecfdbc649e50394cef19eb = $(`<div id="html_7d385eba79ecfdbc649e50394cef19eb" style="width: 100.0%; height: 100.0%;"><b>Kraves Vegan Foods </b></div>`)[0];
+                popup_fe2364fb349f7c6a312ef2f9960e9562.setContent(html_7d385eba79ecfdbc649e50394cef19eb);
+            
+        
+
+        marker_f85a36c7f1adbfb8440992f77750cb3b.bindPopup(popup_fe2364fb349f7c6a312ef2f9960e9562)
+        ;
+
+        
+    
+    
+            var marker_02f60a63b15348403a5a172fc9ed9ade = L.marker(
+                [40.7673124325193, -73.99694382805035],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_efae615881164c2c52e649be692b6de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02f60a63b15348403a5a172fc9ed9ade.setIcon(icon_efae615881164c2c52e649be692b6de9);
+        
+    
+        var popup_4df364fcbd782b0e468779d3a13f4807 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ec3fc63e3c2e40bf1f4fd2eb0b593d2 = $(`<div id="html_8ec3fc63e3c2e40bf1f4fd2eb0b593d2" style="width: 100.0%; height: 100.0%;"><b>Hudson River Greenway</b><br>Distance: 0.44 miles<br>Avg Traffic: 501.62</div>`)[0];
+                popup_4df364fcbd782b0e468779d3a13f4807.setContent(html_8ec3fc63e3c2e40bf1f4fd2eb0b593d2);
+            
+        
+
+        marker_02f60a63b15348403a5a172fc9ed9ade.bindPopup(popup_4df364fcbd782b0e468779d3a13f4807)
+        ;
+
+        
+    
+    
+            var poly_line_dc40fe4f9c77334a6150024b480d0a6e = L.polyline(
+                [[40.77221, -73.99171], [40.7673124325193, -73.99694382805035]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_946591fcc7324eceba7e9bab8dbf0733 = L.marker(
+                [40.7718134030119, -73.98219706247882],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_0f297c100038e760b3852d266c84a0f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_946591fcc7324eceba7e9bab8dbf0733.setIcon(icon_0f297c100038e760b3852d266c84a0f8);
+        
+    
+        var popup_0c0d7c1c05676d268137ef9c60600768 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9eaec13927cb5f4269e3e3f9dc939702 = $(`<div id="html_9eaec13927cb5f4269e3e3f9dc939702" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 0.50 miles<br>Avg Traffic: 4748.23</div>`)[0];
+                popup_0c0d7c1c05676d268137ef9c60600768.setContent(html_9eaec13927cb5f4269e3e3f9dc939702);
+            
+        
+
+        marker_946591fcc7324eceba7e9bab8dbf0733.bindPopup(popup_0c0d7c1c05676d268137ef9c60600768)
+        ;
+
+        
+    
+    
+            var poly_line_29e3280003c03dfa2e192a19a4397101 = L.polyline(
+                [[40.77221, -73.99171], [40.7718134030119, -73.98219706247882]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_8f28a422864b02b152d5113012ca67c8 = L.marker(
+                [40.76257065006476, -73.98589867014988],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_d5ff4d9919aed8ff153da50dba918925 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f28a422864b02b152d5113012ca67c8.setIcon(icon_d5ff4d9919aed8ff153da50dba918925);
+        
+    
+        var popup_ebd402b53ab9191cad22bd9d5e53e162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48447988784a07d41eae3c5540c33769 = $(`<div id="html_48447988784a07d41eae3c5540c33769" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>Distance: 0.73 miles<br>Avg Traffic: 6655.39</div>`)[0];
+                popup_ebd402b53ab9191cad22bd9d5e53e162.setContent(html_48447988784a07d41eae3c5540c33769);
+            
+        
+
+        marker_8f28a422864b02b152d5113012ca67c8.bindPopup(popup_ebd402b53ab9191cad22bd9d5e53e162)
+        ;
+
+        
+    
+    
+            var poly_line_00b235ad780e0a5217f878e877403a3c = L.polyline(
+                [[40.77221, -73.99171], [40.76257065006476, -73.98589867014988]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_4641012e512f5cb4332f01885d3632f7 = L.marker(
+                [40.76174395517826, -73.98383919698608],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_d7a209fb5faa567a95199ae7b2602d1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4641012e512f5cb4332f01885d3632f7.setIcon(icon_d7a209fb5faa567a95199ae7b2602d1d);
+        
+    
+        var popup_a6595df00b15ffadff656e751472ad51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f1ca9df71f0dd2d653b491a0c438047 = $(`<div id="html_4f1ca9df71f0dd2d653b491a0c438047" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 0.83 miles<br>Avg Traffic: 7558.87</div>`)[0];
+                popup_a6595df00b15ffadff656e751472ad51.setContent(html_4f1ca9df71f0dd2d653b491a0c438047);
+            
+        
+
+        marker_4641012e512f5cb4332f01885d3632f7.bindPopup(popup_a6595df00b15ffadff656e751472ad51)
+        ;
+
+        
+    
+    
+            var poly_line_a509fa4fb2826fb3e06e85563a73b3c4 = L.polyline(
+                [[40.77221, -73.99171], [40.76174395517826, -73.98383919698608]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_02f57eb7cb2ed676a5db87a2c032073e = L.marker(
+                [40.7588482835213, -73.98861503057542],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_39d10d4a888cbc4ae2b9523b0b88ec7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02f57eb7cb2ed676a5db87a2c032073e.setIcon(icon_39d10d4a888cbc4ae2b9523b0b88ec7d);
+        
+    
+        var popup_8527095b7f0a3e43fbef7eb02a943a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22f1e224bf0d64d2325b8fe01f670637 = $(`<div id="html_22f1e224bf0d64d2325b8fe01f670637" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>Distance: 0.94 miles<br>Avg Traffic: 10964.54</div>`)[0];
+                popup_8527095b7f0a3e43fbef7eb02a943a65.setContent(html_22f1e224bf0d64d2325b8fe01f670637);
+            
+        
+
+        marker_02f57eb7cb2ed676a5db87a2c032073e.bindPopup(popup_8527095b7f0a3e43fbef7eb02a943a65)
+        ;
+
+        
+    
+    
+            var poly_line_75938fe0198529efe8df51834731118e = L.polyline(
+                [[40.77221, -73.99171], [40.7588482835213, -73.98861503057542]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_f127c660670dd843240aa1b5f962995d = L.marker(
+                [40.745791, -73.975513],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_18bfac2006be543dedf8466dc009ae60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f127c660670dd843240aa1b5f962995d.setIcon(icon_18bfac2006be543dedf8466dc009ae60);
+        
+    
+        var popup_5660a1d88ed08ee37dacb171035e0fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6328bac364744e930b09e64c696bfb3c = $(`<div id="html_6328bac364744e930b09e64c696bfb3c" style="width: 100.0%; height: 100.0%;"><b>Baker's Recovery</b></div>`)[0];
+                popup_5660a1d88ed08ee37dacb171035e0fd3.setContent(html_6328bac364744e930b09e64c696bfb3c);
+            
+        
+
+        marker_f127c660670dd843240aa1b5f962995d.bindPopup(popup_5660a1d88ed08ee37dacb171035e0fd3)
+        ;
+
+        
+    
+    
+            var marker_81a932cfb363c9a8a2bbb2e9eb25c0cd = L.marker(
+                [40.75169473512389, -73.97665547944715],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_42531e718a48f52931c4dfab67e772ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81a932cfb363c9a8a2bbb2e9eb25c0cd.setIcon(icon_42531e718a48f52931c4dfab67e772ac);
+        
+    
+        var popup_965e4deeba45f3c819fed3c923c79285 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecbd28d0c88b229922f48e886a089501 = $(`<div id="html_ecbd28d0c88b229922f48e886a089501" style="width: 100.0%; height: 100.0%;"><b>East 42 Street</b><br>Distance: 0.41 miles<br>Avg Traffic: 9692.28</div>`)[0];
+                popup_965e4deeba45f3c819fed3c923c79285.setContent(html_ecbd28d0c88b229922f48e886a089501);
+            
+        
+
+        marker_81a932cfb363c9a8a2bbb2e9eb25c0cd.bindPopup(popup_965e4deeba45f3c819fed3c923c79285)
+        ;
+
+        
+    
+    
+            var poly_line_6dd007a1419a270c24f5fd9062b56ad6 = L.polyline(
+                [[40.745791, -73.975513], [40.75169473512389, -73.97665547944715]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_b8851fe824b8cab77fcc3ff3461de274 = L.marker(
+                [40.752843606340384, -73.98335689692979],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_43537ceddab18621b43f502b6407914f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8851fe824b8cab77fcc3ff3461de274.setIcon(icon_43537ceddab18621b43f502b6407914f);
+        
+    
+        var popup_af4059a1856bf32e853cd0a187585433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fad6e0e2b6e651d0c6d2b2375cd3ded8 = $(`<div id="html_fad6e0e2b6e651d0c6d2b2375cd3ded8" style="width: 100.0%; height: 100.0%;"><b>West 40th Street</b><br>Distance: 0.64 miles<br>Avg Traffic: 6735.78</div>`)[0];
+                popup_af4059a1856bf32e853cd0a187585433.setContent(html_fad6e0e2b6e651d0c6d2b2375cd3ded8);
+            
+        
+
+        marker_b8851fe824b8cab77fcc3ff3461de274.bindPopup(popup_af4059a1856bf32e853cd0a187585433)
+        ;
+
+        
+    
+    
+            var poly_line_fd51f86a94a6690db18e4f2264fb76b6 = L.polyline(
+                [[40.745791, -73.975513], [40.752843606340384, -73.98335689692979]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_cac1d0befa75adb4a07da978f8538500 = L.marker(
+                [40.75613758564416, -73.97053303866996],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_05d29e4bcb6468bf3f6b26ef32052ae8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cac1d0befa75adb4a07da978f8538500.setIcon(icon_05d29e4bcb6468bf3f6b26ef32052ae8);
+        
+    
+        var popup_1aedd737f9acdff38fa920b3189f06e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a812dad0713c1e5820f7c52480768288 = $(`<div id="html_a812dad0713c1e5820f7c52480768288" style="width: 100.0%; height: 100.0%;"><b>Third Avenue</b><br>Distance: 0.76 miles<br>Avg Traffic: 5404.65</div>`)[0];
+                popup_1aedd737f9acdff38fa920b3189f06e2.setContent(html_a812dad0713c1e5820f7c52480768288);
+            
+        
+
+        marker_cac1d0befa75adb4a07da978f8538500.bindPopup(popup_1aedd737f9acdff38fa920b3189f06e2)
+        ;
+
+        
+    
+    
+            var poly_line_656824fd760dbc9b5c967e603c16e5eb = L.polyline(
+                [[40.745791, -73.975513], [40.75613758564416, -73.97053303866996]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_13475e4468027da5832deea6e9a8983b = L.marker(
+                [40.756810835163854, -73.97213382742112],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_30875d49b6009828a209bf0388063a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13475e4468027da5832deea6e9a8983b.setIcon(icon_30875d49b6009828a209bf0388063a92);
+        
+    
+        var popup_1a5a54d481528a1130e402eb58966c95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22b556f7190c6c90ab6845ad7dc10e57 = $(`<div id="html_22b556f7190c6c90ab6845ad7dc10e57" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>Distance: 0.78 miles<br>Avg Traffic: 5791.48</div>`)[0];
+                popup_1a5a54d481528a1130e402eb58966c95.setContent(html_22b556f7190c6c90ab6845ad7dc10e57);
+            
+        
+
+        marker_13475e4468027da5832deea6e9a8983b.bindPopup(popup_1a5a54d481528a1130e402eb58966c95)
+        ;
+
+        
+    
+    
+            var poly_line_23d68e5867143dfdbfb68ad9ad15b75f = L.polyline(
+                [[40.745791, -73.975513], [40.756810835163854, -73.97213382742112]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_63809963094ed298773132cb422ea05d = L.marker(
+                [40.755190220332366, -73.96829307507049],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_294e340ed6c3c6b50e56a2173cccfc0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63809963094ed298773132cb422ea05d.setIcon(icon_294e340ed6c3c6b50e56a2173cccfc0c);
+        
+    
+        var popup_8c5d9668fccc40c1151de640bba57c72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b0c06ef89bebaa450c6bb48cdcffd19 = $(`<div id="html_7b0c06ef89bebaa450c6bb48cdcffd19" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>Distance: 0.75 miles<br>Avg Traffic: 3139.05</div>`)[0];
+                popup_8c5d9668fccc40c1151de640bba57c72.setContent(html_7b0c06ef89bebaa450c6bb48cdcffd19);
+            
+        
+
+        marker_63809963094ed298773132cb422ea05d.bindPopup(popup_8c5d9668fccc40c1151de640bba57c72)
+        ;
+
+        
+    
+    
+            var poly_line_df90ad35b78590605049c9cea000bc0d = L.polyline(
+                [[40.745791, -73.975513], [40.755190220332366, -73.96829307507049]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_781f4f08bc545c3724391b3b66fec157 = L.marker(
+                [40.77618325048202, -73.95323669999999],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_55692b15a46d5bd7ad60792df7755487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_781f4f08bc545c3724391b3b66fec157.setIcon(icon_55692b15a46d5bd7ad60792df7755487);
+        
+    
+        var popup_24d8473a3eba7627463ce2c4a27d19df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57fa14a52be8ac96fd0399012f7f2ff = $(`<div id="html_d57fa14a52be8ac96fd0399012f7f2ff" style="width: 100.0%; height: 100.0%;"><b>Joju</b></div>`)[0];
+                popup_24d8473a3eba7627463ce2c4a27d19df.setContent(html_d57fa14a52be8ac96fd0399012f7f2ff);
+            
+        
+
+        marker_781f4f08bc545c3724391b3b66fec157.bindPopup(popup_24d8473a3eba7627463ce2c4a27d19df)
+        ;
+
+        
+    
+    
+            var marker_ecb50d25bb4a851f2d52c5a9962c1eea = L.marker(
+                [40.77144062263456, -73.96568512678532],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_3c11b1ea85339797bdeb76a8f02bdd1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ecb50d25bb4a851f2d52c5a9962c1eea.setIcon(icon_3c11b1ea85339797bdeb76a8f02bdd1b);
+        
+    
+        var popup_e8e8c27c10c02263340e68dceccd3ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d66dceeab009c03194c1a9295437719 = $(`<div id="html_0d66dceeab009c03194c1a9295437719" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>Distance: 0.73 miles<br>Avg Traffic: 1990.09</div>`)[0];
+                popup_e8e8c27c10c02263340e68dceccd3ed6.setContent(html_0d66dceeab009c03194c1a9295437719);
+            
+        
+
+        marker_ecb50d25bb4a851f2d52c5a9962c1eea.bindPopup(popup_e8e8c27c10c02263340e68dceccd3ed6)
+        ;
+
+        
+    
+    
+            var poly_line_e411f94ef540e8888a0f3be80ffb9557 = L.polyline(
+                [[40.77618325048202, -73.95323669999999], [40.77144062263456, -73.96568512678532]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_732b51996c91920f9f978912e67ab9d3 = L.marker(
+                [40.761264607952285, -73.96888735867235],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_94a16771efbbdf6ab5066ab4c7ea5d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_732b51996c91920f9f978912e67ab9d3.setIcon(icon_94a16771efbbdf6ab5066ab4c7ea5d43);
+        
+    
+        var popup_1e3234480a96c42e1e7fa94b5e1115a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0812fa8dff3c4bb28346f94d60abd401 = $(`<div id="html_0812fa8dff3c4bb28346f94d60abd401" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>Distance: 1.32 miles<br>Avg Traffic: 6374.13</div>`)[0];
+                popup_1e3234480a96c42e1e7fa94b5e1115a8.setContent(html_0812fa8dff3c4bb28346f94d60abd401);
+            
+        
+
+        marker_732b51996c91920f9f978912e67ab9d3.bindPopup(popup_1e3234480a96c42e1e7fa94b5e1115a8)
+        ;
+
+        
+    
+    
+            var poly_line_34a05151977766a27c10911f4cc28481 = L.polyline(
+                [[40.77618325048202, -73.95323669999999], [40.761264607952285, -73.96888735867235]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_370757d6e86b4600ee0bb44c0ad15842 = L.marker(
+                [40.77968082763136, -73.97713579908014],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_4e84d26bfd144e805f877d11af30a5d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_370757d6e86b4600ee0bb44c0ad15842.setIcon(icon_4e84d26bfd144e805f877d11af30a5d6);
+        
+    
+        var popup_a4f7e183083b62eba514a73398c0a185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c2cd206066b22c38a841da353b75af2 = $(`<div id="html_6c2cd206066b22c38a841da353b75af2" style="width: 100.0%; height: 100.0%;"><b>Columbus Avenue</b><br>Distance: 1.28 miles<br>Avg Traffic: 2769.05</div>`)[0];
+                popup_a4f7e183083b62eba514a73398c0a185.setContent(html_6c2cd206066b22c38a841da353b75af2);
+            
+        
+
+        marker_370757d6e86b4600ee0bb44c0ad15842.bindPopup(popup_a4f7e183083b62eba514a73398c0a185)
+        ;
+
+        
+    
+    
+            var poly_line_9915106575b88219fb0b97bbf0d0bc56 = L.polyline(
+                [[40.77618325048202, -73.95323669999999], [40.77968082763136, -73.97713579908014]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_605b46370b7129aa28d8a7d0bc9478b4 = L.marker(
+                [40.755190220332366, -73.96829307507049],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_bae287cf2917ce08d4f9ce8d9769c359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_605b46370b7129aa28d8a7d0bc9478b4.setIcon(icon_bae287cf2917ce08d4f9ce8d9769c359);
+        
+    
+        var popup_165f72ed63e033e22e9466c67c26e77f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_122005710baf07dc4e752dbb78dc5ad0 = $(`<div id="html_122005710baf07dc4e752dbb78dc5ad0" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>Distance: 1.65 miles<br>Avg Traffic: 3139.05</div>`)[0];
+                popup_165f72ed63e033e22e9466c67c26e77f.setContent(html_122005710baf07dc4e752dbb78dc5ad0);
+            
+        
+
+        marker_605b46370b7129aa28d8a7d0bc9478b4.bindPopup(popup_165f72ed63e033e22e9466c67c26e77f)
+        ;
+
+        
+    
+    
+            var poly_line_185aa0d5dc40b28d3fb511bbf46fac87 = L.polyline(
+                [[40.77618325048202, -73.95323669999999], [40.755190220332366, -73.96829307507049]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_d7b96c4ce6e799204a114f86166a7fc5 = L.marker(
+                [40.761353610911776, -73.97514418621735],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_36afa10209354918dff8db840f45f803 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d7b96c4ce6e799204a114f86166a7fc5.setIcon(icon_36afa10209354918dff8db840f45f803);
+        
+    
+        var popup_008f49e36c9dd941eec7b731b3de7264 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_843982304ac13ab91ce5262f9966abe6 = $(`<div id="html_843982304ac13ab91ce5262f9966abe6" style="width: 100.0%; height: 100.0%;"><b>Fifth Avenue</b><br>Distance: 1.54 miles<br>Avg Traffic: 11352.60</div>`)[0];
+                popup_008f49e36c9dd941eec7b731b3de7264.setContent(html_843982304ac13ab91ce5262f9966abe6);
+            
+        
+
+        marker_d7b96c4ce6e799204a114f86166a7fc5.bindPopup(popup_008f49e36c9dd941eec7b731b3de7264)
+        ;
+
+        
+    
+    
+            var poly_line_852631c433fb63f15149b418302b32ae = L.polyline(
+                [[40.77618325048202, -73.95323669999999], [40.761353610911776, -73.97514418621735]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_066b96b59324bb57f9a568ef8038db14 = L.marker(
+                [40.714158, -73.990942],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_296b34c7f834d25639bd864731b0a556 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_066b96b59324bb57f9a568ef8038db14.setIcon(icon_296b34c7f834d25639bd864731b0a556);
+        
+    
+        var popup_6ff3714243f616743e39883760f3f526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc5f0454da7de8339e2d94bde9a4b91a = $(`<div id="html_dc5f0454da7de8339e2d94bde9a4b91a" style="width: 100.0%; height: 100.0%;"><b>Sen Saigon</b></div>`)[0];
+                popup_6ff3714243f616743e39883760f3f526.setContent(html_dc5f0454da7de8339e2d94bde9a4b91a);
+            
+        
+
+        marker_066b96b59324bb57f9a568ef8038db14.bindPopup(popup_6ff3714243f616743e39883760f3f526)
+        ;
+
+        
+    
+    
+            var marker_320c6879e5004eca756b36929a6e62d3 = L.marker(
+                [40.71493552371378, -73.99451531515767],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_a6807ef36c39588facfb2769d68aff10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_320c6879e5004eca756b36929a6e62d3.setIcon(icon_a6807ef36c39588facfb2769d68aff10);
+        
+    
+        var popup_6e8fbd8e98a06c0f633369dde02893cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d51c401992eae315a75def532696107 = $(`<div id="html_4d51c401992eae315a75def532696107" style="width: 100.0%; height: 100.0%;"><b>Forsyth Street</b><br>Distance: 0.20 miles<br>Avg Traffic: 3000.69</div>`)[0];
+                popup_6e8fbd8e98a06c0f633369dde02893cb.setContent(html_4d51c401992eae315a75def532696107);
+            
+        
+
+        marker_320c6879e5004eca756b36929a6e62d3.bindPopup(popup_6e8fbd8e98a06c0f633369dde02893cb)
+        ;
+
+        
+    
+    
+            var poly_line_09afc5e17c2a46a23c066b39583be4c9 = L.polyline(
+                [[40.714158, -73.990942], [40.71493552371378, -73.99451531515767]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_4fcea13a300e6a4c70c62638a2438474 = L.marker(
+                [40.718989359353586, -73.98936305063111],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_b790812ba8dd6a41bc93494d2f0f336d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4fcea13a300e6a4c70c62638a2438474.setIcon(icon_b790812ba8dd6a41bc93494d2f0f336d);
+        
+    
+        var popup_458b53df03c8180a48e54f898fc65cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99a560f62321ed69e221924aae33bbd = $(`<div id="html_e99a560f62321ed69e221924aae33bbd" style="width: 100.0%; height: 100.0%;"><b>Delancey Street</b><br>Distance: 0.34 miles<br>Avg Traffic: 2551.19</div>`)[0];
+                popup_458b53df03c8180a48e54f898fc65cba.setContent(html_e99a560f62321ed69e221924aae33bbd);
+            
+        
+
+        marker_4fcea13a300e6a4c70c62638a2438474.bindPopup(popup_458b53df03c8180a48e54f898fc65cba)
+        ;
+
+        
+    
+    
+            var poly_line_6afab578403032f9a8aa650c0190a8bd = L.polyline(
+                [[40.714158, -73.990942], [40.718989359353586, -73.98936305063111]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_84543b71adcc913d2132eb59f92aa736 = L.marker(
+                [40.70806272095774, -74.00451806937401],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_1b3147fe4724660f325600b19cfd237a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84543b71adcc913d2132eb59f92aa736.setIcon(icon_1b3147fe4724660f325600b19cfd237a);
+        
+    
+        var popup_90ac0dbbb56f353eb023f8f67da18df0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_582991686fc888d960d7dc7ae7d38520 = $(`<div id="html_582991686fc888d960d7dc7ae7d38520" style="width: 100.0%; height: 100.0%;"><b>Fulton Street</b><br>Distance: 0.83 miles<br>Avg Traffic: 3697.22</div>`)[0];
+                popup_90ac0dbbb56f353eb023f8f67da18df0.setContent(html_582991686fc888d960d7dc7ae7d38520);
+            
+        
+
+        marker_84543b71adcc913d2132eb59f92aa736.bindPopup(popup_90ac0dbbb56f353eb023f8f67da18df0)
+        ;
+
+        
+    
+    
+            var poly_line_f7526293bac59b9621d6092ff7006c63 = L.polyline(
+                [[40.714158, -73.990942], [40.70806272095774, -74.00451806937401]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_b8afba88d5b8988be4c9dec0469b342a = L.marker(
+                [40.731436017707075, -73.99441204702927],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_dae75f420486eeab3bee9e9681d79991 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8afba88d5b8988be4c9dec0469b342a.setIcon(icon_dae75f420486eeab3bee9e9681d79991);
+        
+    
+        var popup_caf7a51ced13387509175a754966bdc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfd4648ad74c19e4a04dc9798f44de58 = $(`<div id="html_bfd4648ad74c19e4a04dc9798f44de58" style="width: 100.0%; height: 100.0%;"><b>East 8th Street</b><br>Distance: 1.21 miles<br>Avg Traffic: 2967.49</div>`)[0];
+                popup_caf7a51ced13387509175a754966bdc0.setContent(html_bfd4648ad74c19e4a04dc9798f44de58);
+            
+        
+
+        marker_b8afba88d5b8988be4c9dec0469b342a.bindPopup(popup_caf7a51ced13387509175a754966bdc0)
+        ;
+
+        
+    
+    
+            var poly_line_4053557a39b835e42617d092f268c409 = L.polyline(
+                [[40.714158, -73.990942], [40.731436017707075, -73.99441204702927]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_0f1194b2dc25e4267f49c34007638262 = L.marker(
+                [40.71055376746076, -74.0084036486757],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_30565d613dc2ef8eedf92120b9fe0de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f1194b2dc25e4267f49c34007638262.setIcon(icon_30565d613dc2ef8eedf92120b9fe0de9);
+        
+    
+        var popup_5cc356939286721d9a6b84c4578cd4a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70d651256d6664cf40272ac3b27bf19e = $(`<div id="html_70d651256d6664cf40272ac3b27bf19e" style="width: 100.0%; height: 100.0%;"><b>Fulton Street</b><br>Distance: 0.95 miles<br>Avg Traffic: 4738.20</div>`)[0];
+                popup_5cc356939286721d9a6b84c4578cd4a4.setContent(html_70d651256d6664cf40272ac3b27bf19e);
+            
+        
+
+        marker_0f1194b2dc25e4267f49c34007638262.bindPopup(popup_5cc356939286721d9a6b84c4578cd4a4)
+        ;
+
+        
+    
+    
+            var poly_line_554a592d14c11733cda02aa18bcee9e4 = L.polyline(
+                [[40.714158, -73.990942], [40.71055376746076, -74.0084036486757]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_6e62deea9c5e9edbb6db9532ead6439a = L.marker(
+                [40.751996, -73.658496],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_6e6466c192fdac6e9adac896ee62da12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e62deea9c5e9edbb6db9532ead6439a.setIcon(icon_6e6466c192fdac6e9adac896ee62da12);
+        
+    
+        var popup_fa76fe69b34e27be0b9cdc38a6eda9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db11b8e624affa2efbd6f7a234a87606 = $(`<div id="html_db11b8e624affa2efbd6f7a234a87606" style="width: 100.0%; height: 100.0%;"><b>Tommy Delutz Jr. Bowling Pro Shop</b></div>`)[0];
+                popup_fa76fe69b34e27be0b9cdc38a6eda9d8.setContent(html_db11b8e624affa2efbd6f7a234a87606);
+            
+        
+
+        marker_6e62deea9c5e9edbb6db9532ead6439a.bindPopup(popup_fa76fe69b34e27be0b9cdc38a6eda9d8)
+        ;
+
+        
+    
+    
+            var marker_241de0a8634b455ffdc5ece05a9661f3 = L.marker(
+                [40.84958094443508, -73.93434784508338],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_0939271e0188c5ac099e64ccbadf8fcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_241de0a8634b455ffdc5ece05a9661f3.setIcon(icon_0939271e0188c5ac099e64ccbadf8fcc);
+        
+    
+        var popup_a2ca4aee31f1a15e4401b211a3edcbe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25a80ef50a5aa8a8b9cb676506750ae8 = $(`<div id="html_25a80ef50a5aa8a8b9cb676506750ae8" style="width: 100.0%; height: 100.0%;"><b>West 181st Street</b><br>Distance: 15.96 miles<br>Avg Traffic: 4132.59</div>`)[0];
+                popup_a2ca4aee31f1a15e4401b211a3edcbe8.setContent(html_25a80ef50a5aa8a8b9cb676506750ae8);
+            
+        
+
+        marker_241de0a8634b455ffdc5ece05a9661f3.bindPopup(popup_a2ca4aee31f1a15e4401b211a3edcbe8)
+        ;
+
+        
+    
+    
+            var poly_line_a9016954d240f7cfcf0326ca859aad64 = L.polyline(
+                [[40.751996, -73.658496], [40.84958094443508, -73.93434784508338]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_f98cdecc1384528dfd07706d4bcfa654 = L.marker(
+                [40.80842973710492, -73.94703781905247],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_cc41efab9fb9fa7fa9bd4a822d83fe8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f98cdecc1384528dfd07706d4bcfa654.setIcon(icon_cc41efab9fb9fa7fa9bd4a822d83fe8c);
+        
+    
+        var popup_5ada318c323ffd84ba025517f9bb1f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_917c7112c97952629bee0b5160b11564 = $(`<div id="html_917c7112c97952629bee0b5160b11564" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Distance: 15.63 miles<br>Avg Traffic: 4966.20</div>`)[0];
+                popup_5ada318c323ffd84ba025517f9bb1f0e.setContent(html_917c7112c97952629bee0b5160b11564);
+            
+        
+
+        marker_f98cdecc1384528dfd07706d4bcfa654.bindPopup(popup_5ada318c323ffd84ba025517f9bb1f0e)
+        ;
+
+        
+    
+    
+            var poly_line_27655bcf66da44caa2dd58650b3bd06d = L.polyline(
+                [[40.751996, -73.658496], [40.80842973710492, -73.94703781905247]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_4a22173806a65aca9bf64f6d717f1904 = L.marker(
+                [40.77144062263456, -73.96568512678532],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_541645d10adfa9ed8a3402f5611ddc75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4a22173806a65aca9bf64f6d717f1904.setIcon(icon_541645d10adfa9ed8a3402f5611ddc75);
+        
+    
+        var popup_69a519ea202da913dad3c288a4cbf6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e630f295a3258ad95ecef458cc3b3973 = $(`<div id="html_e630f295a3258ad95ecef458cc3b3973" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>Distance: 16.17 miles<br>Avg Traffic: 1990.09</div>`)[0];
+                popup_69a519ea202da913dad3c288a4cbf6a8.setContent(html_e630f295a3258ad95ecef458cc3b3973);
+            
+        
+
+        marker_4a22173806a65aca9bf64f6d717f1904.bindPopup(popup_69a519ea202da913dad3c288a4cbf6a8)
+        ;
+
+        
+    
+    
+            var poly_line_02545056bff9ad4f9d61180d6968fadc = L.polyline(
+                [[40.751996, -73.658496], [40.77144062263456, -73.96568512678532]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_764b32261faf42935ebf86d81b72e8dd = L.marker(
+                [40.755190220332366, -73.96829307507049],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_6e8ca95a8777f1c3b9446c85ff2aa92e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_764b32261faf42935ebf86d81b72e8dd.setIcon(icon_6e8ca95a8777f1c3b9446c85ff2aa92e);
+        
+    
+        var popup_31704ccc6675f4a3a186a137ae174b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9822e20bde35d3be3c799943ce06fd7d = $(`<div id="html_9822e20bde35d3be3c799943ce06fd7d" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>Distance: 16.26 miles<br>Avg Traffic: 3139.05</div>`)[0];
+                popup_31704ccc6675f4a3a186a137ae174b3a.setContent(html_9822e20bde35d3be3c799943ce06fd7d);
+            
+        
+
+        marker_764b32261faf42935ebf86d81b72e8dd.bindPopup(popup_31704ccc6675f4a3a186a137ae174b3a)
+        ;
+
+        
+    
+    
+            var poly_line_0da890598970eab9858346cc2104c5a5 = L.polyline(
+                [[40.751996, -73.658496], [40.755190220332366, -73.96829307507049]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_1adc3402a3569d0402c654aca9f74d89 = L.marker(
+                [40.761264607952285, -73.96888735867235],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_4b47b221e5bc5db1e0215c0ba371a18a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1adc3402a3569d0402c654aca9f74d89.setIcon(icon_4b47b221e5bc5db1e0215c0ba371a18a);
+        
+    
+        var popup_f2ac14ecf16be6d96edc76d4ccc7687d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbb3b9647b6f25d6a106a036f01123b3 = $(`<div id="html_dbb3b9647b6f25d6a106a036f01123b3" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>Distance: 16.30 miles<br>Avg Traffic: 6374.13</div>`)[0];
+                popup_f2ac14ecf16be6d96edc76d4ccc7687d.setContent(html_dbb3b9647b6f25d6a106a036f01123b3);
+            
+        
+
+        marker_1adc3402a3569d0402c654aca9f74d89.bindPopup(popup_f2ac14ecf16be6d96edc76d4ccc7687d)
+        ;
+
+        
+    
+    
+            var poly_line_492b6e79ab64ee374006a5632d3eb8a3 = L.polyline(
+                [[40.751996, -73.658496], [40.761264607952285, -73.96888735867235]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_351b642db3e88149fb290086b1d3dfa4 = L.marker(
+                [40.757752, -73.987226],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_be07c6525631cae538d1cbf0a9dfa2e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_351b642db3e88149fb290086b1d3dfa4.setIcon(icon_be07c6525631cae538d1cbf0a9dfa2e7);
+        
+    
+        var popup_e399c401682595ea0f484a7201167789 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506b92e11cf3d3fc91d00815f962193d = $(`<div id="html_506b92e11cf3d3fc91d00815f962193d" style="width: 100.0%; height: 100.0%;"><b>Better Off Bowling - Bowling League</b></div>`)[0];
+                popup_e399c401682595ea0f484a7201167789.setContent(html_506b92e11cf3d3fc91d00815f962193d);
+            
+        
+
+        marker_351b642db3e88149fb290086b1d3dfa4.bindPopup(popup_e399c401682595ea0f484a7201167789)
+        ;
+
+        
+    
+    
+            var marker_9da66e346736659d2a5b89324e98ab47 = L.marker(
+                [40.7588482835213, -73.98861503057542],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_100a114c64886aef0c54afe0d8aba744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9da66e346736659d2a5b89324e98ab47.setIcon(icon_100a114c64886aef0c54afe0d8aba744);
+        
+    
+        var popup_35200e35a25e611e82b51888cd472dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20b8ce571647cfaea30a531772c76280 = $(`<div id="html_20b8ce571647cfaea30a531772c76280" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>Distance: 0.11 miles<br>Avg Traffic: 10964.54</div>`)[0];
+                popup_35200e35a25e611e82b51888cd472dd4.setContent(html_20b8ce571647cfaea30a531772c76280);
+            
+        
+
+        marker_9da66e346736659d2a5b89324e98ab47.bindPopup(popup_35200e35a25e611e82b51888cd472dd4)
+        ;
+
+        
+    
+    
+            var poly_line_653a3444700c64b8c762ecdc8fdda5f6 = L.polyline(
+                [[40.757752, -73.987226], [40.7588482835213, -73.98861503057542]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_ceab05e90cba6b87679b4593dd733f26 = L.marker(
+                [40.76257065006476, -73.98589867014988],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_61fa60ee0fde3fb73afcf01204fbcdfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ceab05e90cba6b87679b4593dd733f26.setIcon(icon_61fa60ee0fde3fb73afcf01204fbcdfa);
+        
+    
+        var popup_8d75fc80839d7e035c27472257c69611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8806fb1986e020c2da411583d1c28ea9 = $(`<div id="html_8806fb1986e020c2da411583d1c28ea9" style="width: 100.0%; height: 100.0%;"><b>Eighth Avenue</b><br>Distance: 0.34 miles<br>Avg Traffic: 6655.39</div>`)[0];
+                popup_8d75fc80839d7e035c27472257c69611.setContent(html_8806fb1986e020c2da411583d1c28ea9);
+            
+        
+
+        marker_ceab05e90cba6b87679b4593dd733f26.bindPopup(popup_8d75fc80839d7e035c27472257c69611)
+        ;
+
+        
+    
+    
+            var poly_line_57eaa48db91acdf7b1dc4f5144f2afdf = L.polyline(
+                [[40.757752, -73.987226], [40.76257065006476, -73.98589867014988]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_5fd82890d3101cf8d00bc90763087a19 = L.marker(
+                [40.76174395517826, -73.98383919698608],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_fcb5021415b5fa4d53a5f02893ff870a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5fd82890d3101cf8d00bc90763087a19.setIcon(icon_fcb5021415b5fa4d53a5f02893ff870a);
+        
+    
+        var popup_553ccd745e7646079a27ed28db4e06b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0e78413f252501b813710b25b2bafb = $(`<div id="html_db0e78413f252501b813710b25b2bafb" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 0.33 miles<br>Avg Traffic: 7558.87</div>`)[0];
+                popup_553ccd745e7646079a27ed28db4e06b2.setContent(html_db0e78413f252501b813710b25b2bafb);
+            
+        
+
+        marker_5fd82890d3101cf8d00bc90763087a19.bindPopup(popup_553ccd745e7646079a27ed28db4e06b2)
+        ;
+
+        
+    
+    
+            var poly_line_dc73a03a81d261021ded75f2e1e3a3e7 = L.polyline(
+                [[40.757752, -73.987226], [40.76174395517826, -73.98383919698608]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_4ae09fef6a4bfa789d2bf11f4653a75f = L.marker(
+                [40.76140611887666, -73.98303507483828],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_55521536599b827868f87cbdfef506e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ae09fef6a4bfa789d2bf11f4653a75f.setIcon(icon_55521536599b827868f87cbdfef506e4);
+        
+    
+        var popup_8cb8a91fc754ef6656e4d62206366a3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b940cffccc273ef8c14453c88c661e77 = $(`<div id="html_b940cffccc273ef8c14453c88c661e77" style="width: 100.0%; height: 100.0%;"><b>Seventh Avenue</b><br>Distance: 0.33 miles<br>Avg Traffic: 7601.24</div>`)[0];
+                popup_8cb8a91fc754ef6656e4d62206366a3d.setContent(html_b940cffccc273ef8c14453c88c661e77);
+            
+        
+
+        marker_4ae09fef6a4bfa789d2bf11f4653a75f.bindPopup(popup_8cb8a91fc754ef6656e4d62206366a3d)
+        ;
+
+        
+    
+    
+            var poly_line_17b44b28181c8f91d7c4dcf0719114d1 = L.polyline(
+                [[40.757752, -73.987226], [40.76140611887666, -73.98303507483828]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_9f60b3f864987adc11922eb553f93427 = L.marker(
+                [40.752843606340384, -73.98335689692979],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_23758080fa9e07ec0bbf83db258fa805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f60b3f864987adc11922eb553f93427.setIcon(icon_23758080fa9e07ec0bbf83db258fa805);
+        
+    
+        var popup_b0664a33b835189e128becf833076348 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f8012a3867699d5bf35c28b704579bd = $(`<div id="html_2f8012a3867699d5bf35c28b704579bd" style="width: 100.0%; height: 100.0%;"><b>West 40th Street</b><br>Distance: 0.39 miles<br>Avg Traffic: 6735.78</div>`)[0];
+                popup_b0664a33b835189e128becf833076348.setContent(html_2f8012a3867699d5bf35c28b704579bd);
+            
+        
+
+        marker_9f60b3f864987adc11922eb553f93427.bindPopup(popup_b0664a33b835189e128becf833076348)
+        ;
+
+        
+    
+    
+            var poly_line_520da8bb332da20e6e7c5159b87cd667 = L.polyline(
+                [[40.757752, -73.987226], [40.752843606340384, -73.98335689692979]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_2ba5d60c1c470a3f5fe214b3dd3d3959 = L.marker(
+                [40.6583531458635, -73.6413842439651],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_dd7c745af955c4c32e9abac1b8600fac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ba5d60c1c470a3f5fe214b3dd3d3959.setIcon(icon_dd7c745af955c4c32e9abac1b8600fac);
+        
+    
+        var popup_8eb7c74ed9dbae82f52c9f4e0b121326 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7cb1098fa26ccc5fa07cd9946da8b3 = $(`<div id="html_6d7cb1098fa26ccc5fa07cd9946da8b3" style="width: 100.0%; height: 100.0%;"><b>Custom Thumbz Pro Shop</b></div>`)[0];
+                popup_8eb7c74ed9dbae82f52c9f4e0b121326.setContent(html_6d7cb1098fa26ccc5fa07cd9946da8b3);
+            
+        
+
+        marker_2ba5d60c1c470a3f5fe214b3dd3d3959.bindPopup(popup_8eb7c74ed9dbae82f52c9f4e0b121326)
+        ;
+
+        
+    
+    
+            var marker_bcdcf1c67b8d31d51f34b71793806493 = L.marker(
+                [40.80842973710492, -73.94703781905247],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_b66e0f78059a088c052748ccee3376ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcdcf1c67b8d31d51f34b71793806493.setIcon(icon_b66e0f78059a088c052748ccee3376ee);
+        
+    
+        var popup_baa3f3bcba67b41e1110269b279e1274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7451d60dedbdc4f74038d2d2997bff1 = $(`<div id="html_d7451d60dedbdc4f74038d2d2997bff1" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Distance: 19.10 miles<br>Avg Traffic: 4966.20</div>`)[0];
+                popup_baa3f3bcba67b41e1110269b279e1274.setContent(html_d7451d60dedbdc4f74038d2d2997bff1);
+            
+        
+
+        marker_bcdcf1c67b8d31d51f34b71793806493.bindPopup(popup_baa3f3bcba67b41e1110269b279e1274)
+        ;
+
+        
+    
+    
+            var poly_line_c0de63031b1c418507ec055b51b1f374 = L.polyline(
+                [[40.6583531458635, -73.6413842439651], [40.80842973710492, -73.94703781905247]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_e92763e73b8f5099fb4f890cfdbf0aee = L.marker(
+                [40.755190220332366, -73.96829307507049],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_d4604560a2509e0a27e225a7db6d4fd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e92763e73b8f5099fb4f890cfdbf0aee.setIcon(icon_d4604560a2509e0a27e225a7db6d4fd6);
+        
+    
+        var popup_8f3a07247623f9ceae1ac24822744d45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16102664a4ffa70187464bb96bc2118b = $(`<div id="html_16102664a4ffa70187464bb96bc2118b" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>Distance: 18.42 miles<br>Avg Traffic: 3139.05</div>`)[0];
+                popup_8f3a07247623f9ceae1ac24822744d45.setContent(html_16102664a4ffa70187464bb96bc2118b);
+            
+        
+
+        marker_e92763e73b8f5099fb4f890cfdbf0aee.bindPopup(popup_8f3a07247623f9ceae1ac24822744d45)
+        ;
+
+        
+    
+    
+            var poly_line_cd35dfbf960c4e9ebe89144db9550abe = L.polyline(
+                [[40.6583531458635, -73.6413842439651], [40.755190220332366, -73.96829307507049]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_ed1a6ecfdeff05fcc855971639a41d9e = L.marker(
+                [40.761264607952285, -73.96888735867235],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_cb6ca3ec1cded13325a8f113a69ccf9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed1a6ecfdeff05fcc855971639a41d9e.setIcon(icon_cb6ca3ec1cded13325a8f113a69ccf9b);
+        
+    
+        var popup_87de61595e2c85b7f28730ad2bbf6905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2712fc0eb45e2fc94f0f27be7f59db2 = $(`<div id="html_c2712fc0eb45e2fc94f0f27be7f59db2" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>Distance: 18.60 miles<br>Avg Traffic: 6374.13</div>`)[0];
+                popup_87de61595e2c85b7f28730ad2bbf6905.setContent(html_c2712fc0eb45e2fc94f0f27be7f59db2);
+            
+        
+
+        marker_ed1a6ecfdeff05fcc855971639a41d9e.bindPopup(popup_87de61595e2c85b7f28730ad2bbf6905)
+        ;
+
+        
+    
+    
+            var poly_line_765af5a080269a51173de4d74992181f = L.polyline(
+                [[40.6583531458635, -73.6413842439651], [40.761264607952285, -73.96888735867235]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_2bf5d19b6fb7f9da16a25ba0f2b1a3a6 = L.marker(
+                [40.75613758564416, -73.97053303866996],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_ce579c099f32dada6c65d7db08928b1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bf5d19b6fb7f9da16a25ba0f2b1a3a6.setIcon(icon_ce579c099f32dada6c65d7db08928b1c);
+        
+    
+        var popup_00eaf05acea382acaf3ea9cd560b1428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c05d9671f33dc718e22fe001cb9fac6 = $(`<div id="html_2c05d9671f33dc718e22fe001cb9fac6" style="width: 100.0%; height: 100.0%;"><b>Third Avenue</b><br>Distance: 18.55 miles<br>Avg Traffic: 5404.65</div>`)[0];
+                popup_00eaf05acea382acaf3ea9cd560b1428.setContent(html_2c05d9671f33dc718e22fe001cb9fac6);
+            
+        
+
+        marker_2bf5d19b6fb7f9da16a25ba0f2b1a3a6.bindPopup(popup_00eaf05acea382acaf3ea9cd560b1428)
+        ;
+
+        
+    
+    
+            var poly_line_a69bb50c916e52b1a0308fd74e913171 = L.polyline(
+                [[40.6583531458635, -73.6413842439651], [40.75613758564416, -73.97053303866996]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_86e96184c1075672ec877a6d71bc2a7f = L.marker(
+                [40.77144062263456, -73.96568512678532],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_1eb23dc58358423695af426c4e2f845a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86e96184c1075672ec877a6d71bc2a7f.setIcon(icon_1eb23dc58358423695af426c4e2f845a);
+        
+    
+        var popup_71a6f489a9976999e3c1d4a03a19d725 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4b07084598dabb224ca00175d59434 = $(`<div id="html_8d4b07084598dabb224ca00175d59434" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>Distance: 18.73 miles<br>Avg Traffic: 1990.09</div>`)[0];
+                popup_71a6f489a9976999e3c1d4a03a19d725.setContent(html_8d4b07084598dabb224ca00175d59434);
+            
+        
+
+        marker_86e96184c1075672ec877a6d71bc2a7f.bindPopup(popup_71a6f489a9976999e3c1d4a03a19d725)
+        ;
+
+        
+    
+    
+            var poly_line_1f0cc937e121b0883f9cb21e7a0f122e = L.polyline(
+                [[40.6583531458635, -73.6413842439651], [40.77144062263456, -73.96568512678532]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_3f00ab6e893a90d0859b0263216e2540 = L.marker(
+                [40.4012958898544, -74.227295704186],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_b283ff7a8ee6a66b94b9c9310fe8beab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f00ab6e893a90d0859b0263216e2540.setIcon(icon_b283ff7a8ee6a66b94b9c9310fe8beab);
+        
+    
+        var popup_4f9e18bcb079fc423cbab0fcf0533a95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84e7e46e25b2f255aac0076819d6008f = $(`<div id="html_84e7e46e25b2f255aac0076819d6008f" style="width: 100.0%; height: 100.0%;"><b>Big Daddy's Pro Shop</b></div>`)[0];
+                popup_4f9e18bcb079fc423cbab0fcf0533a95.setContent(html_84e7e46e25b2f255aac0076819d6008f);
+            
+        
+
+        marker_3f00ab6e893a90d0859b0263216e2540.bindPopup(popup_4f9e18bcb079fc423cbab0fcf0533a95)
+        ;
+
+        
+    
+    
+            var marker_79bb987251c900aec9dd6695111ea392 = L.marker(
+                [40.70463665187375, -74.01155687409947],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_835adfda1b6e252811f369ca7c4ec69e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_79bb987251c900aec9dd6695111ea392.setIcon(icon_835adfda1b6e252811f369ca7c4ec69e);
+        
+    
+        var popup_ec767276a3482110e45c9117a49cb1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc701b091dd21ff9a89f7ec68c01ffe6 = $(`<div id="html_fc701b091dd21ff9a89f7ec68c01ffe6" style="width: 100.0%; height: 100.0%;"><b>Broad Street</b><br>Distance: 23.81 miles<br>Avg Traffic: 3571.25</div>`)[0];
+                popup_ec767276a3482110e45c9117a49cb1e6.setContent(html_fc701b091dd21ff9a89f7ec68c01ffe6);
+            
+        
+
+        marker_79bb987251c900aec9dd6695111ea392.bindPopup(popup_ec767276a3482110e45c9117a49cb1e6)
+        ;
+
+        
+    
+    
+            var poly_line_a6f2afb485f50ebb83cbcb6cca69215b = L.polyline(
+                [[40.4012958898544, -74.227295704186], [40.70463665187375, -74.01155687409947]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_9bc2395af14138847215abdfdeef9063 = L.marker(
+                [40.70634164448271, -74.01286204592034],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_4b2653054564aa158e8103d68696557f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9bc2395af14138847215abdfdeef9063.setIcon(icon_4b2653054564aa158e8103d68696557f);
+        
+    
+        var popup_4d9beb26768ee72d96ead1cfc22c5c7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e560e6c20ad5ad71134b2248ecb51a96 = $(`<div id="html_e560e6c20ad5ad71134b2248ecb51a96" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 23.88 miles<br>Avg Traffic: 6924.63</div>`)[0];
+                popup_4d9beb26768ee72d96ead1cfc22c5c7a.setContent(html_e560e6c20ad5ad71134b2248ecb51a96);
+            
+        
+
+        marker_9bc2395af14138847215abdfdeef9063.bindPopup(popup_4d9beb26768ee72d96ead1cfc22c5c7a)
+        ;
+
+        
+    
+    
+            var poly_line_0af15a0591ba546e7b233f49bb85244f = L.polyline(
+                [[40.4012958898544, -74.227295704186], [40.70634164448271, -74.01286204592034]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_df0e3cb56571ce168f595bffecc45414 = L.marker(
+                [40.708351612740366, -74.01257537541983],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_51aef63d564ad281dd02ceb232649066 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df0e3cb56571ce168f595bffecc45414.setIcon(icon_51aef63d564ad281dd02ceb232649066);
+        
+    
+        var popup_de5d19c09f888e4444b70424aa727e81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ce382d5f56374863b7b174bf4fb040 = $(`<div id="html_09ce382d5f56374863b7b174bf4fb040" style="width: 100.0%; height: 100.0%;"><b>Trinity Place</b><br>Distance: 24.01 miles<br>Avg Traffic: 3179.40</div>`)[0];
+                popup_de5d19c09f888e4444b70424aa727e81.setContent(html_09ce382d5f56374863b7b174bf4fb040);
+            
+        
+
+        marker_df0e3cb56571ce168f595bffecc45414.bindPopup(popup_de5d19c09f888e4444b70424aa727e81)
+        ;
+
+        
+    
+    
+            var poly_line_aedc80a74ca7d7611d6b67dea78b6a11 = L.polyline(
+                [[40.4012958898544, -74.227295704186], [40.708351612740366, -74.01257537541983]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_8e0040b00b2b3697f5ce63441308b4e7 = L.marker(
+                [40.70733537559069, -74.01098647762808],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_ea300178b632b69e7f8669fb9a5e4307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e0040b00b2b3697f5ce63441308b4e7.setIcon(icon_ea300178b632b69e7f8669fb9a5e4307);
+        
+    
+        var popup_a567f5d2275afc9a412d5022d2a83764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d6c486cd1d8a159628ad1b2f0367fca = $(`<div id="html_0d6c486cd1d8a159628ad1b2f0367fca" style="width: 100.0%; height: 100.0%;"><b>Wall Street</b><br>Distance: 23.99 miles<br>Avg Traffic: 6532.72</div>`)[0];
+                popup_a567f5d2275afc9a412d5022d2a83764.setContent(html_0d6c486cd1d8a159628ad1b2f0367fca);
+            
+        
+
+        marker_8e0040b00b2b3697f5ce63441308b4e7.bindPopup(popup_a567f5d2275afc9a412d5022d2a83764)
+        ;
+
+        
+    
+    
+            var poly_line_cc8e6912548998c5b2637709a05ff737 = L.polyline(
+                [[40.4012958898544, -74.227295704186], [40.70733537559069, -74.01098647762808]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_f23b73695d11d0f24aefe9394b67bdc9 = L.marker(
+                [40.71055376746076, -74.0084036486757],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_e788a876c344b568d5dd1dbae9dab9d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f23b73695d11d0f24aefe9394b67bdc9.setIcon(icon_e788a876c344b568d5dd1dbae9dab9d7);
+        
+    
+        var popup_d4519857145ba9872ef31ba56cab8727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8335ec05a0351ce37e205a76c361ac3 = $(`<div id="html_b8335ec05a0351ce37e205a76c361ac3" style="width: 100.0%; height: 100.0%;"><b>Fulton Street</b><br>Distance: 24.25 miles<br>Avg Traffic: 4738.20</div>`)[0];
+                popup_d4519857145ba9872ef31ba56cab8727.setContent(html_b8335ec05a0351ce37e205a76c361ac3);
+            
+        
+
+        marker_f23b73695d11d0f24aefe9394b67bdc9.bindPopup(popup_d4519857145ba9872ef31ba56cab8727)
+        ;
+
+        
+    
+    
+            var poly_line_52064ada7ea0a6778b583806dc324666 = L.polyline(
+                [[40.4012958898544, -74.227295704186], [40.71055376746076, -74.0084036486757]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_6e6d5ea2bf4dc6cf1502928783bf8bf2 = L.marker(
+                [40.9256975, -74.099517],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_bee0c3dae87f95b8f4050984927eecd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6e6d5ea2bf4dc6cf1502928783bf8bf2.setIcon(icon_bee0c3dae87f95b8f4050984927eecd5);
+        
+    
+        var popup_f683ce7c7926dd9765f83181c40ec3c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46068cbf697a6eee62a4bc6e45be9918 = $(`<div id="html_46068cbf697a6eee62a4bc6e45be9918" style="width: 100.0%; height: 100.0%;"><b>Metro Bowl</b></div>`)[0];
+                popup_f683ce7c7926dd9765f83181c40ec3c2.setContent(html_46068cbf697a6eee62a4bc6e45be9918);
+            
+        
+
+        marker_6e6d5ea2bf4dc6cf1502928783bf8bf2.bindPopup(popup_f683ce7c7926dd9765f83181c40ec3c2)
+        ;
+
+        
+    
+    
+            var marker_10a5d0922e93f5a0221c74e050278415 = L.marker(
+                [40.84958094443508, -73.93434784508338],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_57df722771f42e2f7488559d6adf72ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10a5d0922e93f5a0221c74e050278415.setIcon(icon_57df722771f42e2f7488559d6adf72ab);
+        
+    
+        var popup_56ef8a2c3237e8e5cccb52e5dd124227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cbfd2c0d6020311f41f766974b2590f = $(`<div id="html_5cbfd2c0d6020311f41f766974b2590f" style="width: 100.0%; height: 100.0%;"><b>West 181st Street</b><br>Distance: 10.12 miles<br>Avg Traffic: 4132.59</div>`)[0];
+                popup_56ef8a2c3237e8e5cccb52e5dd124227.setContent(html_5cbfd2c0d6020311f41f766974b2590f);
+            
+        
+
+        marker_10a5d0922e93f5a0221c74e050278415.bindPopup(popup_56ef8a2c3237e8e5cccb52e5dd124227)
+        ;
+
+        
+    
+    
+            var poly_line_6fbad30cb85885639101e5cf7e159336 = L.polyline(
+                [[40.9256975, -74.099517], [40.84958094443508, -73.93434784508338]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_478e675bbe8eb3c26faf5f617067570e = L.marker(
+                [40.7673124325193, -73.99694382805035],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_fec411245eb37b0b4e8530ea11f00ecf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_478e675bbe8eb3c26faf5f617067570e.setIcon(icon_fec411245eb37b0b4e8530ea11f00ecf);
+        
+    
+        var popup_c651bde1073603bd7d4df2b081325f03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4845091f2c36425ae5d53241a8cf078 = $(`<div id="html_e4845091f2c36425ae5d53241a8cf078" style="width: 100.0%; height: 100.0%;"><b>Hudson River Greenway</b><br>Distance: 12.18 miles<br>Avg Traffic: 501.62</div>`)[0];
+                popup_c651bde1073603bd7d4df2b081325f03.setContent(html_e4845091f2c36425ae5d53241a8cf078);
+            
+        
+
+        marker_478e675bbe8eb3c26faf5f617067570e.bindPopup(popup_c651bde1073603bd7d4df2b081325f03)
+        ;
+
+        
+    
+    
+            var poly_line_c0e7479538c431a7ec110d5fdb050b32 = L.polyline(
+                [[40.9256975, -74.099517], [40.7673124325193, -73.99694382805035]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_6e247fe2858e1b9e259fcf966be354f9 = L.marker(
+                [40.77968082763136, -73.97713579908014],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_3e7eae8a42bf8b17768c25f62baf6327 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e247fe2858e1b9e259fcf966be354f9.setIcon(icon_3e7eae8a42bf8b17768c25f62baf6327);
+        
+    
+        var popup_bb5b4c5c62fac0fa3a2f5b4a581ab611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a7c2506f2d455ac910cd6cdf35af666 = $(`<div id="html_7a7c2506f2d455ac910cd6cdf35af666" style="width: 100.0%; height: 100.0%;"><b>Columbus Avenue</b><br>Distance: 11.94 miles<br>Avg Traffic: 2769.05</div>`)[0];
+                popup_bb5b4c5c62fac0fa3a2f5b4a581ab611.setContent(html_7a7c2506f2d455ac910cd6cdf35af666);
+            
+        
+
+        marker_6e247fe2858e1b9e259fcf966be354f9.bindPopup(popup_bb5b4c5c62fac0fa3a2f5b4a581ab611)
+        ;
+
+        
+    
+    
+            var poly_line_ca9034b8a7a2ce4eb279eb96ec1023db = L.polyline(
+                [[40.9256975, -74.099517], [40.77968082763136, -73.97713579908014]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_0d56359ccef124f9e4be90056235f977 = L.marker(
+                [40.80842973710492, -73.94703781905247],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_42aa5c08a263a56ce3651fccddce794d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0d56359ccef124f9e4be90056235f977.setIcon(icon_42aa5c08a263a56ce3651fccddce794d);
+        
+    
+        var popup_0d9cb07a6aa4cfb96e89e2e1dce3806f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_637d1c5d8196c90ea967cbe486712663 = $(`<div id="html_637d1c5d8196c90ea967cbe486712663" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Distance: 11.37 miles<br>Avg Traffic: 4966.20</div>`)[0];
+                popup_0d9cb07a6aa4cfb96e89e2e1dce3806f.setContent(html_637d1c5d8196c90ea967cbe486712663);
+            
+        
+
+        marker_0d56359ccef124f9e4be90056235f977.bindPopup(popup_0d9cb07a6aa4cfb96e89e2e1dce3806f)
+        ;
+
+        
+    
+    
+            var poly_line_f94026595ccc3025cc0ebc1ffe13ae0a = L.polyline(
+                [[40.9256975, -74.099517], [40.80842973710492, -73.94703781905247]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_407eadd73d3c9560510b537f29b7d9bd = L.marker(
+                [40.7718134030119, -73.98219706247882],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_fd23cc68556b984960322eaf14f62819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_407eadd73d3c9560510b537f29b7d9bd.setIcon(icon_fd23cc68556b984960322eaf14f62819);
+        
+    
+        var popup_dc6e5a4e825e13ac7399bebe6fbacf1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb59aa4ecfda00031104323a561220cf = $(`<div id="html_bb59aa4ecfda00031104323a561220cf" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 12.27 miles<br>Avg Traffic: 4748.23</div>`)[0];
+                popup_dc6e5a4e825e13ac7399bebe6fbacf1e.setContent(html_bb59aa4ecfda00031104323a561220cf);
+            
+        
+
+        marker_407eadd73d3c9560510b537f29b7d9bd.bindPopup(popup_dc6e5a4e825e13ac7399bebe6fbacf1e)
+        ;
+
+        
+    
+    
+            var poly_line_295e4b33e0c3ac0f1bfc7c099087d9f7 = L.polyline(
+                [[40.9256975, -74.099517], [40.7718134030119, -73.98219706247882]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_0a24b9e4a160e6bcf292650e1823e3c7 = L.marker(
+                [40.965341405390575, -73.8563698542123],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_e65d0a0008c8e08a6a2d793efe0ce39b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a24b9e4a160e6bcf292650e1823e3c7.setIcon(icon_e65d0a0008c8e08a6a2d793efe0ce39b);
+        
+    
+        var popup_07c55f3d43be4f2eeef9d19122f60206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57945e23d61c422a23a3fc2acba98b0 = $(`<div id="html_d57945e23d61c422a23a3fc2acba98b0" style="width: 100.0%; height: 100.0%;"><b>Monster Mini Golf Yonkers</b></div>`)[0];
+                popup_07c55f3d43be4f2eeef9d19122f60206.setContent(html_d57945e23d61c422a23a3fc2acba98b0);
+            
+        
+
+        marker_0a24b9e4a160e6bcf292650e1823e3c7.bindPopup(popup_07c55f3d43be4f2eeef9d19122f60206)
+        ;
+
+        
+    
+    
+            var marker_a1bc65ee22f326071856d330cc788dd9 = L.marker(
+                [40.84958094443508, -73.93434784508338],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_5a3df16b824140bb5806f86976dc9c2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1bc65ee22f326071856d330cc788dd9.setIcon(icon_5a3df16b824140bb5806f86976dc9c2e);
+        
+    
+        var popup_85072ab713905bfadb7c8e97a58d4f93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a77721e69f533dc2155037cea86f6168 = $(`<div id="html_a77721e69f533dc2155037cea86f6168" style="width: 100.0%; height: 100.0%;"><b>West 181st Street</b><br>Distance: 8.97 miles<br>Avg Traffic: 4132.59</div>`)[0];
+                popup_85072ab713905bfadb7c8e97a58d4f93.setContent(html_a77721e69f533dc2155037cea86f6168);
+            
+        
+
+        marker_a1bc65ee22f326071856d330cc788dd9.bindPopup(popup_85072ab713905bfadb7c8e97a58d4f93)
+        ;
+
+        
+    
+    
+            var poly_line_f5a339f75430bf945107f34f1ce1817c = L.polyline(
+                [[40.965341405390575, -73.8563698542123], [40.84958094443508, -73.93434784508338]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_3c357c0949c42e065c26441ea54b5660 = L.marker(
+                [40.80842973710492, -73.94703781905247],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_d7cef274cadc8748cbf03f295443d5b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c357c0949c42e065c26441ea54b5660.setIcon(icon_d7cef274cadc8748cbf03f295443d5b7);
+        
+    
+        var popup_7b35c558d4d4119df884f332b08dbf0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecd13cbdbdb56fd12c6f24441f8fb6ad = $(`<div id="html_ecd13cbdbdb56fd12c6f24441f8fb6ad" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Distance: 11.82 miles<br>Avg Traffic: 4966.20</div>`)[0];
+                popup_7b35c558d4d4119df884f332b08dbf0e.setContent(html_ecd13cbdbdb56fd12c6f24441f8fb6ad);
+            
+        
+
+        marker_3c357c0949c42e065c26441ea54b5660.bindPopup(popup_7b35c558d4d4119df884f332b08dbf0e)
+        ;
+
+        
+    
+    
+            var poly_line_34d9974b61112e62c733f17f503ab2b5 = L.polyline(
+                [[40.965341405390575, -73.8563698542123], [40.80842973710492, -73.94703781905247]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_0f649cca01ffc587280901cfa92ddb96 = L.marker(
+                [40.77968082763136, -73.97713579908014],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_da3eb2da1126223e097e2b5bf2974272 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f649cca01ffc587280901cfa92ddb96.setIcon(icon_da3eb2da1126223e097e2b5bf2974272);
+        
+    
+        var popup_991e9c0de017db14b6e2f5ead560c34c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7695dc37691399b9aaac0062ec177d9c = $(`<div id="html_7695dc37691399b9aaac0062ec177d9c" style="width: 100.0%; height: 100.0%;"><b>Columbus Avenue</b><br>Distance: 14.29 miles<br>Avg Traffic: 2769.05</div>`)[0];
+                popup_991e9c0de017db14b6e2f5ead560c34c.setContent(html_7695dc37691399b9aaac0062ec177d9c);
+            
+        
+
+        marker_0f649cca01ffc587280901cfa92ddb96.bindPopup(popup_991e9c0de017db14b6e2f5ead560c34c)
+        ;
+
+        
+    
+    
+            var poly_line_d9ba0d9b75e02677656fbb3fc9abd576 = L.polyline(
+                [[40.965341405390575, -73.8563698542123], [40.77968082763136, -73.97713579908014]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_5c8bae9d8bfdf69d2a43980b3b9d9afd = L.marker(
+                [40.77144062263456, -73.96568512678532],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_0efbab43955ecae0636c1f93a2376c06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c8bae9d8bfdf69d2a43980b3b9d9afd.setIcon(icon_0efbab43955ecae0636c1f93a2376c06);
+        
+    
+        var popup_022ab723a1cf74cff9f94b18e18910a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0f85297419c06fc4dc99bc93b2e83f2 = $(`<div id="html_d0f85297419c06fc4dc99bc93b2e83f2" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>Distance: 14.55 miles<br>Avg Traffic: 1990.09</div>`)[0];
+                popup_022ab723a1cf74cff9f94b18e18910a5.setContent(html_d0f85297419c06fc4dc99bc93b2e83f2);
+            
+        
+
+        marker_5c8bae9d8bfdf69d2a43980b3b9d9afd.bindPopup(popup_022ab723a1cf74cff9f94b18e18910a5)
+        ;
+
+        
+    
+    
+            var poly_line_e73ceae78ba6f6d8d05ab836f20f2586 = L.polyline(
+                [[40.965341405390575, -73.8563698542123], [40.77144062263456, -73.96568512678532]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_aed8eba818e069a3fe9222765c7a2090 = L.marker(
+                [40.7718134030119, -73.98219706247882],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_b3e201089501bd554a16d26f2a5827a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aed8eba818e069a3fe9222765c7a2090.setIcon(icon_b3e201089501bd554a16d26f2a5827a7);
+        
+    
+        var popup_89d90b3c1316cb43f8c2e488d7af3d78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181a383e90ae0b49ac13688b7c57ec8b = $(`<div id="html_181a383e90ae0b49ac13688b7c57ec8b" style="width: 100.0%; height: 100.0%;"><b>Broadway</b><br>Distance: 14.89 miles<br>Avg Traffic: 4748.23</div>`)[0];
+                popup_89d90b3c1316cb43f8c2e488d7af3d78.setContent(html_181a383e90ae0b49ac13688b7c57ec8b);
+            
+        
+
+        marker_aed8eba818e069a3fe9222765c7a2090.bindPopup(popup_89d90b3c1316cb43f8c2e488d7af3d78)
+        ;
+
+        
+    
+    
+            var poly_line_ab5d0d53bbe926143db35b57d0de21bf = L.polyline(
+                [[40.965341405390575, -73.8563698542123], [40.7718134030119, -73.98219706247882]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_8aa68022ccaad706611e5b04e72fedab = L.marker(
+                [40.74638, -73.65027],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_3857c8604aaf6e23fafe636cf9ada1a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8aa68022ccaad706611e5b04e72fedab.setIcon(icon_3857c8604aaf6e23fafe636cf9ada1a7);
+        
+    
+        var popup_0759ada3ed9b711199a9495c7ced5dca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f9fd1e35d974937558af493cdd4224b = $(`<div id="html_0f9fd1e35d974937558af493cdd4224b" style="width: 100.0%; height: 100.0%;"><b>Axe Kicking Entertainment</b></div>`)[0];
+                popup_0759ada3ed9b711199a9495c7ced5dca.setContent(html_0f9fd1e35d974937558af493cdd4224b);
+            
+        
+
+        marker_8aa68022ccaad706611e5b04e72fedab.bindPopup(popup_0759ada3ed9b711199a9495c7ced5dca)
+        ;
+
+        
+    
+    
+            var marker_43cc4fc487e566682e65a1487ab7e978 = L.marker(
+                [40.84958094443508, -73.93434784508338],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_8380b1d8464d8194651dfd18a01a9df7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43cc4fc487e566682e65a1487ab7e978.setIcon(icon_8380b1d8464d8194651dfd18a01a9df7);
+        
+    
+        var popup_d3efe6d26fecc8703597419ec9567e81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64d0f6253710c48608c60be5092d1045 = $(`<div id="html_64d0f6253710c48608c60be5092d1045" style="width: 100.0%; height: 100.0%;"><b>West 181st Street</b><br>Distance: 16.51 miles<br>Avg Traffic: 4132.59</div>`)[0];
+                popup_d3efe6d26fecc8703597419ec9567e81.setContent(html_64d0f6253710c48608c60be5092d1045);
+            
+        
+
+        marker_43cc4fc487e566682e65a1487ab7e978.bindPopup(popup_d3efe6d26fecc8703597419ec9567e81)
+        ;
+
+        
+    
+    
+            var poly_line_3f50b11d1c7e6e845cc33abed27556a0 = L.polyline(
+                [[40.74638, -73.65027], [40.84958094443508, -73.93434784508338]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_f7aadc7efd9620ab207907071c67390c = L.marker(
+                [40.80842973710492, -73.94703781905247],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_e89ddfee162ecc88e9f86026178d2dd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7aadc7efd9620ab207907071c67390c.setIcon(icon_e89ddfee162ecc88e9f86026178d2dd5);
+        
+    
+        var popup_1376c6e74be5c26b7998ecb45a59a478 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64e6bd3c49dce630f17bebf96995f501 = $(`<div id="html_64e6bd3c49dce630f17bebf96995f501" style="width: 100.0%; height: 100.0%;"><b>West 125th Street</b><br>Distance: 16.14 miles<br>Avg Traffic: 4966.20</div>`)[0];
+                popup_1376c6e74be5c26b7998ecb45a59a478.setContent(html_64e6bd3c49dce630f17bebf96995f501);
+            
+        
+
+        marker_f7aadc7efd9620ab207907071c67390c.bindPopup(popup_1376c6e74be5c26b7998ecb45a59a478)
+        ;
+
+        
+    
+    
+            var poly_line_a3af808d1a0379ef5734d66186319a58 = L.polyline(
+                [[40.74638, -73.65027], [40.80842973710492, -73.94703781905247]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_e307fbe14110f3a5ef82bdd568e98743 = L.marker(
+                [40.77144062263456, -73.96568512678532],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_976d347874c97e18d17705f87aa382c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e307fbe14110f3a5ef82bdd568e98743.setIcon(icon_976d347874c97e18d17705f87aa382c6);
+        
+    
+        var popup_ccbfd0d31a1959e89951c90a6eee253f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_184445477558b4b5404b314580538e3e = $(`<div id="html_184445477558b4b5404b314580538e3e" style="width: 100.0%; height: 100.0%;"><b>Madison Avenue</b><br>Distance: 16.64 miles<br>Avg Traffic: 1990.09</div>`)[0];
+                popup_ccbfd0d31a1959e89951c90a6eee253f.setContent(html_184445477558b4b5404b314580538e3e);
+            
+        
+
+        marker_e307fbe14110f3a5ef82bdd568e98743.bindPopup(popup_ccbfd0d31a1959e89951c90a6eee253f)
+        ;
+
+        
+    
+    
+            var poly_line_a017ad8a71531a222eef5e7233cdd1f3 = L.polyline(
+                [[40.74638, -73.65027], [40.77144062263456, -73.96568512678532]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_4164aafbd1bd43b4de4981de8fa9d921 = L.marker(
+                [40.755190220332366, -73.96829307507049],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_8ad570c3ab1c9f2dbc01803069335b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4164aafbd1bd43b4de4981de8fa9d921.setIcon(icon_8ad570c3ab1c9f2dbc01803069335b02);
+        
+    
+        var popup_d1159df494a91c5bcf85d870b7b2f844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a48e28d472f1b12f141dc525e4fa80c4 = $(`<div id="html_a48e28d472f1b12f141dc525e4fa80c4" style="width: 100.0%; height: 100.0%;"><b>Seco Avenue</b><br>Distance: 16.70 miles<br>Avg Traffic: 3139.05</div>`)[0];
+                popup_d1159df494a91c5bcf85d870b7b2f844.setContent(html_a48e28d472f1b12f141dc525e4fa80c4);
+            
+        
+
+        marker_4164aafbd1bd43b4de4981de8fa9d921.bindPopup(popup_d1159df494a91c5bcf85d870b7b2f844)
+        ;
+
+        
+    
+    
+            var poly_line_959730645068a84a0721fe4a99f35fe3 = L.polyline(
+                [[40.74638, -73.65027], [40.755190220332366, -73.96829307507049]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var marker_3736bda13f08fe5d27d994d49c92d226 = L.marker(
+                [40.761264607952285, -73.96888735867235],
+                {}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+    
+            var icon_857a814bd2afff21348fccdb45cc982f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3736bda13f08fe5d27d994d49c92d226.setIcon(icon_857a814bd2afff21348fccdb45cc982f);
+        
+    
+        var popup_40bc0cda89d17e9784ed01a2c9c5ff6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cd06a24332229f62c26b3c8e60945f3 = $(`<div id="html_8cd06a24332229f62c26b3c8e60945f3" style="width: 100.0%; height: 100.0%;"><b>Lexington Avenue</b><br>Distance: 16.75 miles<br>Avg Traffic: 6374.13</div>`)[0];
+                popup_40bc0cda89d17e9784ed01a2c9c5ff6d.setContent(html_8cd06a24332229f62c26b3c8e60945f3);
+            
+        
+
+        marker_3736bda13f08fe5d27d994d49c92d226.bindPopup(popup_40bc0cda89d17e9784ed01a2c9c5ff6d)
+        ;
+
+        
+    
+    
+            var poly_line_a7d7ff42d2148c250a62d51786ee761c = L.polyline(
+                [[40.74638, -73.65027], [40.761264607952285, -73.96888735867235]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_dfaef763c7c027c423aff3bcfb4b167b);
+        
+</script>
+</html>

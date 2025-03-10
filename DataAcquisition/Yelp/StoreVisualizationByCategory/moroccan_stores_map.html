@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b464a30297c6963dcbff4359d77c0bcb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b464a30297c6963dcbff4359d77c0bcb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b464a30297c6963dcbff4359d77c0bcb = L.map(
+                "map_b464a30297c6963dcbff4359d77c0bcb",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b134f8be15c78a6bc9735dab9ccf8bc7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+            var circle_marker_19ad096b0922fb47d30192ae0fd3685b = L.circleMarker(
+                [40.7231802723335, -73.9946175625656],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_ec4aebf86d8430b8acbfafe6da78da70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fee0015c112c9b585c4a2a9b251f5db = $(`<div id="html_7fee0015c112c9b585c4a2a9b251f5db" style="width: 100.0%; height: 100.0%;"><b>Café Gitane</b><br>Rating: 3.7<br>Reviews: 790<br>Success Score: 3.70</div>`)[0];
+                popup_ec4aebf86d8430b8acbfafe6da78da70.setContent(html_7fee0015c112c9b585c4a2a9b251f5db);
+            
+        
+
+        circle_marker_19ad096b0922fb47d30192ae0fd3685b.bindPopup(popup_ec4aebf86d8430b8acbfafe6da78da70)
+        ;
+
+        
+    
+    
+            var circle_marker_45dc167111621ef8096c60cb1bd21a11 = L.circleMarker(
+                [40.7231802723335, -73.9946175625656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.126061689763077, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_45ec7e3a4fdae75f35b10bc7f5613a18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d099115db6e1ce14a98984d7b6eba4c = $(`<div id="html_6d099115db6e1ce14a98984d7b6eba4c" style="width: 100.0%; height: 100.0%;"><b>Café Gitane</b><br>Rating: 3.7<br>Reviews: 790<br>Success Score: 3.70</div>`)[0];
+                popup_45ec7e3a4fdae75f35b10bc7f5613a18.setContent(html_6d099115db6e1ce14a98984d7b6eba4c);
+            
+        
+
+        circle_marker_45dc167111621ef8096c60cb1bd21a11.bindPopup(popup_45ec7e3a4fdae75f35b10bc7f5613a18)
+        ;
+
+        
+    
+    
+            var circle_marker_644240d7a8462012f7cc856c228e1346 = L.circleMarker(
+                [40.7529899, -74.02924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_44a23085c7c2f91f3bb20eb8b399821d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a5c39c07546371152de31ce78bf44c5 = $(`<div id="html_3a5c39c07546371152de31ce78bf44c5" style="width: 100.0%; height: 100.0%;"><b>Barbès Restaurant</b><br>Rating: 4.1<br>Reviews: 341<br>Success Score: 4.10</div>`)[0];
+                popup_44a23085c7c2f91f3bb20eb8b399821d.setContent(html_3a5c39c07546371152de31ce78bf44c5);
+            
+        
+
+        circle_marker_644240d7a8462012f7cc856c228e1346.bindPopup(popup_44a23085c7c2f91f3bb20eb8b399821d)
+        ;
+
+        
+    
+    
+            var circle_marker_708a096474a66bbb74058139ef34d9ed = L.circleMarker(
+                [40.7529899, -74.02924],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.097451944568619, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_ee0ed3886dff24f99f876b209915be6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_854744acef888d8fd6f258cabf5419a4 = $(`<div id="html_854744acef888d8fd6f258cabf5419a4" style="width: 100.0%; height: 100.0%;"><b>Barbès Restaurant</b><br>Rating: 4.1<br>Reviews: 341<br>Success Score: 4.10</div>`)[0];
+                popup_ee0ed3886dff24f99f876b209915be6b.setContent(html_854744acef888d8fd6f258cabf5419a4);
+            
+        
+
+        circle_marker_708a096474a66bbb74058139ef34d9ed.bindPopup(popup_ee0ed3886dff24f99f876b209915be6b)
+        ;
+
+        
+    
+    
+            var circle_marker_2fd027124e1a8fdf2003827e1719b2ec = L.circleMarker(
+                [40.72021, -74.00996],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_551b55ffffcb13a4bc9f3ee89063b6ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c05a5331ebec80880cfaa42500a42180 = $(`<div id="html_c05a5331ebec80880cfaa42500a42180" style="width: 100.0%; height: 100.0%;"><b>Yves</b><br>Rating: 3.7<br>Reviews: 116<br>Success Score: 3.70</div>`)[0];
+                popup_551b55ffffcb13a4bc9f3ee89063b6ff.setContent(html_c05a5331ebec80880cfaa42500a42180);
+            
+        
+
+        circle_marker_2fd027124e1a8fdf2003827e1719b2ec.bindPopup(popup_551b55ffffcb13a4bc9f3ee89063b6ff)
+        ;
+
+        
+    
+    
+            var circle_marker_70c596b2322a87c62c24591820fe4e0b = L.circleMarker(
+                [40.72021, -74.00996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0742065265981227, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b6d6311e0cbdd5a6d5b758da82de7a04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14262c1c3ad79794eafaffe89c395eed = $(`<div id="html_14262c1c3ad79794eafaffe89c395eed" style="width: 100.0%; height: 100.0%;"><b>Yves</b><br>Rating: 3.7<br>Reviews: 116<br>Success Score: 3.70</div>`)[0];
+                popup_b6d6311e0cbdd5a6d5b758da82de7a04.setContent(html_14262c1c3ad79794eafaffe89c395eed);
+            
+        
+
+        circle_marker_70c596b2322a87c62c24591820fe4e0b.bindPopup(popup_b6d6311e0cbdd5a6d5b758da82de7a04)
+        ;
+
+        
+    
+    
+            var circle_marker_3177beb78d8d78d682c44507439475c1 = L.circleMarker(
+                [40.715688, -74.007695],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_1262238d3e974854d6cbd9cfdcf6cec1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e73c02c83c0a3ac94a7886269dd8fb03 = $(`<div id="html_e73c02c83c0a3ac94a7886269dd8fb03" style="width: 100.0%; height: 100.0%;"><b>Nish Nush</b><br>Rating: 4.4<br>Reviews: 844<br>Success Score: 4.40</div>`)[0];
+                popup_1262238d3e974854d6cbd9cfdcf6cec1.setContent(html_e73c02c83c0a3ac94a7886269dd8fb03);
+            
+        
+
+        circle_marker_3177beb78d8d78d682c44507439475c1.bindPopup(popup_1262238d3e974854d6cbd9cfdcf6cec1)
+        ;
+
+        
+    
+    
+            var circle_marker_fc65b3a25300cdafdf6c16d77bcb53eb = L.circleMarker(
+                [40.715688, -74.007695],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.091640590075993, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_ef7e59ba992aea5525aab675ecda410a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b6dcb20ae7ac2d5d35a32982eb1984b = $(`<div id="html_8b6dcb20ae7ac2d5d35a32982eb1984b" style="width: 100.0%; height: 100.0%;"><b>Nish Nush</b><br>Rating: 4.4<br>Reviews: 844<br>Success Score: 4.40</div>`)[0];
+                popup_ef7e59ba992aea5525aab675ecda410a.setContent(html_8b6dcb20ae7ac2d5d35a32982eb1984b);
+            
+        
+
+        circle_marker_fc65b3a25300cdafdf6c16d77bcb53eb.bindPopup(popup_ef7e59ba992aea5525aab675ecda410a)
+        ;
+
+        
+    
+    
+            var circle_marker_3ce94a404516a8b251e6f4eaea8eb3dd = L.circleMarker(
+                [40.7591133117676, -73.9682998657227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_a531cc0de941165c40bfa2308d26896f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2eae5b67b81a1dd9db9f08657fe99eaa = $(`<div id="html_2eae5b67b81a1dd9db9f08657fe99eaa" style="width: 100.0%; height: 100.0%;"><b>Comme Ci Comme Ça</b><br>Rating: 4.1<br>Reviews: 117<br>Success Score: 4.10</div>`)[0];
+                popup_a531cc0de941165c40bfa2308d26896f.setContent(html_2eae5b67b81a1dd9db9f08657fe99eaa);
+            
+        
+
+        circle_marker_3ce94a404516a8b251e6f4eaea8eb3dd.bindPopup(popup_a531cc0de941165c40bfa2308d26896f)
+        ;
+
+        
+    
+    
+            var circle_marker_234335947bf456a55cc35f2549cabf58 = L.circleMarker(
+                [40.7591133117676, -73.9682998657227],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0920876173446583, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_4cae37d6439bbff83729d1ed441b1cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becf7ef33b1fb041d425717a909a112f = $(`<div id="html_becf7ef33b1fb041d425717a909a112f" style="width: 100.0%; height: 100.0%;"><b>Comme Ci Comme Ça</b><br>Rating: 4.1<br>Reviews: 117<br>Success Score: 4.10</div>`)[0];
+                popup_4cae37d6439bbff83729d1ed441b1cba.setContent(html_becf7ef33b1fb041d425717a909a112f);
+            
+        
+
+        circle_marker_234335947bf456a55cc35f2549cabf58.bindPopup(popup_4cae37d6439bbff83729d1ed441b1cba)
+        ;
+
+        
+    
+    
+            var circle_marker_3d78baeea001a9449d0f84352b5f6943 = L.circleMarker(
+                [40.72123, -73.98408],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_bb31079ac986bb1bbe887ee0eaa74c62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44733cb0a292bbeff7edf72d27a90391 = $(`<div id="html_44733cb0a292bbeff7edf72d27a90391" style="width: 100.0%; height: 100.0%;"><b>Pause Cafe</b><br>Rating: 4.3<br>Reviews: 587<br>Success Score: 4.30</div>`)[0];
+                popup_bb31079ac986bb1bbe887ee0eaa74c62.setContent(html_44733cb0a292bbeff7edf72d27a90391);
+            
+        
+
+        circle_marker_3d78baeea001a9449d0f84352b5f6943.bindPopup(popup_bb31079ac986bb1bbe887ee0eaa74c62)
+        ;
+
+        
+    
+    
+            var circle_marker_e5bf97375c1c7219202a600e32098696 = L.circleMarker(
+                [40.72123, -73.98408],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.496200268216363, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_929f392f1cb53e8b4548a82d8f8cc59e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6463c08762663aafc90e548032c4700 = $(`<div id="html_b6463c08762663aafc90e548032c4700" style="width: 100.0%; height: 100.0%;"><b>Pause Cafe</b><br>Rating: 4.3<br>Reviews: 587<br>Success Score: 4.30</div>`)[0];
+                popup_929f392f1cb53e8b4548a82d8f8cc59e.setContent(html_b6463c08762663aafc90e548032c4700);
+            
+        
+
+        circle_marker_e5bf97375c1c7219202a600e32098696.bindPopup(popup_929f392f1cb53e8b4548a82d8f8cc59e)
+        ;
+
+        
+    
+    
+            var circle_marker_8150b3b672d83ac182556f5b1583735b = L.circleMarker(
+                [40.76132, -73.99181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_57f496379fcf800351039cb4170c9897 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41749807a54b5786b0c623c2546940c2 = $(`<div id="html_41749807a54b5786b0c623c2546940c2" style="width: 100.0%; height: 100.0%;"><b>Horus Too</b><br>Rating: 3.0<br>Reviews: 272<br>Success Score: 3.00</div>`)[0];
+                popup_57f496379fcf800351039cb4170c9897.setContent(html_41749807a54b5786b0c623c2546940c2);
+            
+        
+
+        circle_marker_8150b3b672d83ac182556f5b1583735b.bindPopup(popup_57f496379fcf800351039cb4170c9897)
+        ;
+
+        
+    
+    
+            var circle_marker_d87bdb6fd4684882b58557ee1cbc1af2 = L.circleMarker(
+                [40.76132, -73.99181],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.863656683057666, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_3ebdc61217ace533a1b0af9f89e3e9ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_691a906630e226aef6e1e53615259eb4 = $(`<div id="html_691a906630e226aef6e1e53615259eb4" style="width: 100.0%; height: 100.0%;"><b>Horus Too</b><br>Rating: 3.0<br>Reviews: 272<br>Success Score: 3.00</div>`)[0];
+                popup_3ebdc61217ace533a1b0af9f89e3e9ff.setContent(html_691a906630e226aef6e1e53615259eb4);
+            
+        
+
+        circle_marker_d87bdb6fd4684882b58557ee1cbc1af2.bindPopup(popup_3ebdc61217ace533a1b0af9f89e3e9ff)
+        ;
+
+        
+    
+    
+            var circle_marker_1589f08f83ee1603c6aa9001709a8099 = L.circleMarker(
+                [40.727258767439, -73.9845085144043],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_48777f27033425d3f34740bd9ea9cd04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebbb0792e082e749471de3ab8c3c8049 = $(`<div id="html_ebbb0792e082e749471de3ab8c3c8049" style="width: 100.0%; height: 100.0%;"><b>Cafe Mogador</b><br>Rating: 4.1<br>Reviews: 2237<br>Success Score: 4.10</div>`)[0];
+                popup_48777f27033425d3f34740bd9ea9cd04.setContent(html_ebbb0792e082e749471de3ab8c3c8049);
+            
+        
+
+        circle_marker_1589f08f83ee1603c6aa9001709a8099.bindPopup(popup_48777f27033425d3f34740bd9ea9cd04)
+        ;
+
+        
+    
+    
+            var circle_marker_3b254dd1792b0abb36b6733cfcf122ce = L.circleMarker(
+                [40.727258767439, -73.9845085144043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_ce12d76b926153c3902f8e57a8226ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52fba5483313b7abd68a1abc303c98f4 = $(`<div id="html_52fba5483313b7abd68a1abc303c98f4" style="width: 100.0%; height: 100.0%;"><b>Cafe Mogador</b><br>Rating: 4.1<br>Reviews: 2237<br>Success Score: 4.10</div>`)[0];
+                popup_ce12d76b926153c3902f8e57a8226ab3.setContent(html_52fba5483313b7abd68a1abc303c98f4);
+            
+        
+
+        circle_marker_3b254dd1792b0abb36b6733cfcf122ce.bindPopup(popup_ce12d76b926153c3902f8e57a8226ab3)
+        ;
+
+        
+    
+    
+            var circle_marker_67429747abddaf38b48c818a0aec8ce2 = L.circleMarker(
+                [40.719747, -73.959993],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b1ce806c4c3b56762afff101d4698ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f651b0ca0e9b345ee3b864a3fc28bf9d = $(`<div id="html_f651b0ca0e9b345ee3b864a3fc28bf9d" style="width: 100.0%; height: 100.0%;"><b>Cafe Mogador</b><br>Rating: 4.4<br>Reviews: 1523<br>Success Score: 4.40</div>`)[0];
+                popup_b1ce806c4c3b56762afff101d4698ae4.setContent(html_f651b0ca0e9b345ee3b864a3fc28bf9d);
+            
+        
+
+        circle_marker_67429747abddaf38b48c818a0aec8ce2.bindPopup(popup_b1ce806c4c3b56762afff101d4698ae4)
+        ;
+
+        
+    
+    
+            var circle_marker_9975a0d5cbf1829309bfe3ffcf746e61 = L.circleMarker(
+                [40.719747, -73.959993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.23290120697363, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_557160bb3ed11335e8be7b740b4b4444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751a852c375ab2dd64dadd48d37ef37b = $(`<div id="html_751a852c375ab2dd64dadd48d37ef37b" style="width: 100.0%; height: 100.0%;"><b>Cafe Mogador</b><br>Rating: 4.4<br>Reviews: 1523<br>Success Score: 4.40</div>`)[0];
+                popup_557160bb3ed11335e8be7b740b4b4444.setContent(html_751a852c375ab2dd64dadd48d37ef37b);
+            
+        
+
+        circle_marker_9975a0d5cbf1829309bfe3ffcf746e61.bindPopup(popup_557160bb3ed11335e8be7b740b4b4444)
+        ;
+
+        
+    
+    
+            var circle_marker_8b57527743c0719b2458fbebdd3e4852 = L.circleMarker(
+                [40.73404, -74.0083499],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.600000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_c55b48d368a3a87820db03a07d6896fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f625cacc245ef86430207e4338b7cd0 = $(`<div id="html_2f625cacc245ef86430207e4338b7cd0" style="width: 100.0%; height: 100.0%;"><b>Casa La Femme</b><br>Rating: 3.4<br>Reviews: 1237<br>Success Score: 3.40</div>`)[0];
+                popup_c55b48d368a3a87820db03a07d6896fa.setContent(html_2f625cacc245ef86430207e4338b7cd0);
+            
+        
+
+        circle_marker_8b57527743c0719b2458fbebdd3e4852.bindPopup(popup_c55b48d368a3a87820db03a07d6896fa)
+        ;
+
+        
+    
+    
+            var circle_marker_cdbed7166db24abd46fe74f66de909d9 = L.circleMarker(
+                [40.73404, -74.0083499],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.11890925346446, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_0f14095d345ff31839f7136c9d2982b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff789403db466690663ae075811954a7 = $(`<div id="html_ff789403db466690663ae075811954a7" style="width: 100.0%; height: 100.0%;"><b>Casa La Femme</b><br>Rating: 3.4<br>Reviews: 1237<br>Success Score: 3.40</div>`)[0];
+                popup_0f14095d345ff31839f7136c9d2982b6.setContent(html_ff789403db466690663ae075811954a7);
+            
+        
+
+        circle_marker_cdbed7166db24abd46fe74f66de909d9.bindPopup(popup_0f14095d345ff31839f7136c9d2982b6)
+        ;
+
+        
+    
+    
+            var circle_marker_22f1d8650be17dcfad3ec1a7acb3979c = L.circleMarker(
+                [40.7760977, -73.9793291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_d38bf42cc9f062e0d1656a781ca09e6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fc228c305b20b0821bbaaacf34ce63 = $(`<div id="html_59fc228c305b20b0821bbaaacf34ce63" style="width: 100.0%; height: 100.0%;"><b>Shalel Lounge</b><br>Rating: 4.0<br>Reviews: 711<br>Success Score: 4.00</div>`)[0];
+                popup_d38bf42cc9f062e0d1656a781ca09e6c.setContent(html_59fc228c305b20b0821bbaaacf34ce63);
+            
+        
+
+        circle_marker_22f1d8650be17dcfad3ec1a7acb3979c.bindPopup(popup_d38bf42cc9f062e0d1656a781ca09e6c)
+        ;
+
+        
+    
+    
+            var circle_marker_fdeb4cf276e643572e6210106ee79118 = L.circleMarker(
+                [40.7760977, -73.9793291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.71345552078677, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b902a94515dbe6e66aa1658ccacb821a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c59afa04053b8c7e7de7cb3063853a3c = $(`<div id="html_c59afa04053b8c7e7de7cb3063853a3c" style="width: 100.0%; height: 100.0%;"><b>Shalel Lounge</b><br>Rating: 4.0<br>Reviews: 711<br>Success Score: 4.00</div>`)[0];
+                popup_b902a94515dbe6e66aa1658ccacb821a.setContent(html_c59afa04053b8c7e7de7cb3063853a3c);
+            
+        
+
+        circle_marker_fdeb4cf276e643572e6210106ee79118.bindPopup(popup_b902a94515dbe6e66aa1658ccacb821a)
+        ;
+
+        
+    
+    
+            var circle_marker_e3e0dd4b09766774fab8374739493191 = L.circleMarker(
+                [40.63979386089917, -73.96808630952991],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_1b08f6b7e2b44d1fba4ba920e61025d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89af13ca04549fa7a71916fd25be67fc = $(`<div id="html_89af13ca04549fa7a71916fd25be67fc" style="width: 100.0%; height: 100.0%;"><b>Mimi's Brooklyn</b><br>Rating: 4.0<br>Reviews: 383<br>Success Score: 4.00</div>`)[0];
+                popup_1b08f6b7e2b44d1fba4ba920e61025d1.setContent(html_89af13ca04549fa7a71916fd25be67fc);
+            
+        
+
+        circle_marker_e3e0dd4b09766774fab8374739493191.bindPopup(popup_1b08f6b7e2b44d1fba4ba920e61025d1)
+        ;
+
+        
+    
+    
+            var circle_marker_3f0774a10a88e512e618a8908d07d553 = L.circleMarker(
+                [40.63979386089917, -73.96808630952991],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.848457755923112, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_054961d2b8f68bb9c8b43b533667a0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebd6e31de63ad254bbe108c33c593df9 = $(`<div id="html_ebd6e31de63ad254bbe108c33c593df9" style="width: 100.0%; height: 100.0%;"><b>Mimi's Brooklyn</b><br>Rating: 4.0<br>Reviews: 383<br>Success Score: 4.00</div>`)[0];
+                popup_054961d2b8f68bb9c8b43b533667a0b8.setContent(html_ebd6e31de63ad254bbe108c33c593df9);
+            
+        
+
+        circle_marker_3f0774a10a88e512e618a8908d07d553.bindPopup(popup_054961d2b8f68bb9c8b43b533667a0b8)
+        ;
+
+        
+    
+    
+            var circle_marker_3904111a709103b6bca7ff0bab580ba5 = L.circleMarker(
+                [40.76801972837851, -73.9114214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_cc44ac497c302603b46e160addbb3b8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9f22766ca0778c9bf07a9e3f5d1374c = $(`<div id="html_e9f22766ca0778c9bf07a9e3f5d1374c" style="width: 100.0%; height: 100.0%;"><b>Little Morocco</b><br>Rating: 4.1<br>Reviews: 167<br>Success Score: 4.10</div>`)[0];
+                popup_cc44ac497c302603b46e160addbb3b8f.setContent(html_e9f22766ca0778c9bf07a9e3f5d1374c);
+            
+        
+
+        circle_marker_3904111a709103b6bca7ff0bab580ba5.bindPopup(popup_cc44ac497c302603b46e160addbb3b8f)
+        ;
+
+        
+    
+    
+            var circle_marker_f78c0debe51b058579384665b822278c = L.circleMarker(
+                [40.76801972837851, -73.9114214],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.986142154671435, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_1a3fb55c6f556e91f5ad5689e4746036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63a366282f1f89179d744bfc2375a70e = $(`<div id="html_63a366282f1f89179d744bfc2375a70e" style="width: 100.0%; height: 100.0%;"><b>Little Morocco</b><br>Rating: 4.1<br>Reviews: 167<br>Success Score: 4.10</div>`)[0];
+                popup_1a3fb55c6f556e91f5ad5689e4746036.setContent(html_63a366282f1f89179d744bfc2375a70e);
+            
+        
+
+        circle_marker_f78c0debe51b058579384665b822278c.bindPopup(popup_1a3fb55c6f556e91f5ad5689e4746036)
+        ;
+
+        
+    
+    
+            var circle_marker_ce51b7919aa5f42602e204cdc14c3c5b = L.circleMarker(
+                [40.71791, -74.00539],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_d68616bcac0a9446940ddc178c88658b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b151cb1d8a37bb45dfe19bb9d3c25470 = $(`<div id="html_b151cb1d8a37bb45dfe19bb9d3c25470" style="width: 100.0%; height: 100.0%;"><b>Tara Kitchen - Tribeca New York</b><br>Rating: 4.2<br>Reviews: 67<br>Success Score: 4.20</div>`)[0];
+                popup_d68616bcac0a9446940ddc178c88658b.setContent(html_b151cb1d8a37bb45dfe19bb9d3c25470);
+            
+        
+
+        circle_marker_ce51b7919aa5f42602e204cdc14c3c5b.bindPopup(popup_d68616bcac0a9446940ddc178c88658b)
+        ;
+
+        
+    
+    
+            var circle_marker_e240cafe7bf678e5f80f81acebb7becb = L.circleMarker(
+                [40.71791, -74.00539],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1980330800178811, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b8577e6e874180b8656becde5155dc3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc54b072fd9f04927650ca59712e77d8 = $(`<div id="html_cc54b072fd9f04927650ca59712e77d8" style="width: 100.0%; height: 100.0%;"><b>Tara Kitchen - Tribeca New York</b><br>Rating: 4.2<br>Reviews: 67<br>Success Score: 4.20</div>`)[0];
+                popup_b8577e6e874180b8656becde5155dc3f.setContent(html_cc54b072fd9f04927650ca59712e77d8);
+            
+        
+
+        circle_marker_e240cafe7bf678e5f80f81acebb7becb.bindPopup(popup_b8577e6e874180b8656becde5155dc3f)
+        ;
+
+        
+    
+    
+            var circle_marker_ac2605629841f97f508702266aa108c7 = L.circleMarker(
+                [40.718244, -73.988109],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_78d89b7fbaf15f59c1f78afcd966a273 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f75093c20d5df729d53cc285780f63c = $(`<div id="html_8f75093c20d5df729d53cc285780f63c" style="width: 100.0%; height: 100.0%;"><b>Zerza Moroccan Kitchen</b><br>Rating: 4.5<br>Reviews: 40<br>Success Score: 4.50</div>`)[0];
+                popup_78d89b7fbaf15f59c1f78afcd966a273.setContent(html_8f75093c20d5df729d53cc285780f63c);
+            
+        
+
+        circle_marker_ac2605629841f97f508702266aa108c7.bindPopup(popup_78d89b7fbaf15f59c1f78afcd966a273)
+        ;
+
+        
+    
+    
+            var circle_marker_8f1411688b35519d7ced2bdaee583077 = L.circleMarker(
+                [40.718244, -73.988109],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7152436298614216, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_00ea70cc47f7dbba6bac735ccd8274dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbec3267d78972e3d7b5f09e00755054 = $(`<div id="html_dbec3267d78972e3d7b5f09e00755054" style="width: 100.0%; height: 100.0%;"><b>Zerza Moroccan Kitchen</b><br>Rating: 4.5<br>Reviews: 40<br>Success Score: 4.50</div>`)[0];
+                popup_00ea70cc47f7dbba6bac735ccd8274dc.setContent(html_dbec3267d78972e3d7b5f09e00755054);
+            
+        
+
+        circle_marker_8f1411688b35519d7ced2bdaee583077.bindPopup(popup_00ea70cc47f7dbba6bac735ccd8274dc)
+        ;
+
+        
+    
+    
+            var circle_marker_2b5f5b0d6f052a794fe68d875ac7111f = L.circleMarker(
+                [40.7028272982236, -73.9812811999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_0da782fd32a26b7818874c2eda46a8ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dfefe405ba08e1d7342b834cda711ea = $(`<div id="html_0dfefe405ba08e1d7342b834cda711ea" style="width: 100.0%; height: 100.0%;"><b>Cafe Gitane</b><br>Rating: 4.2<br>Reviews: 37<br>Success Score: 4.20</div>`)[0];
+                popup_0da782fd32a26b7818874c2eda46a8ee.setContent(html_0dfefe405ba08e1d7342b834cda711ea);
+            
+        
+
+        circle_marker_2b5f5b0d6f052a794fe68d875ac7111f.bindPopup(popup_0da782fd32a26b7818874c2eda46a8ee)
+        ;
+
+        
+    
+    
+            var circle_marker_d1d41fe430bd8cc32251b00c277ffcbf = L.circleMarker(
+                [40.7028272982236, -73.9812811999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6616003576218149, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b0e5269c3d1b4f5f8db6f6ff21ae5392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be4e7a421bc82584ec996876a99387d2 = $(`<div id="html_be4e7a421bc82584ec996876a99387d2" style="width: 100.0%; height: 100.0%;"><b>Cafe Gitane</b><br>Rating: 4.2<br>Reviews: 37<br>Success Score: 4.20</div>`)[0];
+                popup_b0e5269c3d1b4f5f8db6f6ff21ae5392.setContent(html_be4e7a421bc82584ec996876a99387d2);
+            
+        
+
+        circle_marker_d1d41fe430bd8cc32251b00c277ffcbf.bindPopup(popup_b0e5269c3d1b4f5f8db6f6ff21ae5392)
+        ;
+
+        
+    
+    
+            var circle_marker_878adc7084e4c367f8fa8be86f276ec4 = L.circleMarker(
+                [40.73358679836166, -73.8249994],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_c1d7ce0441b4e38ce629753f817988b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_376f65d8da60288a13d8aeaa375e3366 = $(`<div id="html_376f65d8da60288a13d8aeaa375e3366" style="width: 100.0%; height: 100.0%;"><b>Mama Kitchen</b><br>Rating: 4.2<br>Reviews: 10<br>Success Score: 4.20</div>`)[0];
+                popup_c1d7ce0441b4e38ce629753f817988b9.setContent(html_376f65d8da60288a13d8aeaa375e3366);
+            
+        
+
+        circle_marker_878adc7084e4c367f8fa8be86f276ec4.bindPopup(popup_c1d7ce0441b4e38ce629753f817988b9)
+        ;
+
+        
+    
+    
+            var circle_marker_f71a445e4a83f841650ffcf5f68a16f9 = L.circleMarker(
+                [40.73358679836166, -73.8249994],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1788109074653554, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_aa7ace1d1aca717895887c70d615e101 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a1a2e93c84c0487e2fcaa761825810 = $(`<div id="html_d4a1a2e93c84c0487e2fcaa761825810" style="width: 100.0%; height: 100.0%;"><b>Mama Kitchen</b><br>Rating: 4.2<br>Reviews: 10<br>Success Score: 4.20</div>`)[0];
+                popup_aa7ace1d1aca717895887c70d615e101.setContent(html_d4a1a2e93c84c0487e2fcaa761825810);
+            
+        
+
+        circle_marker_f71a445e4a83f841650ffcf5f68a16f9.bindPopup(popup_aa7ace1d1aca717895887c70d615e101)
+        ;
+
+        
+    
+    
+            var circle_marker_a7eacf8aca2242509b985758477241f1 = L.circleMarker(
+                [40.765869002848106, -73.91511700328837],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.6, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_628b1bdf7e5c5a8a7c1d0f8c27b69457 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_758294c4a89af75cbdfc55f54b1c4176 = $(`<div id="html_758294c4a89af75cbdfc55f54b1c4176" style="width: 100.0%; height: 100.0%;"><b>Moroccan Bites by Siham</b><br>Rating: 4.9<br>Reviews: 8<br>Success Score: 4.90</div>`)[0];
+                popup_628b1bdf7e5c5a8a7c1d0f8c27b69457.setContent(html_758294c4a89af75cbdfc55f54b1c4176);
+            
+        
+
+        circle_marker_a7eacf8aca2242509b985758477241f1.bindPopup(popup_628b1bdf7e5c5a8a7c1d0f8c27b69457)
+        ;
+
+        
+    
+    
+            var circle_marker_3a147c2356e5531e9de1b70c6ad4365c = L.circleMarker(
+                [40.765869002848106, -73.91511700328837],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.14304872597228432, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_78b569aaf5fe5d74012a510b1924f773 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efaf38159de541712bc9227e90d541db = $(`<div id="html_efaf38159de541712bc9227e90d541db" style="width: 100.0%; height: 100.0%;"><b>Moroccan Bites by Siham</b><br>Rating: 4.9<br>Reviews: 8<br>Success Score: 4.90</div>`)[0];
+                popup_78b569aaf5fe5d74012a510b1924f773.setContent(html_efaf38159de541712bc9227e90d541db);
+            
+        
+
+        circle_marker_3a147c2356e5531e9de1b70c6ad4365c.bindPopup(popup_78b569aaf5fe5d74012a510b1924f773)
+        ;
+
+        
+    
+    
+            var circle_marker_4e024cd994295c6fb3940a0a433f66ee = L.circleMarker(
+                [40.75095, -73.99811],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b6b9ed00d1265ba032c0be428a2033aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_630a2cb9735c629a8b89a90658401320 = $(`<div id="html_630a2cb9735c629a8b89a90658401320" style="width: 100.0%; height: 100.0%;"><b>Marrakech Chefs</b><br>Rating: 2.8<br>Reviews: 5<br>Success Score: 2.80</div>`)[0];
+                popup_b6b9ed00d1265ba032c0be428a2033aa.setContent(html_630a2cb9735c629a8b89a90658401320);
+            
+        
+
+        circle_marker_4e024cd994295c6fb3940a0a433f66ee.bindPopup(popup_b6b9ed00d1265ba032c0be428a2033aa)
+        ;
+
+        
+    
+    
+            var circle_marker_6f020d97074f956453a37ce2796436e3 = L.circleMarker(
+                [40.75095, -73.99811],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0894054537326777, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_d782c91b34a6419292e0de2393975fa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4da6ef8d58be53f9afd68d03a4d33235 = $(`<div id="html_4da6ef8d58be53f9afd68d03a4d33235" style="width: 100.0%; height: 100.0%;"><b>Marrakech Chefs</b><br>Rating: 2.8<br>Reviews: 5<br>Success Score: 2.80</div>`)[0];
+                popup_d782c91b34a6419292e0de2393975fa6.setContent(html_4da6ef8d58be53f9afd68d03a4d33235);
+            
+        
+
+        circle_marker_6f020d97074f956453a37ce2796436e3.bindPopup(popup_d782c91b34a6419292e0de2393975fa6)
+        ;
+
+        
+    
+    
+            var circle_marker_db90a51cf45fa7273789be6563550c5c = L.circleMarker(
+                [40.72746, -74.00749],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.8, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_100af7b440d65a298666414b6c3d09ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a81e84e8a90832016245f413047c65a4 = $(`<div id="html_a81e84e8a90832016245f413047c65a4" style="width: 100.0%; height: 100.0%;"><b>Marrakesh Food Truck</b><br>Rating: 1.2<br>Reviews: 5<br>Success Score: 1.20</div>`)[0];
+                popup_100af7b440d65a298666414b6c3d09ee.setContent(html_a81e84e8a90832016245f413047c65a4);
+            
+        
+
+        circle_marker_db90a51cf45fa7273789be6563550c5c.bindPopup(popup_100af7b440d65a298666414b6c3d09ee)
+        ;
+
+        
+    
+    
+            var circle_marker_d628e4216e8d53048757b94bcbc0ca0e = L.circleMarker(
+                [40.72746, -74.00749],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0894054537326777, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_8fb0129a9988bcd267a848bc2fb78c4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55da33fbc6e53a275de1170960fe98b5 = $(`<div id="html_55da33fbc6e53a275de1170960fe98b5" style="width: 100.0%; height: 100.0%;"><b>Marrakesh Food Truck</b><br>Rating: 1.2<br>Reviews: 5<br>Success Score: 1.20</div>`)[0];
+                popup_8fb0129a9988bcd267a848bc2fb78c4c.setContent(html_55da33fbc6e53a275de1170960fe98b5);
+            
+        
+
+        circle_marker_d628e4216e8d53048757b94bcbc0ca0e.bindPopup(popup_8fb0129a9988bcd267a848bc2fb78c4c)
+        ;
+
+        
+    
+    
+            var circle_marker_ba8627131cdf582e9ac08630d510808f = L.circleMarker(
+                [40.76522417532225, -73.93967064909711],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_25174f7f0895b1f2717ce4bc988757ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47488aa0bece421825eb5a9dedca8276 = $(`<div id="html_47488aa0bece421825eb5a9dedca8276" style="width: 100.0%; height: 100.0%;"><b>The Halal Bakery</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_25174f7f0895b1f2717ce4bc988757ed.setContent(html_47488aa0bece421825eb5a9dedca8276);
+            
+        
+
+        circle_marker_ba8627131cdf582e9ac08630d510808f.bindPopup(popup_25174f7f0895b1f2717ce4bc988757ed)
+        ;
+
+        
+    
+    
+            var circle_marker_ea3160bd8685e44475668123b70387cd = L.circleMarker(
+                [40.76522417532225, -73.93967064909711],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07152436298614216, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_c4b80988d0cd9ab201a4bd347555a55e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0cb1077e7b1c7edd37ce39fd595111d = $(`<div id="html_c0cb1077e7b1c7edd37ce39fd595111d" style="width: 100.0%; height: 100.0%;"><b>The Halal Bakery</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_c4b80988d0cd9ab201a4bd347555a55e.setContent(html_c0cb1077e7b1c7edd37ce39fd595111d);
+            
+        
+
+        circle_marker_ea3160bd8685e44475668123b70387cd.bindPopup(popup_c4b80988d0cd9ab201a4bd347555a55e)
+        ;
+
+        
+    
+    
+            var circle_marker_2017a2e42770dbe4a2ee1a41b0209241 = L.circleMarker(
+                [40.76734, -73.91181],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_624bbb60d38f53a82c90e947aeba565b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f2c8cb68c7d2cd489b0b4217e712584 = $(`<div id="html_0f2c8cb68c7d2cd489b0b4217e712584" style="width: 100.0%; height: 100.0%;"><b>Tanjawi</b><br>Rating: 3.7<br>Reviews: 3<br>Success Score: 3.70</div>`)[0];
+                popup_624bbb60d38f53a82c90e947aeba565b.setContent(html_0f2c8cb68c7d2cd489b0b4217e712584);
+            
+        
+
+        circle_marker_2017a2e42770dbe4a2ee1a41b0209241.bindPopup(popup_624bbb60d38f53a82c90e947aeba565b)
+        ;
+
+        
+    
+    
+            var circle_marker_b2c60e9d8a2219a77473b24f526ee24f = L.circleMarker(
+                [40.76734, -73.91181],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05364327223960662, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_b0ea58f41c4741d07bf5141ab307a0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61be6e5999c9107530cd2780e03efc5d = $(`<div id="html_61be6e5999c9107530cd2780e03efc5d" style="width: 100.0%; height: 100.0%;"><b>Tanjawi</b><br>Rating: 3.7<br>Reviews: 3<br>Success Score: 3.70</div>`)[0];
+                popup_b0ea58f41c4741d07bf5141ab307a0d9.setContent(html_61be6e5999c9107530cd2780e03efc5d);
+            
+        
+
+        circle_marker_b2c60e9d8a2219a77473b24f526ee24f.bindPopup(popup_b0ea58f41c4741d07bf5141ab307a0d9)
+        ;
+
+        
+    
+    
+            var circle_marker_3d7def61e8e3fca4222276213568d931 = L.circleMarker(
+                [40.723, -74.00306],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_816acbf0436bd20b7904823eaba1b686 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac98e5cb89529515d075ca7f92986cf2 = $(`<div id="html_ac98e5cb89529515d075ca7f92986cf2" style="width: 100.0%; height: 100.0%;"><b>Bowery Bungalow</b><br>Rating: 4.5<br>Reviews: 2<br>Success Score: 4.50</div>`)[0];
+                popup_816acbf0436bd20b7904823eaba1b686.setContent(html_ac98e5cb89529515d075ca7f92986cf2);
+            
+        
+
+        circle_marker_3d7def61e8e3fca4222276213568d931.bindPopup(popup_816acbf0436bd20b7904823eaba1b686)
+        ;
+
+        
+    
+    
+            var circle_marker_b2dd4e0ba2596013496c9976f5655737 = L.circleMarker(
+                [40.723, -74.00306],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03576218149307108, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_252139d951b84e63f5d9f973ca65530b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_121618355c1f1fe94b234c67be7b2e98 = $(`<div id="html_121618355c1f1fe94b234c67be7b2e98" style="width: 100.0%; height: 100.0%;"><b>Bowery Bungalow</b><br>Rating: 4.5<br>Reviews: 2<br>Success Score: 4.50</div>`)[0];
+                popup_252139d951b84e63f5d9f973ca65530b.setContent(html_121618355c1f1fe94b234c67be7b2e98);
+            
+        
+
+        circle_marker_b2dd4e0ba2596013496c9976f5655737.bindPopup(popup_252139d951b84e63f5d9f973ca65530b)
+        ;
+
+        
+    
+    
+            var circle_marker_1e02794bed4f0f59d46c8066b0e86ce9 = L.circleMarker(
+                [40.7179463270841, -74.08396784216166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_6b860b651a4794f388a87542b15cf26a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef4683cef8c85aa42cc0ccfdf00ecd98 = $(`<div id="html_ef4683cef8c85aa42cc0ccfdf00ecd98" style="width: 100.0%; height: 100.0%;"><b>Moroccan Luncheonette</b><br>Rating: 3.0<br>Reviews: 1<br>Success Score: 3.00</div>`)[0];
+                popup_6b860b651a4794f388a87542b15cf26a.setContent(html_ef4683cef8c85aa42cc0ccfdf00ecd98);
+            
+        
+
+        circle_marker_1e02794bed4f0f59d46c8066b0e86ce9.bindPopup(popup_6b860b651a4794f388a87542b15cf26a)
+        ;
+
+        
+    
+    
+            var circle_marker_9f7601616ce10fd23c8d6143ae002470 = L.circleMarker(
+                [40.7179463270841, -74.08396784216166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01788109074653554, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_abb0466b217d60dba6df10cabe3e9e23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_301140fad4f0f5a7f4ab4d07b3df4e72 = $(`<div id="html_301140fad4f0f5a7f4ab4d07b3df4e72" style="width: 100.0%; height: 100.0%;"><b>Moroccan Luncheonette</b><br>Rating: 3.0<br>Reviews: 1<br>Success Score: 3.00</div>`)[0];
+                popup_abb0466b217d60dba6df10cabe3e9e23.setContent(html_301140fad4f0f5a7f4ab4d07b3df4e72);
+            
+        
+
+        circle_marker_9f7601616ce10fd23c8d6143ae002470.bindPopup(popup_abb0466b217d60dba6df10cabe3e9e23)
+        ;
+
+        
+    
+    
+            var circle_marker_81b02aee32483877539c36e7416e6f8b = L.circleMarker(
+                [40.80440098489214, -73.95536377498799],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_29fb5ec286ca442aa390ea1ff9af7ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33cfdf337c9353b88e62f8ef8a80af8b = $(`<div id="html_33cfdf337c9353b88e62f8ef8a80af8b" style="width: 100.0%; height: 100.0%;"><b>Halal Cart</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_29fb5ec286ca442aa390ea1ff9af7ca4.setContent(html_33cfdf337c9353b88e62f8ef8a80af8b);
+            
+        
+
+        circle_marker_81b02aee32483877539c36e7416e6f8b.bindPopup(popup_29fb5ec286ca442aa390ea1ff9af7ca4)
+        ;
+
+        
+    
+    
+            var circle_marker_83b45845391c25c7dabb38c081c51e74 = L.circleMarker(
+                [40.80440098489214, -73.95536377498799],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01788109074653554, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_2d881da6613baf34ded6bed2dca3656c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ae0bddba2ad866d9cd6bfdb2faf41c = $(`<div id="html_c8ae0bddba2ad866d9cd6bfdb2faf41c" style="width: 100.0%; height: 100.0%;"><b>Halal Cart</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_2d881da6613baf34ded6bed2dca3656c.setContent(html_c8ae0bddba2ad866d9cd6bfdb2faf41c);
+            
+        
+
+        circle_marker_83b45845391c25c7dabb38c081c51e74.bindPopup(popup_2d881da6613baf34ded6bed2dca3656c)
+        ;
+
+        
+    
+    
+            var circle_marker_4d8d6660c5267a43be2c457091de6d31 = L.circleMarker(
+                [40.7203023, -73.9616976],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_21851801f1f915d3fedbc8310d37094a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baf577aeff31458f6a5a37f76cf5a6eb = $(`<div id="html_baf577aeff31458f6a5a37f76cf5a6eb" style="width: 100.0%; height: 100.0%;"><b>Marrakesh Express</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_21851801f1f915d3fedbc8310d37094a.setContent(html_baf577aeff31458f6a5a37f76cf5a6eb);
+            
+        
+
+        circle_marker_4d8d6660c5267a43be2c457091de6d31.bindPopup(popup_21851801f1f915d3fedbc8310d37094a)
+        ;
+
+        
+    
+    
+            var circle_marker_e39cb5d17a827684420daaab0303b506 = L.circleMarker(
+                [40.7203023, -73.9616976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01788109074653554, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_3d9dbe400665c4ce29c39d18704dc306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4972f91c972917ccad6d84b0eee0b2a8 = $(`<div id="html_4972f91c972917ccad6d84b0eee0b2a8" style="width: 100.0%; height: 100.0%;"><b>Marrakesh Express</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_3d9dbe400665c4ce29c39d18704dc306.setContent(html_4972f91c972917ccad6d84b0eee0b2a8);
+            
+        
+
+        circle_marker_e39cb5d17a827684420daaab0303b506.bindPopup(popup_3d9dbe400665c4ce29c39d18704dc306)
+        ;
+
+        
+    
+    
+            var circle_marker_da85de2c4595bc3b9a002568dd267274 = L.circleMarker(
+                [40.7502839, -73.9948484],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_e60e22a732195d21c4dafac7fd153a8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b38a21d4ba5132cad55e808986d0bf0 = $(`<div id="html_2b38a21d4ba5132cad55e808986d0bf0" style="width: 100.0%; height: 100.0%;"><b>Halal Marrakkech Morrocan Food Cart</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_e60e22a732195d21c4dafac7fd153a8b.setContent(html_2b38a21d4ba5132cad55e808986d0bf0);
+            
+        
+
+        circle_marker_da85de2c4595bc3b9a002568dd267274.bindPopup(popup_e60e22a732195d21c4dafac7fd153a8b)
+        ;
+
+        
+    
+    
+            var circle_marker_10f9e3675584c2c7f9e9f558ed0c8cc8 = L.circleMarker(
+                [40.7502839, -73.9948484],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01788109074653554, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_543fb0da9aabfab1796a291e3effe5b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_773f8a49b841c54e4c66d0e37308f8f4 = $(`<div id="html_773f8a49b841c54e4c66d0e37308f8f4" style="width: 100.0%; height: 100.0%;"><b>Halal Marrakkech Morrocan Food Cart</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_543fb0da9aabfab1796a291e3effe5b3.setContent(html_773f8a49b841c54e4c66d0e37308f8f4);
+            
+        
+
+        circle_marker_10f9e3675584c2c7f9e9f558ed0c8cc8.bindPopup(popup_543fb0da9aabfab1796a291e3effe5b3)
+        ;
+
+        
+    
+    
+            var circle_marker_26f8c52cce2f8f4c418e567b7ff8ff9f = L.circleMarker(
+                [40.725761, -74.07691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_a223c82f49223e836939478198033751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f36cd652768eed2d00c611aa25763a86 = $(`<div id="html_f36cd652768eed2d00c611aa25763a86" style="width: 100.0%; height: 100.0%;"><b>La Taverne De Lilix Ka</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_a223c82f49223e836939478198033751.setContent(html_f36cd652768eed2d00c611aa25763a86);
+            
+        
+
+        circle_marker_26f8c52cce2f8f4c418e567b7ff8ff9f.bindPopup(popup_a223c82f49223e836939478198033751)
+        ;
+
+        
+    
+    
+            var circle_marker_799a918814b7e9be2992c67684e0381c = L.circleMarker(
+                [40.725761, -74.07691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_cdcadf7b86faa0df74dae7c31b186d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfb425e5cf48c0e8c308bf7f2c644d3a = $(`<div id="html_cfb425e5cf48c0e8c308bf7f2c644d3a" style="width: 100.0%; height: 100.0%;"><b>La Taverne De Lilix Ka</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_cdcadf7b86faa0df74dae7c31b186d9b.setContent(html_cfb425e5cf48c0e8c308bf7f2c644d3a);
+            
+        
+
+        circle_marker_799a918814b7e9be2992c67684e0381c.bindPopup(popup_cdcadf7b86faa0df74dae7c31b186d9b)
+        ;
+
+        
+    
+    
+            var circle_marker_749227bb3533fb6c45399711c34c7d26 = L.circleMarker(
+                [40.752085, -73.984019],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_4f1d197fdb8c55ad76b1b85e71d6c207 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc60deefe74f96f93e3a823301997921 = $(`<div id="html_dc60deefe74f96f93e3a823301997921" style="width: 100.0%; height: 100.0%;"><b>Darna Kosher</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_4f1d197fdb8c55ad76b1b85e71d6c207.setContent(html_dc60deefe74f96f93e3a823301997921);
+            
+        
+
+        circle_marker_749227bb3533fb6c45399711c34c7d26.bindPopup(popup_4f1d197fdb8c55ad76b1b85e71d6c207)
+        ;
+
+        
+    
+    
+            var circle_marker_aedcf655597d1b1c5466ac8727b14dd0 = L.circleMarker(
+                [40.752085, -73.984019],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_74494258f191f1f6c4de611d533c26a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1a8bb3457354801d5da3ada2ec8f90a = $(`<div id="html_e1a8bb3457354801d5da3ada2ec8f90a" style="width: 100.0%; height: 100.0%;"><b>Darna Kosher</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_74494258f191f1f6c4de611d533c26a5.setContent(html_e1a8bb3457354801d5da3ada2ec8f90a);
+            
+        
+
+        circle_marker_aedcf655597d1b1c5466ac8727b14dd0.bindPopup(popup_74494258f191f1f6c4de611d533c26a5)
+        ;
+
+        
+    
+    
+            var circle_marker_4b065f58e942cd62bbce109a1ee4b5ee = L.circleMarker(
+                [40.71149, -73.95784],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_d5e43d960d7e4593d569fee937f9305d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f9741b00e35689428d80ac40485e5b2 = $(`<div id="html_5f9741b00e35689428d80ac40485e5b2" style="width: 100.0%; height: 100.0%;"><b>Marrakech Restaurant</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d5e43d960d7e4593d569fee937f9305d.setContent(html_5f9741b00e35689428d80ac40485e5b2);
+            
+        
+
+        circle_marker_4b065f58e942cd62bbce109a1ee4b5ee.bindPopup(popup_d5e43d960d7e4593d569fee937f9305d)
+        ;
+
+        
+    
+    
+            var circle_marker_24c03d48bef0d6b3ae998f02fa159315 = L.circleMarker(
+                [40.71149, -73.95784],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b464a30297c6963dcbff4359d77c0bcb);
+        
+    
+        var popup_999427cf387b0c15ff17eb24a2aea623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7bd00202e958b3f9919a054f97caf03 = $(`<div id="html_b7bd00202e958b3f9919a054f97caf03" style="width: 100.0%; height: 100.0%;"><b>Marrakech Restaurant</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_999427cf387b0c15ff17eb24a2aea623.setContent(html_b7bd00202e958b3f9919a054f97caf03);
+            
+        
+
+        circle_marker_24c03d48bef0d6b3ae998f02fa159315.bindPopup(popup_999427cf387b0c15ff17eb24a2aea623)
+        ;
+
+        
+    
+</script>
+</html>

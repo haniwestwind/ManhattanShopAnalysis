@@ -1,0 +1,12 @@
+pymongo==4.3.3
+geopy==2.3.0
+geopandas>=0.10.0  # Or the latest version you need
+folium==0.14.0
+scipy==1.11.1
+numpy==1.24.3
+openpyxl
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+tensorflow

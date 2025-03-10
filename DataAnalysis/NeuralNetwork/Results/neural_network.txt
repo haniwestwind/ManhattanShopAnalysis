@@ -1,0 +1,6 @@
+Bayesian Model Training Time: 133.5091 seconds
+Bayesian Model RMSE: 0.3945
+IMDB Model Training Time: 139.0558 seconds
+IMDB Model RMSE: 0.5862
+Success Model Training Time: 168.9034 seconds
+Success Model Accuracy: 0.7628

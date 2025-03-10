@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e8f9654496dc5a8ab5408281f85df31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e8f9654496dc5a8ab5408281f85df31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e8f9654496dc5a8ab5408281f85df31 = L.map(
+                "map_9e8f9654496dc5a8ab5408281f85df31",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0703eee11fccfbf26cbb7f43f5da048a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+            var circle_marker_e9d6c5b2a09c7db9b5c7e9f78a44ad77 = L.circleMarker(
+                [40.7527064, -73.9403637],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.695652173913043, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_5392e0a267a818ecbe9dc955e9a026e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7851aeb215d072e5c8da9c341867ea8 = $(`<div id="html_c7851aeb215d072e5c8da9c341867ea8" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Boulders Queensbridge</b><br>Rating: 4.3<br>Reviews: 155<br>Success Score: 4.30</div>`)[0];
+                popup_5392e0a267a818ecbe9dc955e9a026e5.setContent(html_c7851aeb215d072e5c8da9c341867ea8);
+            
+        
+
+        circle_marker_e9d6c5b2a09c7db9b5c7e9f78a44ad77.bindPopup(popup_5392e0a267a818ecbe9dc955e9a026e5)
+        ;
+
+        
+    
+    
+            var circle_marker_3fd7b49ea2e0ee15f94088e2860322fc = L.circleMarker(
+                [40.7527064, -73.9403637],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_d04bcbb3181fe6790ada5543df45a59f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5267e4906349834b0ddab42ca4b507e = $(`<div id="html_e5267e4906349834b0ddab42ca4b507e" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Boulders Queensbridge</b><br>Rating: 4.3<br>Reviews: 155<br>Success Score: 4.30</div>`)[0];
+                popup_d04bcbb3181fe6790ada5543df45a59f.setContent(html_e5267e4906349834b0ddab42ca4b507e);
+            
+        
+
+        circle_marker_3fd7b49ea2e0ee15f94088e2860322fc.bindPopup(popup_d04bcbb3181fe6790ada5543df45a59f)
+        ;
+
+        
+    
+    
+            var circle_marker_5acaaf455a6ef050dfb938b5bd69a326 = L.circleMarker(
+                [40.708067, -73.920515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.695652173913043, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_284f2258f452ee502acb0a8cdc366c9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ba86aeb82051f5a97b44f70e010e54c = $(`<div id="html_2ba86aeb82051f5a97b44f70e010e54c" style="width: 100.0%; height: 100.0%;"><b>MetroRock - Brooklyn</b><br>Rating: 4.3<br>Reviews: 68<br>Success Score: 4.30</div>`)[0];
+                popup_284f2258f452ee502acb0a8cdc366c9b.setContent(html_2ba86aeb82051f5a97b44f70e010e54c);
+            
+        
+
+        circle_marker_5acaaf455a6ef050dfb938b5bd69a326.bindPopup(popup_284f2258f452ee502acb0a8cdc366c9b)
+        ;
+
+        
+    
+    
+            var circle_marker_02d22ba30a47c9d06539f163653a1f86 = L.circleMarker(
+                [40.708067, -73.920515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.548387096774192, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_dd2ac94038ddae627d1057503e7a7937 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f13aab6bf50e83fb5fdf6bfcdf1d9f35 = $(`<div id="html_f13aab6bf50e83fb5fdf6bfcdf1d9f35" style="width: 100.0%; height: 100.0%;"><b>MetroRock - Brooklyn</b><br>Rating: 4.3<br>Reviews: 68<br>Success Score: 4.30</div>`)[0];
+                popup_dd2ac94038ddae627d1057503e7a7937.setContent(html_f13aab6bf50e83fb5fdf6bfcdf1d9f35);
+            
+        
+
+        circle_marker_02d22ba30a47c9d06539f163653a1f86.bindPopup(popup_dd2ac94038ddae627d1057503e7a7937)
+        ;
+
+        
+    
+    
+            var circle_marker_87dd9d755aa07a3d8b202ef0d7d8ce30 = L.circleMarker(
+                [40.772498924215, -73.9903171706391],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_1fc681123867cf0a21547ad9494a9632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe314735c6e02bafd5528f083eaad3fc = $(`<div id="html_fe314735c6e02bafd5528f083eaad3fc" style="width: 100.0%; height: 100.0%;"><b>Central Rock Gym Manhattan</b><br>Rating: 4.6<br>Reviews: 46<br>Success Score: 4.60</div>`)[0];
+                popup_1fc681123867cf0a21547ad9494a9632.setContent(html_fe314735c6e02bafd5528f083eaad3fc);
+            
+        
+
+        circle_marker_87dd9d755aa07a3d8b202ef0d7d8ce30.bindPopup(popup_1fc681123867cf0a21547ad9494a9632)
+        ;
+
+        
+    
+    
+            var circle_marker_62fae85b8c4006e55929f9be3968e8cc = L.circleMarker(
+                [40.772498924215, -73.9903171706391],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.870967741935484, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_33ec376032e8bf406734c4e27f623a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb7c0f49b6c8b829cc2e444370648a10 = $(`<div id="html_eb7c0f49b6c8b829cc2e444370648a10" style="width: 100.0%; height: 100.0%;"><b>Central Rock Gym Manhattan</b><br>Rating: 4.6<br>Reviews: 46<br>Success Score: 4.60</div>`)[0];
+                popup_33ec376032e8bf406734c4e27f623a82.setContent(html_eb7c0f49b6c8b829cc2e444370648a10);
+            
+        
+
+        circle_marker_62fae85b8c4006e55929f9be3968e8cc.bindPopup(popup_33ec376032e8bf406734c4e27f623a82)
+        ;
+
+        
+    
+    
+            var circle_marker_15a4d615187adfc3f1ae65b24d007a61 = L.circleMarker(
+                [40.7429402, -74.16855680096616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.56521739130435, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_5d6ff62bd0b58c3fb2ed20b959c2ea9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30004b2cd2469c006f46cbafe25fcc75 = $(`<div id="html_30004b2cd2469c006f46cbafe25fcc75" style="width: 100.0%; height: 100.0%;"><b>Method Climbing Gym</b><br>Rating: 4.5<br>Reviews: 14<br>Success Score: 4.50</div>`)[0];
+                popup_5d6ff62bd0b58c3fb2ed20b959c2ea9c.setContent(html_30004b2cd2469c006f46cbafe25fcc75);
+            
+        
+
+        circle_marker_15a4d615187adfc3f1ae65b24d007a61.bindPopup(popup_5d6ff62bd0b58c3fb2ed20b959c2ea9c)
+        ;
+
+        
+    
+    
+            var circle_marker_5defa3924cd13a249496d3d195b4622e = L.circleMarker(
+                [40.7429402, -74.16855680096616],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6129032258064515, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_858757fb59ce948ca905fb80f31bc803 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d283b219ccbc871a03dbab35edd797f = $(`<div id="html_4d283b219ccbc871a03dbab35edd797f" style="width: 100.0%; height: 100.0%;"><b>Method Climbing Gym</b><br>Rating: 4.5<br>Reviews: 14<br>Success Score: 4.50</div>`)[0];
+                popup_858757fb59ce948ca905fb80f31bc803.setContent(html_4d283b219ccbc871a03dbab35edd797f);
+            
+        
+
+        circle_marker_5defa3924cd13a249496d3d195b4622e.bindPopup(popup_858757fb59ce948ca905fb80f31bc803)
+        ;
+
+        
+    
+    
+            var circle_marker_24e498e82a6d2f8d7356af8f7bf6b9a6 = L.circleMarker(
+                [40.7492790222168, -73.9925918579102],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.260869565217394, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_e7983c070c1e14a8e7b89ea8dfb59a87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba261c647dde0e0721f150f14eb1a141 = $(`<div id="html_ba261c647dde0e0721f150f14eb1a141" style="width: 100.0%; height: 100.0%;"><b>Outdoor Connections</b><br>Rating: 4.2<br>Reviews: 9<br>Success Score: 4.20</div>`)[0];
+                popup_e7983c070c1e14a8e7b89ea8dfb59a87.setContent(html_ba261c647dde0e0721f150f14eb1a141);
+            
+        
+
+        circle_marker_24e498e82a6d2f8d7356af8f7bf6b9a6.bindPopup(popup_e7983c070c1e14a8e7b89ea8dfb59a87)
+        ;
+
+        
+    
+    
+            var circle_marker_815745b1fefa2d6100e4221d566b73f0 = L.circleMarker(
+                [40.7492790222168, -73.9925918579102],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.3225806451612905, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_ea0836a10626df18b0ff8884852942f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a012a01f1950596bf1447c2e4fa7eb96 = $(`<div id="html_a012a01f1950596bf1447c2e4fa7eb96" style="width: 100.0%; height: 100.0%;"><b>Outdoor Connections</b><br>Rating: 4.2<br>Reviews: 9<br>Success Score: 4.20</div>`)[0];
+                popup_ea0836a10626df18b0ff8884852942f0.setContent(html_a012a01f1950596bf1447c2e4fa7eb96);
+            
+        
+
+        circle_marker_815745b1fefa2d6100e4221d566b73f0.bindPopup(popup_ea0836a10626df18b0ff8884852942f0)
+        ;
+
+        
+    
+    
+            var circle_marker_39e067330a8a8b35c05f40452c8f88c5 = L.circleMarker(
+                [40.65638496104288, -74.00605304692976],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.260869565217394, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_bb2ccee9f4783bd6498e179fc61b1dca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e236f99c7a0a85681b49de6ac4fafaee = $(`<div id="html_e236f99c7a0a85681b49de6ac4fafaee" style="width: 100.0%; height: 100.0%;"><b>Hapik Industry City</b><br>Rating: 4.2<br>Reviews: 5<br>Success Score: 4.20</div>`)[0];
+                popup_bb2ccee9f4783bd6498e179fc61b1dca.setContent(html_e236f99c7a0a85681b49de6ac4fafaee);
+            
+        
+
+        circle_marker_39e067330a8a8b35c05f40452c8f88c5.bindPopup(popup_bb2ccee9f4783bd6498e179fc61b1dca)
+        ;
+
+        
+    
+    
+            var circle_marker_b704263b6836e673bdcd7462c5068781 = L.circleMarker(
+                [40.65638496104288, -74.00605304692976],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2903225806451613, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_f22c650d3752335a5b62696bf99eed95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a38186b76a1b7340a783f1b7f9302b9 = $(`<div id="html_4a38186b76a1b7340a783f1b7f9302b9" style="width: 100.0%; height: 100.0%;"><b>Hapik Industry City</b><br>Rating: 4.2<br>Reviews: 5<br>Success Score: 4.20</div>`)[0];
+                popup_f22c650d3752335a5b62696bf99eed95.setContent(html_4a38186b76a1b7340a783f1b7f9302b9);
+            
+        
+
+        circle_marker_b704263b6836e673bdcd7462c5068781.bindPopup(popup_f22c650d3752335a5b62696bf99eed95)
+        ;
+
+        
+    
+    
+            var circle_marker_0f8e4da55d98dc5e491a1193c7d9d497 = L.circleMarker(
+                [40.808708, -74.068939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_2f28bcaddc4b34345f1e2450eb02a9c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42775d8af975a331b3b0d732772c2f19 = $(`<div id="html_42775d8af975a331b3b0d732772c2f19" style="width: 100.0%; height: 100.0%;"><b>Hapik American Dream</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_2f28bcaddc4b34345f1e2450eb02a9c7.setContent(html_42775d8af975a331b3b0d732772c2f19);
+            
+        
+
+        circle_marker_0f8e4da55d98dc5e491a1193c7d9d497.bindPopup(popup_2f28bcaddc4b34345f1e2450eb02a9c7)
+        ;
+
+        
+    
+    
+            var circle_marker_39a4bc89e8c6e4bc2c75d84a7cce2e06 = L.circleMarker(
+                [40.808708, -74.068939],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_82b584ce2f47ab3143989013d389c49a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dc1ea859165e07baacf4f445a1d0af5 = $(`<div id="html_0dc1ea859165e07baacf4f445a1d0af5" style="width: 100.0%; height: 100.0%;"><b>Hapik American Dream</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_82b584ce2f47ab3143989013d389c49a.setContent(html_0dc1ea859165e07baacf4f445a1d0af5);
+            
+        
+
+        circle_marker_39a4bc89e8c6e4bc2c75d84a7cce2e06.bindPopup(popup_82b584ce2f47ab3143989013d389c49a)
+        ;
+
+        
+    
+    
+            var circle_marker_4e052ab0b587f37cfdecaae7b181f267 = L.circleMarker(
+                [40.657994, -73.953534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.043478260869566, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_cf87542ed89953112e5cd6c5da151f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f833d9143c9b7022c2ae332485d7902 = $(`<div id="html_8f833d9143c9b7022c2ae332485d7902" style="width: 100.0%; height: 100.0%;"><b>Inspired By Zoe</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_cf87542ed89953112e5cd6c5da151f69.setContent(html_8f833d9143c9b7022c2ae332485d7902);
+            
+        
+
+        circle_marker_4e052ab0b587f37cfdecaae7b181f267.bindPopup(popup_cf87542ed89953112e5cd6c5da151f69)
+        ;
+
+        
+    
+    
+            var circle_marker_f24d31b788b989f2e7f806de23993654 = L.circleMarker(
+                [40.657994, -73.953534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5161290322580645, "stroke": true, "weight": 3}
+            ).addTo(map_9e8f9654496dc5a8ab5408281f85df31);
+        
+    
+        var popup_8d9ecaec454edb6100d2678d57008c59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d1e786b2f7d55025b9316352893f709 = $(`<div id="html_5d1e786b2f7d55025b9316352893f709" style="width: 100.0%; height: 100.0%;"><b>Inspired By Zoe</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_8d9ecaec454edb6100d2678d57008c59.setContent(html_5d1e786b2f7d55025b9316352893f709);
+            
+        
+
+        circle_marker_f24d31b788b989f2e7f806de23993654.bindPopup(popup_8d9ecaec454edb6100d2678d57008c59)
+        ;
+
+        
+    
+</script>
+</html>

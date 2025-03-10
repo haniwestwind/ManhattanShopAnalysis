@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20e36f54d38c83147c98d6311b409298 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20e36f54d38c83147c98d6311b409298" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20e36f54d38c83147c98d6311b409298 = L.map(
+                "map_20e36f54d38c83147c98d6311b409298",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cca9e8a8504447f8584b685dca22eaff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20e36f54d38c83147c98d6311b409298);
+        
+    
+            var circle_marker_b1fd9219701c385cd094c3fffd90ca85 = L.circleMarker(
+                [40.58753, -73.81138],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_20e36f54d38c83147c98d6311b409298);
+        
+    
+        var popup_7ff7078fd0a5b8b5eb3d099831632ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_805122cf77abc3ffae8b5bdfdb0a58d7 = $(`<div id="html_805122cf77abc3ffae8b5bdfdb0a58d7" style="width: 100.0%; height: 100.0%;"><b>Caregiver Radha</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7ff7078fd0a5b8b5eb3d099831632ef4.setContent(html_805122cf77abc3ffae8b5bdfdb0a58d7);
+            
+        
+
+        circle_marker_b1fd9219701c385cd094c3fffd90ca85.bindPopup(popup_7ff7078fd0a5b8b5eb3d099831632ef4)
+        ;
+
+        
+    
+    
+            var circle_marker_468139d982b7440515d4140ba2127434 = L.circleMarker(
+                [40.58753, -73.81138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_20e36f54d38c83147c98d6311b409298);
+        
+    
+        var popup_c3f82b19a91f64ae899f59db6083439e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6ee9f2085d639b955fa8eb23190a411 = $(`<div id="html_b6ee9f2085d639b955fa8eb23190a411" style="width: 100.0%; height: 100.0%;"><b>Caregiver Radha</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_c3f82b19a91f64ae899f59db6083439e.setContent(html_b6ee9f2085d639b955fa8eb23190a411);
+            
+        
+
+        circle_marker_468139d982b7440515d4140ba2127434.bindPopup(popup_c3f82b19a91f64ae899f59db6083439e)
+        ;
+
+        
+    
+</script>
+</html>

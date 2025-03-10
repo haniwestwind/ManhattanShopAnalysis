@@ -1,0 +1,3639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c288396c6db84f7b7b9de20188387a4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c288396c6db84f7b7b9de20188387a4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c288396c6db84f7b7b9de20188387a4 = L.map(
+                "map_0c288396c6db84f7b7b9de20188387a4",
+                {
+                    center: [40.758896, -73.98513],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a61346e0e063513bbb378ec0aaac083c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_1f9102e0bc8ea2fa8b475070d46fcf3c = L.marker(
+                [40.7775776084732, -73.9722893759608],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_17ee658a10710d702cf11959892e644f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1f9102e0bc8ea2fa8b475070d46fcf3c.setIcon(icon_17ee658a10710d702cf11959892e644f);
+        
+    
+        var popup_50230707448c5c2073fa05a3e70d5e17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30dbafcb9185ce6c5a49b8bb1b560091 = $(`<div id="html_30dbafcb9185ce6c5a49b8bb1b560091" style="width: 100.0%; height: 100.0%;"><b>kp3zq7gIiNXgGGBaRHVj2A</b></div>`)[0];
+                popup_50230707448c5c2073fa05a3e70d5e17.setContent(html_30dbafcb9185ce6c5a49b8bb1b560091);
+            
+        
+
+        marker_1f9102e0bc8ea2fa8b475070d46fcf3c.bindPopup(popup_50230707448c5c2073fa05a3e70d5e17)
+        ;
+
+        
+    
+    
+            var marker_05d7ec09f2ea3b2db139b510e8c94559 = L.marker(
+                [40.778409, -73.967692],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_09ad63ff38763237e953fd94ba80813e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05d7ec09f2ea3b2db139b510e8c94559.setIcon(icon_09ad63ff38763237e953fd94ba80813e);
+        
+    
+        var popup_96e75ee929e737ba7713a88a07241e25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e4a8e5a5b51df1285a6b9f5b2bfa389 = $(`<div id="html_9e4a8e5a5b51df1285a6b9f5b2bfa389" style="width: 100.0%; height: 100.0%;"><b>The Ramble</b><br>Distance: 0.24 miles</div>`)[0];
+                popup_96e75ee929e737ba7713a88a07241e25.setContent(html_9e4a8e5a5b51df1285a6b9f5b2bfa389);
+            
+        
+
+        marker_05d7ec09f2ea3b2db139b510e8c94559.bindPopup(popup_96e75ee929e737ba7713a88a07241e25)
+        ;
+
+        
+    
+    
+            var poly_line_cfdbb91754f15ab435a8e30764cfa1b7 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.778409, -73.967692]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_1b482c9f390c15e6980e17476151df41 = L.marker(
+                [40.773519, -73.971149],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_1acd7ac355789973b50f32efbfc4e8bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b482c9f390c15e6980e17476151df41.setIcon(icon_1acd7ac355789973b50f32efbfc4e8bc);
+        
+    
+        var popup_01ea2aa1863ab2af8494a3ccb4601d2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef3ffa3c49b99e97d455940e0e6083a = $(`<div id="html_9ef3ffa3c49b99e97d455940e0e6083a" style="width: 100.0%; height: 100.0%;"><b>Bethesda Terrace</b><br>Distance: 0.29 miles</div>`)[0];
+                popup_01ea2aa1863ab2af8494a3ccb4601d2c.setContent(html_9ef3ffa3c49b99e97d455940e0e6083a);
+            
+        
+
+        marker_1b482c9f390c15e6980e17476151df41.bindPopup(popup_01ea2aa1863ab2af8494a3ccb4601d2c)
+        ;
+
+        
+    
+    
+            var poly_line_49069122955cf00fe9296b13ec289f06 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.773519, -73.971149]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_35b958cceb537b261e5b8f57be3eafd7 = L.marker(
+                [40.780427, -73.969136],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_39c22d47086e1018f57187e5ba3edc89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35b958cceb537b261e5b8f57be3eafd7.setIcon(icon_39c22d47086e1018f57187e5ba3edc89);
+        
+    
+        var popup_3c84174fd2a237855c9c9462da7ba1c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f5fee9da8431c87bb9b799fd5a5efc = $(`<div id="html_e7f5fee9da8431c87bb9b799fd5a5efc" style="width: 100.0%; height: 100.0%;"><b>Belvedere Castle</b><br>Distance: 0.26 miles</div>`)[0];
+                popup_3c84174fd2a237855c9c9462da7ba1c8.setContent(html_e7f5fee9da8431c87bb9b799fd5a5efc);
+            
+        
+
+        marker_35b958cceb537b261e5b8f57be3eafd7.bindPopup(popup_3c84174fd2a237855c9c9462da7ba1c8)
+        ;
+
+        
+    
+    
+            var poly_line_9e8702f76934cf7780b1060c849c002d = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.780427, -73.969136]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_49253ed94fb19e5ae4f53d0676d3d8d0 = L.marker(
+                [40.778409, -73.967692],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6f844255d94d2d46287a7abddcfcee06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49253ed94fb19e5ae4f53d0676d3d8d0.setIcon(icon_6f844255d94d2d46287a7abddcfcee06);
+        
+    
+        var popup_c8ec725865c69bc3fc20151ed5f854e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b417150142a7b1d822ddd26f2937ffa = $(`<div id="html_6b417150142a7b1d822ddd26f2937ffa" style="width: 100.0%; height: 100.0%;"><b>The Ramble</b><br>Distance: 0.25 miles</div>`)[0];
+                popup_c8ec725865c69bc3fc20151ed5f854e4.setContent(html_6b417150142a7b1d822ddd26f2937ffa);
+            
+        
+
+        marker_49253ed94fb19e5ae4f53d0676d3d8d0.bindPopup(popup_c8ec725865c69bc3fc20151ed5f854e4)
+        ;
+
+        
+    
+    
+            var poly_line_cb0fc3fa3d3dc849dee20ed56b584690 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.778409, -73.967692]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_0e893cd5a1c124cbd2257e8c06f8b27b = L.marker(
+                [40.773046, -73.974392],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_26913b8bbbb13571faf4b49001e1b689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e893cd5a1c124cbd2257e8c06f8b27b.setIcon(icon_26913b8bbbb13571faf4b49001e1b689);
+        
+    
+        var popup_4763da3dd6173303695c8a0bc5d90ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d39c71ff21b21c594f1d9918af247804 = $(`<div id="html_d39c71ff21b21c594f1d9918af247804" style="width: 100.0%; height: 100.0%;"><b>Sheep Meadow</b><br>Distance: 0.33 miles</div>`)[0];
+                popup_4763da3dd6173303695c8a0bc5d90ab2.setContent(html_d39c71ff21b21c594f1d9918af247804);
+            
+        
+
+        marker_0e893cd5a1c124cbd2257e8c06f8b27b.bindPopup(popup_4763da3dd6173303695c8a0bc5d90ab2)
+        ;
+
+        
+    
+    
+            var poly_line_6f588e8b739ce93bb2b2f0f5ffed866c = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.773046, -73.974392]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_917fea66c8ee8d7fff719e51a4280cd8 = L.marker(
+                [40.773979, -73.966543],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_75017415a56eba60fbe02f89ff80c75c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_917fea66c8ee8d7fff719e51a4280cd8.setIcon(icon_75017415a56eba60fbe02f89ff80c75c);
+        
+    
+        var popup_f8112474b8010e1f509ca7f66067e75b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5525456e5feae6f4b73ad9367d2eb64c = $(`<div id="html_5525456e5feae6f4b73ad9367d2eb64c" style="width: 100.0%; height: 100.0%;"><b>Pilgrim Hill & Conservatory Water</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_f8112474b8010e1f509ca7f66067e75b.setContent(html_5525456e5feae6f4b73ad9367d2eb64c);
+            
+        
+
+        marker_917fea66c8ee8d7fff719e51a4280cd8.bindPopup(popup_f8112474b8010e1f509ca7f66067e75b)
+        ;
+
+        
+    
+    
+            var poly_line_fc2761c1d98708047300677b40e88714 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.773979, -73.966543]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_693b9ca36e2229964b44c4eeea29f6fe = L.marker(
+                [40.772206, -73.977781],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_fee21ecb6ab011eac714d82e1cffc22a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_693b9ca36e2229964b44c4eeea29f6fe.setIcon(icon_fee21ecb6ab011eac714d82e1cffc22a);
+        
+    
+        var popup_bfa5d4a58a9f6d0fcf3809120f837a7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1397b1e76c7e81f4550f8d682adb4833 = $(`<div id="html_1397b1e76c7e81f4550f8d682adb4833" style="width: 100.0%; height: 100.0%;"><b>Tavern On The Green</b><br>Distance: 0.47 miles</div>`)[0];
+                popup_bfa5d4a58a9f6d0fcf3809120f837a7b.setContent(html_1397b1e76c7e81f4550f8d682adb4833);
+            
+        
+
+        marker_693b9ca36e2229964b44c4eeea29f6fe.bindPopup(popup_bfa5d4a58a9f6d0fcf3809120f837a7b)
+        ;
+
+        
+    
+    
+            var poly_line_cf949cfcee74f528fa397974bdf64c83 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.772206, -73.977781]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_714b0ebad244e7b61e574633eb5d2c0d = L.marker(
+                [40.781912, -73.978712],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_89bd249333924a066eef6cfaf3a3d61a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_714b0ebad244e7b61e574633eb5d2c0d.setIcon(icon_89bd249333924a066eef6cfaf3a3d61a);
+        
+    
+        var popup_4da0d0656e8349a793014b0c052abc02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c94fa464b343a5049f810cf45fca0ad6 = $(`<div id="html_c94fa464b343a5049f810cf45fca0ad6" style="width: 100.0%; height: 100.0%;"><b>Tecumseh Playground</b><br>Distance: 0.45 miles</div>`)[0];
+                popup_4da0d0656e8349a793014b0c052abc02.setContent(html_c94fa464b343a5049f810cf45fca0ad6);
+            
+        
+
+        marker_714b0ebad244e7b61e574633eb5d2c0d.bindPopup(popup_4da0d0656e8349a793014b0c052abc02)
+        ;
+
+        
+    
+    
+            var poly_line_a21b4aed1f83aabce961c7c281ec0da9 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.781912, -73.978712]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_bc03a06abc8d33afe3e27c518898bf89 = L.marker(
+                [40.769114, -73.974619],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_13b96a7fff3934b8df5681ed0d2b395f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc03a06abc8d33afe3e27c518898bf89.setIcon(icon_13b96a7fff3934b8df5681ed0d2b395f);
+        
+    
+        var popup_a78a21755fc088347306ce335cadc8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ca5fb56f99ad89300090b2b694d04ca = $(`<div id="html_6ca5fb56f99ad89300090b2b694d04ca" style="width: 100.0%; height: 100.0%;"><b>Central Park Chess & Checkers House</b><br>Distance: 0.60 miles</div>`)[0];
+                popup_a78a21755fc088347306ce335cadc8e9.setContent(html_6ca5fb56f99ad89300090b2b694d04ca);
+            
+        
+
+        marker_bc03a06abc8d33afe3e27c518898bf89.bindPopup(popup_a78a21755fc088347306ce335cadc8e9)
+        ;
+
+        
+    
+    
+            var poly_line_7dad23e777c4309114708cd83f925241 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.769114, -73.974619]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_56b9d4cd79839b0e6834ab988ca0acc3 = L.marker(
+                [40.784843, -73.977454],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_48eb7f5d0bec789efc1c0a5db77377f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56b9d4cd79839b0e6834ab988ca0acc3.setIcon(icon_48eb7f5d0bec789efc1c0a5db77377f6);
+        
+    
+        var popup_9eeabd3171ae488a0580c4e2d02e147e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fce8219350289304766bae32bec67869 = $(`<div id="html_fce8219350289304766bae32bec67869" style="width: 100.0%; height: 100.0%;"><b>St. Agnes Library, NYPL</b><br>Distance: 0.57 miles</div>`)[0];
+                popup_9eeabd3171ae488a0580c4e2d02e147e.setContent(html_fce8219350289304766bae32bec67869);
+            
+        
+
+        marker_56b9d4cd79839b0e6834ab988ca0acc3.bindPopup(popup_9eeabd3171ae488a0580c4e2d02e147e)
+        ;
+
+        
+    
+    
+            var poly_line_3308ce5e9472fe3a5c07d7720dcc1d66 = L.polyline(
+                [[40.7775776084732, -73.9722893759608], [40.784843, -73.977454]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_1267e452116001af3913de32dc127359 = L.marker(
+                [40.7222480443194, -73.9868305671045],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_c48e88c034442c769ab3b4e1c6907339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1267e452116001af3913de32dc127359.setIcon(icon_c48e88c034442c769ab3b4e1c6907339);
+        
+    
+        var popup_3294653eecbfc9e5b929a0bda99d6b4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3889055a7179b398256a8d2ac9b60b5 = $(`<div id="html_f3889055a7179b398256a8d2ac9b60b5" style="width: 100.0%; height: 100.0%;"><b>lXs-ZQ7lhcVyS7jhQ1BvPg</b></div>`)[0];
+                popup_3294653eecbfc9e5b929a0bda99d6b4d.setContent(html_f3889055a7179b398256a8d2ac9b60b5);
+            
+        
+
+        marker_1267e452116001af3913de32dc127359.bindPopup(popup_3294653eecbfc9e5b929a0bda99d6b4d)
+        ;
+
+        
+    
+    
+            var marker_2cd59c676e5733b553c8cd6042dd8dfb = L.marker(
+                [40.724269, -73.985628],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_409d82f464b208089cd46d709a794131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cd59c676e5733b553c8cd6042dd8dfb.setIcon(icon_409d82f464b208089cd46d709a794131);
+        
+    
+        var popup_39f0a03c1d9710dbfbe19a0b226be1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fa5aa578e06052e2b962d8ddf56ce6e = $(`<div id="html_8fa5aa578e06052e2b962d8ddf56ce6e" style="width: 100.0%; height: 100.0%;"><b>McKinley Playground</b><br>Distance: 0.15 miles</div>`)[0];
+                popup_39f0a03c1d9710dbfbe19a0b226be1a5.setContent(html_8fa5aa578e06052e2b962d8ddf56ce6e);
+            
+        
+
+        marker_2cd59c676e5733b553c8cd6042dd8dfb.bindPopup(popup_39f0a03c1d9710dbfbe19a0b226be1a5)
+        ;
+
+        
+    
+    
+            var poly_line_6a9d1ee2993b34d63c4938d557edab41 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.724269, -73.985628]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_dc7ff92923495f23c9516f47c3191252 = L.marker(
+                [40.719552, -73.990206],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_808c5f752670e2015fe4ba08c2768792 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc7ff92923495f23c9516f47c3191252.setIcon(icon_808c5f752670e2015fe4ba08c2768792);
+        
+    
+        var popup_d08b9081f6c9bc68d711a1563e5eb918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c082962687caadc65fc51e55b7cc1cd1 = $(`<div id="html_c082962687caadc65fc51e55b7cc1cd1" style="width: 100.0%; height: 100.0%;"><b>Allen Street Malls</b><br>Distance: 0.26 miles</div>`)[0];
+                popup_d08b9081f6c9bc68d711a1563e5eb918.setContent(html_c082962687caadc65fc51e55b7cc1cd1);
+            
+        
+
+        marker_dc7ff92923495f23c9516f47c3191252.bindPopup(popup_d08b9081f6c9bc68d711a1563e5eb918)
+        ;
+
+        
+    
+    
+            var poly_line_471a65ed39afb2e2cf93f2b01c6e68e2 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.719552, -73.990206]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a5ce50abf8431a8b52c76d188e1b01fc = L.marker(
+                [40.722443, -73.991187],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_01182d8bea62adf8a368d89056ed7bbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5ce50abf8431a8b52c76d188e1b01fc.setIcon(icon_01182d8bea62adf8a368d89056ed7bbc);
+        
+    
+        var popup_67b64d4e089dbc922e605abb9e2f8199 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f25915b96568ac714481d47f3406384d = $(`<div id="html_f25915b96568ac714481d47f3406384d" style="width: 100.0%; height: 100.0%;"><b>Houston St Playground</b><br>Distance: 0.23 miles</div>`)[0];
+                popup_67b64d4e089dbc922e605abb9e2f8199.setContent(html_f25915b96568ac714481d47f3406384d);
+            
+        
+
+        marker_a5ce50abf8431a8b52c76d188e1b01fc.bindPopup(popup_67b64d4e089dbc922e605abb9e2f8199)
+        ;
+
+        
+    
+    
+            var poly_line_7a4deea1fa528ef27cb968735136dd69 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.722443, -73.991187]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_e93619458b01b17533665904c62c2b8e = L.marker(
+                [40.728915, -73.987744],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_c0ec1efc760e6c6f1b22ba14055d5c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e93619458b01b17533665904c62c2b8e.setIcon(icon_c0ec1efc760e6c6f1b22ba14055d5c60);
+        
+    
+        var popup_72912bd2c898026df95fe3e04840bd94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_040b96d08cb11b4e1dee216c9e8cb33b = $(`<div id="html_040b96d08cb11b4e1dee216c9e8cb33b" style="width: 100.0%; height: 100.0%;"><b>Ottendorfer Library, NYPL</b><br>Distance: 0.46 miles</div>`)[0];
+                popup_72912bd2c898026df95fe3e04840bd94.setContent(html_040b96d08cb11b4e1dee216c9e8cb33b);
+            
+        
+
+        marker_e93619458b01b17533665904c62c2b8e.bindPopup(popup_72912bd2c898026df95fe3e04840bd94)
+        ;
+
+        
+    
+    
+            var poly_line_bd3f676976d7f76930ad8cc8bfa44a6c = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.728915, -73.987744]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_74141d7e5592051d2739a2938b2f4561 = L.marker(
+                [40.726834, -73.981415],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_56d8b9f260f09f797338a2cdb4216dc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_74141d7e5592051d2739a2938b2f4561.setIcon(icon_56d8b9f260f09f797338a2cdb4216dc7);
+        
+    
+        var popup_ffd3baa7fa9742248cc08b38c3bce0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb6a2fdb3af0b6e2429061963d15af3b = $(`<div id="html_fb6a2fdb3af0b6e2429061963d15af3b" style="width: 100.0%; height: 100.0%;"><b>Tompkins Square Park</b><br>Distance: 0.43 miles</div>`)[0];
+                popup_ffd3baa7fa9742248cc08b38c3bce0f4.setContent(html_fb6a2fdb3af0b6e2429061963d15af3b);
+            
+        
+
+        marker_74141d7e5592051d2739a2938b2f4561.bindPopup(popup_ffd3baa7fa9742248cc08b38c3bce0f4)
+        ;
+
+        
+    
+    
+            var poly_line_bfda64c5273eada104fa23a3963c6b00 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.726834, -73.981415]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_048ef00d476014480b6e533bc34c99de = L.marker(
+                [40.726834, -73.981415],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7f2731f7d392e07b08e69f4e346aea27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_048ef00d476014480b6e533bc34c99de.setIcon(icon_7f2731f7d392e07b08e69f4e346aea27);
+        
+    
+        var popup_66b993c16c5012b93116e1e4bfb1b3a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_632578f2eeb3fa1dfa789e84a5c0ff0a = $(`<div id="html_632578f2eeb3fa1dfa789e84a5c0ff0a" style="width: 100.0%; height: 100.0%;"><b>Tompkins Square Park</b><br>Distance: 0.43 miles</div>`)[0];
+                popup_66b993c16c5012b93116e1e4bfb1b3a5.setContent(html_632578f2eeb3fa1dfa789e84a5c0ff0a);
+            
+        
+
+        marker_048ef00d476014480b6e533bc34c99de.bindPopup(popup_66b993c16c5012b93116e1e4bfb1b3a5)
+        ;
+
+        
+    
+    
+            var poly_line_56ff9e8ffdd055b9b413b2d4ef15386e = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.726834, -73.981415]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_4e551724caf72cb899d493f910b20f70 = L.marker(
+                [40.718813, -73.993045],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7c4bf6e57de117917436b6620158018e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e551724caf72cb899d493f910b20f70.setIcon(icon_7c4bf6e57de117917436b6620158018e);
+        
+    
+        var popup_11b7c1298ced6f40d2c0a0cc1ecaa4cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_186630e5e8e1d36d55bba8007b4baff4 = $(`<div id="html_186630e5e8e1d36d55bba8007b4baff4" style="width: 100.0%; height: 100.0%;"><b>Sara D. Roosevelt Park</b><br>Distance: 0.40 miles</div>`)[0];
+                popup_11b7c1298ced6f40d2c0a0cc1ecaa4cc.setContent(html_186630e5e8e1d36d55bba8007b4baff4);
+            
+        
+
+        marker_4e551724caf72cb899d493f910b20f70.bindPopup(popup_11b7c1298ced6f40d2c0a0cc1ecaa4cc)
+        ;
+
+        
+    
+    
+            var poly_line_9e89dff4008c30aeb7547e5908805927 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.718813, -73.993045]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_57354146a4d3cd8001a4023ba6f9bed4 = L.marker(
+                [40.719788, -73.979425],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_732a903166d1f1b37220eb5395ea8639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57354146a4d3cd8001a4023ba6f9bed4.setIcon(icon_732a903166d1f1b37220eb5395ea8639);
+        
+    
+        var popup_dc42c96453477714ae4f7ba6ed6c2147 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18a42ed8acb67777f272f9838f180c91 = $(`<div id="html_18a42ed8acb67777f272f9838f180c91" style="width: 100.0%; height: 100.0%;"><b>Hamilton Fish Park Library, NYPL</b><br>Distance: 0.42 miles</div>`)[0];
+                popup_dc42c96453477714ae4f7ba6ed6c2147.setContent(html_18a42ed8acb67777f272f9838f180c91);
+            
+        
+
+        marker_57354146a4d3cd8001a4023ba6f9bed4.bindPopup(popup_dc42c96453477714ae4f7ba6ed6c2147)
+        ;
+
+        
+    
+    
+            var poly_line_d6c0255ee760a5c48ca230dc06abbcd9 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.719788, -73.979425]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_5b92aa8bcae8187ad09084a3bc9ddcd8 = L.marker(
+                [40.714723, -73.989061],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d19c33384a2e1e1c8574396853e21559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b92aa8bcae8187ad09084a3bc9ddcd8.setIcon(icon_d19c33384a2e1e1c8574396853e21559);
+        
+    
+        var popup_97ec47ca234b15f43175ca4a8177f125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08c38fa590f77f2ab77ea023e46661b0 = $(`<div id="html_08c38fa590f77f2ab77ea023e46661b0" style="width: 100.0%; height: 100.0%;"><b>Seward Park</b><br>Distance: 0.53 miles</div>`)[0];
+                popup_97ec47ca234b15f43175ca4a8177f125.setContent(html_08c38fa590f77f2ab77ea023e46661b0);
+            
+        
+
+        marker_5b92aa8bcae8187ad09084a3bc9ddcd8.bindPopup(popup_97ec47ca234b15f43175ca4a8177f125)
+        ;
+
+        
+    
+    
+            var poly_line_3a8ab3595b3e0d4b2d347e7eada628a3 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.714723, -73.989061]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_86a918f451dbe83b26f5710971d6083a = L.marker(
+                [40.714418, -73.988502],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_5c2d2cdcd59df85520c51177d57dce15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_86a918f451dbe83b26f5710971d6083a.setIcon(icon_5c2d2cdcd59df85520c51177d57dce15);
+        
+    
+        var popup_e589b7cbcf8df51513a04276ce8bc25a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ca018b886b3ad3e9e374502b21dd85a = $(`<div id="html_1ca018b886b3ad3e9e374502b21dd85a" style="width: 100.0%; height: 100.0%;"><b>Seward Park Library, NYPL</b><br>Distance: 0.55 miles</div>`)[0];
+                popup_e589b7cbcf8df51513a04276ce8bc25a.setContent(html_1ca018b886b3ad3e9e374502b21dd85a);
+            
+        
+
+        marker_86a918f451dbe83b26f5710971d6083a.bindPopup(popup_e589b7cbcf8df51513a04276ce8bc25a)
+        ;
+
+        
+    
+    
+            var poly_line_5571d17ffa6239ee7bd60b837c57d086 = L.polyline(
+                [[40.7222480443194, -73.9868305671045], [40.714418, -73.988502]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_83534d9dc5d7827478fedc4bc32e68b5 = L.marker(
+                [40.720224260608234, -74.00463335005966],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a5b9afd269ae886a7fd3f597379dc30b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83534d9dc5d7827478fedc4bc32e68b5.setIcon(icon_a5b9afd269ae886a7fd3f597379dc30b);
+        
+    
+        var popup_6aa56d55c4a0393c1e7aeec48ef30438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb53878c16d5190d4dc862865762ae3a = $(`<div id="html_eb53878c16d5190d4dc862865762ae3a" style="width: 100.0%; height: 100.0%;"><b>--h1-VZQEUbcAUCrJRslwQ</b></div>`)[0];
+                popup_6aa56d55c4a0393c1e7aeec48ef30438.setContent(html_eb53878c16d5190d4dc862865762ae3a);
+            
+        
+
+        marker_83534d9dc5d7827478fedc4bc32e68b5.bindPopup(popup_6aa56d55c4a0393c1e7aeec48ef30438)
+        ;
+
+        
+    
+    
+            var marker_2aaec5e77976d8b4fb57132ae5ff4952 = L.marker(
+                [40.725625, -74.002495],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8ddce39e93e033cb935df039b13d7927 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2aaec5e77976d8b4fb57132ae5ff4952.setIcon(icon_8ddce39e93e033cb935df039b13d7927);
+        
+    
+        var popup_dd4e88b77f26f0f9e17771ac4105773a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb86667702ff708340f6718de9ea443c = $(`<div id="html_bb86667702ff708340f6718de9ea443c" style="width: 100.0%; height: 100.0%;"><b>Vesuvio Playground</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_dd4e88b77f26f0f9e17771ac4105773a.setContent(html_bb86667702ff708340f6718de9ea443c);
+            
+        
+
+        marker_2aaec5e77976d8b4fb57132ae5ff4952.bindPopup(popup_dd4e88b77f26f0f9e17771ac4105773a)
+        ;
+
+        
+    
+    
+            var poly_line_482b92ad2882734d4b1380af99e077fc = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.725625, -74.002495]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7383f89a83c65cc0419d4f12e5430a90 = L.marker(
+                [40.714862, -74.000058],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_49ebe412f2720aae439d01518c1d241d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7383f89a83c65cc0419d4f12e5430a90.setIcon(icon_49ebe412f2720aae439d01518c1d241d);
+        
+    
+        var popup_3266170439c2199b6efb4e2f15dc26b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_000511d9cc7108c8d742bd58fa4fe57a = $(`<div id="html_000511d9cc7108c8d742bd58fa4fe57a" style="width: 100.0%; height: 100.0%;"><b>Columbus Park</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_3266170439c2199b6efb4e2f15dc26b3.setContent(html_000511d9cc7108c8d742bd58fa4fe57a);
+            
+        
+
+        marker_7383f89a83c65cc0419d4f12e5430a90.bindPopup(popup_3266170439c2199b6efb4e2f15dc26b3)
+        ;
+
+        
+    
+    
+            var poly_line_67c6c9a5cf979b88dbc41ec3f17ea3d3 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.714862, -74.000058]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_966828b95392e35e44e51000c577b324 = L.marker(
+                [40.714862, -74.000058],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_14167c39a8d560508f2935c794981780 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_966828b95392e35e44e51000c577b324.setIcon(icon_14167c39a8d560508f2935c794981780);
+        
+    
+        var popup_8759372b42a47a2e7e632c266c692170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2ce26f29d53eb918e7e31a6caf16fcf = $(`<div id="html_d2ce26f29d53eb918e7e31a6caf16fcf" style="width: 100.0%; height: 100.0%;"><b>Columbus Park</b><br>Distance: 0.44 miles</div>`)[0];
+                popup_8759372b42a47a2e7e632c266c692170.setContent(html_d2ce26f29d53eb918e7e31a6caf16fcf);
+            
+        
+
+        marker_966828b95392e35e44e51000c577b324.bindPopup(popup_8759372b42a47a2e7e632c266c692170)
+        ;
+
+        
+    
+    
+            var poly_line_97c6e67f6072eca93884de97a9e7f7c6 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.714862, -74.000058]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_e65d1a626d68a0251e795871eae3ca07 = L.marker(
+                [40.713585, -74.007871],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_ce85306a91157ac76f93396d2a8b066a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e65d1a626d68a0251e795871eae3ca07.setIcon(icon_ce85306a91157ac76f93396d2a8b066a);
+        
+    
+        var popup_e9c4889506e92cda684339cea5b54113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_122342f7893b5a0ef09047a09552cbfd = $(`<div id="html_122342f7893b5a0ef09047a09552cbfd" style="width: 100.0%; height: 100.0%;"><b>New Amsterdam Library, NYPL</b><br>Distance: 0.49 miles</div>`)[0];
+                popup_e9c4889506e92cda684339cea5b54113.setContent(html_122342f7893b5a0ef09047a09552cbfd);
+            
+        
+
+        marker_e65d1a626d68a0251e795871eae3ca07.bindPopup(popup_e9c4889506e92cda684339cea5b54113)
+        ;
+
+        
+    
+    
+            var poly_line_99a744e9a86e0863deedc2f9a98f2b48 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.713585, -74.007871]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_166c6d9f746ac8f22649035be3a3aa00 = L.marker(
+                [40.717488, -74.011506],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_74e659e8516cb2ac9a820f7e96925d92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_166c6d9f746ac8f22649035be3a3aa00.setIcon(icon_74e659e8516cb2ac9a820f7e96925d92);
+        
+    
+        var popup_cc89939827e78da4db6c217ff3f00c93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6e56d3b7c94977d390c30c444ac9e57 = $(`<div id="html_f6e56d3b7c94977d390c30c444ac9e57" style="width: 100.0%; height: 100.0%;"><b>Washington Market Park</b><br>Distance: 0.41 miles</div>`)[0];
+                popup_cc89939827e78da4db6c217ff3f00c93.setContent(html_f6e56d3b7c94977d390c30c444ac9e57);
+            
+        
+
+        marker_166c6d9f746ac8f22649035be3a3aa00.bindPopup(popup_cc89939827e78da4db6c217ff3f00c93)
+        ;
+
+        
+    
+    
+            var poly_line_a2a87d535a14c2aa592deac679a5f949 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.717488, -74.011506]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_5cb4812d4115c23d7762d76a667ced76 = L.marker(
+                [40.719928, -74.012697],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_fcd13dea4201f62d25037c23f544ba33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cb4812d4115c23d7762d76a667ced76.setIcon(icon_fcd13dea4201f62d25037c23f544ba33);
+        
+    
+        var popup_2dd8c126f8a90f5f2365c7312dd2fe09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2683786c2affb5dff126ef2fceb4e3c0 = $(`<div id="html_2683786c2affb5dff126ef2fceb4e3c0" style="width: 100.0%; height: 100.0%;"><b>Hudson River Park Pier 25</b><br>Distance: 0.42 miles</div>`)[0];
+                popup_2dd8c126f8a90f5f2365c7312dd2fe09.setContent(html_2683786c2affb5dff126ef2fceb4e3c0);
+            
+        
+
+        marker_5cb4812d4115c23d7762d76a667ced76.bindPopup(popup_2dd8c126f8a90f5f2365c7312dd2fe09)
+        ;
+
+        
+    
+    
+            var poly_line_d0abcb54b2d58332c5af89d885c45ceb = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.719928, -74.012697]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_9c8cdbf3c0af67594451f4c5d9e7cca8 = L.marker(
+                [40.724148, -73.995686],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_97bf7ccce910727a37eacb583ce6122b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c8cdbf3c0af67594451f4c5d9e7cca8.setIcon(icon_97bf7ccce910727a37eacb583ce6122b);
+        
+    
+        var popup_52c36b25e62ad95ef340749b1d5e8f9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_014cdbc2f66c322470fcd03febfbe1f4 = $(`<div id="html_014cdbc2f66c322470fcd03febfbe1f4" style="width: 100.0%; height: 100.0%;"><b>Mulberry Street Library, NYPL</b><br>Distance: 0.54 miles</div>`)[0];
+                popup_52c36b25e62ad95ef340749b1d5e8f9d.setContent(html_014cdbc2f66c322470fcd03febfbe1f4);
+            
+        
+
+        marker_9c8cdbf3c0af67594451f4c5d9e7cca8.bindPopup(popup_52c36b25e62ad95ef340749b1d5e8f9d)
+        ;
+
+        
+    
+    
+            var poly_line_51adbf9371bedde1697a678290c8cbe3 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.724148, -73.995686]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_c14344cfc6b344249936c307add5f0a2 = L.marker(
+                [40.729991, -74.005332],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_ab5a40a80747c3a70ce09a21346777f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c14344cfc6b344249936c307add5f0a2.setIcon(icon_ab5a40a80747c3a70ce09a21346777f5);
+        
+    
+        var popup_5271fef50989cb7bd97cae20629ddd69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5ae147f71681e5de344105fa2fb0f5b = $(`<div id="html_a5ae147f71681e5de344105fa2fb0f5b" style="width: 100.0%; height: 100.0%;"><b>Hudson Park Library, NYPL</b><br>Distance: 0.68 miles</div>`)[0];
+                popup_5271fef50989cb7bd97cae20629ddd69.setContent(html_a5ae147f71681e5de344105fa2fb0f5b);
+            
+        
+
+        marker_c14344cfc6b344249936c307add5f0a2.bindPopup(popup_5271fef50989cb7bd97cae20629ddd69)
+        ;
+
+        
+    
+    
+            var poly_line_11d19fcfeb23fa851f22d36ac834a1f1 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.729991, -74.005332]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_d51ae0307835708d211015cc359d5a3e = L.marker(
+                [40.730022, -74.002938],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_e921f36fd59068e908ff56cd32502810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d51ae0307835708d211015cc359d5a3e.setIcon(icon_e921f36fd59068e908ff56cd32502810);
+        
+    
+        var popup_ed4fdd49309a31034784f6f6e51b91bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d93db77ebb8034d8556d051d97f0e69 = $(`<div id="html_8d93db77ebb8034d8556d051d97f0e69" style="width: 100.0%; height: 100.0%;"><b>Downing Street Playground</b><br>Distance: 0.68 miles</div>`)[0];
+                popup_ed4fdd49309a31034784f6f6e51b91bc.setContent(html_8d93db77ebb8034d8556d051d97f0e69);
+            
+        
+
+        marker_d51ae0307835708d211015cc359d5a3e.bindPopup(popup_ed4fdd49309a31034784f6f6e51b91bc)
+        ;
+
+        
+    
+    
+            var poly_line_851ca2da6c23a92b9df7cc071b5721f1 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.730022, -74.002938]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_f515825873b5bff23e6c9b261a4daedb = L.marker(
+                [40.713341, -73.996491],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_bcf08dd40f420e65b3a812e5fd04e680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f515825873b5bff23e6c9b261a4daedb.setIcon(icon_bcf08dd40f420e65b3a812e5fd04e680);
+        
+    
+        var popup_52974615f4a36d28b7a9bdced5d3d57c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f92810b0a3238f3cd7bae12b73d1bf2 = $(`<div id="html_8f92810b0a3238f3cd7bae12b73d1bf2" style="width: 100.0%; height: 100.0%;"><b>Chatham Square Library, NYPL</b><br>Distance: 0.64 miles</div>`)[0];
+                popup_52974615f4a36d28b7a9bdced5d3d57c.setContent(html_8f92810b0a3238f3cd7bae12b73d1bf2);
+            
+        
+
+        marker_f515825873b5bff23e6c9b261a4daedb.bindPopup(popup_52974615f4a36d28b7a9bdced5d3d57c)
+        ;
+
+        
+    
+    
+            var poly_line_60e658d6b366ba18a621380de9c3a635 = L.polyline(
+                [[40.720224260608234, -74.00463335005966], [40.713341, -73.996491]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_bb4d916efc3d6dd9eb1e0bfdd790f962 = L.marker(
+                [40.75082, -73.99777],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7e2c5e6e1efae3a11f155dc0930359ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb4d916efc3d6dd9eb1e0bfdd790f962.setIcon(icon_7e2c5e6e1efae3a11f155dc0930359ef);
+        
+    
+        var popup_f503aadc7ceba26244d7d6980e659338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3110a2364b909644c504605c7d02ca3f = $(`<div id="html_3110a2364b909644c504605c7d02ca3f" style="width: 100.0%; height: 100.0%;"><b>4R7pdygAIy_-l1VQUK082A</b></div>`)[0];
+                popup_f503aadc7ceba26244d7d6980e659338.setContent(html_3110a2364b909644c504605c7d02ca3f);
+            
+        
+
+        marker_bb4d916efc3d6dd9eb1e0bfdd790f962.bindPopup(popup_f503aadc7ceba26244d7d6980e659338)
+        ;
+
+        
+    
+    
+            var marker_a68ec6039822414b10c7f19b8b5db403 = L.marker(
+                [40.752417, -73.99929],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6572ace2cb35c282c397d4357c9291dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a68ec6039822414b10c7f19b8b5db403.setIcon(icon_6572ace2cb35c282c397d4357c9291dc);
+        
+    
+        var popup_bcecf22e3913a51e8a66805fc5b51cce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe10188eed1410f17ebf39e363c17e1a = $(`<div id="html_fe10188eed1410f17ebf39e363c17e1a" style="width: 100.0%; height: 100.0%;"><b>Moynihan Connector</b><br>Distance: 0.14 miles</div>`)[0];
+                popup_bcecf22e3913a51e8a66805fc5b51cce.setContent(html_fe10188eed1410f17ebf39e363c17e1a);
+            
+        
+
+        marker_a68ec6039822414b10c7f19b8b5db403.bindPopup(popup_bcecf22e3913a51e8a66805fc5b51cce)
+        ;
+
+        
+    
+    
+            var poly_line_847e2b50dd24b91bb4be0e25e57c2b7a = L.polyline(
+                [[40.75082, -73.99777], [40.752417, -73.99929]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_177c69ed11c6f65cbf2aadadad6fcb8e = L.marker(
+                [40.749861, -74.000841],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d2e0f73f0b786b698217feb5b33fe048 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_177c69ed11c6f65cbf2aadadad6fcb8e.setIcon(icon_d2e0f73f0b786b698217feb5b33fe048);
+        
+    
+        var popup_683f15987573d243eb0b01a5dd31f3fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f595705c9396bce82be3d36a71e5225 = $(`<div id="html_2f595705c9396bce82be3d36a71e5225" style="width: 100.0%; height: 100.0%;"><b>Chelsea Park</b><br>Distance: 0.17 miles</div>`)[0];
+                popup_683f15987573d243eb0b01a5dd31f3fb.setContent(html_2f595705c9396bce82be3d36a71e5225);
+            
+        
+
+        marker_177c69ed11c6f65cbf2aadadad6fcb8e.bindPopup(popup_683f15987573d243eb0b01a5dd31f3fb)
+        ;
+
+        
+    
+    
+            var poly_line_a6c98b968894457fa37b011dd9c14dee = L.polyline(
+                [[40.75082, -73.99777], [40.749861, -74.000841]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_4c502f4d9661cf1a4ef1721f703518dc = L.marker(
+                [40.750588, -73.993581],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_94f300313889a4e43b8638c98b9bcaf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c502f4d9661cf1a4ef1721f703518dc.setIcon(icon_94f300313889a4e43b8638c98b9bcaf3);
+        
+    
+        var popup_7dd7ceeaa203438d4029cf7ed990c97f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96bb73359c45509f68aab21ee67b9b4f = $(`<div id="html_96bb73359c45509f68aab21ee67b9b4f" style="width: 100.0%; height: 100.0%;"><b>Penn Station LIRR Restroom</b><br>Distance: 0.22 miles</div>`)[0];
+                popup_7dd7ceeaa203438d4029cf7ed990c97f.setContent(html_96bb73359c45509f68aab21ee67b9b4f);
+            
+        
+
+        marker_4c502f4d9661cf1a4ef1721f703518dc.bindPopup(popup_7dd7ceeaa203438d4029cf7ed990c97f)
+        ;
+
+        
+    
+    
+            var poly_line_937836861a905344c6448aa12b0a20b6 = L.polyline(
+                [[40.75082, -73.99777], [40.750588, -73.993581]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_9cda796b3388870766642d8c26d6d49e = L.marker(
+                [40.752578, -74.002128],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_dadb6703acc57206eb6cac9334144650 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9cda796b3388870766642d8c26d6d49e.setIcon(icon_dadb6703acc57206eb6cac9334144650);
+        
+    
+        var popup_4f00f439caf677cac60d41976b311f6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c88d87078ffe728ca5c7d98d51a40a0f = $(`<div id="html_c88d87078ffe728ca5c7d98d51a40a0f" style="width: 100.0%; height: 100.0%;"><b>The High Line Zone 2</b><br>Distance: 0.26 miles</div>`)[0];
+                popup_4f00f439caf677cac60d41976b311f6d.setContent(html_c88d87078ffe728ca5c7d98d51a40a0f);
+            
+        
+
+        marker_9cda796b3388870766642d8c26d6d49e.bindPopup(popup_4f00f439caf677cac60d41976b311f6d)
+        ;
+
+        
+    
+    
+            var poly_line_f56311b11898dffc9aab92781f1e370e = L.polyline(
+                [[40.75082, -73.99777], [40.752578, -74.002128]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_62acdbf6fbc5cf211e85101fcb87a95c = L.marker(
+                [40.75632, -73.99974],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6b60d1faeb8b1695d226cf9208cf7b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62acdbf6fbc5cf211e85101fcb87a95c.setIcon(icon_6b60d1faeb8b1695d226cf9208cf7b5d);
+        
+    
+        var popup_cdb38d1665bc8de9bca49921bcfb7dab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fd936632567d1df2afd67d75d5ef956 = $(`<div id="html_5fd936632567d1df2afd67d75d5ef956" style="width: 100.0%; height: 100.0%;"><b>Bella Abzug Park</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_cdb38d1665bc8de9bca49921bcfb7dab.setContent(html_5fd936632567d1df2afd67d75d5ef956);
+            
+        
+
+        marker_62acdbf6fbc5cf211e85101fcb87a95c.bindPopup(popup_cdb38d1665bc8de9bca49921bcfb7dab)
+        ;
+
+        
+    
+    
+            var poly_line_05dfb868b4d88671244f7c2bb936499e = L.polyline(
+                [[40.75082, -73.99777], [40.75632, -73.99974]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_f7e33230dea80857a1edc9b8d7d01dad = L.marker(
+                [40.744496, -73.99597],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_34108207367a14e16ac765c16364273f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f7e33230dea80857a1edc9b8d7d01dad.setIcon(icon_34108207367a14e16ac765c16364273f);
+        
+    
+        var popup_5a2fe1dc69d94a9f26d9b5b4e19bffe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a8a9670d0c474d0c39b085f8e2e7f9a = $(`<div id="html_0a8a9670d0c474d0c39b085f8e2e7f9a" style="width: 100.0%; height: 100.0%;"><b>Muhlenberg Library, NYPL</b><br>Distance: 0.45 miles</div>`)[0];
+                popup_5a2fe1dc69d94a9f26d9b5b4e19bffe6.setContent(html_0a8a9670d0c474d0c39b085f8e2e7f9a);
+            
+        
+
+        marker_f7e33230dea80857a1edc9b8d7d01dad.bindPopup(popup_5a2fe1dc69d94a9f26d9b5b4e19bffe6)
+        ;
+
+        
+    
+    
+            var poly_line_7d2ba0c9d1346bd6280f0c4c32e8bdc4 = L.polyline(
+                [[40.75082, -73.99777], [40.744496, -73.99597]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_314f30789dcefa4100005369226fd0b6 = L.marker(
+                [40.748533, -73.98846],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_aff3fd9a257c03ae07ab266d166a340a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_314f30789dcefa4100005369226fd0b6.setIcon(icon_aff3fd9a257c03ae07ab266d166a340a);
+        
+    
+        var popup_b6b6951c8160683f0f7c36b99dd20c24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52025325f815c2be62987c8f6ac63540 = $(`<div id="html_52025325f815c2be62987c8f6ac63540" style="width: 100.0%; height: 100.0%;"><b>Greeley Square Park</b><br>Distance: 0.51 miles</div>`)[0];
+                popup_b6b6951c8160683f0f7c36b99dd20c24.setContent(html_52025325f815c2be62987c8f6ac63540);
+            
+        
+
+        marker_314f30789dcefa4100005369226fd0b6.bindPopup(popup_b6b6951c8160683f0f7c36b99dd20c24)
+        ;
+
+        
+    
+    
+            var poly_line_aa0dc4a498361eecd9f9283e5f3e1931 = L.polyline(
+                [[40.75082, -73.99777], [40.748533, -73.98846]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_d7f7ed2ba7cf8f042dfd00bbdd953386 = L.marker(
+                [40.74936, -74.007768],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d3801e67f3e14777ec81dbf14530b7b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7f7ed2ba7cf8f042dfd00bbdd953386.setIcon(icon_d3801e67f3e14777ec81dbf14530b7b3);
+        
+    
+        var popup_82f5266227c6f2e08380c5154533c8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f154307c8cce46517b61fd138b3aabf = $(`<div id="html_5f154307c8cce46517b61fd138b3aabf" style="width: 100.0%; height: 100.0%;"><b>Chelsea Waterside Park</b><br>Distance: 0.53 miles</div>`)[0];
+                popup_82f5266227c6f2e08380c5154533c8c4.setContent(html_5f154307c8cce46517b61fd138b3aabf);
+            
+        
+
+        marker_d7f7ed2ba7cf8f042dfd00bbdd953386.bindPopup(popup_82f5266227c6f2e08380c5154533c8c4)
+        ;
+
+        
+    
+    
+            var poly_line_463e2cff6031cc7a181d7a0018dece6b = L.polyline(
+                [[40.75082, -73.99777], [40.74936, -74.007768]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a539e820feb9f8a3e1df02e6b8eb061e = L.marker(
+                [40.750455, -73.987505],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d7536695eb002a0b2f71f44d521bccfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a539e820feb9f8a3e1df02e6b8eb061e.setIcon(icon_d7536695eb002a0b2f71f44d521bccfa);
+        
+    
+        var popup_6f530c263b7ca92e47e62e2e2963cb69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72a0c71bcef59dacf5cab1ca899391f6 = $(`<div id="html_72a0c71bcef59dacf5cab1ca899391f6" style="width: 100.0%; height: 100.0%;"><b>Herald Square</b><br>Distance: 0.54 miles</div>`)[0];
+                popup_6f530c263b7ca92e47e62e2e2963cb69.setContent(html_72a0c71bcef59dacf5cab1ca899391f6);
+            
+        
+
+        marker_a539e820feb9f8a3e1df02e6b8eb061e.bindPopup(popup_6f530c263b7ca92e47e62e2e2963cb69)
+        ;
+
+        
+    
+    
+            var poly_line_9a93fac51aa1a8713abfe4e0537d0eca = L.polyline(
+                [[40.75082, -73.99777], [40.750455, -73.987505]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_11979f61258af5970bee0f7f2d2f4599 = L.marker(
+                [40.759159, -73.99139],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_dc5c56453818cde6b2761e718352914d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11979f61258af5970bee0f7f2d2f4599.setIcon(icon_dc5c56453818cde6b2761e718352914d);
+        
+    
+        var popup_19283817635b40fe61792f3b832097b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59790ef63efe058cb1dcf450caa37c9e = $(`<div id="html_59790ef63efe058cb1dcf450caa37c9e" style="width: 100.0%; height: 100.0%;"><b>McCaffrey Playground</b><br>Distance: 0.67 miles</div>`)[0];
+                popup_19283817635b40fe61792f3b832097b8.setContent(html_59790ef63efe058cb1dcf450caa37c9e);
+            
+        
+
+        marker_11979f61258af5970bee0f7f2d2f4599.bindPopup(popup_19283817635b40fe61792f3b832097b8)
+        ;
+
+        
+    
+    
+            var poly_line_9fd893b1086210af433548d6ac5b5d0e = L.polyline(
+                [[40.75082, -73.99777], [40.759159, -73.99139]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_c6c0b9ecec899fb779ef42a473e16c12 = L.marker(
+                [40.8174414, -73.9344651],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8966dc1c4e5543eeba208e2eadece3ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6c0b9ecec899fb779ef42a473e16c12.setIcon(icon_8966dc1c4e5543eeba208e2eadece3ef);
+        
+    
+        var popup_daa5e0c3b7f89de2ccd7f84b87c0457a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_694bef58662103d4e64a508730bef658 = $(`<div id="html_694bef58662103d4e64a508730bef658" style="width: 100.0%; height: 100.0%;"><b>V0sRhLFR4jMuIpn1y6-tHw</b></div>`)[0];
+                popup_daa5e0c3b7f89de2ccd7f84b87c0457a.setContent(html_694bef58662103d4e64a508730bef658);
+            
+        
+
+        marker_c6c0b9ecec899fb779ef42a473e16c12.bindPopup(popup_daa5e0c3b7f89de2ccd7f84b87c0457a)
+        ;
+
+        
+    
+    
+            var marker_e3565d79cff55c17d1a23cb5da340341 = L.marker(
+                [40.819611, -73.936222],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_908ad73b1a17e34c9e3b736ab15e19d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3565d79cff55c17d1a23cb5da340341.setIcon(icon_908ad73b1a17e34c9e3b736ab15e19d7);
+        
+    
+        var popup_d59f04802db22c539fba23ca5a7b94be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c767674a89b6b0f85827eacbe3f58da = $(`<div id="html_2c767674a89b6b0f85827eacbe3f58da" style="width: 100.0%; height: 100.0%;"><b>Brigadier General Charles Young Playground</b><br>Distance: 0.18 miles</div>`)[0];
+                popup_d59f04802db22c539fba23ca5a7b94be.setContent(html_2c767674a89b6b0f85827eacbe3f58da);
+            
+        
+
+        marker_e3565d79cff55c17d1a23cb5da340341.bindPopup(popup_d59f04802db22c539fba23ca5a7b94be)
+        ;
+
+        
+    
+    
+            var poly_line_4d9acbc461538e0811deb0df0b92f672 = L.polyline(
+                [[40.8174414, -73.9344651], [40.819611, -73.936222]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_98de1515c3b7c764d0e2f84219b73f28 = L.marker(
+                [40.817353, -73.939034],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_1d7d1984dbc05dbf7fe3ae8d59d40507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98de1515c3b7c764d0e2f84219b73f28.setIcon(icon_1d7d1984dbc05dbf7fe3ae8d59d40507);
+        
+    
+        var popup_3c449dd31d4508fe3b9e7b3ee85940db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_722ef3182a7fa0e53f5150a6c5b9fee0 = $(`<div id="html_722ef3182a7fa0e53f5150a6c5b9fee0" style="width: 100.0%; height: 100.0%;"><b>Fred Samuel Playground</b><br>Distance: 0.24 miles</div>`)[0];
+                popup_3c449dd31d4508fe3b9e7b3ee85940db.setContent(html_722ef3182a7fa0e53f5150a6c5b9fee0);
+            
+        
+
+        marker_98de1515c3b7c764d0e2f84219b73f28.bindPopup(popup_3c449dd31d4508fe3b9e7b3ee85940db)
+        ;
+
+        
+    
+    
+            var poly_line_ae9088b443acdb20f41659b429464c3a = L.polyline(
+                [[40.8174414, -73.9344651], [40.817353, -73.939034]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7aa5781947a4c68ae6330b6921dbcbc0 = L.marker(
+                [40.812282, -73.937099],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_0e3278fc7aa418180f33487b482aa684 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7aa5781947a4c68ae6330b6921dbcbc0.setIcon(icon_0e3278fc7aa418180f33487b482aa684);
+        
+    
+        var popup_a81a54854b9203b71e99f0e881646049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5eb9deff5a4f9eb1fd9ee773bd21e05 = $(`<div id="html_f5eb9deff5a4f9eb1fd9ee773bd21e05" style="width: 100.0%; height: 100.0%;"><b>Abraham Lincoln Playground</b><br>Distance: 0.38 miles</div>`)[0];
+                popup_a81a54854b9203b71e99f0e881646049.setContent(html_f5eb9deff5a4f9eb1fd9ee773bd21e05);
+            
+        
+
+        marker_7aa5781947a4c68ae6330b6921dbcbc0.bindPopup(popup_a81a54854b9203b71e99f0e881646049)
+        ;
+
+        
+    
+    
+            var poly_line_2aed20bf55ae70a29ad36b9b914d68e3 = L.polyline(
+                [[40.8174414, -73.9344651], [40.812282, -73.937099]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_d89467ff491d4cb1dfd9cb5c58961460 = L.marker(
+                [40.813698, -73.938957],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_c401e91c92d58738e781a564f93cdaad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d89467ff491d4cb1dfd9cb5c58961460.setIcon(icon_c401e91c92d58738e781a564f93cdaad);
+        
+    
+        var popup_3278e32ea8a3663fed7b0e45031ca4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2c3f5559f32192f903d9d8371c6a50a = $(`<div id="html_f2c3f5559f32192f903d9d8371c6a50a" style="width: 100.0%; height: 100.0%;"><b>Howard Bennett Playground</b><br>Distance: 0.35 miles</div>`)[0];
+                popup_3278e32ea8a3663fed7b0e45031ca4b8.setContent(html_f2c3f5559f32192f903d9d8371c6a50a);
+            
+        
+
+        marker_d89467ff491d4cb1dfd9cb5c58961460.bindPopup(popup_3278e32ea8a3663fed7b0e45031ca4b8)
+        ;
+
+        
+    
+    
+            var poly_line_5529f30c40986c6c35142fd513d7fef7 = L.polyline(
+                [[40.8174414, -73.9344651], [40.813698, -73.938957]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7587b66f5228988d8dfd3fe307a2034c = L.marker(
+                [40.817275, -73.928439],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d724010bae3baff8a38dc32987c97674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7587b66f5228988d8dfd3fe307a2034c.setIcon(icon_d724010bae3baff8a38dc32987c97674);
+        
+    
+        var popup_32ec0d41050349418e5833d6c3978073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb5066fed8ebba9113d5dcc40abe0a93 = $(`<div id="html_fb5066fed8ebba9113d5dcc40abe0a93" style="width: 100.0%; height: 100.0%;"><b>Evelina Antonetty Playground</b><br>Distance: 0.32 miles</div>`)[0];
+                popup_32ec0d41050349418e5833d6c3978073.setContent(html_fb5066fed8ebba9113d5dcc40abe0a93);
+            
+        
+
+        marker_7587b66f5228988d8dfd3fe307a2034c.bindPopup(popup_32ec0d41050349418e5833d6c3978073)
+        ;
+
+        
+    
+    
+            var poly_line_c642095a735761196470c1675ba13020 = L.polyline(
+                [[40.8174414, -73.9344651], [40.817275, -73.928439]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_e397411de5010912dbc360f1ade4bb7f = L.marker(
+                [40.814657, -73.940945],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_deb7c5817eff9b7994df517370c04739 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e397411de5010912dbc360f1ade4bb7f.setIcon(icon_deb7c5817eff9b7994df517370c04739);
+        
+    
+        var popup_093d5077c9e5a8959cba572b44886ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aa00de719792a84895b152a5f2de4d0 = $(`<div id="html_7aa00de719792a84895b152a5f2de4d0" style="width: 100.0%; height: 100.0%;"><b>Schomburg Center for Research in Black Culture, NYPL</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_093d5077c9e5a8959cba572b44886ae6.setContent(html_7aa00de719792a84895b152a5f2de4d0);
+            
+        
+
+        marker_e397411de5010912dbc360f1ade4bb7f.bindPopup(popup_093d5077c9e5a8959cba572b44886ae6)
+        ;
+
+        
+    
+    
+            var poly_line_42f59035c94d8f0d6eb16cdb88fde06a = L.polyline(
+                [[40.8174414, -73.9344651], [40.814657, -73.940945]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_ca86c1f8cb6ced9be3f55c7b9dd29910 = L.marker(
+                [40.814844, -73.941162],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_ea0ca967b71752bade9c856f1e2b9a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca86c1f8cb6ced9be3f55c7b9dd29910.setIcon(icon_ea0ca967b71752bade9c856f1e2b9a06);
+        
+    
+        var popup_a419f5fd4bf4953ff491dc4289b91075 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e5080a3a9a5e0902589d16917f18bb6 = $(`<div id="html_8e5080a3a9a5e0902589d16917f18bb6" style="width: 100.0%; height: 100.0%;"><b>Countee Cullen Library, NYPL</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_a419f5fd4bf4953ff491dc4289b91075.setContent(html_8e5080a3a9a5e0902589d16917f18bb6);
+            
+        
+
+        marker_ca86c1f8cb6ced9be3f55c7b9dd29910.bindPopup(popup_a419f5fd4bf4953ff491dc4289b91075)
+        ;
+
+        
+    
+    
+            var poly_line_5df921d1093fc863e91746aafb464110 = L.polyline(
+                [[40.8174414, -73.9344651], [40.814844, -73.941162]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_ae171a756863c87d02c5926b215c472d = L.marker(
+                [40.824672, -73.934799],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7b14ef650a42ce6ba2885fb91a8cf801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae171a756863c87d02c5926b215c472d.setIcon(icon_7b14ef650a42ce6ba2885fb91a8cf801);
+        
+    
+        var popup_d7bc10fc634aa21282877ebf51f6d560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c87e908445f8cf0f5633fe2d2a2ecb88 = $(`<div id="html_c87e908445f8cf0f5633fe2d2a2ecb88" style="width: 100.0%; height: 100.0%;"><b>Frederick Johnson Playground</b><br>Distance: 0.50 miles</div>`)[0];
+                popup_d7bc10fc634aa21282877ebf51f6d560.setContent(html_c87e908445f8cf0f5633fe2d2a2ecb88);
+            
+        
+
+        marker_ae171a756863c87d02c5926b215c472d.bindPopup(popup_d7bc10fc634aa21282877ebf51f6d560)
+        ;
+
+        
+    
+    
+            var poly_line_217ee9c645a28260dfb5cb2bc604383f = L.polyline(
+                [[40.8174414, -73.9344651], [40.824672, -73.934799]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a783ce2730ea5656ab7cb64debae83df = L.marker(
+                [40.824175, -73.931564],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_f3a4fc5a39fb5b46fb4b334b2002d08e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a783ce2730ea5656ab7cb64debae83df.setIcon(icon_f3a4fc5a39fb5b46fb4b334b2002d08e);
+        
+    
+        var popup_cac5cc450b6a40e4257e4756108444f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8beb8c8874910203c0332f34b39f556 = $(`<div id="html_e8beb8c8874910203c0332f34b39f556" style="width: 100.0%; height: 100.0%;"><b>Mill Pond Indoor Tennis</b><br>Distance: 0.49 miles</div>`)[0];
+                popup_cac5cc450b6a40e4257e4756108444f5.setContent(html_e8beb8c8874910203c0332f34b39f556);
+            
+        
+
+        marker_a783ce2730ea5656ab7cb64debae83df.bindPopup(popup_cac5cc450b6a40e4257e4756108444f5)
+        ;
+
+        
+    
+    
+            var poly_line_5f35e9f09c004d7c23e4800810acc742 = L.polyline(
+                [[40.8174414, -73.9344651], [40.824175, -73.931564]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a626cf2ae13f1f9f2faa6fdfffc52704 = L.marker(
+                [40.824452, -73.931499],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_3b2bb3fe31b843b4aaa1cad5104c0d4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a626cf2ae13f1f9f2faa6fdfffc52704.setIcon(icon_3b2bb3fe31b843b4aaa1cad5104c0d4c);
+        
+    
+        var popup_2863f6a0b1292b9d7338f3200a2e20d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b83df0cf8b572041cb494126fd57f0e = $(`<div id="html_7b83df0cf8b572041cb494126fd57f0e" style="width: 100.0%; height: 100.0%;"><b>Mill Pond Park</b><br>Distance: 0.51 miles</div>`)[0];
+                popup_2863f6a0b1292b9d7338f3200a2e20d3.setContent(html_7b83df0cf8b572041cb494126fd57f0e);
+            
+        
+
+        marker_a626cf2ae13f1f9f2faa6fdfffc52704.bindPopup(popup_2863f6a0b1292b9d7338f3200a2e20d3)
+        ;
+
+        
+    
+    
+            var poly_line_e336a953564012a676d48d2ff8ef56cb = L.polyline(
+                [[40.8174414, -73.9344651], [40.824452, -73.931499]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_ca8f258db99f199c85fcfc717f2d7aa2 = L.marker(
+                [40.74593, -74.006356],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_441cd9a7f459cd8f2cc5865de654967c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca8f258db99f199c85fcfc717f2d7aa2.setIcon(icon_441cd9a7f459cd8f2cc5865de654967c);
+        
+    
+        var popup_d909d67b730d86b4f7db1a1c680004aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_238550819b9ed071055f8018acaa8a41 = $(`<div id="html_238550819b9ed071055f8018acaa8a41" style="width: 100.0%; height: 100.0%;"><b>T2BB2xpNwpTaTy57KtNn0Q</b></div>`)[0];
+                popup_d909d67b730d86b4f7db1a1c680004aa.setContent(html_238550819b9ed071055f8018acaa8a41);
+            
+        
+
+        marker_ca8f258db99f199c85fcfc717f2d7aa2.bindPopup(popup_d909d67b730d86b4f7db1a1c680004aa)
+        ;
+
+        
+    
+    
+            var marker_736625799548e4cdac1f11982b123ab6 = L.marker(
+                [40.743643, -74.006873],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8faa0162496d9c1d1c065c7e2613df7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_736625799548e4cdac1f11982b123ab6.setIcon(icon_8faa0162496d9c1d1c065c7e2613df7d);
+        
+    
+        var popup_2c1423dcf6b9e514614db80bea30af0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a1c1e4c96188f210d90b4ab6e2c380f = $(`<div id="html_0a1c1e4c96188f210d90b4ab6e2c380f" style="width: 100.0%; height: 100.0%;"><b>The High Line Zone 1</b><br>Distance: 0.16 miles</div>`)[0];
+                popup_2c1423dcf6b9e514614db80bea30af0a.setContent(html_0a1c1e4c96188f210d90b4ab6e2c380f);
+            
+        
+
+        marker_736625799548e4cdac1f11982b123ab6.bindPopup(popup_2c1423dcf6b9e514614db80bea30af0a)
+        ;
+
+        
+    
+    
+            var poly_line_4228fd2f544ba9f270e2953dc4c67721 = L.polyline(
+                [[40.74593, -74.006356], [40.743643, -74.006873]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a570379eccea1751f1840b0e41a42fed = L.marker(
+                [40.748592, -74.008764],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_9d903f350dd296d1da7e1b136842f00a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a570379eccea1751f1840b0e41a42fed.setIcon(icon_9d903f350dd296d1da7e1b136842f00a);
+        
+    
+        var popup_c2a354c5fc684be7e1d3fedf9f4eedb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c91f81edd7de70d5b18e250123657243 = $(`<div id="html_c91f81edd7de70d5b18e250123657243" style="width: 100.0%; height: 100.0%;"><b>Chelsea Piers at Pier 61</b><br>Distance: 0.22 miles</div>`)[0];
+                popup_c2a354c5fc684be7e1d3fedf9f4eedb6.setContent(html_c91f81edd7de70d5b18e250123657243);
+            
+        
+
+        marker_a570379eccea1751f1840b0e41a42fed.bindPopup(popup_c2a354c5fc684be7e1d3fedf9f4eedb6)
+        ;
+
+        
+    
+    
+            var poly_line_af53c04eef48c4beff35f70fe5cde051 = L.polyline(
+                [[40.74593, -74.006356], [40.748592, -74.008764]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_08cca689e8f3b6ae4b7939c5ea39fa31 = L.marker(
+                [40.74936, -74.007768],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_59eb14b5e085b5fa00c7cfdfe6941c77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08cca689e8f3b6ae4b7939c5ea39fa31.setIcon(icon_59eb14b5e085b5fa00c7cfdfe6941c77);
+        
+    
+        var popup_c3334ad8888673ab2db3e5cd4262042d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c576e2097fb95597b5751be21ac33924 = $(`<div id="html_c576e2097fb95597b5751be21ac33924" style="width: 100.0%; height: 100.0%;"><b>Chelsea Waterside Park</b><br>Distance: 0.25 miles</div>`)[0];
+                popup_c3334ad8888673ab2db3e5cd4262042d.setContent(html_c576e2097fb95597b5751be21ac33924);
+            
+        
+
+        marker_08cca689e8f3b6ae4b7939c5ea39fa31.bindPopup(popup_c3334ad8888673ab2db3e5cd4262042d)
+        ;
+
+        
+    
+    
+            var poly_line_63cc74c82f1ff960aa3704e68f7b6896 = L.polyline(
+                [[40.74593, -74.006356], [40.74936, -74.007768]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_98ae079987880fd84b5397b5f772e9ff = L.marker(
+                [40.74354, -74.010294],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_553a62b081661a72232b816b5a6c1679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98ae079987880fd84b5397b5f772e9ff.setIcon(icon_553a62b081661a72232b816b5a6c1679);
+        
+    
+        var popup_99459b3aa058fdc77746ad9b13ef28de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdc60499ab379056e0dcce6d5188e1a2 = $(`<div id="html_cdc60499ab379056e0dcce6d5188e1a2" style="width: 100.0%; height: 100.0%;"><b>Pier 57 - Ground Floor, Rooftop</b><br>Distance: 0.26 miles</div>`)[0];
+                popup_99459b3aa058fdc77746ad9b13ef28de.setContent(html_cdc60499ab379056e0dcce6d5188e1a2);
+            
+        
+
+        marker_98ae079987880fd84b5397b5f772e9ff.bindPopup(popup_99459b3aa058fdc77746ad9b13ef28de)
+        ;
+
+        
+    
+    
+            var poly_line_ec9c0d2bea3696597c921607c8ee8de6 = L.polyline(
+                [[40.74593, -74.006356], [40.74354, -74.010294]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_6fb9aedfc487bb67ddc8c00fecf532d7 = L.marker(
+                [40.741724, -74.010743],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a4159bc06d215e85832a9fa9c0ccb612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6fb9aedfc487bb67ddc8c00fecf532d7.setIcon(icon_a4159bc06d215e85832a9fa9c0ccb612);
+        
+    
+        var popup_5fc1b035d8d5a204fefabda825b921aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89b02987154d7dd5e318b849ffc8a186 = $(`<div id="html_89b02987154d7dd5e318b849ffc8a186" style="width: 100.0%; height: 100.0%;"><b>Little Island</b><br>Distance: 0.37 miles</div>`)[0];
+                popup_5fc1b035d8d5a204fefabda825b921aa.setContent(html_89b02987154d7dd5e318b849ffc8a186);
+            
+        
+
+        marker_6fb9aedfc487bb67ddc8c00fecf532d7.bindPopup(popup_5fc1b035d8d5a204fefabda825b921aa)
+        ;
+
+        
+    
+    
+            var poly_line_c428d936caded7d3240c9230ae535d6e = L.polyline(
+                [[40.74593, -74.006356], [40.741724, -74.010743]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_fc4c86b41d8cc664932426b36e071f69 = L.marker(
+                [40.743643, -74.006873],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_76b5081c1184098029d3f49c4eb5a82c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc4c86b41d8cc664932426b36e071f69.setIcon(icon_76b5081c1184098029d3f49c4eb5a82c);
+        
+    
+        var popup_2a16a0039a454ea1927bda84e85d7381 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f62cbeb3b1df80e7803efa633d68965 = $(`<div id="html_4f62cbeb3b1df80e7803efa633d68965" style="width: 100.0%; height: 100.0%;"><b>The High Line Zone 1</b><br>Distance: 0.46 miles</div>`)[0];
+                popup_2a16a0039a454ea1927bda84e85d7381.setContent(html_4f62cbeb3b1df80e7803efa633d68965);
+            
+        
+
+        marker_fc4c86b41d8cc664932426b36e071f69.bindPopup(popup_2a16a0039a454ea1927bda84e85d7381)
+        ;
+
+        
+    
+    
+            var poly_line_3c25c67131df9165fbc2ca98c33e9bb4 = L.polyline(
+                [[40.74593, -74.006356], [40.743643, -74.006873]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_28b1329e8d96cdd4fefc70483d2e00ff = L.marker(
+                [40.749861, -74.000841],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a2198a9a840f47eb21fcef82b6e89430 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28b1329e8d96cdd4fefc70483d2e00ff.setIcon(icon_a2198a9a840f47eb21fcef82b6e89430);
+        
+    
+        var popup_bf7b30c7a52e11e62ecb1d15171aa4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_448fee51ba47faad5d5387911511b0ed = $(`<div id="html_448fee51ba47faad5d5387911511b0ed" style="width: 100.0%; height: 100.0%;"><b>Chelsea Park</b><br>Distance: 0.40 miles</div>`)[0];
+                popup_bf7b30c7a52e11e62ecb1d15171aa4c7.setContent(html_448fee51ba47faad5d5387911511b0ed);
+            
+        
+
+        marker_28b1329e8d96cdd4fefc70483d2e00ff.bindPopup(popup_bf7b30c7a52e11e62ecb1d15171aa4c7)
+        ;
+
+        
+    
+    
+            var poly_line_1dd02859b3c197a82f066b4418396989 = L.polyline(
+                [[40.74593, -74.006356], [40.749861, -74.000841]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7a06dbf3cae438ad31d8bb7914fe019d = L.marker(
+                [40.738938, -74.004667],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_5d86bc6df416b1a9a09b21516342b69f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a06dbf3cae438ad31d8bb7914fe019d.setIcon(icon_5d86bc6df416b1a9a09b21516342b69f);
+        
+    
+        var popup_4a08fac69d1289b4e27f7e548a7b3352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9930dd36e9c3c46d54965b6075f4fd1f = $(`<div id="html_9930dd36e9c3c46d54965b6075f4fd1f" style="width: 100.0%; height: 100.0%;"><b>Corporal John A. Seravalli Playground</b><br>Distance: 0.49 miles</div>`)[0];
+                popup_4a08fac69d1289b4e27f7e548a7b3352.setContent(html_9930dd36e9c3c46d54965b6075f4fd1f);
+            
+        
+
+        marker_7a06dbf3cae438ad31d8bb7914fe019d.bindPopup(popup_4a08fac69d1289b4e27f7e548a7b3352)
+        ;
+
+        
+    
+    
+            var poly_line_808cd1b639226e580d570aa3ecd1f98d = L.polyline(
+                [[40.74593, -74.006356], [40.738938, -74.004667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_ca9645f7137db45ff1fd51b3acf5d4d6 = L.marker(
+                [40.752578, -74.002128],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_d89dd1e5cb58c602d98ddc96e3886cf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca9645f7137db45ff1fd51b3acf5d4d6.setIcon(icon_d89dd1e5cb58c602d98ddc96e3886cf2);
+        
+    
+        var popup_2d33bc8ca737c91aa82e951c26ec5e05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4e1ea9c75d9faa277d8fc0e2b81e4c = $(`<div id="html_5a4e1ea9c75d9faa277d8fc0e2b81e4c" style="width: 100.0%; height: 100.0%;"><b>The High Line Zone 2</b><br>Distance: 0.51 miles</div>`)[0];
+                popup_2d33bc8ca737c91aa82e951c26ec5e05.setContent(html_5a4e1ea9c75d9faa277d8fc0e2b81e4c);
+            
+        
+
+        marker_ca9645f7137db45ff1fd51b3acf5d4d6.bindPopup(popup_2d33bc8ca737c91aa82e951c26ec5e05)
+        ;
+
+        
+    
+    
+            var poly_line_f46e0319d9f562d0b7a70d85fc132c36 = L.polyline(
+                [[40.74593, -74.006356], [40.752578, -74.002128]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7f76181a1c1a5a6671ef949383734ef5 = L.marker(
+                [40.737997, -74.010384],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_5700ca9546bb9717a8631f682060e75a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f76181a1c1a5a6671ef949383734ef5.setIcon(icon_5700ca9546bb9717a8631f682060e75a);
+        
+    
+        var popup_0ff8cfc395da75e04b444564dcb235f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4286f63c77689623fb7ce58a96c48a1c = $(`<div id="html_4286f63c77689623fb7ce58a96c48a1c" style="width: 100.0%; height: 100.0%;"><b>Hudson River Park Pier 51</b><br>Distance: 0.59 miles</div>`)[0];
+                popup_0ff8cfc395da75e04b444564dcb235f8.setContent(html_4286f63c77689623fb7ce58a96c48a1c);
+            
+        
+
+        marker_7f76181a1c1a5a6671ef949383734ef5.bindPopup(popup_0ff8cfc395da75e04b444564dcb235f8)
+        ;
+
+        
+    
+    
+            var poly_line_5c84b5cf517c2596d6ff46084d6293db = L.polyline(
+                [[40.74593, -74.006356], [40.737997, -74.010384]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_5b5e2bfc19547c490e50c6a153af591b = L.marker(
+                [40.758413, -73.983292],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a6dd9dec1b4e679958dab40cb5f6a530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b5e2bfc19547c490e50c6a153af591b.setIcon(icon_a6dd9dec1b4e679958dab40cb5f6a530);
+        
+    
+        var popup_903df79f829bbbdea753567c46936e45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a57521f43d2a952ccf08cba40f2c7ea2 = $(`<div id="html_a57521f43d2a952ccf08cba40f2c7ea2" style="width: 100.0%; height: 100.0%;"><b>Mhu-5t9bi1V0tUgf-LgE3g</b></div>`)[0];
+                popup_903df79f829bbbdea753567c46936e45.setContent(html_a57521f43d2a952ccf08cba40f2c7ea2);
+            
+        
+
+        marker_5b5e2bfc19547c490e50c6a153af591b.bindPopup(popup_903df79f829bbbdea753567c46936e45)
+        ;
+
+        
+    
+    
+            var marker_1e81d2bc5bd007b693ef96623be7e620 = L.marker(
+                [40.754039, -73.982655],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_eb2705f81ad8d2c6bfe4f2248204a6c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e81d2bc5bd007b693ef96623be7e620.setIcon(icon_eb2705f81ad8d2c6bfe4f2248204a6c0);
+        
+    
+        var popup_d4ff024ebcec7ca9e10c5ce70713f144 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b91e8bbe7da92dc2a427449633a1d7c4 = $(`<div id="html_b91e8bbe7da92dc2a427449633a1d7c4" style="width: 100.0%; height: 100.0%;"><b>Bryant Park</b><br>Distance: 0.30 miles</div>`)[0];
+                popup_d4ff024ebcec7ca9e10c5ce70713f144.setContent(html_b91e8bbe7da92dc2a427449633a1d7c4);
+            
+        
+
+        marker_1e81d2bc5bd007b693ef96623be7e620.bindPopup(popup_d4ff024ebcec7ca9e10c5ce70713f144)
+        ;
+
+        
+    
+    
+            var poly_line_e6784c14086331b1931ea3eb75707309 = L.polyline(
+                [[40.758413, -73.983292], [40.754039, -73.982655]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_f0fceef75b45801f0ec1ad321afde00f = L.marker(
+                [40.762238, -73.986944],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_69135b8b414ea1f335567642de54febc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f0fceef75b45801f0ec1ad321afde00f.setIcon(icon_69135b8b414ea1f335567642de54febc);
+        
+    
+        var popup_e4bbd3b50a37d52b9a5743f9beb3a33c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e065ac7edd579568c9dfdfe3f03e57 = $(`<div id="html_34e065ac7edd579568c9dfdfe3f03e57" style="width: 100.0%; height: 100.0%;"><b>825 Eighth Avenue POPS</b><br>Distance: 0.33 miles</div>`)[0];
+                popup_e4bbd3b50a37d52b9a5743f9beb3a33c.setContent(html_34e065ac7edd579568c9dfdfe3f03e57);
+            
+        
+
+        marker_f0fceef75b45801f0ec1ad321afde00f.bindPopup(popup_e4bbd3b50a37d52b9a5743f9beb3a33c)
+        ;
+
+        
+    
+    
+            var poly_line_c86801a0215d8814b1cd279adc37cbd9 = L.polyline(
+                [[40.758413, -73.983292], [40.762238, -73.986944]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a1632fa460a236fc80a34235f6dde850 = L.marker(
+                [40.753213, -73.982232],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_b64b3508e2aad256be8d1c74ba9e8416 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1632fa460a236fc80a34235f6dde850.setIcon(icon_b64b3508e2aad256be8d1c74ba9e8416);
+        
+    
+        var popup_f6bf30e3f2a795504f3608525377d214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d32aa60409b039a881f0ba4f08e34046 = $(`<div id="html_d32aa60409b039a881f0ba4f08e34046" style="width: 100.0%; height: 100.0%;"><b>Stephen A. Schwarzman Building, NYPL</b><br>Distance: 0.36 miles</div>`)[0];
+                popup_f6bf30e3f2a795504f3608525377d214.setContent(html_d32aa60409b039a881f0ba4f08e34046);
+            
+        
+
+        marker_a1632fa460a236fc80a34235f6dde850.bindPopup(popup_f6bf30e3f2a795504f3608525377d214)
+        ;
+
+        
+    
+    
+            var poly_line_ccc876effeb09267d2cdaed4ea42982f = L.polyline(
+                [[40.758413, -73.983292], [40.753213, -73.982232]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_b1bf49339f2bb4f5ef2d8bef8d7d93c8 = L.marker(
+                [40.756276, -73.978243],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_4b0954365d8b84392ec901d2e865f4de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b1bf49339f2bb4f5ef2d8bef8d7d93c8.setIcon(icon_4b0954365d8b84392ec901d2e865f4de);
+        
+    
+        var popup_fe609023318760c4c014299b0238ae40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef74dde303c105789612a4f53d4ea72b = $(`<div id="html_ef74dde303c105789612a4f53d4ea72b" style="width: 100.0%; height: 100.0%;"><b>575 Fifth Avenue POPS</b><br>Distance: 0.30 miles</div>`)[0];
+                popup_fe609023318760c4c014299b0238ae40.setContent(html_ef74dde303c105789612a4f53d4ea72b);
+            
+        
+
+        marker_b1bf49339f2bb4f5ef2d8bef8d7d93c8.bindPopup(popup_fe609023318760c4c014299b0238ae40)
+        ;
+
+        
+    
+    
+            var poly_line_bb7c47e86423d88802865eff17d6c7a7 = L.polyline(
+                [[40.758413, -73.983292], [40.756276, -73.978243]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_ec9d37319f5105e3bd9cf40c7b6f574a = L.marker(
+                [40.760815, -73.977365],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_27c84d29f4a6c94165dbf2fbc9bd0da3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec9d37319f5105e3bd9cf40c7b6f574a.setIcon(icon_27c84d29f4a6c94165dbf2fbc9bd0da3);
+        
+    
+        var popup_5f4ecc13d075f3b5c8167a3708534f6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_300200401845e80f43c6b50a35cf927a = $(`<div id="html_300200401845e80f43c6b50a35cf927a" style="width: 100.0%; height: 100.0%;"><b>53rd Street Library, NYPL</b><br>Distance: 0.35 miles</div>`)[0];
+                popup_5f4ecc13d075f3b5c8167a3708534f6e.setContent(html_300200401845e80f43c6b50a35cf927a);
+            
+        
+
+        marker_ec9d37319f5105e3bd9cf40c7b6f574a.bindPopup(popup_5f4ecc13d075f3b5c8167a3708534f6e)
+        ;
+
+        
+    
+    
+            var poly_line_2eabe32551b51b8385f9328419a77d44 = L.polyline(
+                [[40.758413, -73.983292], [40.760815, -73.977365]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_8aad88736557b8a7e19b26b152e44106 = L.marker(
+                [40.7519, -73.9817],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_74bc1b7ddac1fd7a05917c993f8af40e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8aad88736557b8a7e19b26b152e44106.setIcon(icon_74bc1b7ddac1fd7a05917c993f8af40e);
+        
+    
+        var popup_560b521b18e06b0b52f848df4515e806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d5dbf0b516c42b15c3d2b243ad18fb8 = $(`<div id="html_9d5dbf0b516c42b15c3d2b243ad18fb8" style="width: 100.0%; height: 100.0%;"><b>Starvos Niarchos Foundation Library, NYPL</b><br>Distance: 0.46 miles</div>`)[0];
+                popup_560b521b18e06b0b52f848df4515e806.setContent(html_9d5dbf0b516c42b15c3d2b243ad18fb8);
+            
+        
+
+        marker_8aad88736557b8a7e19b26b152e44106.bindPopup(popup_560b521b18e06b0b52f848df4515e806)
+        ;
+
+        
+    
+    
+            var poly_line_426be141f036d76ec7658a4f356a583e = L.polyline(
+                [[40.758413, -73.983292], [40.7519, -73.9817]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_2fee089c4aacb3daf4d733081cb440e7 = L.marker(
+                [40.759207, -73.976087],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a7010fb79815465cf3137e551ab75b64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fee089c4aacb3daf4d733081cb440e7.setIcon(icon_a7010fb79815465cf3137e551ab75b64);
+        
+    
+        var popup_beaaf3671dd201ab39925c886c77607d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d89687efcefcef5947d3a64d5df962b = $(`<div id="html_7d89687efcefcef5947d3a64d5df962b" style="width: 100.0%; height: 100.0%;"><b>645 Fifth Avenue POPS</b><br>Distance: 0.38 miles</div>`)[0];
+                popup_beaaf3671dd201ab39925c886c77607d.setContent(html_7d89687efcefcef5947d3a64d5df962b);
+            
+        
+
+        marker_2fee089c4aacb3daf4d733081cb440e7.bindPopup(popup_beaaf3671dd201ab39925c886c77607d)
+        ;
+
+        
+    
+    
+            var poly_line_13541ebcb9d7f43df798aa51e4087b69 = L.polyline(
+                [[40.758413, -73.983292], [40.759207, -73.976087]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_d6021dd14dd97e6b7e7d4c25f7d6f4e6 = L.marker(
+                [40.759159, -73.99139],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_0c8220cf2f76708762f26914dc571280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6021dd14dd97e6b7e7d4c25f7d6f4e6.setIcon(icon_0c8220cf2f76708762f26914dc571280);
+        
+    
+        var popup_2194a9f0b143bc1c3fdfb27914e59e9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6daf09ae93d9deba53960b1517e7cab = $(`<div id="html_e6daf09ae93d9deba53960b1517e7cab" style="width: 100.0%; height: 100.0%;"><b>McCaffrey Playground</b><br>Distance: 0.43 miles</div>`)[0];
+                popup_2194a9f0b143bc1c3fdfb27914e59e9d.setContent(html_e6daf09ae93d9deba53960b1517e7cab);
+            
+        
+
+        marker_d6021dd14dd97e6b7e7d4c25f7d6f4e6.bindPopup(popup_2194a9f0b143bc1c3fdfb27914e59e9d)
+        ;
+
+        
+    
+    
+            var poly_line_6870c99f5ba492180b22d98156a8aece = L.polyline(
+                [[40.758413, -73.983292], [40.759159, -73.99139]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_cb82207fa0a1100091c6a1f3be868597 = L.marker(
+                [40.751936, -73.978306],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_9fc3bf880124795eb97a0016daa795f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb82207fa0a1100091c6a1f3be868597.setIcon(icon_9fc3bf880124795eb97a0016daa795f8);
+        
+    
+        var popup_7c9dde1485f8e59d2ee535d219cb068d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b5af63fd01f3f82e88abe5026bfcea = $(`<div id="html_69b5af63fd01f3f82e88abe5026bfcea" style="width: 100.0%; height: 100.0%;"><b>120 Park Avenue POPS</b><br>Distance: 0.52 miles</div>`)[0];
+                popup_7c9dde1485f8e59d2ee535d219cb068d.setContent(html_69b5af63fd01f3f82e88abe5026bfcea);
+            
+        
+
+        marker_cb82207fa0a1100091c6a1f3be868597.bindPopup(popup_7c9dde1485f8e59d2ee535d219cb068d)
+        ;
+
+        
+    
+    
+            var poly_line_79b90ab28896801e2c7b7feb5b7f2cf1 = L.polyline(
+                [[40.758413, -73.983292], [40.751936, -73.978306]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a469acb8242aa45985038be23b0f5080 = L.marker(
+                [40.750455, -73.987505],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_45fe85ff731e7efbbe9455f8ff173680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a469acb8242aa45985038be23b0f5080.setIcon(icon_45fe85ff731e7efbbe9455f8ff173680);
+        
+    
+        var popup_318a3d57aec5f9fba7aaa43c12f4f036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_342b7cf99ce3b4211c2b49c0ad8005c7 = $(`<div id="html_342b7cf99ce3b4211c2b49c0ad8005c7" style="width: 100.0%; height: 100.0%;"><b>Herald Square</b><br>Distance: 0.59 miles</div>`)[0];
+                popup_318a3d57aec5f9fba7aaa43c12f4f036.setContent(html_342b7cf99ce3b4211c2b49c0ad8005c7);
+            
+        
+
+        marker_a469acb8242aa45985038be23b0f5080.bindPopup(popup_318a3d57aec5f9fba7aaa43c12f4f036)
+        ;
+
+        
+    
+    
+            var poly_line_0001de7c3c6e26f3166e5cc8623284f8 = L.polyline(
+                [[40.758413, -73.983292], [40.750455, -73.987505]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_3a6b6adc518dc09566c66aa1761109cf = L.marker(
+                [40.71158, -74.01141],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6ff0b9231a08c0c89e7e94bf9e37bd93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a6b6adc518dc09566c66aa1761109cf.setIcon(icon_6ff0b9231a08c0c89e7e94bf9e37bd93);
+        
+    
+        var popup_b107b89a4053c230db3054da6f7e5a6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29a3b5e8f8f9208eacca26f7fb2f3286 = $(`<div id="html_29a3b5e8f8f9208eacca26f7fb2f3286" style="width: 100.0%; height: 100.0%;"><b>y21dQiE52vWfO2-pzdotMg</b></div>`)[0];
+                popup_b107b89a4053c230db3054da6f7e5a6c.setContent(html_29a3b5e8f8f9208eacca26f7fb2f3286);
+            
+        
+
+        marker_3a6b6adc518dc09566c66aa1761109cf.bindPopup(popup_b107b89a4053c230db3054da6f7e5a6c)
+        ;
+
+        
+    
+    
+            var marker_5d97d7d67391ed8b33b5c0bbc7294058 = L.marker(
+                [40.710532, -74.009096],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_db483be88471e393ac2afea038bfbcff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d97d7d67391ed8b33b5c0bbc7294058.setIcon(icon_db483be88471e393ac2afea038bfbcff);
+        
+    
+        var popup_13c9caf461280800148c3ef2e1a82af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5684e3870452769871801f9928e1f4 = $(`<div id="html_1b5684e3870452769871801f9928e1f4" style="width: 100.0%; height: 100.0%;"><b>Fulton St (A-C) MTA Restroom</b><br>Distance: 0.14 miles</div>`)[0];
+                popup_13c9caf461280800148c3ef2e1a82af5.setContent(html_1b5684e3870452769871801f9928e1f4);
+            
+        
+
+        marker_5d97d7d67391ed8b33b5c0bbc7294058.bindPopup(popup_13c9caf461280800148c3ef2e1a82af5)
+        ;
+
+        
+    
+    
+            var poly_line_aa70374610bbe5578423eb7a1428f7ea = L.polyline(
+                [[40.71158, -74.01141], [40.710532, -74.009096]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_6846440189b30d8e972c4d4edce7e8c4 = L.marker(
+                [40.713585, -74.007871],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7006fd65a848d219d66cff8d01cdf938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6846440189b30d8e972c4d4edce7e8c4.setIcon(icon_7006fd65a848d219d66cff8d01cdf938);
+        
+    
+        var popup_462301a8479c3f5dfe4c3c3c409121ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fca0cd665625b724deeb21c1d80ac8eb = $(`<div id="html_fca0cd665625b724deeb21c1d80ac8eb" style="width: 100.0%; height: 100.0%;"><b>New Amsterdam Library, NYPL</b><br>Distance: 0.23 miles</div>`)[0];
+                popup_462301a8479c3f5dfe4c3c3c409121ed.setContent(html_fca0cd665625b724deeb21c1d80ac8eb);
+            
+        
+
+        marker_6846440189b30d8e972c4d4edce7e8c4.bindPopup(popup_462301a8479c3f5dfe4c3c3c409121ed)
+        ;
+
+        
+    
+    
+            var poly_line_9358839f076409538cf9568926db47ef = L.polyline(
+                [[40.71158, -74.01141], [40.713585, -74.007871]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a0547dcd5043cc669a5b599049fef479 = L.marker(
+                [40.717488, -74.011506],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8cc750999fe548f3d370889f040a1c1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0547dcd5043cc669a5b599049fef479.setIcon(icon_8cc750999fe548f3d370889f040a1c1e);
+        
+    
+        var popup_a79a03423c81c454fbb9da64fea04337 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd8cbd7555039513ea859fc7030f7a66 = $(`<div id="html_cd8cbd7555039513ea859fc7030f7a66" style="width: 100.0%; height: 100.0%;"><b>Washington Market Park</b><br>Distance: 0.41 miles</div>`)[0];
+                popup_a79a03423c81c454fbb9da64fea04337.setContent(html_cd8cbd7555039513ea859fc7030f7a66);
+            
+        
+
+        marker_a0547dcd5043cc669a5b599049fef479.bindPopup(popup_a79a03423c81c454fbb9da64fea04337)
+        ;
+
+        
+    
+    
+            var poly_line_385ca03255b347689edd4b73b37b89ec = L.polyline(
+                [[40.71158, -74.01141], [40.717488, -74.011506]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_7eb6091ca0b0c174e131da6864e57006 = L.marker(
+                [40.715699, -74.01575],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_143fed87fb422f8995fb680c12994b66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7eb6091ca0b0c174e131da6864e57006.setIcon(icon_143fed87fb422f8995fb680c12994b66);
+        
+    
+        var popup_dfd6477850987d8293583a8b66e14d9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6242a90f4724d6c808e09a7606e46450 = $(`<div id="html_6242a90f4724d6c808e09a7606e46450" style="width: 100.0%; height: 100.0%;"><b>Battery Park City Library, NYPL</b><br>Distance: 0.36 miles</div>`)[0];
+                popup_dfd6477850987d8293583a8b66e14d9e.setContent(html_6242a90f4724d6c808e09a7606e46450);
+            
+        
+
+        marker_7eb6091ca0b0c174e131da6864e57006.bindPopup(popup_dfd6477850987d8293583a8b66e14d9e)
+        ;
+
+        
+    
+    
+            var poly_line_209a742c2fef6851a993a29f5855a14f = L.polyline(
+                [[40.71158, -74.01141], [40.715699, -74.01575]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_1b80457709d85b9202c2b8751f793dfe = L.marker(
+                [40.706249, -74.008506],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_f115d3c4a10e722b6f45d60088bb1e42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b80457709d85b9202c2b8751f793dfe.setIcon(icon_f115d3c4a10e722b6f45d60088bb1e42);
+        
+    
+        var popup_45e69a4197a943fb2bf748b3ec420e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9203860b5a2133661a0a547254593c0 = $(`<div id="html_c9203860b5a2133661a0a547254593c0" style="width: 100.0%; height: 100.0%;"><b>60 Wall Street POPS</b><br>Distance: 0.40 miles</div>`)[0];
+                popup_45e69a4197a943fb2bf748b3ec420e43.setContent(html_c9203860b5a2133661a0a547254593c0);
+            
+        
+
+        marker_1b80457709d85b9202c2b8751f793dfe.bindPopup(popup_45e69a4197a943fb2bf748b3ec420e43)
+        ;
+
+        
+    
+    
+            var poly_line_9dcd75eaf11df5d65ae5f988b1096613 = L.polyline(
+                [[40.71158, -74.01141], [40.706249, -74.008506]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_c8da352a5278dfed1fab6d16c503fe15 = L.marker(
+                [40.71498, -74.01753],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_777ecde27b58060bfaf3da100bf47cca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8da352a5278dfed1fab6d16c503fe15.setIcon(icon_777ecde27b58060bfaf3da100bf47cca);
+        
+    
+        var popup_3ec7a2ae5b6469bd36278d6d751bb421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2caadafc0af544863108c025789b63f3 = $(`<div id="html_2caadafc0af544863108c025789b63f3" style="width: 100.0%; height: 100.0%;"><b>Ferry Terminal</b><br>Distance: 0.40 miles</div>`)[0];
+                popup_3ec7a2ae5b6469bd36278d6d751bb421.setContent(html_2caadafc0af544863108c025789b63f3);
+            
+        
+
+        marker_c8da352a5278dfed1fab6d16c503fe15.bindPopup(popup_3ec7a2ae5b6469bd36278d6d751bb421)
+        ;
+
+        
+    
+    
+            var poly_line_bc6f04fb72387c9b6acf2c8a31074b4e = L.polyline(
+                [[40.71158, -74.01141], [40.71498, -74.01753]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_dededf7c03003410aa0a94421b69a618 = L.marker(
+                [40.716911, -74.016184],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_4593bf25dea612429f2fdb316aec152a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dededf7c03003410aa0a94421b69a618.setIcon(icon_4593bf25dea612429f2fdb316aec152a);
+        
+    
+        var popup_e482f8b71837906c0f7269c79ae70a22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e2ffcb298e2f7c6a85e18432423032 = $(`<div id="html_89e2ffcb298e2f7c6a85e18432423032" style="width: 100.0%; height: 100.0%;"><b>Teardrop Park - Solaire Building</b><br>Distance: 0.45 miles</div>`)[0];
+                popup_e482f8b71837906c0f7269c79ae70a22.setContent(html_89e2ffcb298e2f7c6a85e18432423032);
+            
+        
+
+        marker_dededf7c03003410aa0a94421b69a618.bindPopup(popup_e482f8b71837906c0f7269c79ae70a22)
+        ;
+
+        
+    
+    
+            var poly_line_5f8fcf16d5e57e9d6b708c7e92fa41db = L.polyline(
+                [[40.71158, -74.01141], [40.716911, -74.016184]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_f257e40c4c0fe1491bd8a91725bdcc8f = L.marker(
+                [40.704414, -74.015876],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8f29d07d9b29b0492b2f08185bb8a9cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f257e40c4c0fe1491bd8a91725bdcc8f.setIcon(icon_8f29d07d9b29b0492b2f08185bb8a9cd);
+        
+    
+        var popup_a83f43b31b9fc5a17b84836760d5062f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b08ddd9ee96178f0829dca838443178f = $(`<div id="html_b08ddd9ee96178f0829dca838443178f" style="width: 100.0%; height: 100.0%;"><b>Battery Park Zone 1</b><br>Distance: 0.55 miles</div>`)[0];
+                popup_a83f43b31b9fc5a17b84836760d5062f.setContent(html_b08ddd9ee96178f0829dca838443178f);
+            
+        
+
+        marker_f257e40c4c0fe1491bd8a91725bdcc8f.bindPopup(popup_a83f43b31b9fc5a17b84836760d5062f)
+        ;
+
+        
+    
+    
+            var poly_line_026ff5f3f0ee69270bbdf32b9fbd4903 = L.polyline(
+                [[40.71158, -74.01141], [40.704414, -74.015876]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_3a20f345e2e9cfdd3702e58e23461f35 = L.marker(
+                [40.719928, -74.012697],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_ef1ff5dd7cf2610c566c4e467a245413 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a20f345e2e9cfdd3702e58e23461f35.setIcon(icon_ef1ff5dd7cf2610c566c4e467a245413);
+        
+    
+        var popup_b73beb8b7c3384d6800ba1e20cf31e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4212f2d19856c4b8154bda4d40e85da = $(`<div id="html_d4212f2d19856c4b8154bda4d40e85da" style="width: 100.0%; height: 100.0%;"><b>Hudson River Park Pier 25</b><br>Distance: 0.58 miles</div>`)[0];
+                popup_b73beb8b7c3384d6800ba1e20cf31e3d.setContent(html_d4212f2d19856c4b8154bda4d40e85da);
+            
+        
+
+        marker_3a20f345e2e9cfdd3702e58e23461f35.bindPopup(popup_b73beb8b7c3384d6800ba1e20cf31e3d)
+        ;
+
+        
+    
+    
+            var poly_line_cda0ac91bb3fe326c8ebe33b27635a9f = L.polyline(
+                [[40.71158, -74.01141], [40.719928, -74.012697]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_fde81a991590d642e1d67c06fc28f6fe = L.marker(
+                [40.705277, -74.005516],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_7205c1377d48a559372c2d059bf0c77d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fde81a991590d642e1d67c06fc28f6fe.setIcon(icon_7205c1377d48a559372c2d059bf0c77d);
+        
+    
+        var popup_b21bcc0798123fdb8c1320f2b5ba2075 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5f3f1190c1041ae6f79389a51190a27 = $(`<div id="html_a5f3f1190c1041ae6f79389a51190a27" style="width: 100.0%; height: 100.0%;"><b>180 Maiden Lane POPS</b><br>Distance: 0.53 miles</div>`)[0];
+                popup_b21bcc0798123fdb8c1320f2b5ba2075.setContent(html_a5f3f1190c1041ae6f79389a51190a27);
+            
+        
+
+        marker_fde81a991590d642e1d67c06fc28f6fe.bindPopup(popup_b21bcc0798123fdb8c1320f2b5ba2075)
+        ;
+
+        
+    
+    
+            var poly_line_6ae0f759dbbd7d6ece9e0c925b6238e3 = L.polyline(
+                [[40.71158, -74.01141], [40.705277, -74.005516]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_75f073eb24c48d361f1a96732f8bb521 = L.marker(
+                [40.7456665039062, -73.9833145141602],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_70e5c9474332aa50a3322599244b9330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75f073eb24c48d361f1a96732f8bb521.setIcon(icon_70e5c9474332aa50a3322599244b9330);
+        
+    
+        var popup_3b463efd0451ed5ab4312069be5d76a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e70005b199dda810cfa747971626f5b4 = $(`<div id="html_e70005b199dda810cfa747971626f5b4" style="width: 100.0%; height: 100.0%;"><b>xW_gIdUgWeONkAD-0Zt5og</b></div>`)[0];
+                popup_3b463efd0451ed5ab4312069be5d76a1.setContent(html_e70005b199dda810cfa747971626f5b4);
+            
+        
+
+        marker_75f073eb24c48d361f1a96732f8bb521.bindPopup(popup_3b463efd0451ed5ab4312069be5d76a1)
+        ;
+
+        
+    
+    
+            var marker_9a51cfaf0947407f2cd2546e436df730 = L.marker(
+                [40.743818, -73.979903],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_9c779ea54cc57e197bc8fca537a2108a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a51cfaf0947407f2cd2546e436df730.setIcon(icon_9c779ea54cc57e197bc8fca537a2108a);
+        
+    
+        var popup_f4212f6b4b022f3bc1df2bc0757db094 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_297d2150f56a163321c8a8baed1f277b = $(`<div id="html_297d2150f56a163321c8a8baed1f277b" style="width: 100.0%; height: 100.0%;"><b>Kips Bay Library, NYPL</b><br>Distance: 0.22 miles</div>`)[0];
+                popup_f4212f6b4b022f3bc1df2bc0757db094.setContent(html_297d2150f56a163321c8a8baed1f277b);
+            
+        
+
+        marker_9a51cfaf0947407f2cd2546e436df730.bindPopup(popup_f4212f6b4b022f3bc1df2bc0757db094)
+        ;
+
+        
+    
+    
+            var poly_line_43f22a8d5ad6655babfb89f516e39a70 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.743818, -73.979903]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_d053c42f0a1bcf8a1b84c91eeec258f3 = L.marker(
+                [40.748533, -73.98846],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_e96989c10b16fc7e030c1d2908084d64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d053c42f0a1bcf8a1b84c91eeec258f3.setIcon(icon_e96989c10b16fc7e030c1d2908084d64);
+        
+    
+        var popup_293941e24bb90e1c99d773265273374d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81a01cb0c20ad37ea872d48da9e41113 = $(`<div id="html_81a01cb0c20ad37ea872d48da9e41113" style="width: 100.0%; height: 100.0%;"><b>Greeley Square Park</b><br>Distance: 0.33 miles</div>`)[0];
+                popup_293941e24bb90e1c99d773265273374d.setContent(html_81a01cb0c20ad37ea872d48da9e41113);
+            
+        
+
+        marker_d053c42f0a1bcf8a1b84c91eeec258f3.bindPopup(popup_293941e24bb90e1c99d773265273374d)
+        ;
+
+        
+    
+    
+            var poly_line_220d24e90f0b837d7eeaeedffa167945 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.748533, -73.98846]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_a9ea8ca9346f139eb9c65d1a53186b07 = L.marker(
+                [40.741309, -73.987845],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6f741aeec341998fc10fc24ebaeb1174 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9ea8ca9346f139eb9c65d1a53186b07.setIcon(icon_6f741aeec341998fc10fc24ebaeb1174);
+        
+    
+        var popup_b1bcd28b6ec967630187dc6d6dc897fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fe52f4f057a1258280f811caaaee7b3 = $(`<div id="html_5fe52f4f057a1258280f811caaaee7b3" style="width: 100.0%; height: 100.0%;"><b>Madison Square Park APT</b><br>Distance: 0.38 miles</div>`)[0];
+                popup_b1bcd28b6ec967630187dc6d6dc897fc.setContent(html_5fe52f4f057a1258280f811caaaee7b3);
+            
+        
+
+        marker_a9ea8ca9346f139eb9c65d1a53186b07.bindPopup(popup_b1bcd28b6ec967630187dc6d6dc897fc)
+        ;
+
+        
+    
+    
+            var poly_line_2d97cf7868f6fcaf38d0ef290d6bf489 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.741309, -73.987845]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_3d760352f2a5de19a8d3bf8435a38e7f = L.marker(
+                [40.750455, -73.987505],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a334f1eda03a70ae8c25570d563361cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d760352f2a5de19a8d3bf8435a38e7f.setIcon(icon_a334f1eda03a70ae8c25570d563361cf);
+        
+    
+        var popup_e882a8a80d4bac83ae9505b86c59189a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b9024e54e74d3c3af877b3090a8922 = $(`<div id="html_f4b9024e54e74d3c3af877b3090a8922" style="width: 100.0%; height: 100.0%;"><b>Herald Square</b><br>Distance: 0.40 miles</div>`)[0];
+                popup_e882a8a80d4bac83ae9505b86c59189a.setContent(html_f4b9024e54e74d3c3af877b3090a8922);
+            
+        
+
+        marker_3d760352f2a5de19a8d3bf8435a38e7f.bindPopup(popup_e882a8a80d4bac83ae9505b86c59189a)
+        ;
+
+        
+    
+    
+            var poly_line_fbf9db88e19305f93ca59a5a46278f46 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.750455, -73.987505]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_2261f933be26abe7dd29853e040de109 = L.marker(
+                [40.7519, -73.9817],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_a38d3446ae035a72cab858d28fd4de4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2261f933be26abe7dd29853e040de109.setIcon(icon_a38d3446ae035a72cab858d28fd4de4f);
+        
+    
+        var popup_6c68032a5e745f022833034f33b2d904 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c1f875eed00afbf3fadc5bd540ed054 = $(`<div id="html_3c1f875eed00afbf3fadc5bd540ed054" style="width: 100.0%; height: 100.0%;"><b>Starvos Niarchos Foundation Library, NYPL</b><br>Distance: 0.44 miles</div>`)[0];
+                popup_6c68032a5e745f022833034f33b2d904.setContent(html_3c1f875eed00afbf3fadc5bd540ed054);
+            
+        
+
+        marker_2261f933be26abe7dd29853e040de109.bindPopup(popup_6c68032a5e745f022833034f33b2d904)
+        ;
+
+        
+    
+    
+            var poly_line_e63aaeac0a9e5c81ad92d3253a31a2f1 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.7519, -73.9817]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_bc8eea6ab97910fb89c94ef908e159d7 = L.marker(
+                [40.753213, -73.982232],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_aac66f90590cde6083cf2dcd4143f23b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc8eea6ab97910fb89c94ef908e159d7.setIcon(icon_aac66f90590cde6083cf2dcd4143f23b);
+        
+    
+        var popup_ef43d55fb9d36b3f30013c9c8c28542c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0904c6e9f13e5e4f18f68e76c34e87a3 = $(`<div id="html_0904c6e9f13e5e4f18f68e76c34e87a3" style="width: 100.0%; height: 100.0%;"><b>Stephen A. Schwarzman Building, NYPL</b><br>Distance: 0.52 miles</div>`)[0];
+                popup_ef43d55fb9d36b3f30013c9c8c28542c.setContent(html_0904c6e9f13e5e4f18f68e76c34e87a3);
+            
+        
+
+        marker_bc8eea6ab97910fb89c94ef908e159d7.bindPopup(popup_ef43d55fb9d36b3f30013c9c8c28542c)
+        ;
+
+        
+    
+    
+            var poly_line_d09d1ac4a038ebc7a696f98307c928f1 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.753213, -73.982232]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_66f2e043127ee6850328416aee8e656c = L.marker(
+                [40.738095, -73.98205],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_8b49b4a05c83edeca8b4818a64078335 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_66f2e043127ee6850328416aee8e656c.setIcon(icon_8b49b4a05c83edeca8b4818a64078335);
+        
+    
+        var popup_6d1e1d988336725da6dc15ddb7e7522d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_767e3840b08e6bc1fc00ee4327be6d81 = $(`<div id="html_767e3840b08e6bc1fc00ee4327be6d81" style="width: 100.0%; height: 100.0%;"><b>Epiphany Library, NYPL</b><br>Distance: 0.53 miles</div>`)[0];
+                popup_6d1e1d988336725da6dc15ddb7e7522d.setContent(html_767e3840b08e6bc1fc00ee4327be6d81);
+            
+        
+
+        marker_66f2e043127ee6850328416aee8e656c.bindPopup(popup_6d1e1d988336725da6dc15ddb7e7522d)
+        ;
+
+        
+    
+    
+            var poly_line_50c85104c216182c46b3c4a31831e7e2 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.738095, -73.98205]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_cced43b4005b18c65442bac2f4e07bd3 = L.marker(
+                [40.751936, -73.978306],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_32f30b78df5acbccd73a5ad073276738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cced43b4005b18c65442bac2f4e07bd3.setIcon(icon_32f30b78df5acbccd73a5ad073276738);
+        
+    
+        var popup_77c23c7bf0146fb09fccfebd5ea4b4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_279ac3f39f603669604919a650b1b715 = $(`<div id="html_279ac3f39f603669604919a650b1b715" style="width: 100.0%; height: 100.0%;"><b>120 Park Avenue POPS</b><br>Distance: 0.51 miles</div>`)[0];
+                popup_77c23c7bf0146fb09fccfebd5ea4b4d1.setContent(html_279ac3f39f603669604919a650b1b715);
+            
+        
+
+        marker_cced43b4005b18c65442bac2f4e07bd3.bindPopup(popup_77c23c7bf0146fb09fccfebd5ea4b4d1)
+        ;
+
+        
+    
+    
+            var poly_line_00336f1f32554ddf5c1f86b03f7aaa98 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.751936, -73.978306]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_c5a6cb6e61de75ca7f8b9223177febe4 = L.marker(
+                [40.754039, -73.982655],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_1482b507f23162acf9047b78be6df5b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5a6cb6e61de75ca7f8b9223177febe4.setIcon(icon_1482b507f23162acf9047b78be6df5b5);
+        
+    
+        var popup_6e377073a2a42bc8ff2d2aec0cb0f23f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb7b85c6cf3033f9e9194165a9f751ec = $(`<div id="html_fb7b85c6cf3033f9e9194165a9f751ec" style="width: 100.0%; height: 100.0%;"><b>Bryant Park</b><br>Distance: 0.58 miles</div>`)[0];
+                popup_6e377073a2a42bc8ff2d2aec0cb0f23f.setContent(html_fb7b85c6cf3033f9e9194165a9f751ec);
+            
+        
+
+        marker_c5a6cb6e61de75ca7f8b9223177febe4.bindPopup(popup_6e377073a2a42bc8ff2d2aec0cb0f23f)
+        ;
+
+        
+    
+    
+            var poly_line_eee2e2491976b8fe46b788604d899788 = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.754039, -73.982655]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_b5cd326d74310e1e92860fcb86c66f42 = L.marker(
+                [40.751816, -73.976715],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_877c5a7a27d6136d2cc4bd9624f550e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5cd326d74310e1e92860fcb86c66f42.setIcon(icon_877c5a7a27d6136d2cc4bd9624f550e3);
+        
+    
+        var popup_581b16d6fdf28b733d1ecc25b6f61f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87563dbd3e4b9064cb97a6fb6b17c9f9 = $(`<div id="html_87563dbd3e4b9064cb97a6fb6b17c9f9" style="width: 100.0%; height: 100.0%;"><b>Grand Central (Metro North) LIRR Restroom</b><br>Distance: 0.55 miles</div>`)[0];
+                popup_581b16d6fdf28b733d1ecc25b6f61f0e.setContent(html_87563dbd3e4b9064cb97a6fb6b17c9f9);
+            
+        
+
+        marker_b5cd326d74310e1e92860fcb86c66f42.bindPopup(popup_581b16d6fdf28b733d1ecc25b6f61f0e)
+        ;
+
+        
+    
+    
+            var poly_line_188c3d2a6071abca72d51d13b0e1c0ae = L.polyline(
+                [[40.7456665039062, -73.9833145141602], [40.751816, -73.976715]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_fbc87c510bccf2266e33bc5898e5afd3 = L.marker(
+                [40.7462972, -73.9824937],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_034a8d2e200218ea5d9f062a8079ba3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbc87c510bccf2266e33bc5898e5afd3.setIcon(icon_034a8d2e200218ea5d9f062a8079ba3a);
+        
+    
+        var popup_7d4fcd5973461590ce8f72115bd9945d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36bb8db69000f5f39145d608b54b2a03 = $(`<div id="html_36bb8db69000f5f39145d608b54b2a03" style="width: 100.0%; height: 100.0%;"><b>0agUEeyqmQ2EL_rFvWgX6w</b></div>`)[0];
+                popup_7d4fcd5973461590ce8f72115bd9945d.setContent(html_36bb8db69000f5f39145d608b54b2a03);
+            
+        
+
+        marker_fbc87c510bccf2266e33bc5898e5afd3.bindPopup(popup_7d4fcd5973461590ce8f72115bd9945d)
+        ;
+
+        
+    
+    
+            var marker_c311c556fa5be17c58f58b1a2bf29f55 = L.marker(
+                [40.743818, -73.979903],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_675ef56c613867353e3f1d9f9df61d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c311c556fa5be17c58f58b1a2bf29f55.setIcon(icon_675ef56c613867353e3f1d9f9df61d0b);
+        
+    
+        var popup_8ecd01ef1c8cf7968a911dbea23c3b87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b222473efd0724fb128ce9723cf09b8b = $(`<div id="html_b222473efd0724fb128ce9723cf09b8b" style="width: 100.0%; height: 100.0%;"><b>Kips Bay Library, NYPL</b><br>Distance: 0.22 miles</div>`)[0];
+                popup_8ecd01ef1c8cf7968a911dbea23c3b87.setContent(html_b222473efd0724fb128ce9723cf09b8b);
+            
+        
+
+        marker_c311c556fa5be17c58f58b1a2bf29f55.bindPopup(popup_8ecd01ef1c8cf7968a911dbea23c3b87)
+        ;
+
+        
+    
+    
+            var poly_line_dfefcdb70217a00ccff6b5d837988e79 = L.polyline(
+                [[40.7462972, -73.9824937], [40.743818, -73.979903]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_20e0b3c8ac93cf0d7e4209fdbd2d6a04 = L.marker(
+                [40.7519, -73.9817],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_96621e2b0d231270cb7b01b89dac2d16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20e0b3c8ac93cf0d7e4209fdbd2d6a04.setIcon(icon_96621e2b0d231270cb7b01b89dac2d16);
+        
+    
+        var popup_c8a0c6e33a596c3235e0a25ff1f5bab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_094ee073df207fef5c44fcc83409b984 = $(`<div id="html_094ee073df207fef5c44fcc83409b984" style="width: 100.0%; height: 100.0%;"><b>Starvos Niarchos Foundation Library, NYPL</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_c8a0c6e33a596c3235e0a25ff1f5bab2.setContent(html_094ee073df207fef5c44fcc83409b984);
+            
+        
+
+        marker_20e0b3c8ac93cf0d7e4209fdbd2d6a04.bindPopup(popup_c8a0c6e33a596c3235e0a25ff1f5bab2)
+        ;
+
+        
+    
+    
+            var poly_line_5b9eabdc3e028ccb0e83853316890351 = L.polyline(
+                [[40.7462972, -73.9824937], [40.7519, -73.9817]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_5cf4e05894de99893a180676c394952a = L.marker(
+                [40.748533, -73.98846],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_749a822613d224b59ff38878a50b67f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cf4e05894de99893a180676c394952a.setIcon(icon_749a822613d224b59ff38878a50b67f1);
+        
+    
+        var popup_833184e0a339c85fe7d1447bc843e11a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf5d18fb86fdab35f18b59a88a157764 = $(`<div id="html_cf5d18fb86fdab35f18b59a88a157764" style="width: 100.0%; height: 100.0%;"><b>Greeley Square Park</b><br>Distance: 0.35 miles</div>`)[0];
+                popup_833184e0a339c85fe7d1447bc843e11a.setContent(html_cf5d18fb86fdab35f18b59a88a157764);
+            
+        
+
+        marker_5cf4e05894de99893a180676c394952a.bindPopup(popup_833184e0a339c85fe7d1447bc843e11a)
+        ;
+
+        
+    
+    
+            var poly_line_f08e4da0f4c9b116c25fa69785d32da7 = L.polyline(
+                [[40.7462972, -73.9824937], [40.748533, -73.98846]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_1731bf5372e01cb64f1715c39f4fe50e = L.marker(
+                [40.750455, -73.987505],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_1c9c68575921a352e84cae2fb4608864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1731bf5372e01cb64f1715c39f4fe50e.setIcon(icon_1c9c68575921a352e84cae2fb4608864);
+        
+    
+        var popup_aa624b284ffd5e030cd26e00a10be3fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef753d537a01680fa5240e7f3024f42c = $(`<div id="html_ef753d537a01680fa5240e7f3024f42c" style="width: 100.0%; height: 100.0%;"><b>Herald Square</b><br>Distance: 0.39 miles</div>`)[0];
+                popup_aa624b284ffd5e030cd26e00a10be3fd.setContent(html_ef753d537a01680fa5240e7f3024f42c);
+            
+        
+
+        marker_1731bf5372e01cb64f1715c39f4fe50e.bindPopup(popup_aa624b284ffd5e030cd26e00a10be3fd)
+        ;
+
+        
+    
+    
+            var poly_line_a7dae079cda2b94cea09a8a337d19910 = L.polyline(
+                [[40.7462972, -73.9824937], [40.750455, -73.987505]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_553e1b3ebe62a4aa787461b6baded6b4 = L.marker(
+                [40.753213, -73.982232],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_da1ed4b7d212d656da887dd0d1121b8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_553e1b3ebe62a4aa787461b6baded6b4.setIcon(icon_da1ed4b7d212d656da887dd0d1121b8d);
+        
+    
+        var popup_7ceeffa8a86ec896faa941e37f2f2c8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74e53381ad0ee27305dbf8866143fa71 = $(`<div id="html_74e53381ad0ee27305dbf8866143fa71" style="width: 100.0%; height: 100.0%;"><b>Stephen A. Schwarzman Building, NYPL</b><br>Distance: 0.48 miles</div>`)[0];
+                popup_7ceeffa8a86ec896faa941e37f2f2c8e.setContent(html_74e53381ad0ee27305dbf8866143fa71);
+            
+        
+
+        marker_553e1b3ebe62a4aa787461b6baded6b4.bindPopup(popup_7ceeffa8a86ec896faa941e37f2f2c8e)
+        ;
+
+        
+    
+    
+            var poly_line_eb1c80f8d999f6d797ef475e46177f06 = L.polyline(
+                [[40.7462972, -73.9824937], [40.753213, -73.982232]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_2fde514447aa0ea8b014cb375f743e2b = L.marker(
+                [40.751936, -73.978306],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_52f09359d9e084cecb4f9fa714bc24fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fde514447aa0ea8b014cb375f743e2b.setIcon(icon_52f09359d9e084cecb4f9fa714bc24fc);
+        
+    
+        var popup_13f585b6a9787e1a6e9702a3369b19fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2294c239131f73648248d4be714cf7e3 = $(`<div id="html_2294c239131f73648248d4be714cf7e3" style="width: 100.0%; height: 100.0%;"><b>120 Park Avenue POPS</b><br>Distance: 0.45 miles</div>`)[0];
+                popup_13f585b6a9787e1a6e9702a3369b19fc.setContent(html_2294c239131f73648248d4be714cf7e3);
+            
+        
+
+        marker_2fde514447aa0ea8b014cb375f743e2b.bindPopup(popup_13f585b6a9787e1a6e9702a3369b19fc)
+        ;
+
+        
+    
+    
+            var poly_line_7fbb1a582728f7648e6bd7d8887b03d6 = L.polyline(
+                [[40.7462972, -73.9824937], [40.751936, -73.978306]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_283f3d923bc7fd0643bebfe08e6ff9f9 = L.marker(
+                [40.741309, -73.987845],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_c0f13348a8bb6f5460861c98afa6ae72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_283f3d923bc7fd0643bebfe08e6ff9f9.setIcon(icon_c0f13348a8bb6f5460861c98afa6ae72);
+        
+    
+        var popup_13ba089719f4de540e32aba87b9ec328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471f3307e367cc510ab04aacefa5c164 = $(`<div id="html_471f3307e367cc510ab04aacefa5c164" style="width: 100.0%; height: 100.0%;"><b>Madison Square Park APT</b><br>Distance: 0.44 miles</div>`)[0];
+                popup_13ba089719f4de540e32aba87b9ec328.setContent(html_471f3307e367cc510ab04aacefa5c164);
+            
+        
+
+        marker_283f3d923bc7fd0643bebfe08e6ff9f9.bindPopup(popup_13ba089719f4de540e32aba87b9ec328)
+        ;
+
+        
+    
+    
+            var poly_line_c61ee7fe35cc5dc5d374496cae3bca64 = L.polyline(
+                [[40.7462972, -73.9824937], [40.741309, -73.987845]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_3ad5ccd91296eac07f8947df540641fe = L.marker(
+                [40.754039, -73.982655],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_6f4844fd61a7b1fa9f00e21513dcb2bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3ad5ccd91296eac07f8947df540641fe.setIcon(icon_6f4844fd61a7b1fa9f00e21513dcb2bd);
+        
+    
+        var popup_70da70b528c866000165a26b9ff5ffa1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9874a667aff388e5ef1529ac7bcc8920 = $(`<div id="html_9874a667aff388e5ef1529ac7bcc8920" style="width: 100.0%; height: 100.0%;"><b>Bryant Park</b><br>Distance: 0.53 miles</div>`)[0];
+                popup_70da70b528c866000165a26b9ff5ffa1.setContent(html_9874a667aff388e5ef1529ac7bcc8920);
+            
+        
+
+        marker_3ad5ccd91296eac07f8947df540641fe.bindPopup(popup_70da70b528c866000165a26b9ff5ffa1)
+        ;
+
+        
+    
+    
+            var poly_line_44d6a2189a9a258ff0c0db1adb0de30b = L.polyline(
+                [[40.7462972, -73.9824937], [40.754039, -73.982655]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_cf40584acbb755d41dac1062f6a5e7d3 = L.marker(
+                [40.751816, -73.976715],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_2f042559984625d840f8dbec5b3ff6da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf40584acbb755d41dac1062f6a5e7d3.setIcon(icon_2f042559984625d840f8dbec5b3ff6da);
+        
+    
+        var popup_6d646ba870e90148da101a2584543402 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f2af2e29a0543b84664a74ec0670446 = $(`<div id="html_4f2af2e29a0543b84664a74ec0670446" style="width: 100.0%; height: 100.0%;"><b>Grand Central (Metro North) LIRR Restroom</b><br>Distance: 0.49 miles</div>`)[0];
+                popup_6d646ba870e90148da101a2584543402.setContent(html_4f2af2e29a0543b84664a74ec0670446);
+            
+        
+
+        marker_cf40584acbb755d41dac1062f6a5e7d3.bindPopup(popup_6d646ba870e90148da101a2584543402)
+        ;
+
+        
+    
+    
+            var poly_line_1d1bba8887605a52492ed8311f07f4fd = L.polyline(
+                [[40.7462972, -73.9824937], [40.751816, -73.976715]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var marker_005d3db4b891e682f7101a5868d2ab72 = L.marker(
+                [40.738095, -73.98205],
+                {}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+    
+            var icon_23264d879a46c7b6c3976e94c198d2be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "female", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_005d3db4b891e682f7101a5868d2ab72.setIcon(icon_23264d879a46c7b6c3976e94c198d2be);
+        
+    
+        var popup_6e012e569a5f3346143ada655b2c5f51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14ca35348be20466699b2fd731a8dc4 = $(`<div id="html_e14ca35348be20466699b2fd731a8dc4" style="width: 100.0%; height: 100.0%;"><b>Epiphany Library, NYPL</b><br>Distance: 0.57 miles</div>`)[0];
+                popup_6e012e569a5f3346143ada655b2c5f51.setContent(html_e14ca35348be20466699b2fd731a8dc4);
+            
+        
+
+        marker_005d3db4b891e682f7101a5868d2ab72.bindPopup(popup_6e012e569a5f3346143ada655b2c5f51)
+        ;
+
+        
+    
+    
+            var poly_line_e68504099d1b3b2840252fcf605e789c = L.polyline(
+                [[40.7462972, -73.9824937], [40.738095, -73.98205]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_0c288396c6db84f7b7b9de20188387a4);
+        
+</script>
+</html>

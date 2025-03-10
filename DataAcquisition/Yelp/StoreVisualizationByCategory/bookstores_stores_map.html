@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5d0bf498abbf2d4385461483fdac5e8a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5d0bf498abbf2d4385461483fdac5e8a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5d0bf498abbf2d4385461483fdac5e8a = L.map(
+                "map_5d0bf498abbf2d4385461483fdac5e8a",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d8f7c57881ed8668d43d3ac2c9c60d8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9d8f7c57881ed8668d43d3ac2c9c60d8.addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+            var circle_marker_43fda1a8b9dbf9f5feff9158e3b7cbd9 = L.circleMarker(
+                [40.763761, -73.984691],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.142857142857142, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_486053a79980256e52adefcf6222a4c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2271f4dc18ac43803f9a7898f88ad131 = $(`<div id="html_2271f4dc18ac43803f9a7898f88ad131" style="width: 100.0%; height: 100.0%;"><b>Ground Central</b><br>Rating: 4.2<br>Reviews: 324<br>Success Score: 4.20</div>`)[0];
+                popup_486053a79980256e52adefcf6222a4c3.setContent(html_2271f4dc18ac43803f9a7898f88ad131);
+            
+        
+
+        circle_marker_43fda1a8b9dbf9f5feff9158e3b7cbd9.bindPopup(popup_486053a79980256e52adefcf6222a4c3)
+        ;
+
+        
+    
+    
+            var circle_marker_107382189efdd040e1c4539e7e15aa19 = L.circleMarker(
+                [40.763761, -73.984691],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.594110115236877, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_1e19f700bfd745481a5e65d880845412 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c0cf986ca28708c28357f7e0b7cd07b = $(`<div id="html_3c0cf986ca28708c28357f7e0b7cd07b" style="width: 100.0%; height: 100.0%;"><b>Ground Central</b><br>Rating: 4.2<br>Reviews: 324<br>Success Score: 4.20</div>`)[0];
+                popup_1e19f700bfd745481a5e65d880845412.setContent(html_3c0cf986ca28708c28357f7e0b7cd07b);
+            
+        
+
+        circle_marker_107382189efdd040e1c4539e7e15aa19.bindPopup(popup_1e19f700bfd745481a5e65d880845412)
+        ;
+
+        
+    
+    
+            var circle_marker_b410594a816d77a332ed1f5794859501 = L.circleMarker(
+                [40.7625, -73.96908],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.55102040816326, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_650df91e0d708679acb1ad6f3ccbf2ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc26a7dfe243e20ab06adcc10516b2d8 = $(`<div id="html_cc26a7dfe243e20ab06adcc10516b2d8" style="width: 100.0%; height: 100.0%;"><b>Argosy Book Store</b><br>Rating: 4.3<br>Reviews: 83<br>Success Score: 4.30</div>`)[0];
+                popup_650df91e0d708679acb1ad6f3ccbf2ff.setContent(html_cc26a7dfe243e20ab06adcc10516b2d8);
+            
+        
+
+        circle_marker_b410594a816d77a332ed1f5794859501.bindPopup(popup_650df91e0d708679acb1ad6f3ccbf2ff)
+        ;
+
+        
+    
+    
+            var circle_marker_c2e901493f2606bf20608506b0776e6f = L.circleMarker(
+                [40.7625, -73.96908],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.250960307298335, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_3a3db3b0d748673533454430143b9f6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2c3ecec1a4569465c6bd49a3ecd35ae = $(`<div id="html_e2c3ecec1a4569465c6bd49a3ecd35ae" style="width: 100.0%; height: 100.0%;"><b>Argosy Book Store</b><br>Rating: 4.3<br>Reviews: 83<br>Success Score: 4.30</div>`)[0];
+                popup_3a3db3b0d748673533454430143b9f6a.setContent(html_e2c3ecec1a4569465c6bd49a3ecd35ae);
+            
+        
+
+        circle_marker_c2e901493f2606bf20608506b0776e6f.bindPopup(popup_3a3db3b0d748673533454430143b9f6a)
+        ;
+
+        
+    
+    
+            var circle_marker_be4a4d826164859e679aa1dd2c9615b1 = L.circleMarker(
+                [40.72686, -73.990432],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693877551020407, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_718d68a3a8fa1a427af0df6543d4ec16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_552d4e5b830105858ceff8382bf83ff8 = $(`<div id="html_552d4e5b830105858ceff8382bf83ff8" style="width: 100.0%; height: 100.0%;"><b>Pageant Print Shop</b><br>Rating: 3.6<br>Reviews: 27<br>Success Score: 3.60</div>`)[0];
+                popup_718d68a3a8fa1a427af0df6543d4ec16.setContent(html_552d4e5b830105858ceff8382bf83ff8);
+            
+        
+
+        circle_marker_be4a4d826164859e679aa1dd2c9615b1.bindPopup(popup_718d68a3a8fa1a427af0df6543d4ec16)
+        ;
+
+        
+    
+    
+            var circle_marker_86d3aa08c38f84eeb903719405d0b854 = L.circleMarker(
+                [40.72686, -73.990432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.382842509603073, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_1a62b58972d5be6c7e1d8af4904a78de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc790face179e868128be4f7bd7c56e3 = $(`<div id="html_cc790face179e868128be4f7bd7c56e3" style="width: 100.0%; height: 100.0%;"><b>Pageant Print Shop</b><br>Rating: 3.6<br>Reviews: 27<br>Success Score: 3.60</div>`)[0];
+                popup_1a62b58972d5be6c7e1d8af4904a78de.setContent(html_cc790face179e868128be4f7bd7c56e3);
+            
+        
+
+        circle_marker_86d3aa08c38f84eeb903719405d0b854.bindPopup(popup_1a62b58972d5be6c7e1d8af4904a78de)
+        ;
+
+        
+    
+    
+            var circle_marker_0d8974eb5b619721652631eef88d3542 = L.circleMarker(
+                [40.7208437058643, -73.9976947327561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693877551020407, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_93fd49f8165115574945a93a01db1caf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11192d149358cfc7ba7084c08fa2a085 = $(`<div id="html_11192d149358cfc7ba7084c08fa2a085" style="width: 100.0%; height: 100.0%;"><b>Clic</b><br>Rating: 3.6<br>Reviews: 24<br>Success Score: 3.60</div>`)[0];
+                popup_93fd49f8165115574945a93a01db1caf.setContent(html_11192d149358cfc7ba7084c08fa2a085);
+            
+        
+
+        circle_marker_0d8974eb5b619721652631eef88d3542.bindPopup(popup_93fd49f8165115574945a93a01db1caf)
+        ;
+
+        
+    
+    
+            var circle_marker_ddf728a5fe829300adf0ce673cbe0848 = L.circleMarker(
+                [40.7208437058643, -73.9976947327561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.229193341869398, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_7eb3659200c7d0bcb6435a065aac3acf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c48b155867a9d645791ff8358170e41a = $(`<div id="html_c48b155867a9d645791ff8358170e41a" style="width: 100.0%; height: 100.0%;"><b>Clic</b><br>Rating: 3.6<br>Reviews: 24<br>Success Score: 3.60</div>`)[0];
+                popup_7eb3659200c7d0bcb6435a065aac3acf.setContent(html_c48b155867a9d645791ff8358170e41a);
+            
+        
+
+        circle_marker_ddf728a5fe829300adf0ce673cbe0848.bindPopup(popup_7eb3659200c7d0bcb6435a065aac3acf)
+        ;
+
+        
+    
+    
+            var circle_marker_44d70b71fbeaab7684ca6fa5143edf41 = L.circleMarker(
+                [40.6975344, -73.97096359999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_2267a8b2be0c942fc0a33fa870366937 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c6214a722f6432833688a85294f5cbd = $(`<div id="html_5c6214a722f6432833688a85294f5cbd" style="width: 100.0%; height: 100.0%;"><b>Head Hi</b><br>Rating: 4.9<br>Reviews: 18<br>Success Score: 4.90</div>`)[0];
+                popup_2267a8b2be0c942fc0a33fa870366937.setContent(html_5c6214a722f6432833688a85294f5cbd);
+            
+        
+
+        circle_marker_44d70b71fbeaab7684ca6fa5143edf41.bindPopup(popup_2267a8b2be0c942fc0a33fa870366937)
+        ;
+
+        
+    
+    
+            var circle_marker_9ca2403441dc264cd205fb84232baf7a = L.circleMarker(
+                [40.6975344, -73.97096359999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.9218950064020487, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_06bb693805a86b8e1d090e6ccadd5628 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_609cee19a041416ad1ceab1be5e5e204 = $(`<div id="html_609cee19a041416ad1ceab1be5e5e204" style="width: 100.0%; height: 100.0%;"><b>Head Hi</b><br>Rating: 4.9<br>Reviews: 18<br>Success Score: 4.90</div>`)[0];
+                popup_06bb693805a86b8e1d090e6ccadd5628.setContent(html_609cee19a041416ad1ceab1be5e5e204);
+            
+        
+
+        circle_marker_9ca2403441dc264cd205fb84232baf7a.bindPopup(popup_06bb693805a86b8e1d090e6ccadd5628)
+        ;
+
+        
+    
+    
+            var circle_marker_9d62878a114a6d03680fe779c1a22d80 = L.circleMarker(
+                [40.750941, -74.006448],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.959183673469386, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_2a3b5113a05fdbfdff50a794e5956b55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c06e58db33fc1dfa07c40492dc5b17f = $(`<div id="html_0c06e58db33fc1dfa07c40492dc5b17f" style="width: 100.0%; height: 100.0%;"><b>Printed Matter Inc.</b><br>Rating: 4.4<br>Reviews: 13<br>Success Score: 4.40</div>`)[0];
+                popup_2a3b5113a05fdbfdff50a794e5956b55.setContent(html_0c06e58db33fc1dfa07c40492dc5b17f);
+            
+        
+
+        circle_marker_9d62878a114a6d03680fe779c1a22d80.bindPopup(popup_2a3b5113a05fdbfdff50a794e5956b55)
+        ;
+
+        
+    
+    
+            var circle_marker_0d82a27fb09d981381fb62b4f16eee3d = L.circleMarker(
+                [40.750941, -74.006448],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.6658130601792573, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_145654b48cefcfcab7a96355a485537b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeaf3a60089acc1161429cdbe66fa41d = $(`<div id="html_aeaf3a60089acc1161429cdbe66fa41d" style="width: 100.0%; height: 100.0%;"><b>Printed Matter Inc.</b><br>Rating: 4.4<br>Reviews: 13<br>Success Score: 4.40</div>`)[0];
+                popup_145654b48cefcfcab7a96355a485537b.setContent(html_aeaf3a60089acc1161429cdbe66fa41d);
+            
+        
+
+        circle_marker_0d82a27fb09d981381fb62b4f16eee3d.bindPopup(popup_145654b48cefcfcab7a96355a485537b)
+        ;
+
+        
+    
+    
+            var circle_marker_4afa55cb052afd77606331c960b3e5d7 = L.circleMarker(
+                [40.7515661, -74.0041872],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.102040816326529, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_ea3a12f1c1675f4ded4e29765f82a396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_933407de44acfc13d318907f1c962da8 = $(`<div id="html_933407de44acfc13d318907f1c962da8" style="width: 100.0%; height: 100.0%;"><b>Aperture Gallery & Bookstore</b><br>Rating: 3.7<br>Reviews: 11<br>Success Score: 3.70</div>`)[0];
+                popup_ea3a12f1c1675f4ded4e29765f82a396.setContent(html_933407de44acfc13d318907f1c962da8);
+            
+        
+
+        circle_marker_4afa55cb052afd77606331c960b3e5d7.bindPopup(popup_ea3a12f1c1675f4ded4e29765f82a396)
+        ;
+
+        
+    
+    
+            var circle_marker_5aaae6e7f28a9a16f16459436ce3cc1d = L.circleMarker(
+                [40.7515661, -74.0041872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5633802816901408, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_621b41e27348ce39633ea45d77a75400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_817cb186c62c9b98413e6fc75d0ae586 = $(`<div id="html_817cb186c62c9b98413e6fc75d0ae586" style="width: 100.0%; height: 100.0%;"><b>Aperture Gallery & Bookstore</b><br>Rating: 3.7<br>Reviews: 11<br>Success Score: 3.70</div>`)[0];
+                popup_621b41e27348ce39633ea45d77a75400.setContent(html_817cb186c62c9b98413e6fc75d0ae586);
+            
+        
+
+        circle_marker_5aaae6e7f28a9a16f16459436ce3cc1d.bindPopup(popup_621b41e27348ce39633ea45d77a75400)
+        ;
+
+        
+    
+    
+            var circle_marker_69bec658fcf73b2a08636db31d68e91e = L.circleMarker(
+                [40.74922979999999, -74.0044496],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.55102040816326, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_6768027d04c5f8d6579e2b3d1ae4fa19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_202f0e6f495f9e70d59483a3dd6a28db = $(`<div id="html_202f0e6f495f9e70d59483a3dd6a28db" style="width: 100.0%; height: 100.0%;"><b>Petzel Gallery</b><br>Rating: 4.3<br>Reviews: 8<br>Success Score: 4.30</div>`)[0];
+                popup_6768027d04c5f8d6579e2b3d1ae4fa19.setContent(html_202f0e6f495f9e70d59483a3dd6a28db);
+            
+        
+
+        circle_marker_69bec658fcf73b2a08636db31d68e91e.bindPopup(popup_6768027d04c5f8d6579e2b3d1ae4fa19)
+        ;
+
+        
+    
+    
+            var circle_marker_04d7a6763cfa730b26b46d50c9edb985 = L.circleMarker(
+                [40.74922979999999, -74.0044496],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.40973111395646605, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_b17d9ffc2e05495414dc44a3c2b48889 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ba69fdbb1278c71046eeb14a850460c = $(`<div id="html_4ba69fdbb1278c71046eeb14a850460c" style="width: 100.0%; height: 100.0%;"><b>Petzel Gallery</b><br>Rating: 4.3<br>Reviews: 8<br>Success Score: 4.30</div>`)[0];
+                popup_b17d9ffc2e05495414dc44a3c2b48889.setContent(html_4ba69fdbb1278c71046eeb14a850460c);
+            
+        
+
+        circle_marker_04d7a6763cfa730b26b46d50c9edb985.bindPopup(popup_b17d9ffc2e05495414dc44a3c2b48889)
+        ;
+
+        
+    
+    
+            var circle_marker_64bb4d2b0eacee797cc47a7a4e753247 = L.circleMarker(
+                [40.78693, -73.95034],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_397aaa100a4f1ad4c10778377a3ef646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ae00a684bf31d965c7caedd6b3b892f = $(`<div id="html_3ae00a684bf31d965c7caedd6b3b892f" style="width: 100.0%; height: 100.0%;"><b>Rare Book Buyer</b><br>Rating: 4.9<br>Reviews: 7<br>Success Score: 4.90</div>`)[0];
+                popup_397aaa100a4f1ad4c10778377a3ef646.setContent(html_3ae00a684bf31d965c7caedd6b3b892f);
+            
+        
+
+        circle_marker_64bb4d2b0eacee797cc47a7a4e753247.bindPopup(popup_397aaa100a4f1ad4c10778377a3ef646)
+        ;
+
+        
+    
+    
+            var circle_marker_0201af98b2d201e0d9420f0e152fa957 = L.circleMarker(
+                [40.78693, -73.95034],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.35851472471190776, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_71ed3d0428250ed8359e1abc71af723c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bd5ffa2383dedb5c309250b7d33538e = $(`<div id="html_5bd5ffa2383dedb5c309250b7d33538e" style="width: 100.0%; height: 100.0%;"><b>Rare Book Buyer</b><br>Rating: 4.9<br>Reviews: 7<br>Success Score: 4.90</div>`)[0];
+                popup_71ed3d0428250ed8359e1abc71af723c.setContent(html_5bd5ffa2383dedb5c309250b7d33538e);
+            
+        
+
+        circle_marker_0201af98b2d201e0d9420f0e152fa957.bindPopup(popup_71ed3d0428250ed8359e1abc71af723c)
+        ;
+
+        
+    
+    
+            var circle_marker_1257cb1a4c152b1596f325fe80dfcbe7 = L.circleMarker(
+                [40.754044, -73.98497],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.55102040816326, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_6b85e0e619bad52ae0d8c04ed017d0bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0cece6f5f0d98ef2528ff226081aaff = $(`<div id="html_e0cece6f5f0d98ef2528ff226081aaff" style="width: 100.0%; height: 100.0%;"><b>Kinokuniya Bookstore - New York</b><br>Rating: 4.3<br>Reviews: 781<br>Success Score: 4.30</div>`)[0];
+                popup_6b85e0e619bad52ae0d8c04ed017d0bd.setContent(html_e0cece6f5f0d98ef2528ff226081aaff);
+            
+        
+
+        circle_marker_1257cb1a4c152b1596f325fe80dfcbe7.bindPopup(popup_6b85e0e619bad52ae0d8c04ed017d0bd)
+        ;
+
+        
+    
+    
+            var circle_marker_e08c579ad83388aab5447845f404014a = L.circleMarker(
+                [40.754044, -73.98497],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_af5302a77b143582b87901e1af8255e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5736e523fe2f0336ded901447d84e62 = $(`<div id="html_e5736e523fe2f0336ded901447d84e62" style="width: 100.0%; height: 100.0%;"><b>Kinokuniya Bookstore - New York</b><br>Rating: 4.3<br>Reviews: 781<br>Success Score: 4.30</div>`)[0];
+                popup_af5302a77b143582b87901e1af8255e1.setContent(html_e5736e523fe2f0336ded901447d84e62);
+            
+        
+
+        circle_marker_e08c579ad83388aab5447845f404014a.bindPopup(popup_af5302a77b143582b87901e1af8255e1)
+        ;
+
+        
+    
+    
+            var circle_marker_9fd9d00e433f6da1fcb5e539a5043570 = L.circleMarker(
+                [40.689803792357566, -73.99329681471211],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.653061224489795, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_ddaca6620d4b4e83f6a559f56a6afed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6653bfc7c6afce5b7e52d2194fe2f30a = $(`<div id="html_6653bfc7c6afce5b7e52d2194fe2f30a" style="width: 100.0%; height: 100.0%;"><b>Barnes & Noble</b><br>Rating: 3.1<br>Reviews: 105<br>Success Score: 3.10</div>`)[0];
+                popup_ddaca6620d4b4e83f6a559f56a6afed3.setContent(html_6653bfc7c6afce5b7e52d2194fe2f30a);
+            
+        
+
+        circle_marker_9fd9d00e433f6da1fcb5e539a5043570.bindPopup(popup_ddaca6620d4b4e83f6a559f56a6afed3)
+        ;
+
+        
+    
+    
+            var circle_marker_48e8ff93803047e292bcaafb9592062f = L.circleMarker(
+                [40.689803792357566, -73.99329681471211],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.377720870678617, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_053265db9d97c1ea4d373188e85db372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e693e9cb390d8bdf126f4ec2baefc5f7 = $(`<div id="html_e693e9cb390d8bdf126f4ec2baefc5f7" style="width: 100.0%; height: 100.0%;"><b>Barnes & Noble</b><br>Rating: 3.1<br>Reviews: 105<br>Success Score: 3.10</div>`)[0];
+                popup_053265db9d97c1ea4d373188e85db372.setContent(html_e693e9cb390d8bdf126f4ec2baefc5f7);
+            
+        
+
+        circle_marker_48e8ff93803047e292bcaafb9592062f.bindPopup(popup_053265db9d97c1ea4d373188e85db372)
+        ;
+
+        
+    
+    
+            var circle_marker_8f465de44d1a0b66707f051c8bbe26f9 = L.circleMarker(
+                [40.743019, -74.006851],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.285714285714285, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_eaf8a45f3f320e17ab706fadb221a618 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e584377959a0e66d1a887a413f1de228 = $(`<div id="html_e584377959a0e66d1a887a413f1de228" style="width: 100.0%; height: 100.0%;"><b>Posman Books</b><br>Rating: 3.5<br>Reviews: 59<br>Success Score: 3.50</div>`)[0];
+                popup_eaf8a45f3f320e17ab706fadb221a618.setContent(html_e584377959a0e66d1a887a413f1de228);
+            
+        
+
+        circle_marker_8f465de44d1a0b66707f051c8bbe26f9.bindPopup(popup_eaf8a45f3f320e17ab706fadb221a618)
+        ;
+
+        
+    
+    
+            var circle_marker_297425fdd700993b30b86dcc9b605765 = L.circleMarker(
+                [40.743019, -74.006851],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.021766965428937, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_70dc32becfaa7b89899f57b7833e9660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ccc1059c30e8d2fe4b59dcd9632019f = $(`<div id="html_7ccc1059c30e8d2fe4b59dcd9632019f" style="width: 100.0%; height: 100.0%;"><b>Posman Books</b><br>Rating: 3.5<br>Reviews: 59<br>Success Score: 3.50</div>`)[0];
+                popup_70dc32becfaa7b89899f57b7833e9660.setContent(html_7ccc1059c30e8d2fe4b59dcd9632019f);
+            
+        
+
+        circle_marker_297425fdd700993b30b86dcc9b605765.bindPopup(popup_70dc32becfaa7b89899f57b7833e9660)
+        ;
+
+        
+    
+    
+            var circle_marker_c17d8e2e28616a2d832aa5e6d21bf012 = L.circleMarker(
+                [40.7745, -73.94853],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.142857142857142, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_d6d7b6d3f4b9d04ee4e05c9c29b29d6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1607a82d9e853e13c2fb8229f92e25ac = $(`<div id="html_1607a82d9e853e13c2fb8229f92e25ac" style="width: 100.0%; height: 100.0%;"><b>Logos Bookstore</b><br>Rating: 4.2<br>Reviews: 50<br>Success Score: 4.20</div>`)[0];
+                popup_d6d7b6d3f4b9d04ee4e05c9c29b29d6c.setContent(html_1607a82d9e853e13c2fb8229f92e25ac);
+            
+        
+
+        circle_marker_c17d8e2e28616a2d832aa5e6d21bf012.bindPopup(popup_d6d7b6d3f4b9d04ee4e05c9c29b29d6c)
+        ;
+
+        
+    
+    
+            var circle_marker_89cebdebef97feec015495f6cf2ac422 = L.circleMarker(
+                [40.7745, -73.94853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.560819462227913, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_c78e7dd635be3fd7257fc9f70f728e7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7dadb6496123734797576b4c770624d = $(`<div id="html_f7dadb6496123734797576b4c770624d" style="width: 100.0%; height: 100.0%;"><b>Logos Bookstore</b><br>Rating: 4.2<br>Reviews: 50<br>Success Score: 4.20</div>`)[0];
+                popup_c78e7dd635be3fd7257fc9f70f728e7b.setContent(html_f7dadb6496123734797576b4c770624d);
+            
+        
+
+        circle_marker_89cebdebef97feec015495f6cf2ac422.bindPopup(popup_c78e7dd635be3fd7257fc9f70f728e7b)
+        ;
+
+        
+    
+    
+            var circle_marker_a292f42c9c31fe51a30f74382f8f9ad6 = L.circleMarker(
+                [40.81639852143228, -73.97944507285706],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.918367346938773, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_c1a5317bb76baedc56e37e812776e307 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_094087660cfcd3ca0203bb8447149e73 = $(`<div id="html_094087660cfcd3ca0203bb8447149e73" style="width: 100.0%; height: 100.0%;"><b>Kinokuniya Bookstore - New Jersey</b><br>Rating: 3.9<br>Reviews: 34<br>Success Score: 3.90</div>`)[0];
+                popup_c1a5317bb76baedc56e37e812776e307.setContent(html_094087660cfcd3ca0203bb8447149e73);
+            
+        
+
+        circle_marker_a292f42c9c31fe51a30f74382f8f9ad6.bindPopup(popup_c1a5317bb76baedc56e37e812776e307)
+        ;
+
+        
+    
+    
+            var circle_marker_a9c961ac1a5c5518f6c9f384ee53ceec = L.circleMarker(
+                [40.81639852143228, -73.97944507285706],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7413572343149808, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_987b72645d5ba444aa9969a94a5c99c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_679c5dff226dc491f16c78f447c1d1fc = $(`<div id="html_679c5dff226dc491f16c78f447c1d1fc" style="width: 100.0%; height: 100.0%;"><b>Kinokuniya Bookstore - New Jersey</b><br>Rating: 3.9<br>Reviews: 34<br>Success Score: 3.90</div>`)[0];
+                popup_987b72645d5ba444aa9969a94a5c99c8.setContent(html_679c5dff226dc491f16c78f447c1d1fc);
+            
+        
+
+        circle_marker_a9c961ac1a5c5518f6c9f384ee53ceec.bindPopup(popup_987b72645d5ba444aa9969a94a5c99c8)
+        ;
+
+        
+    
+    
+            var circle_marker_2ebcc21d704ad6f3a6f404160d47aa45 = L.circleMarker(
+                [40.72454, -73.9965931],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.959183673469386, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_db624f8bb0e9b652976ac51c9b0457a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc4b0a82874455506b6ff2f82625ed3b = $(`<div id="html_dc4b0a82874455506b6ff2f82625ed3b" style="width: 100.0%; height: 100.0%;"><b>Housing Works Bookstore</b><br>Rating: 4.4<br>Reviews: 617<br>Success Score: 4.40</div>`)[0];
+                popup_db624f8bb0e9b652976ac51c9b0457a5.setContent(html_dc4b0a82874455506b6ff2f82625ed3b);
+            
+        
+
+        circle_marker_2ebcc21d704ad6f3a6f404160d47aa45.bindPopup(popup_db624f8bb0e9b652976ac51c9b0457a5)
+        ;
+
+        
+    
+    
+            var circle_marker_3b6b954544bc28a270f8ddcc81834773 = L.circleMarker(
+                [40.72454, -73.9965931],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.600512163892446, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_4c5f58a1111652c570821735a8dba053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ee7880f8b2c65408aeae2375fc30136 = $(`<div id="html_5ee7880f8b2c65408aeae2375fc30136" style="width: 100.0%; height: 100.0%;"><b>Housing Works Bookstore</b><br>Rating: 4.4<br>Reviews: 617<br>Success Score: 4.40</div>`)[0];
+                popup_4c5f58a1111652c570821735a8dba053.setContent(html_5ee7880f8b2c65408aeae2375fc30136);
+            
+        
+
+        circle_marker_3b6b954544bc28a270f8ddcc81834773.bindPopup(popup_4c5f58a1111652c570821735a8dba053)
+        ;
+
+        
+    
+    
+            var circle_marker_caeaaf62f8b37f71a3572fea5ba62d21 = L.circleMarker(
+                [40.723015, -73.983207],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.55102040816326, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_fc767d6c82d81aaa86213ab61f86f11e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f145177e55d017f0786aab3867112951 = $(`<div id="html_f145177e55d017f0786aab3867112951" style="width: 100.0%; height: 100.0%;"><b>Book Club Bar</b><br>Rating: 4.3<br>Reviews: 181<br>Success Score: 4.30</div>`)[0];
+                popup_fc767d6c82d81aaa86213ab61f86f11e.setContent(html_f145177e55d017f0786aab3867112951);
+            
+        
+
+        circle_marker_caeaaf62f8b37f71a3572fea5ba62d21.bindPopup(popup_fc767d6c82d81aaa86213ab61f86f11e)
+        ;
+
+        
+    
+    
+            var circle_marker_95242bb03757228bf5b9203689b28cf3 = L.circleMarker(
+                [40.723015, -73.983207],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.270166453265045, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_6fad7b877f77885f2a066af84e48c328 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a659429edcce363c65c988a9aaa91dd0 = $(`<div id="html_a659429edcce363c65c988a9aaa91dd0" style="width: 100.0%; height: 100.0%;"><b>Book Club Bar</b><br>Rating: 4.3<br>Reviews: 181<br>Success Score: 4.30</div>`)[0];
+                popup_6fad7b877f77885f2a066af84e48c328.setContent(html_a659429edcce363c65c988a9aaa91dd0);
+            
+        
+
+        circle_marker_95242bb03757228bf5b9203689b28cf3.bindPopup(popup_6fad7b877f77885f2a066af84e48c328)
+        ;
+
+        
+    
+    
+            var circle_marker_400d53f483cb02e424ae6519de136c05 = L.circleMarker(
+                [40.674261, -73.952563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.591836734693874, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_0d9ed86fa6bc5dedb29f9326714fd1c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_919320395aea69823d80e46f4f303784 = $(`<div id="html_919320395aea69823d80e46f4f303784" style="width: 100.0%; height: 100.0%;"><b>Cafe Con Libros</b><br>Rating: 4.8<br>Reviews: 41<br>Success Score: 4.80</div>`)[0];
+                popup_0d9ed86fa6bc5dedb29f9326714fd1c7.setContent(html_919320395aea69823d80e46f4f303784);
+            
+        
+
+        circle_marker_400d53f483cb02e424ae6519de136c05.bindPopup(popup_0d9ed86fa6bc5dedb29f9326714fd1c7)
+        ;
+
+        
+    
+    
+            var circle_marker_06a8a3df9e3e0d23e0a8f6885b4d73d4 = L.circleMarker(
+                [40.674261, -73.952563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0998719590268884, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_c3d72bfb295a2924b8a6d2eea5f276e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f1e16041d0f15a93e762c3291fbdf2e = $(`<div id="html_4f1e16041d0f15a93e762c3291fbdf2e" style="width: 100.0%; height: 100.0%;"><b>Cafe Con Libros</b><br>Rating: 4.8<br>Reviews: 41<br>Success Score: 4.80</div>`)[0];
+                popup_c3d72bfb295a2924b8a6d2eea5f276e6.setContent(html_4f1e16041d0f15a93e762c3291fbdf2e);
+            
+        
+
+        circle_marker_06a8a3df9e3e0d23e0a8f6885b4d73d4.bindPopup(popup_c3d72bfb295a2924b8a6d2eea5f276e6)
+        ;
+
+        
+    
+    
+            var circle_marker_5ee30a4797440a83cfe52bdd64a92e07 = L.circleMarker(
+                [40.7593404, -74.0396089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_fa377a1d56effe93767f44ea91b56cd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44f5af71fc92ad81d14b9e26d2c7ff39 = $(`<div id="html_44f5af71fc92ad81d14b9e26d2c7ff39" style="width: 100.0%; height: 100.0%;"><b>Arawax Records & Tea</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_fa377a1d56effe93767f44ea91b56cd3.setContent(html_44f5af71fc92ad81d14b9e26d2c7ff39);
+            
+        
+
+        circle_marker_5ee30a4797440a83cfe52bdd64a92e07.bindPopup(popup_fa377a1d56effe93767f44ea91b56cd3)
+        ;
+
+        
+    
+    
+            var circle_marker_c13cd8069948fe2cb074aeb1745b53c8 = L.circleMarker(
+                [40.7593404, -74.0396089],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_de3a9114d551d63c9059851caec62550 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e200be801d0e53ce5b4786d0924aa64a = $(`<div id="html_e200be801d0e53ce5b4786d0924aa64a" style="width: 100.0%; height: 100.0%;"><b>Arawax Records & Tea</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_de3a9114d551d63c9059851caec62550.setContent(html_e200be801d0e53ce5b4786d0924aa64a);
+            
+        
+
+        circle_marker_c13cd8069948fe2cb074aeb1745b53c8.bindPopup(popup_de3a9114d551d63c9059851caec62550)
+        ;
+
+        
+    
+    
+            var circle_marker_575b7637e22f5fbc8f92738d3b1cc62a = L.circleMarker(
+                [40.73746, -73.99222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_2f4503de168d4e2d210c2ff3f34a00ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4f8afe137d1aa26d0123ab08faf729 = $(`<div id="html_1f4f8afe137d1aa26d0123ab08faf729" style="width: 100.0%; height: 100.0%;"><b>Accent Sisters</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_2f4503de168d4e2d210c2ff3f34a00ec.setContent(html_1f4f8afe137d1aa26d0123ab08faf729);
+            
+        
+
+        circle_marker_575b7637e22f5fbc8f92738d3b1cc62a.bindPopup(popup_2f4503de168d4e2d210c2ff3f34a00ec)
+        ;
+
+        
+    
+    
+            var circle_marker_f789e5de2de418abc304f33787db7ffe = L.circleMarker(
+                [40.73746, -73.99222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5d0bf498abbf2d4385461483fdac5e8a);
+        
+    
+        var popup_f871a4494aad7fe98543673bb22fdc6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9182884dc0c7f9f54e5f999258e3810d = $(`<div id="html_9182884dc0c7f9f54e5f999258e3810d" style="width: 100.0%; height: 100.0%;"><b>Accent Sisters</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_f871a4494aad7fe98543673bb22fdc6e.setContent(html_9182884dc0c7f9f54e5f999258e3810d);
+            
+        
+
+        circle_marker_f789e5de2de418abc304f33787db7ffe.bindPopup(popup_f871a4494aad7fe98543673bb22fdc6e)
+        ;
+
+        
+    
+</script>
+</html>

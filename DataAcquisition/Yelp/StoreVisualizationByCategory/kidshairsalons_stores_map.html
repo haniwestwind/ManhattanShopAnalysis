@@ -1,0 +1,3303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3372fbe861591980d5e57f0e9e491bf8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3372fbe861591980d5e57f0e9e491bf8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3372fbe861591980d5e57f0e9e491bf8 = L.map(
+                "map_3372fbe861591980d5e57f0e9e491bf8",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_58e4fe304c1b7a500eea75e86f744f8e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+            var circle_marker_e71d698c1636b0a3747c3c21257f4c82 = L.circleMarker(
+                [40.71034, -73.84885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_b2eecdd5a9487636ec80817b95f846eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da8cbad20d075a42893065c258ac8033 = $(`<div id="html_da8cbad20d075a42893065c258ac8033" style="width: 100.0%; height: 100.0%;"><b>Blowout Spot III</b><br>Rating: 3.2<br>Reviews: 28<br>Success Score: 3.20</div>`)[0];
+                popup_b2eecdd5a9487636ec80817b95f846eb.setContent(html_da8cbad20d075a42893065c258ac8033);
+            
+        
+
+        circle_marker_e71d698c1636b0a3747c3c21257f4c82.bindPopup(popup_b2eecdd5a9487636ec80817b95f846eb)
+        ;
+
+        
+    
+    
+            var circle_marker_e5fa6553167f6b063e1e75209adc26c0 = L.circleMarker(
+                [40.71034, -73.84885],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.777777777777777, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_5c9ec6f7ee9e41910bb005c7a80d66d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02305a05b4a7fcea2fc84404b31b223c = $(`<div id="html_02305a05b4a7fcea2fc84404b31b223c" style="width: 100.0%; height: 100.0%;"><b>Blowout Spot III</b><br>Rating: 3.2<br>Reviews: 28<br>Success Score: 3.20</div>`)[0];
+                popup_5c9ec6f7ee9e41910bb005c7a80d66d0.setContent(html_02305a05b4a7fcea2fc84404b31b223c);
+            
+        
+
+        circle_marker_e5fa6553167f6b063e1e75209adc26c0.bindPopup(popup_5c9ec6f7ee9e41910bb005c7a80d66d0)
+        ;
+
+        
+    
+    
+            var circle_marker_2bc6a45114bb2bec8b67c3aeede2c46d = L.circleMarker(
+                [40.77574, -73.98237],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_469fb76bcf00d94526e11ec11f19b666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_207c91203335b6a7d5b25a73f01353e5 = $(`<div id="html_207c91203335b6a7d5b25a73f01353e5" style="width: 100.0%; height: 100.0%;"><b>Kimmiecuts</b><br>Rating: 5.0<br>Reviews: 9<br>Success Score: 5.00</div>`)[0];
+                popup_469fb76bcf00d94526e11ec11f19b666.setContent(html_207c91203335b6a7d5b25a73f01353e5);
+            
+        
+
+        circle_marker_2bc6a45114bb2bec8b67c3aeede2c46d.bindPopup(popup_469fb76bcf00d94526e11ec11f19b666)
+        ;
+
+        
+    
+    
+            var circle_marker_cb480b96d0e9a879c784f9b509f85147 = L.circleMarker(
+                [40.77574, -73.98237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_947c0f3c133cca64feec9188fd115b24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a44b1f7aeae9df4cfca0fbf0ebd146e = $(`<div id="html_0a44b1f7aeae9df4cfca0fbf0ebd146e" style="width: 100.0%; height: 100.0%;"><b>Kimmiecuts</b><br>Rating: 5.0<br>Reviews: 9<br>Success Score: 5.00</div>`)[0];
+                popup_947c0f3c133cca64feec9188fd115b24.setContent(html_0a44b1f7aeae9df4cfca0fbf0ebd146e);
+            
+        
+
+        circle_marker_cb480b96d0e9a879c784f9b509f85147.bindPopup(popup_947c0f3c133cca64feec9188fd115b24)
+        ;
+
+        
+    
+    
+            var circle_marker_bcc79c8079c78b4e283f9c640ea7ec41 = L.circleMarker(
+                [40.71725, -74.07199],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f698bf78542d75a55314da6ad3d956e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f476789bbcb263ca2ffa62c82233923e = $(`<div id="html_f476789bbcb263ca2ffa62c82233923e" style="width: 100.0%; height: 100.0%;"><b>Ariannis Hair Salon</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_f698bf78542d75a55314da6ad3d956e5.setContent(html_f476789bbcb263ca2ffa62c82233923e);
+            
+        
+
+        circle_marker_bcc79c8079c78b4e283f9c640ea7ec41.bindPopup(popup_f698bf78542d75a55314da6ad3d956e5)
+        ;
+
+        
+    
+    
+            var circle_marker_0b2ac918f46f758a5bbe3f8e951c203c = L.circleMarker(
+                [40.71725, -74.07199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1111111111111112, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_115f893f0836e01b71816bd4b017a26d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e3c191c1bf74fede8a57858c4a01a0 = $(`<div id="html_68e3c191c1bf74fede8a57858c4a01a0" style="width: 100.0%; height: 100.0%;"><b>Ariannis Hair Salon</b><br>Rating: 5.0<br>Reviews: 4<br>Success Score: 5.00</div>`)[0];
+                popup_115f893f0836e01b71816bd4b017a26d.setContent(html_68e3c191c1bf74fede8a57858c4a01a0);
+            
+        
+
+        circle_marker_0b2ac918f46f758a5bbe3f8e951c203c.bindPopup(popup_115f893f0836e01b71816bd4b017a26d)
+        ;
+
+        
+    
+    
+            var circle_marker_fea79dc2d7290dec99944b41ced6e431 = L.circleMarker(
+                [40.7475073, -74.0376813],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_bd36102f6ab4945e677dca126341a63f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_852a93d218b342a95d6857501789e218 = $(`<div id="html_852a93d218b342a95d6857501789e218" style="width: 100.0%; height: 100.0%;"><b>Just 4 Kids Salon & Birthday Party Boutique</b><br>Rating: 4.4<br>Reviews: 144<br>Success Score: 4.40</div>`)[0];
+                popup_bd36102f6ab4945e677dca126341a63f.setContent(html_852a93d218b342a95d6857501789e218);
+            
+        
+
+        circle_marker_fea79dc2d7290dec99944b41ced6e431.bindPopup(popup_bd36102f6ab4945e677dca126341a63f)
+        ;
+
+        
+    
+    
+            var circle_marker_3a867f4a4fe78aeda8649a773ea829ee = L.circleMarker(
+                [40.7475073, -74.0376813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_830161e72f5652764cd4c2b24f0b6d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aac83031d13f7beceec162366d1f93ce = $(`<div id="html_aac83031d13f7beceec162366d1f93ce" style="width: 100.0%; height: 100.0%;"><b>Just 4 Kids Salon & Birthday Party Boutique</b><br>Rating: 4.4<br>Reviews: 144<br>Success Score: 4.40</div>`)[0];
+                popup_830161e72f5652764cd4c2b24f0b6d08.setContent(html_aac83031d13f7beceec162366d1f93ce);
+            
+        
+
+        circle_marker_3a867f4a4fe78aeda8649a773ea829ee.bindPopup(popup_830161e72f5652764cd4c2b24f0b6d08)
+        ;
+
+        
+    
+    
+            var circle_marker_1c364fa991ed881b9390bb1320a5d23e = L.circleMarker(
+                [40.7459346, -73.9141605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8d9604bc18dff22f6fe950d3863055c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf106aa1843f9e143cb34b4a4cb9d523 = $(`<div id="html_bf106aa1843f9e143cb34b4a4cb9d523" style="width: 100.0%; height: 100.0%;"><b>Kiddy Kutz</b><br>Rating: 4.4<br>Reviews: 144<br>Success Score: 4.40</div>`)[0];
+                popup_8d9604bc18dff22f6fe950d3863055c0.setContent(html_bf106aa1843f9e143cb34b4a4cb9d523);
+            
+        
+
+        circle_marker_1c364fa991ed881b9390bb1320a5d23e.bindPopup(popup_8d9604bc18dff22f6fe950d3863055c0)
+        ;
+
+        
+    
+    
+            var circle_marker_df0457bed9cd4a3ebfdfab59b24ce074 = L.circleMarker(
+                [40.7459346, -73.9141605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7dc5438415a90490c45f77c6c13f84e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27ed3d5d8f5a83938220eb08268251dd = $(`<div id="html_27ed3d5d8f5a83938220eb08268251dd" style="width: 100.0%; height: 100.0%;"><b>Kiddy Kutz</b><br>Rating: 4.4<br>Reviews: 144<br>Success Score: 4.40</div>`)[0];
+                popup_7dc5438415a90490c45f77c6c13f84e2.setContent(html_27ed3d5d8f5a83938220eb08268251dd);
+            
+        
+
+        circle_marker_df0457bed9cd4a3ebfdfab59b24ce074.bindPopup(popup_7dc5438415a90490c45f77c6c13f84e2)
+        ;
+
+        
+    
+    
+            var circle_marker_28651cae8c79f40f24a2cc6155dc136f = L.circleMarker(
+                [40.74459, -73.97724],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_6dad93cff41d2e03291e420fa5f84f80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b57b243d547957d6afe8627ba0989ffc = $(`<div id="html_b57b243d547957d6afe8627ba0989ffc" style="width: 100.0%; height: 100.0%;"><b>Milk And Cookies Kids Spa & Salon</b><br>Rating: 4.2<br>Reviews: 124<br>Success Score: 4.20</div>`)[0];
+                popup_6dad93cff41d2e03291e420fa5f84f80.setContent(html_b57b243d547957d6afe8627ba0989ffc);
+            
+        
+
+        circle_marker_28651cae8c79f40f24a2cc6155dc136f.bindPopup(popup_6dad93cff41d2e03291e420fa5f84f80)
+        ;
+
+        
+    
+    
+            var circle_marker_be65bd01ed42d14e7dfacd0db4279ca1 = L.circleMarker(
+                [40.74459, -73.97724],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 34.44444444444444, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_b9a2129583e71fa78611baaca3eced47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c474bd598b5f30df9c6c2d43ecce55d = $(`<div id="html_0c474bd598b5f30df9c6c2d43ecce55d" style="width: 100.0%; height: 100.0%;"><b>Milk And Cookies Kids Spa & Salon</b><br>Rating: 4.2<br>Reviews: 124<br>Success Score: 4.20</div>`)[0];
+                popup_b9a2129583e71fa78611baaca3eced47.setContent(html_0c474bd598b5f30df9c6c2d43ecce55d);
+            
+        
+
+        circle_marker_be65bd01ed42d14e7dfacd0db4279ca1.bindPopup(popup_b9a2129583e71fa78611baaca3eced47)
+        ;
+
+        
+    
+    
+            var circle_marker_0a78ba5bcc10089d9dc7a22c600c3e7a = L.circleMarker(
+                [40.690107, -73.994779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.4, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_93dced29edba1b453a2773bac72417ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_091e844458880924e7431e2b42cd23c3 = $(`<div id="html_091e844458880924e7431e2b42cd23c3" style="width: 100.0%; height: 100.0%;"><b>Pinkyz Place Children's Salon & Boutique</b><br>Rating: 4.6<br>Reviews: 105<br>Success Score: 4.60</div>`)[0];
+                popup_93dced29edba1b453a2773bac72417ae.setContent(html_091e844458880924e7431e2b42cd23c3);
+            
+        
+
+        circle_marker_0a78ba5bcc10089d9dc7a22c600c3e7a.bindPopup(popup_93dced29edba1b453a2773bac72417ae)
+        ;
+
+        
+    
+    
+            var circle_marker_866e8914e80c50624b813e91e4a5885a = L.circleMarker(
+                [40.690107, -73.994779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.166666666666664, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_19fd9273c3c1f78d6d2b038c3cb2be6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ce20a06280c71dd52823763cd03da94 = $(`<div id="html_3ce20a06280c71dd52823763cd03da94" style="width: 100.0%; height: 100.0%;"><b>Pinkyz Place Children's Salon & Boutique</b><br>Rating: 4.6<br>Reviews: 105<br>Success Score: 4.60</div>`)[0];
+                popup_19fd9273c3c1f78d6d2b038c3cb2be6a.setContent(html_3ce20a06280c71dd52823763cd03da94);
+            
+        
+
+        circle_marker_866e8914e80c50624b813e91e4a5885a.bindPopup(popup_19fd9273c3c1f78d6d2b038c3cb2be6a)
+        ;
+
+        
+    
+    
+            var circle_marker_21e94ae8f8a2a483339814cefd14bf1d = L.circleMarker(
+                [40.8063189, -73.9883236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_0b4fbbb1559532721f21e55532d53201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23670a4fac9a98ca05c24ef3250baa2a = $(`<div id="html_23670a4fac9a98ca05c24ef3250baa2a" style="width: 100.0%; height: 100.0%;"><b>Cookie Cutters Haircuts For Kids - Edgewater</b><br>Rating: 3.7<br>Reviews: 90<br>Success Score: 3.70</div>`)[0];
+                popup_0b4fbbb1559532721f21e55532d53201.setContent(html_23670a4fac9a98ca05c24ef3250baa2a);
+            
+        
+
+        circle_marker_21e94ae8f8a2a483339814cefd14bf1d.bindPopup(popup_0b4fbbb1559532721f21e55532d53201)
+        ;
+
+        
+    
+    
+            var circle_marker_8f34f51ce9046e2058a02f2549ca66ad = L.circleMarker(
+                [40.8063189, -73.9883236],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_68007ea471b5a2726afdd96bc4de00a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c2d993646355f88fc3608e5e18c11e8 = $(`<div id="html_7c2d993646355f88fc3608e5e18c11e8" style="width: 100.0%; height: 100.0%;"><b>Cookie Cutters Haircuts For Kids - Edgewater</b><br>Rating: 3.7<br>Reviews: 90<br>Success Score: 3.70</div>`)[0];
+                popup_68007ea471b5a2726afdd96bc4de00a9.setContent(html_7c2d993646355f88fc3608e5e18c11e8);
+            
+        
+
+        circle_marker_8f34f51ce9046e2058a02f2549ca66ad.bindPopup(popup_68007ea471b5a2726afdd96bc4de00a9)
+        ;
+
+        
+    
+    
+            var circle_marker_70600e7bdcc27107ef9e2ec4923cf43f = L.circleMarker(
+                [40.72678712130364, -74.05056628015322],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8887afce024381ff63c58b678b58e061 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545923366910792ed81cf56188422a2b = $(`<div id="html_545923366910792ed81cf56188422a2b" style="width: 100.0%; height: 100.0%;"><b>Hair is Happiness</b><br>Rating: 4.2<br>Reviews: 60<br>Success Score: 4.20</div>`)[0];
+                popup_8887afce024381ff63c58b678b58e061.setContent(html_545923366910792ed81cf56188422a2b);
+            
+        
+
+        circle_marker_70600e7bdcc27107ef9e2ec4923cf43f.bindPopup(popup_8887afce024381ff63c58b678b58e061)
+        ;
+
+        
+    
+    
+            var circle_marker_f397d48051937bff9548a7c6bbc1ce62 = L.circleMarker(
+                [40.72678712130364, -74.05056628015322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.666666666666664, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_279cd913ea4f32fea992e6f2566f16b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfa53f09eb77e27e944535717bf1ecff = $(`<div id="html_cfa53f09eb77e27e944535717bf1ecff" style="width: 100.0%; height: 100.0%;"><b>Hair is Happiness</b><br>Rating: 4.2<br>Reviews: 60<br>Success Score: 4.20</div>`)[0];
+                popup_279cd913ea4f32fea992e6f2566f16b6.setContent(html_cfa53f09eb77e27e944535717bf1ecff);
+            
+        
+
+        circle_marker_f397d48051937bff9548a7c6bbc1ce62.bindPopup(popup_279cd913ea4f32fea992e6f2566f16b6)
+        ;
+
+        
+    
+    
+            var circle_marker_3a556f22c9e56a3583584c34b80c7f85 = L.circleMarker(
+                [40.71277533921538, -73.95622310199268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_239c64b6e507062fa7b1b2f064526540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f7f19547b8154084bb1b3201f701ab = $(`<div id="html_20f7f19547b8154084bb1b3201f701ab" style="width: 100.0%; height: 100.0%;"><b>Rockin Locks Salon</b><br>Rating: 5.0<br>Reviews: 52<br>Success Score: 5.00</div>`)[0];
+                popup_239c64b6e507062fa7b1b2f064526540.setContent(html_20f7f19547b8154084bb1b3201f701ab);
+            
+        
+
+        circle_marker_3a556f22c9e56a3583584c34b80c7f85.bindPopup(popup_239c64b6e507062fa7b1b2f064526540)
+        ;
+
+        
+    
+    
+            var circle_marker_b62f5d74d70198ea26102b744c34f469 = L.circleMarker(
+                [40.71277533921538, -73.95622310199268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.444444444444445, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_3a142e242f6ccacaf992f605a2da15bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27bc4e505beb8e12c8c725dfc52f7b4d = $(`<div id="html_27bc4e505beb8e12c8c725dfc52f7b4d" style="width: 100.0%; height: 100.0%;"><b>Rockin Locks Salon</b><br>Rating: 5.0<br>Reviews: 52<br>Success Score: 5.00</div>`)[0];
+                popup_3a142e242f6ccacaf992f605a2da15bd.setContent(html_27bc4e505beb8e12c8c725dfc52f7b4d);
+            
+        
+
+        circle_marker_b62f5d74d70198ea26102b744c34f469.bindPopup(popup_3a142e242f6ccacaf992f605a2da15bd)
+        ;
+
+        
+    
+    
+            var circle_marker_9ece76c8d5fbd12b24d4197d444b071b = L.circleMarker(
+                [40.771774, -73.960897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.6, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_423ed4f36c3ac67f47acdd983b9d9924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6424ce501865296d5746b43f7beb965c = $(`<div id="html_6424ce501865296d5746b43f7beb965c" style="width: 100.0%; height: 100.0%;"><b>Sharkey's Cuts for Kids</b><br>Rating: 2.9<br>Reviews: 46<br>Success Score: 2.90</div>`)[0];
+                popup_423ed4f36c3ac67f47acdd983b9d9924.setContent(html_6424ce501865296d5746b43f7beb965c);
+            
+        
+
+        circle_marker_9ece76c8d5fbd12b24d4197d444b071b.bindPopup(popup_423ed4f36c3ac67f47acdd983b9d9924)
+        ;
+
+        
+    
+    
+            var circle_marker_5f3052a220bae73f2183d1d74eda1531 = L.circleMarker(
+                [40.771774, -73.960897],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.777777777777777, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8dbcfd7c5c0501e06f4e2762ee93ee0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_166051e7717744c91f2c93207ecfc2dc = $(`<div id="html_166051e7717744c91f2c93207ecfc2dc" style="width: 100.0%; height: 100.0%;"><b>Sharkey's Cuts for Kids</b><br>Rating: 2.9<br>Reviews: 46<br>Success Score: 2.90</div>`)[0];
+                popup_8dbcfd7c5c0501e06f4e2762ee93ee0c.setContent(html_166051e7717744c91f2c93207ecfc2dc);
+            
+        
+
+        circle_marker_5f3052a220bae73f2183d1d74eda1531.bindPopup(popup_8dbcfd7c5c0501e06f4e2762ee93ee0c)
+        ;
+
+        
+    
+    
+            var circle_marker_56f278438c692d69537e078d6b5046fc = L.circleMarker(
+                [40.7094665, -73.8691357],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_2e34127f6c556aa96d07b89928cc03d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e502e58b0adea32c94dd995221f98e3c = $(`<div id="html_e502e58b0adea32c94dd995221f98e3c" style="width: 100.0%; height: 100.0%;"><b>Frankie's Playce</b><br>Rating: 3.5<br>Reviews: 33<br>Success Score: 3.50</div>`)[0];
+                popup_2e34127f6c556aa96d07b89928cc03d5.setContent(html_e502e58b0adea32c94dd995221f98e3c);
+            
+        
+
+        circle_marker_56f278438c692d69537e078d6b5046fc.bindPopup(popup_2e34127f6c556aa96d07b89928cc03d5)
+        ;
+
+        
+    
+    
+            var circle_marker_131b93fb436be1b8c33d9a041b59de47 = L.circleMarker(
+                [40.7094665, -73.8691357],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.166666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_da98270c9de7675a362a4f619aaa1fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b01dba38d3cb908d5192ca6a71537339 = $(`<div id="html_b01dba38d3cb908d5192ca6a71537339" style="width: 100.0%; height: 100.0%;"><b>Frankie's Playce</b><br>Rating: 3.5<br>Reviews: 33<br>Success Score: 3.50</div>`)[0];
+                popup_da98270c9de7675a362a4f619aaa1fd3.setContent(html_b01dba38d3cb908d5192ca6a71537339);
+            
+        
+
+        circle_marker_131b93fb436be1b8c33d9a041b59de47.bindPopup(popup_da98270c9de7675a362a4f619aaa1fd3)
+        ;
+
+        
+    
+    
+            var circle_marker_f0e45c5242b593206dd4d4436f301813 = L.circleMarker(
+                [40.7306048, -74.0316641],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ea34f325c16243d767810677d144cb34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5bafaf2c4cd5a97439be7610eda34ce = $(`<div id="html_b5bafaf2c4cd5a97439be7610eda34ce" style="width: 100.0%; height: 100.0%;"><b>Planet Kidz</b><br>Rating: 3.7<br>Reviews: 32<br>Success Score: 3.70</div>`)[0];
+                popup_ea34f325c16243d767810677d144cb34.setContent(html_b5bafaf2c4cd5a97439be7610eda34ce);
+            
+        
+
+        circle_marker_f0e45c5242b593206dd4d4436f301813.bindPopup(popup_ea34f325c16243d767810677d144cb34)
+        ;
+
+        
+    
+    
+            var circle_marker_4919e2704e6bfa83cf792fb0211d7bd2 = L.circleMarker(
+                [40.7306048, -74.0316641],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.88888888888889, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_5f1ab776ba59712c850dca901a521ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceb2a5bbd35be068b94f2a2485ece145 = $(`<div id="html_ceb2a5bbd35be068b94f2a2485ece145" style="width: 100.0%; height: 100.0%;"><b>Planet Kidz</b><br>Rating: 3.7<br>Reviews: 32<br>Success Score: 3.70</div>`)[0];
+                popup_5f1ab776ba59712c850dca901a521ee3.setContent(html_ceb2a5bbd35be068b94f2a2485ece145);
+            
+        
+
+        circle_marker_4919e2704e6bfa83cf792fb0211d7bd2.bindPopup(popup_5f1ab776ba59712c850dca901a521ee3)
+        ;
+
+        
+    
+    
+            var circle_marker_3cedfc89c5a6291ce7682a86b2cf917d = L.circleMarker(
+                [40.81563, -74.12467],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.8, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_39dff2c7c24b8a9a6e6d03ff1341ec9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce91fe990e72fb42ee79dc3b662c0743 = $(`<div id="html_ce91fe990e72fb42ee79dc3b662c0743" style="width: 100.0%; height: 100.0%;"><b>Island Cuts</b><br>Rating: 4.7<br>Reviews: 26<br>Success Score: 4.70</div>`)[0];
+                popup_39dff2c7c24b8a9a6e6d03ff1341ec9d.setContent(html_ce91fe990e72fb42ee79dc3b662c0743);
+            
+        
+
+        circle_marker_3cedfc89c5a6291ce7682a86b2cf917d.bindPopup(popup_39dff2c7c24b8a9a6e6d03ff1341ec9d)
+        ;
+
+        
+    
+    
+            var circle_marker_9f1b8c2b57fa160491cb9873b388aecc = L.circleMarker(
+                [40.81563, -74.12467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.222222222222222, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_870698ba4e6d8779a787d7cfaa1ba9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4c9df5b1e0cc0421ca64b7ca26b1786 = $(`<div id="html_b4c9df5b1e0cc0421ca64b7ca26b1786" style="width: 100.0%; height: 100.0%;"><b>Island Cuts</b><br>Rating: 4.7<br>Reviews: 26<br>Success Score: 4.70</div>`)[0];
+                popup_870698ba4e6d8779a787d7cfaa1ba9d8.setContent(html_b4c9df5b1e0cc0421ca64b7ca26b1786);
+            
+        
+
+        circle_marker_9f1b8c2b57fa160491cb9873b388aecc.bindPopup(popup_870698ba4e6d8779a787d7cfaa1ba9d8)
+        ;
+
+        
+    
+    
+            var circle_marker_3b102dbc206c13f8428182071b20d434 = L.circleMarker(
+                [40.659787, -73.926565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.800000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_b8d31923ea447e89d27b089c9fdfcc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91c517581eed5044e4b75a7e7dcb8cf5 = $(`<div id="html_91c517581eed5044e4b75a7e7dcb8cf5" style="width: 100.0%; height: 100.0%;"><b>Bliss Kids Salon</b><br>Rating: 3.7<br>Reviews: 24<br>Success Score: 3.70</div>`)[0];
+                popup_b8d31923ea447e89d27b089c9fdfcc98.setContent(html_91c517581eed5044e4b75a7e7dcb8cf5);
+            
+        
+
+        circle_marker_3b102dbc206c13f8428182071b20d434.bindPopup(popup_b8d31923ea447e89d27b089c9fdfcc98)
+        ;
+
+        
+    
+    
+            var circle_marker_2666ebe70f6ea549dea105b942071648 = L.circleMarker(
+                [40.659787, -73.926565],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.666666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f2d9a5537cda703418c0093591c2db35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed3c67c4b4bee1d6050c479f4c6bd298 = $(`<div id="html_ed3c67c4b4bee1d6050c479f4c6bd298" style="width: 100.0%; height: 100.0%;"><b>Bliss Kids Salon</b><br>Rating: 3.7<br>Reviews: 24<br>Success Score: 3.70</div>`)[0];
+                popup_f2d9a5537cda703418c0093591c2db35.setContent(html_ed3c67c4b4bee1d6050c479f4c6bd298);
+            
+        
+
+        circle_marker_2666ebe70f6ea549dea105b942071648.bindPopup(popup_f2d9a5537cda703418c0093591c2db35)
+        ;
+
+        
+    
+    
+            var circle_marker_854ae5a28cd596e14c37b3d5aff15b68 = L.circleMarker(
+                [40.66433, -73.95364],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_e514fcd3daf60ad000bc5c06ef2c29f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcacfbd7d146eeb83ffbb2521e57607d = $(`<div id="html_fcacfbd7d146eeb83ffbb2521e57607d" style="width: 100.0%; height: 100.0%;"><b>Destiny Kids Hair Salon & Spa</b><br>Rating: 2.8<br>Reviews: 21<br>Success Score: 2.80</div>`)[0];
+                popup_e514fcd3daf60ad000bc5c06ef2c29f8.setContent(html_fcacfbd7d146eeb83ffbb2521e57607d);
+            
+        
+
+        circle_marker_854ae5a28cd596e14c37b3d5aff15b68.bindPopup(popup_e514fcd3daf60ad000bc5c06ef2c29f8)
+        ;
+
+        
+    
+    
+            var circle_marker_7cf05fbdceb4cf61553eea211cc3eb4e = L.circleMarker(
+                [40.66433, -73.95364],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.833333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f9b26cf6b0eeb8ad3bc477b877aa3bda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83315e70cbf5dcca96141964c498bc71 = $(`<div id="html_83315e70cbf5dcca96141964c498bc71" style="width: 100.0%; height: 100.0%;"><b>Destiny Kids Hair Salon & Spa</b><br>Rating: 2.8<br>Reviews: 21<br>Success Score: 2.80</div>`)[0];
+                popup_f9b26cf6b0eeb8ad3bc477b877aa3bda.setContent(html_83315e70cbf5dcca96141964c498bc71);
+            
+        
+
+        circle_marker_7cf05fbdceb4cf61553eea211cc3eb4e.bindPopup(popup_f9b26cf6b0eeb8ad3bc477b877aa3bda)
+        ;
+
+        
+    
+    
+            var circle_marker_891c0edd49418828860b3621c0660e3f = L.circleMarker(
+                [40.68573682363021, -73.9234673],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.8, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_084d22a07004a05487c0f3a08ef7e0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7d997f24ad370d9544b0d4372dc92b0 = $(`<div id="html_d7d997f24ad370d9544b0d4372dc92b0" style="width: 100.0%; height: 100.0%;"><b>Shining Star Kids Salon</b><br>Rating: 4.2<br>Reviews: 20<br>Success Score: 4.20</div>`)[0];
+                popup_084d22a07004a05487c0f3a08ef7e0a5.setContent(html_d7d997f24ad370d9544b0d4372dc92b0);
+            
+        
+
+        circle_marker_891c0edd49418828860b3621c0660e3f.bindPopup(popup_084d22a07004a05487c0f3a08ef7e0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_08ac5e4ad3d54bfe8b2f3efb838351f1 = L.circleMarker(
+                [40.68573682363021, -73.9234673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.555555555555555, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8c4f57f5ccf62fd0fcd0d37d84b0f1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a905013cee4f94a47336b6898cbe15f7 = $(`<div id="html_a905013cee4f94a47336b6898cbe15f7" style="width: 100.0%; height: 100.0%;"><b>Shining Star Kids Salon</b><br>Rating: 4.2<br>Reviews: 20<br>Success Score: 4.20</div>`)[0];
+                popup_8c4f57f5ccf62fd0fcd0d37d84b0f1a5.setContent(html_a905013cee4f94a47336b6898cbe15f7);
+            
+        
+
+        circle_marker_08ac5e4ad3d54bfe8b2f3efb838351f1.bindPopup(popup_8c4f57f5ccf62fd0fcd0d37d84b0f1a5)
+        ;
+
+        
+    
+    
+            var circle_marker_d6abb6e7de3cdc9baa951ffb5c24e631 = L.circleMarker(
+                [40.58553, -73.95131],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.4, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7b0e23b5fa95aec51c11601c23254e9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e9441ff15ed85fcf787bb69a15eb10 = $(`<div id="html_07e9441ff15ed85fcf787bb69a15eb10" style="width: 100.0%; height: 100.0%;"><b>Sergio's Bay Cuts - Unisex Hair Salon</b><br>Rating: 4.6<br>Reviews: 19<br>Success Score: 4.60</div>`)[0];
+                popup_7b0e23b5fa95aec51c11601c23254e9e.setContent(html_07e9441ff15ed85fcf787bb69a15eb10);
+            
+        
+
+        circle_marker_d6abb6e7de3cdc9baa951ffb5c24e631.bindPopup(popup_7b0e23b5fa95aec51c11601c23254e9e)
+        ;
+
+        
+    
+    
+            var circle_marker_b064c2043ea550f9436a686302a2d0e1 = L.circleMarker(
+                [40.58553, -73.95131],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.277777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_6af5dee04444a64bc060eee6630e2aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f03b335d673b2049ade66a810d92bc6 = $(`<div id="html_1f03b335d673b2049ade66a810d92bc6" style="width: 100.0%; height: 100.0%;"><b>Sergio's Bay Cuts - Unisex Hair Salon</b><br>Rating: 4.6<br>Reviews: 19<br>Success Score: 4.60</div>`)[0];
+                popup_6af5dee04444a64bc060eee6630e2aa9.setContent(html_1f03b335d673b2049ade66a810d92bc6);
+            
+        
+
+        circle_marker_b064c2043ea550f9436a686302a2d0e1.bindPopup(popup_6af5dee04444a64bc060eee6630e2aa9)
+        ;
+
+        
+    
+    
+            var circle_marker_ba612f047dd05539f233b6f7fe28a33a = L.circleMarker(
+                [40.7570381, -73.9297593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.6, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_1f1c2e00a1fdad8c938fed6d2aed6a91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d4ed8fb6e28a01e9872e08eac4057e7 = $(`<div id="html_6d4ed8fb6e28a01e9872e08eac4057e7" style="width: 100.0%; height: 100.0%;"><b>King of Queens Barber Shop</b><br>Rating: 2.9<br>Reviews: 15<br>Success Score: 2.90</div>`)[0];
+                popup_1f1c2e00a1fdad8c938fed6d2aed6a91.setContent(html_6d4ed8fb6e28a01e9872e08eac4057e7);
+            
+        
+
+        circle_marker_ba612f047dd05539f233b6f7fe28a33a.bindPopup(popup_1f1c2e00a1fdad8c938fed6d2aed6a91)
+        ;
+
+        
+    
+    
+            var circle_marker_afcdb543228d5f83d6fd80f335f2d542 = L.circleMarker(
+                [40.7570381, -73.9297593],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.166666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_3548ddc87099ebb961dacdaa5d898994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4a82c0beb237854a63e5f2c24b5ee51 = $(`<div id="html_e4a82c0beb237854a63e5f2c24b5ee51" style="width: 100.0%; height: 100.0%;"><b>King of Queens Barber Shop</b><br>Rating: 2.9<br>Reviews: 15<br>Success Score: 2.90</div>`)[0];
+                popup_3548ddc87099ebb961dacdaa5d898994.setContent(html_e4a82c0beb237854a63e5f2c24b5ee51);
+            
+        
+
+        circle_marker_afcdb543228d5f83d6fd80f335f2d542.bindPopup(popup_3548ddc87099ebb961dacdaa5d898994)
+        ;
+
+        
+    
+    
+            var circle_marker_c335d1615bb46c01de98218850cd9718 = L.circleMarker(
+                [40.7856836, -73.9730166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.2, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_22d6bb2aa61c9629cf120a41d2299948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d5eb9903c0db9815cfe6ab16411d86f = $(`<div id="html_4d5eb9903c0db9815cfe6ab16411d86f" style="width: 100.0%; height: 100.0%;"><b>Yellow Submarine Kids Salon</b><br>Rating: 3.8<br>Reviews: 13<br>Success Score: 3.80</div>`)[0];
+                popup_22d6bb2aa61c9629cf120a41d2299948.setContent(html_4d5eb9903c0db9815cfe6ab16411d86f);
+            
+        
+
+        circle_marker_c335d1615bb46c01de98218850cd9718.bindPopup(popup_22d6bb2aa61c9629cf120a41d2299948)
+        ;
+
+        
+    
+    
+            var circle_marker_3c6496d363f3da477df834bcbb6c4c3f = L.circleMarker(
+                [40.7856836, -73.9730166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.611111111111111, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_4d6391aaeee868cd6ecc12c8289ed0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c37d8897c9e672eed7a5dd71bbf6828 = $(`<div id="html_5c37d8897c9e672eed7a5dd71bbf6828" style="width: 100.0%; height: 100.0%;"><b>Yellow Submarine Kids Salon</b><br>Rating: 3.8<br>Reviews: 13<br>Success Score: 3.80</div>`)[0];
+                popup_4d6391aaeee868cd6ecc12c8289ed0fa.setContent(html_5c37d8897c9e672eed7a5dd71bbf6828);
+            
+        
+
+        circle_marker_3c6496d363f3da477df834bcbb6c4c3f.bindPopup(popup_4d6391aaeee868cd6ecc12c8289ed0fa)
+        ;
+
+        
+    
+    
+            var circle_marker_50502ce32f4c210e4b33b8e7ce8b2daa = L.circleMarker(
+                [40.678195, -73.985819],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.4, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_56ef2269ae38efeb886215c91e5cb9be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24c39d6a60d63e8ebebf570e289a43c9 = $(`<div id="html_24c39d6a60d63e8ebebf570e289a43c9" style="width: 100.0%; height: 100.0%;"><b>Miss GiGi Kids Haircuts</b><br>Rating: 4.6<br>Reviews: 12<br>Success Score: 4.60</div>`)[0];
+                popup_56ef2269ae38efeb886215c91e5cb9be.setContent(html_24c39d6a60d63e8ebebf570e289a43c9);
+            
+        
+
+        circle_marker_50502ce32f4c210e4b33b8e7ce8b2daa.bindPopup(popup_56ef2269ae38efeb886215c91e5cb9be)
+        ;
+
+        
+    
+    
+            var circle_marker_de43c5bef038e96b93c4158333392c8f = L.circleMarker(
+                [40.678195, -73.985819],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ed3a9fd026a67aa487bb055f1e927a23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abb854e240abe27474bbf528089687d7 = $(`<div id="html_abb854e240abe27474bbf528089687d7" style="width: 100.0%; height: 100.0%;"><b>Miss GiGi Kids Haircuts</b><br>Rating: 4.6<br>Reviews: 12<br>Success Score: 4.60</div>`)[0];
+                popup_ed3a9fd026a67aa487bb055f1e927a23.setContent(html_abb854e240abe27474bbf528089687d7);
+            
+        
+
+        circle_marker_de43c5bef038e96b93c4158333392c8f.bindPopup(popup_ed3a9fd026a67aa487bb055f1e927a23)
+        ;
+
+        
+    
+    
+            var circle_marker_3c3ef842d9f355838e8f1c4fc7222ba8 = L.circleMarker(
+                [40.861299, -74.0791916],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_2c1b0fceef8fd7e776444487ae94bdc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9521a5537c6e05b049f1ca803d23b5f7 = $(`<div id="html_9521a5537c6e05b049f1ca803d23b5f7" style="width: 100.0%; height: 100.0%;"><b>Heights Barbershop</b><br>Rating: 4.3<br>Reviews: 12<br>Success Score: 4.30</div>`)[0];
+                popup_2c1b0fceef8fd7e776444487ae94bdc8.setContent(html_9521a5537c6e05b049f1ca803d23b5f7);
+            
+        
+
+        circle_marker_3c3ef842d9f355838e8f1c4fc7222ba8.bindPopup(popup_2c1b0fceef8fd7e776444487ae94bdc8)
+        ;
+
+        
+    
+    
+            var circle_marker_c669ca9fb07a1a45f8222e3a4c9bac59 = L.circleMarker(
+                [40.861299, -74.0791916],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_9eaa7580a6daa954c3a4cbb9da79b180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d68cb841f7cac4fcdad1b4b7f27c2f5 = $(`<div id="html_8d68cb841f7cac4fcdad1b4b7f27c2f5" style="width: 100.0%; height: 100.0%;"><b>Heights Barbershop</b><br>Rating: 4.3<br>Reviews: 12<br>Success Score: 4.30</div>`)[0];
+                popup_9eaa7580a6daa954c3a4cbb9da79b180.setContent(html_8d68cb841f7cac4fcdad1b4b7f27c2f5);
+            
+        
+
+        circle_marker_c669ca9fb07a1a45f8222e3a4c9bac59.bindPopup(popup_9eaa7580a6daa954c3a4cbb9da79b180)
+        ;
+
+        
+    
+    
+            var circle_marker_478db7835f290e7136a6e913dc42eb5e = L.circleMarker(
+                [40.8351851, -73.8840071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.6, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_4ad842c7f01fd814544c823b891e6735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9ceb0009f66439e28f8702b29d53a9c = $(`<div id="html_b9ceb0009f66439e28f8702b29d53a9c" style="width: 100.0%; height: 100.0%;"><b>Kimmie Ks</b><br>Rating: 4.4<br>Reviews: 9<br>Success Score: 4.40</div>`)[0];
+                popup_4ad842c7f01fd814544c823b891e6735.setContent(html_b9ceb0009f66439e28f8702b29d53a9c);
+            
+        
+
+        circle_marker_478db7835f290e7136a6e913dc42eb5e.bindPopup(popup_4ad842c7f01fd814544c823b891e6735)
+        ;
+
+        
+    
+    
+            var circle_marker_17fc2128e703341eafa63f9d41a3794d = L.circleMarker(
+                [40.8351851, -73.8840071],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.5, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_c2d93b87f1381e5236b7a7939de98ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_837bad485fa817c16638a4f56b926d6c = $(`<div id="html_837bad485fa817c16638a4f56b926d6c" style="width: 100.0%; height: 100.0%;"><b>Kimmie Ks</b><br>Rating: 4.4<br>Reviews: 9<br>Success Score: 4.40</div>`)[0];
+                popup_c2d93b87f1381e5236b7a7939de98ce0.setContent(html_837bad485fa817c16638a4f56b926d6c);
+            
+        
+
+        circle_marker_17fc2128e703341eafa63f9d41a3794d.bindPopup(popup_c2d93b87f1381e5236b7a7939de98ce0)
+        ;
+
+        
+    
+    
+            var circle_marker_0d059091b39b41093e26f3b00653c9f5 = L.circleMarker(
+                [40.72263, -73.95],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.400000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_da6f08b5e0046b519c2e7c71527bbb8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0a0aa1c218d6846b25e77680e69d152 = $(`<div id="html_c0a0aa1c218d6846b25e77680e69d152" style="width: 100.0%; height: 100.0%;"><b>Sit Still Kids Salon - Greenpoint</b><br>Rating: 3.6<br>Reviews: 7<br>Success Score: 3.60</div>`)[0];
+                popup_da6f08b5e0046b519c2e7c71527bbb8b.setContent(html_c0a0aa1c218d6846b25e77680e69d152);
+            
+        
+
+        circle_marker_0d059091b39b41093e26f3b00653c9f5.bindPopup(popup_da6f08b5e0046b519c2e7c71527bbb8b)
+        ;
+
+        
+    
+    
+            var circle_marker_6cb7ef20892aa41ee765b6fb2fafeb94 = L.circleMarker(
+                [40.72263, -73.95],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9444444444444442, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_a7414801279c0de47c548574d4d206b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcedebc1a7204cd95902bfe5ad91d404 = $(`<div id="html_bcedebc1a7204cd95902bfe5ad91d404" style="width: 100.0%; height: 100.0%;"><b>Sit Still Kids Salon - Greenpoint</b><br>Rating: 3.6<br>Reviews: 7<br>Success Score: 3.60</div>`)[0];
+                popup_a7414801279c0de47c548574d4d206b3.setContent(html_bcedebc1a7204cd95902bfe5ad91d404);
+            
+        
+
+        circle_marker_6cb7ef20892aa41ee765b6fb2fafeb94.bindPopup(popup_a7414801279c0de47c548574d4d206b3)
+        ;
+
+        
+    
+    
+            var circle_marker_3ad615c1ba86d345b249cbf0a7381c56 = L.circleMarker(
+                [40.7267895, -74.038046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_1805b68467f417bd22b2eb06f51c1b63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eef911e719460d3c247e26c521d107d9 = $(`<div id="html_eef911e719460d3c247e26c521d107d9" style="width: 100.0%; height: 100.0%;"><b>Glitter & Glam</b><br>Rating: 3.0<br>Reviews: 7<br>Success Score: 3.00</div>`)[0];
+                popup_1805b68467f417bd22b2eb06f51c1b63.setContent(html_eef911e719460d3c247e26c521d107d9);
+            
+        
+
+        circle_marker_3ad615c1ba86d345b249cbf0a7381c56.bindPopup(popup_1805b68467f417bd22b2eb06f51c1b63)
+        ;
+
+        
+    
+    
+            var circle_marker_b970a85fa0233002807d77de2cb63ea8 = L.circleMarker(
+                [40.7267895, -74.038046],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9444444444444442, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_35eaa70a9b0c0b4eae0262e9b5003316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43cf32e34358a3604990e296c312f1b2 = $(`<div id="html_43cf32e34358a3604990e296c312f1b2" style="width: 100.0%; height: 100.0%;"><b>Glitter & Glam</b><br>Rating: 3.0<br>Reviews: 7<br>Success Score: 3.00</div>`)[0];
+                popup_35eaa70a9b0c0b4eae0262e9b5003316.setContent(html_43cf32e34358a3604990e296c312f1b2);
+            
+        
+
+        circle_marker_b970a85fa0233002807d77de2cb63ea8.bindPopup(popup_35eaa70a9b0c0b4eae0262e9b5003316)
+        ;
+
+        
+    
+    
+            var circle_marker_5a04adf12542ba6a3044894ade9b92e5 = L.circleMarker(
+                [40.816852, -74.161504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_50b6e4753e366dfb40c7cf446bacfe74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5768bc0a56b8c5cf6670bdedf0116843 = $(`<div id="html_5768bc0a56b8c5cf6670bdedf0116843" style="width: 100.0%; height: 100.0%;"><b>Cutting Edge 2 Barbershop</b><br>Rating: 4.0<br>Reviews: 5<br>Success Score: 4.00</div>`)[0];
+                popup_50b6e4753e366dfb40c7cf446bacfe74.setContent(html_5768bc0a56b8c5cf6670bdedf0116843);
+            
+        
+
+        circle_marker_5a04adf12542ba6a3044894ade9b92e5.bindPopup(popup_50b6e4753e366dfb40c7cf446bacfe74)
+        ;
+
+        
+    
+    
+            var circle_marker_d474d4252faed11b408e32223d87399d = L.circleMarker(
+                [40.816852, -74.161504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3888888888888888, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_01d4933df6ad85fc16fb456d8a24a11f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0782a50daf388a1516bb9a30615c2d09 = $(`<div id="html_0782a50daf388a1516bb9a30615c2d09" style="width: 100.0%; height: 100.0%;"><b>Cutting Edge 2 Barbershop</b><br>Rating: 4.0<br>Reviews: 5<br>Success Score: 4.00</div>`)[0];
+                popup_01d4933df6ad85fc16fb456d8a24a11f.setContent(html_0782a50daf388a1516bb9a30615c2d09);
+            
+        
+
+        circle_marker_d474d4252faed11b408e32223d87399d.bindPopup(popup_01d4933df6ad85fc16fb456d8a24a11f)
+        ;
+
+        
+    
+    
+            var circle_marker_628f51190b1bcb6426e85034bec240e4 = L.circleMarker(
+                [40.672627, -73.921849],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7748adad783c4c7a13a914c7843928e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf38fb00d7f06bd744eb5c86ed3377ca = $(`<div id="html_bf38fb00d7f06bd744eb5c86ed3377ca" style="width: 100.0%; height: 100.0%;"><b>D&R NY Beauty Salon</b><br>Rating: 3.0<br>Reviews: 4<br>Success Score: 3.00</div>`)[0];
+                popup_7748adad783c4c7a13a914c7843928e4.setContent(html_bf38fb00d7f06bd744eb5c86ed3377ca);
+            
+        
+
+        circle_marker_628f51190b1bcb6426e85034bec240e4.bindPopup(popup_7748adad783c4c7a13a914c7843928e4)
+        ;
+
+        
+    
+    
+            var circle_marker_9b053b7ccb25b3d486a8257b8597c371 = L.circleMarker(
+                [40.672627, -73.921849],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1111111111111112, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_a055a54a4edac61f9e2b129aebd8df3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54fc3ee27ce048260a303e3d7fc6265a = $(`<div id="html_54fc3ee27ce048260a303e3d7fc6265a" style="width: 100.0%; height: 100.0%;"><b>D&R NY Beauty Salon</b><br>Rating: 3.0<br>Reviews: 4<br>Success Score: 3.00</div>`)[0];
+                popup_a055a54a4edac61f9e2b129aebd8df3e.setContent(html_54fc3ee27ce048260a303e3d7fc6265a);
+            
+        
+
+        circle_marker_9b053b7ccb25b3d486a8257b8597c371.bindPopup(popup_a055a54a4edac61f9e2b129aebd8df3e)
+        ;
+
+        
+    
+    
+            var circle_marker_5d6ad9a7b04a56d0e647bb2a9e394491 = L.circleMarker(
+                [40.744439, -73.950415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.2, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_989bf9717a9a1cb1269f693135113b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ad53a02f590517b566ff67fbcd67495 = $(`<div id="html_0ad53a02f590517b566ff67fbcd67495" style="width: 100.0%; height: 100.0%;"><b>Bethel Beauty Salon</b><br>Rating: 3.8<br>Reviews: 4<br>Success Score: 3.80</div>`)[0];
+                popup_989bf9717a9a1cb1269f693135113b64.setContent(html_0ad53a02f590517b566ff67fbcd67495);
+            
+        
+
+        circle_marker_5d6ad9a7b04a56d0e647bb2a9e394491.bindPopup(popup_989bf9717a9a1cb1269f693135113b64)
+        ;
+
+        
+    
+    
+            var circle_marker_1d2702f3f960987288dcaca40cd75e64 = L.circleMarker(
+                [40.744439, -73.950415],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1111111111111112, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8f073f22e4c80dd51d1e64ba4baf88f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f661324ac8d9907caae48629f96889b = $(`<div id="html_4f661324ac8d9907caae48629f96889b" style="width: 100.0%; height: 100.0%;"><b>Bethel Beauty Salon</b><br>Rating: 3.8<br>Reviews: 4<br>Success Score: 3.80</div>`)[0];
+                popup_8f073f22e4c80dd51d1e64ba4baf88f5.setContent(html_4f661324ac8d9907caae48629f96889b);
+            
+        
+
+        circle_marker_1d2702f3f960987288dcaca40cd75e64.bindPopup(popup_8f073f22e4c80dd51d1e64ba4baf88f5)
+        ;
+
+        
+    
+    
+            var circle_marker_d303bcea0999a49265dafb9d506df599 = L.circleMarker(
+                [40.715172, -74.011044],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_846d850a54501ce968862036f2c147f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a9df8e36f6a79abbcd1f9d2a5fe2901 = $(`<div id="html_8a9df8e36f6a79abbcd1f9d2a5fe2901" style="width: 100.0%; height: 100.0%;"><b>Rosie's Kids Cuts</b><br>Rating: 4.0<br>Reviews: 4<br>Success Score: 4.00</div>`)[0];
+                popup_846d850a54501ce968862036f2c147f4.setContent(html_8a9df8e36f6a79abbcd1f9d2a5fe2901);
+            
+        
+
+        circle_marker_d303bcea0999a49265dafb9d506df599.bindPopup(popup_846d850a54501ce968862036f2c147f4)
+        ;
+
+        
+    
+    
+            var circle_marker_8e589c8a834334919f4f231389a49952 = L.circleMarker(
+                [40.715172, -74.011044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1111111111111112, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ac49cde9f6d5f80ccf165c43eb6f6c8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae060613fa88fbfb111e3cdf10bf063 = $(`<div id="html_2ae060613fa88fbfb111e3cdf10bf063" style="width: 100.0%; height: 100.0%;"><b>Rosie's Kids Cuts</b><br>Rating: 4.0<br>Reviews: 4<br>Success Score: 4.00</div>`)[0];
+                popup_ac49cde9f6d5f80ccf165c43eb6f6c8a.setContent(html_2ae060613fa88fbfb111e3cdf10bf063);
+            
+        
+
+        circle_marker_8e589c8a834334919f4f231389a49952.bindPopup(popup_ac49cde9f6d5f80ccf165c43eb6f6c8a)
+        ;
+
+        
+    
+    
+            var circle_marker_42ef84be4a0b2ad6bd364e9ffd42fd38 = L.circleMarker(
+                [40.80618595968683, -74.19332998891112],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_71bef73297c359d49c119a4fc3cf37f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4fcc1e831cd3c4ba48bafec8f040374 = $(`<div id="html_f4fcc1e831cd3c4ba48bafec8f040374" style="width: 100.0%; height: 100.0%;"><b>Tia's House of Styles</b><br>Rating: 5.0<br>Reviews: 3<br>Success Score: 5.00</div>`)[0];
+                popup_71bef73297c359d49c119a4fc3cf37f0.setContent(html_f4fcc1e831cd3c4ba48bafec8f040374);
+            
+        
+
+        circle_marker_42ef84be4a0b2ad6bd364e9ffd42fd38.bindPopup(popup_71bef73297c359d49c119a4fc3cf37f0)
+        ;
+
+        
+    
+    
+            var circle_marker_a51af531519252bac8b207e9a81c4bb3 = L.circleMarker(
+                [40.80618595968683, -74.19332998891112],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_0320925794c567fa326cc2f50a007ad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fe2c9d8083401e3f3d7d199d13a352c = $(`<div id="html_5fe2c9d8083401e3f3d7d199d13a352c" style="width: 100.0%; height: 100.0%;"><b>Tia's House of Styles</b><br>Rating: 5.0<br>Reviews: 3<br>Success Score: 5.00</div>`)[0];
+                popup_0320925794c567fa326cc2f50a007ad0.setContent(html_5fe2c9d8083401e3f3d7d199d13a352c);
+            
+        
+
+        circle_marker_a51af531519252bac8b207e9a81c4bb3.bindPopup(popup_0320925794c567fa326cc2f50a007ad0)
+        ;
+
+        
+    
+    
+            var circle_marker_9d214f3c7407585b97e78a91be49ddda = L.circleMarker(
+                [40.71362, -73.99684],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_821be6859fb03778aa6bd47b545d48a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2932e9f9dffadc2e0f5299314cce9905 = $(`<div id="html_2932e9f9dffadc2e0f5299314cce9905" style="width: 100.0%; height: 100.0%;"><b>Lucky Beauty Salon</b><br>Rating: 4.3<br>Reviews: 3<br>Success Score: 4.30</div>`)[0];
+                popup_821be6859fb03778aa6bd47b545d48a3.setContent(html_2932e9f9dffadc2e0f5299314cce9905);
+            
+        
+
+        circle_marker_9d214f3c7407585b97e78a91be49ddda.bindPopup(popup_821be6859fb03778aa6bd47b545d48a3)
+        ;
+
+        
+    
+    
+            var circle_marker_8f0e9f2a3dd73b43bc1e44badd50de4c = L.circleMarker(
+                [40.71362, -73.99684],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8333333333333333, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_278e9f8455909ab46317a4d979a1bdeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_701225473d327c31ffae9a31bd01f757 = $(`<div id="html_701225473d327c31ffae9a31bd01f757" style="width: 100.0%; height: 100.0%;"><b>Lucky Beauty Salon</b><br>Rating: 4.3<br>Reviews: 3<br>Success Score: 4.30</div>`)[0];
+                popup_278e9f8455909ab46317a4d979a1bdeb.setContent(html_701225473d327c31ffae9a31bd01f757);
+            
+        
+
+        circle_marker_8f0e9f2a3dd73b43bc1e44badd50de4c.bindPopup(popup_278e9f8455909ab46317a4d979a1bdeb)
+        ;
+
+        
+    
+    
+            var circle_marker_5cf86dc07cdf24253c0e97666fc4a264 = L.circleMarker(
+                [40.75112370752215, -73.93359656300483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ea14b7b927c2aa8c535b3481ea47684b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d543707e033e554fdfd56adcfc2b9f0 = $(`<div id="html_5d543707e033e554fdfd56adcfc2b9f0" style="width: 100.0%; height: 100.0%;"><b>The Shanty Effect</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_ea14b7b927c2aa8c535b3481ea47684b.setContent(html_5d543707e033e554fdfd56adcfc2b9f0);
+            
+        
+
+        circle_marker_5cf86dc07cdf24253c0e97666fc4a264.bindPopup(popup_ea14b7b927c2aa8c535b3481ea47684b)
+        ;
+
+        
+    
+    
+            var circle_marker_8e47b818e9d3456acb86ddfaa18d9dac = L.circleMarker(
+                [40.75112370752215, -73.93359656300483],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5555555555555556, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_5e26ed3f0e3318a503e330f6a1b9cef9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fc489d335d64c26fa0e8cdc2d72ad0b = $(`<div id="html_1fc489d335d64c26fa0e8cdc2d72ad0b" style="width: 100.0%; height: 100.0%;"><b>The Shanty Effect</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_5e26ed3f0e3318a503e330f6a1b9cef9.setContent(html_1fc489d335d64c26fa0e8cdc2d72ad0b);
+            
+        
+
+        circle_marker_8e47b818e9d3456acb86ddfaa18d9dac.bindPopup(popup_5e26ed3f0e3318a503e330f6a1b9cef9)
+        ;
+
+        
+    
+    
+            var circle_marker_7c31e0dccc57475d9c27d7959fa07eba = L.circleMarker(
+                [40.71331343504745, -73.90477975013619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_54ac56500e459c2fa436c30a2ac140c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aab051573b96e1ec6dcfe5b481cf164 = $(`<div id="html_2aab051573b96e1ec6dcfe5b481cf164" style="width: 100.0%; height: 100.0%;"><b>Gentleman’s Cove</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_54ac56500e459c2fa436c30a2ac140c5.setContent(html_2aab051573b96e1ec6dcfe5b481cf164);
+            
+        
+
+        circle_marker_7c31e0dccc57475d9c27d7959fa07eba.bindPopup(popup_54ac56500e459c2fa436c30a2ac140c5)
+        ;
+
+        
+    
+    
+            var circle_marker_6f8dc9132fc2d43f6df213467ca4e33e = L.circleMarker(
+                [40.71331343504745, -73.90477975013619],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5555555555555556, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_320f2b07392eaf581f28514510970991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61a00d9da99d6ec3c508ac9daceb5dde = $(`<div id="html_61a00d9da99d6ec3c508ac9daceb5dde" style="width: 100.0%; height: 100.0%;"><b>Gentleman’s Cove</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_320f2b07392eaf581f28514510970991.setContent(html_61a00d9da99d6ec3c508ac9daceb5dde);
+            
+        
+
+        circle_marker_6f8dc9132fc2d43f6df213467ca4e33e.bindPopup(popup_320f2b07392eaf581f28514510970991)
+        ;
+
+        
+    
+    
+            var circle_marker_6f6c61c235c326b7cc26b49e29308c10 = L.circleMarker(
+                [40.745802, -73.991355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_338a3c9ecf518d0d34666fbeab760b00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_567d286224518a375cb57bfa1d708cff = $(`<div id="html_567d286224518a375cb57bfa1d708cff" style="width: 100.0%; height: 100.0%;"><b>Muriel Vancauwen Lab</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_338a3c9ecf518d0d34666fbeab760b00.setContent(html_567d286224518a375cb57bfa1d708cff);
+            
+        
+
+        circle_marker_6f6c61c235c326b7cc26b49e29308c10.bindPopup(popup_338a3c9ecf518d0d34666fbeab760b00)
+        ;
+
+        
+    
+    
+            var circle_marker_1899478664f3ab0a1d21377d7c90ba95 = L.circleMarker(
+                [40.745802, -73.991355],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5555555555555556, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_788442f621476817090a500415ead09c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b05aa781cfc3760c0a9e7161d488b13 = $(`<div id="html_3b05aa781cfc3760c0a9e7161d488b13" style="width: 100.0%; height: 100.0%;"><b>Muriel Vancauwen Lab</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_788442f621476817090a500415ead09c.setContent(html_3b05aa781cfc3760c0a9e7161d488b13);
+            
+        
+
+        circle_marker_1899478664f3ab0a1d21377d7c90ba95.bindPopup(popup_788442f621476817090a500415ead09c)
+        ;
+
+        
+    
+    
+            var circle_marker_6e30dbeed142196dc0c0b1d291fba903 = L.circleMarker(
+                [40.758629, -73.963029],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_116e0867b26eb2be32afef203b0f21ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c8e176cb44fbcc1e9a1ca49b5298895 = $(`<div id="html_9c8e176cb44fbcc1e9a1ca49b5298895" style="width: 100.0%; height: 100.0%;"><b>Beyond Barbers</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_116e0867b26eb2be32afef203b0f21ba.setContent(html_9c8e176cb44fbcc1e9a1ca49b5298895);
+            
+        
+
+        circle_marker_6e30dbeed142196dc0c0b1d291fba903.bindPopup(popup_116e0867b26eb2be32afef203b0f21ba)
+        ;
+
+        
+    
+    
+            var circle_marker_ced98ea206956460b53ea57ca4fbf87f = L.circleMarker(
+                [40.758629, -73.963029],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5555555555555556, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_6592d68a6f989917ea49f0170b04c8ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c5c3a4d1cf937adda0a72fed6f6aaf = $(`<div id="html_f0c5c3a4d1cf937adda0a72fed6f6aaf" style="width: 100.0%; height: 100.0%;"><b>Beyond Barbers</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_6592d68a6f989917ea49f0170b04c8ed.setContent(html_f0c5c3a4d1cf937adda0a72fed6f6aaf);
+            
+        
+
+        circle_marker_ced98ea206956460b53ea57ca4fbf87f.bindPopup(popup_6592d68a6f989917ea49f0170b04c8ed)
+        ;
+
+        
+    
+    
+            var circle_marker_eb51e744e29a9ec073a77d2d5a7edaa9 = L.circleMarker(
+                [40.7503947, -73.94819768],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_702fc238ec76e741077bc7349f8c248a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48ddfea58029df1f349b66b8c5e025b2 = $(`<div id="html_48ddfea58029df1f349b66b8c5e025b2" style="width: 100.0%; height: 100.0%;"><b>Sit Still Kids - Queens</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_702fc238ec76e741077bc7349f8c248a.setContent(html_48ddfea58029df1f349b66b8c5e025b2);
+            
+        
+
+        circle_marker_eb51e744e29a9ec073a77d2d5a7edaa9.bindPopup(popup_702fc238ec76e741077bc7349f8c248a)
+        ;
+
+        
+    
+    
+            var circle_marker_5aa065d8ca7d2a723a885f4503b96a46 = L.circleMarker(
+                [40.7503947, -73.94819768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5555555555555556, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_e02d7c40b5f1902478e603c06d4df8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf1b02f9cbf1a4571485245c9af75114 = $(`<div id="html_cf1b02f9cbf1a4571485245c9af75114" style="width: 100.0%; height: 100.0%;"><b>Sit Still Kids - Queens</b><br>Rating: 5.0<br>Reviews: 2<br>Success Score: 5.00</div>`)[0];
+                popup_e02d7c40b5f1902478e603c06d4df8d9.setContent(html_cf1b02f9cbf1a4571485245c9af75114);
+            
+        
+
+        circle_marker_5aa065d8ca7d2a723a885f4503b96a46.bindPopup(popup_e02d7c40b5f1902478e603c06d4df8d9)
+        ;
+
+        
+    
+    
+            var circle_marker_8cda0cf23d23e8e4d5f3db60b0ce6bfa = L.circleMarker(
+                [40.72908, -74.15655],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_5565749a5d6855c3679239135d9ab681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc7b8a12389a8b1b3039191c13260a52 = $(`<div id="html_fc7b8a12389a8b1b3039191c13260a52" style="width: 100.0%; height: 100.0%;"><b>Funplex Kids Haircuts</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_5565749a5d6855c3679239135d9ab681.setContent(html_fc7b8a12389a8b1b3039191c13260a52);
+            
+        
+
+        circle_marker_8cda0cf23d23e8e4d5f3db60b0ce6bfa.bindPopup(popup_5565749a5d6855c3679239135d9ab681)
+        ;
+
+        
+    
+    
+            var circle_marker_0afdf1e99e48ef46ff96a2f0dfc9ff15 = L.circleMarker(
+                [40.72908, -74.15655],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_2973fe3398b0eddfa1fa51f4aeb82565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cbd7560240e899ffaf63c338a5fd280 = $(`<div id="html_5cbd7560240e899ffaf63c338a5fd280" style="width: 100.0%; height: 100.0%;"><b>Funplex Kids Haircuts</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_2973fe3398b0eddfa1fa51f4aeb82565.setContent(html_5cbd7560240e899ffaf63c338a5fd280);
+            
+        
+
+        circle_marker_0afdf1e99e48ef46ff96a2f0dfc9ff15.bindPopup(popup_2973fe3398b0eddfa1fa51f4aeb82565)
+        ;
+
+        
+    
+    
+            var circle_marker_0334a43f73bf3a46c928a6f09b06e707 = L.circleMarker(
+                [40.68278, -73.79237],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_81838f5939ed0e8f16aa2a745aa6cd29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18ea7dd3c993c5a465699ed570d93ca7 = $(`<div id="html_18ea7dd3c993c5a465699ed570d93ca7" style="width: 100.0%; height: 100.0%;"><b>The Diamond Palace</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_81838f5939ed0e8f16aa2a745aa6cd29.setContent(html_18ea7dd3c993c5a465699ed570d93ca7);
+            
+        
+
+        circle_marker_0334a43f73bf3a46c928a6f09b06e707.bindPopup(popup_81838f5939ed0e8f16aa2a745aa6cd29)
+        ;
+
+        
+    
+    
+            var circle_marker_dd0f0e52acc1457b195a157cddd4d448 = L.circleMarker(
+                [40.68278, -73.79237],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_3049270fa59d7118c6c69d2e3cfe9f0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_530fbc018f08aa9bbcef38d22911aadb = $(`<div id="html_530fbc018f08aa9bbcef38d22911aadb" style="width: 100.0%; height: 100.0%;"><b>The Diamond Palace</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_3049270fa59d7118c6c69d2e3cfe9f0b.setContent(html_530fbc018f08aa9bbcef38d22911aadb);
+            
+        
+
+        circle_marker_dd0f0e52acc1457b195a157cddd4d448.bindPopup(popup_3049270fa59d7118c6c69d2e3cfe9f0b)
+        ;
+
+        
+    
+    
+            var circle_marker_c25e0927315ff4d9ee141500d4919ff7 = L.circleMarker(
+                [40.81176, -73.94226],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_2a1cf64f285fa16842ca220bc60ef483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f2de434460215f722ca959c7e9e5b3 = $(`<div id="html_74f2de434460215f722ca959c7e9e5b3" style="width: 100.0%; height: 100.0%;"><b>Coumba African Hair Braiding</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_2a1cf64f285fa16842ca220bc60ef483.setContent(html_74f2de434460215f722ca959c7e9e5b3);
+            
+        
+
+        circle_marker_c25e0927315ff4d9ee141500d4919ff7.bindPopup(popup_2a1cf64f285fa16842ca220bc60ef483)
+        ;
+
+        
+    
+    
+            var circle_marker_8549fa9cb0c4edabada1f64456c77059 = L.circleMarker(
+                [40.81176, -73.94226],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_40af5c2e4893c682bc136ae8cb6c8083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01dd787291d992ffdecfd9d165c39c58 = $(`<div id="html_01dd787291d992ffdecfd9d165c39c58" style="width: 100.0%; height: 100.0%;"><b>Coumba African Hair Braiding</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_40af5c2e4893c682bc136ae8cb6c8083.setContent(html_01dd787291d992ffdecfd9d165c39c58);
+            
+        
+
+        circle_marker_8549fa9cb0c4edabada1f64456c77059.bindPopup(popup_40af5c2e4893c682bc136ae8cb6c8083)
+        ;
+
+        
+    
+    
+            var circle_marker_69f89b065fe72ca99556dd4098104afe = L.circleMarker(
+                [40.81538, -73.94694],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8eae9a752d41b86de34ab6a8c7d6afd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_951b040317e07a5cc3a76ed312fc53c0 = $(`<div id="html_951b040317e07a5cc3a76ed312fc53c0" style="width: 100.0%; height: 100.0%;"><b>Royal Styles By Tyarius</b><br>Rating: 2.0<br>Reviews: 1<br>Success Score: 2.00</div>`)[0];
+                popup_8eae9a752d41b86de34ab6a8c7d6afd0.setContent(html_951b040317e07a5cc3a76ed312fc53c0);
+            
+        
+
+        circle_marker_69f89b065fe72ca99556dd4098104afe.bindPopup(popup_8eae9a752d41b86de34ab6a8c7d6afd0)
+        ;
+
+        
+    
+    
+            var circle_marker_eab8aba241717277d6bbaeb53dba718c = L.circleMarker(
+                [40.81538, -73.94694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_d0df719d0170fae72a6c840361ea438f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc5889cd8a982a0fa6e1b5a78b20e3b6 = $(`<div id="html_fc5889cd8a982a0fa6e1b5a78b20e3b6" style="width: 100.0%; height: 100.0%;"><b>Royal Styles By Tyarius</b><br>Rating: 2.0<br>Reviews: 1<br>Success Score: 2.00</div>`)[0];
+                popup_d0df719d0170fae72a6c840361ea438f.setContent(html_fc5889cd8a982a0fa6e1b5a78b20e3b6);
+            
+        
+
+        circle_marker_eab8aba241717277d6bbaeb53dba718c.bindPopup(popup_d0df719d0170fae72a6c840361ea438f)
+        ;
+
+        
+    
+    
+            var circle_marker_def836686c6f60ff5cce4016500d88d9 = L.circleMarker(
+                [40.739471592406254, -73.91876401589788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_19bfa8d872f6e8349b0301b99ce66bc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e267d7eef825a1c605d48f95dbb3a99f = $(`<div id="html_e267d7eef825a1c605d48f95dbb3a99f" style="width: 100.0%; height: 100.0%;"><b>Live In The Cut</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_19bfa8d872f6e8349b0301b99ce66bc5.setContent(html_e267d7eef825a1c605d48f95dbb3a99f);
+            
+        
+
+        circle_marker_def836686c6f60ff5cce4016500d88d9.bindPopup(popup_19bfa8d872f6e8349b0301b99ce66bc5)
+        ;
+
+        
+    
+    
+            var circle_marker_6af1934074e4c5465409e02889af57ce = L.circleMarker(
+                [40.739471592406254, -73.91876401589788],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ed63744fe37cf2b44e95fae3c528a4ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89f6f077394dcdaecaa64ac4c3071ff6 = $(`<div id="html_89f6f077394dcdaecaa64ac4c3071ff6" style="width: 100.0%; height: 100.0%;"><b>Live In The Cut</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_ed63744fe37cf2b44e95fae3c528a4ef.setContent(html_89f6f077394dcdaecaa64ac4c3071ff6);
+            
+        
+
+        circle_marker_6af1934074e4c5465409e02889af57ce.bindPopup(popup_ed63744fe37cf2b44e95fae3c528a4ef)
+        ;
+
+        
+    
+    
+            var circle_marker_f7aacf99ed17a1d5f286ef906387d7d9 = L.circleMarker(
+                [40.7307537, -74.0353607],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8a981e7a483bb13d3c74094f97c03495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7fc66e5efadd0677af03e9a42a9d376 = $(`<div id="html_e7fc66e5efadd0677af03e9a42a9d376" style="width: 100.0%; height: 100.0%;"><b>Locs N Things By Ashley</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_8a981e7a483bb13d3c74094f97c03495.setContent(html_e7fc66e5efadd0677af03e9a42a9d376);
+            
+        
+
+        circle_marker_f7aacf99ed17a1d5f286ef906387d7d9.bindPopup(popup_8a981e7a483bb13d3c74094f97c03495)
+        ;
+
+        
+    
+    
+            var circle_marker_201f334104747e5653d7f810a052292d = L.circleMarker(
+                [40.7307537, -74.0353607],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_27f96d843d8b415ebfde07a04c42a10d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_727117a58b66553ceae90febc6c8cc57 = $(`<div id="html_727117a58b66553ceae90febc6c8cc57" style="width: 100.0%; height: 100.0%;"><b>Locs N Things By Ashley</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_27f96d843d8b415ebfde07a04c42a10d.setContent(html_727117a58b66553ceae90febc6c8cc57);
+            
+        
+
+        circle_marker_201f334104747e5653d7f810a052292d.bindPopup(popup_27f96d843d8b415ebfde07a04c42a10d)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec06dbbbf53087fd6281fef5ed36b4f = L.circleMarker(
+                [40.734704, -74.059608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f0e4b5eda321af428eb8b3e1450e50ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af604d55f81ce36ffd0789b1840aa07a = $(`<div id="html_af604d55f81ce36ffd0789b1840aa07a" style="width: 100.0%; height: 100.0%;"><b>Canvas the Barbershop</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_f0e4b5eda321af428eb8b3e1450e50ef.setContent(html_af604d55f81ce36ffd0789b1840aa07a);
+            
+        
+
+        circle_marker_9ec06dbbbf53087fd6281fef5ed36b4f.bindPopup(popup_f0e4b5eda321af428eb8b3e1450e50ef)
+        ;
+
+        
+    
+    
+            var circle_marker_1837539a2142286d7b18980362346dce = L.circleMarker(
+                [40.734704, -74.059608],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_268515481152b150c77859d01026fd62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_492eeeacb3b822433eb61db5dd43cf20 = $(`<div id="html_492eeeacb3b822433eb61db5dd43cf20" style="width: 100.0%; height: 100.0%;"><b>Canvas the Barbershop</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_268515481152b150c77859d01026fd62.setContent(html_492eeeacb3b822433eb61db5dd43cf20);
+            
+        
+
+        circle_marker_1837539a2142286d7b18980362346dce.bindPopup(popup_268515481152b150c77859d01026fd62)
+        ;
+
+        
+    
+    
+            var circle_marker_be62d5c3f2c09faeb0dd72907bccc22b = L.circleMarker(
+                [40.625319, -74.148992],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_664c27d4bed034e07e5e2d17abd5a6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0ae695b9024ab473b0af0163a944393 = $(`<div id="html_b0ae695b9024ab473b0af0163a944393" style="width: 100.0%; height: 100.0%;"><b>Back 2 life studio</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_664c27d4bed034e07e5e2d17abd5a6f0.setContent(html_b0ae695b9024ab473b0af0163a944393);
+            
+        
+
+        circle_marker_be62d5c3f2c09faeb0dd72907bccc22b.bindPopup(popup_664c27d4bed034e07e5e2d17abd5a6f0)
+        ;
+
+        
+    
+    
+            var circle_marker_12b6c1df276cfed82f89a3adeeea54b2 = L.circleMarker(
+                [40.625319, -74.148992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8b07ffb30e36a4091e0c9a659aedbc09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaed596cfeff12ca77820b0078f9a3f8 = $(`<div id="html_eaed596cfeff12ca77820b0078f9a3f8" style="width: 100.0%; height: 100.0%;"><b>Back 2 life studio</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_8b07ffb30e36a4091e0c9a659aedbc09.setContent(html_eaed596cfeff12ca77820b0078f9a3f8);
+            
+        
+
+        circle_marker_12b6c1df276cfed82f89a3adeeea54b2.bindPopup(popup_8b07ffb30e36a4091e0c9a659aedbc09)
+        ;
+
+        
+    
+    
+            var circle_marker_038a9f5900c62c16c66403207f2964fe = L.circleMarker(
+                [40.69534809784347, -73.84238467872022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_b23fee33d5fea884e6cd57b123dc06c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_078a75f55b51bcc68f6072fe99167de1 = $(`<div id="html_078a75f55b51bcc68f6072fe99167de1" style="width: 100.0%; height: 100.0%;"><b>First Class Unisex Barber Shop</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_b23fee33d5fea884e6cd57b123dc06c3.setContent(html_078a75f55b51bcc68f6072fe99167de1);
+            
+        
+
+        circle_marker_038a9f5900c62c16c66403207f2964fe.bindPopup(popup_b23fee33d5fea884e6cd57b123dc06c3)
+        ;
+
+        
+    
+    
+            var circle_marker_b6b4fc3e57e79078a15b1c92e29b5bc0 = L.circleMarker(
+                [40.69534809784347, -73.84238467872022],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_4dc3596d61023a2355210e6071b1e5df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_572b1870b8126b8bb7f7c75cdae0c3a8 = $(`<div id="html_572b1870b8126b8bb7f7c75cdae0c3a8" style="width: 100.0%; height: 100.0%;"><b>First Class Unisex Barber Shop</b><br>Rating: 4.0<br>Reviews: 1<br>Success Score: 4.00</div>`)[0];
+                popup_4dc3596d61023a2355210e6071b1e5df.setContent(html_572b1870b8126b8bb7f7c75cdae0c3a8);
+            
+        
+
+        circle_marker_b6b4fc3e57e79078a15b1c92e29b5bc0.bindPopup(popup_4dc3596d61023a2355210e6071b1e5df)
+        ;
+
+        
+    
+    
+            var circle_marker_87223dbf679b327e152f68c67b5c80f9 = L.circleMarker(
+                [40.81336081436734, -74.16393333772203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_cde6e96e03c7c70431339233916777cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a3aabde26dbea6dac7246116d81dde7 = $(`<div id="html_4a3aabde26dbea6dac7246116d81dde7" style="width: 100.0%; height: 100.0%;"><b>New Style Barber Shop & Hair Salon</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_cde6e96e03c7c70431339233916777cd.setContent(html_4a3aabde26dbea6dac7246116d81dde7);
+            
+        
+
+        circle_marker_87223dbf679b327e152f68c67b5c80f9.bindPopup(popup_cde6e96e03c7c70431339233916777cd)
+        ;
+
+        
+    
+    
+            var circle_marker_b8db2ddd90e347029b65a8c0d6ec28ab = L.circleMarker(
+                [40.81336081436734, -74.16393333772203],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ae296bfaabebc7460ba295ed5bcdf259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b6e4c06faae79e86efa3f1986a22dc2 = $(`<div id="html_7b6e4c06faae79e86efa3f1986a22dc2" style="width: 100.0%; height: 100.0%;"><b>New Style Barber Shop & Hair Salon</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_ae296bfaabebc7460ba295ed5bcdf259.setContent(html_7b6e4c06faae79e86efa3f1986a22dc2);
+            
+        
+
+        circle_marker_b8db2ddd90e347029b65a8c0d6ec28ab.bindPopup(popup_ae296bfaabebc7460ba295ed5bcdf259)
+        ;
+
+        
+    
+    
+            var circle_marker_1c67bdb9f5d19fcc9d14b936d2a804e7 = L.circleMarker(
+                [40.84194, -73.93563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8069780e022253bb39097adbe0c089eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf94fde2f29e29d824ccc93d17593449 = $(`<div id="html_cf94fde2f29e29d824ccc93d17593449" style="width: 100.0%; height: 100.0%;"><b>Uniquestylessss</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_8069780e022253bb39097adbe0c089eb.setContent(html_cf94fde2f29e29d824ccc93d17593449);
+            
+        
+
+        circle_marker_1c67bdb9f5d19fcc9d14b936d2a804e7.bindPopup(popup_8069780e022253bb39097adbe0c089eb)
+        ;
+
+        
+    
+    
+            var circle_marker_a489d1e4c0bb58f1b6c8616f125032d7 = L.circleMarker(
+                [40.84194, -73.93563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2777777777777778, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_4b0fe44697757c276c10e6e7d315014a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_407d8fea5f541c354310eba3950d33e3 = $(`<div id="html_407d8fea5f541c354310eba3950d33e3" style="width: 100.0%; height: 100.0%;"><b>Uniquestylessss</b><br>Rating: 5.0<br>Reviews: 1<br>Success Score: 5.00</div>`)[0];
+                popup_4b0fe44697757c276c10e6e7d315014a.setContent(html_407d8fea5f541c354310eba3950d33e3);
+            
+        
+
+        circle_marker_a489d1e4c0bb58f1b6c8616f125032d7.bindPopup(popup_4b0fe44697757c276c10e6e7d315014a)
+        ;
+
+        
+    
+    
+            var circle_marker_733d8850975c5774ba1220b81eca7f17 = L.circleMarker(
+                [40.829495, -73.869402],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_fab27388219d680e0d5ae009ed04e1dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8086043fac12ce11f31513aba9bbaff = $(`<div id="html_d8086043fac12ce11f31513aba9bbaff" style="width: 100.0%; height: 100.0%;"><b>Barbershop Sarante</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_fab27388219d680e0d5ae009ed04e1dc.setContent(html_d8086043fac12ce11f31513aba9bbaff);
+            
+        
+
+        circle_marker_733d8850975c5774ba1220b81eca7f17.bindPopup(popup_fab27388219d680e0d5ae009ed04e1dc)
+        ;
+
+        
+    
+    
+            var circle_marker_3bfbfd4ef11abf429c0dd9f10d173b55 = L.circleMarker(
+                [40.829495, -73.869402],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_fd1c7a01158c7a20f26bdda8adb1ae81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8a1ba6664d01ca64b7495deff5a919 = $(`<div id="html_5d8a1ba6664d01ca64b7495deff5a919" style="width: 100.0%; height: 100.0%;"><b>Barbershop Sarante</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_fd1c7a01158c7a20f26bdda8adb1ae81.setContent(html_5d8a1ba6664d01ca64b7495deff5a919);
+            
+        
+
+        circle_marker_3bfbfd4ef11abf429c0dd9f10d173b55.bindPopup(popup_fd1c7a01158c7a20f26bdda8adb1ae81)
+        ;
+
+        
+    
+    
+            var circle_marker_f8ea4cc304e8b6646b8ce868507f2265 = L.circleMarker(
+                [40.83002176962891, -73.94745069999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_72edd07c5953c275b3bc5a2a9af07ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e020a52d79d0cb992ec92376d0a8e25 = $(`<div id="html_1e020a52d79d0cb992ec92376d0a8e25" style="width: 100.0%; height: 100.0%;"><b>Hair Home Made</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_72edd07c5953c275b3bc5a2a9af07ef0.setContent(html_1e020a52d79d0cb992ec92376d0a8e25);
+            
+        
+
+        circle_marker_f8ea4cc304e8b6646b8ce868507f2265.bindPopup(popup_72edd07c5953c275b3bc5a2a9af07ef0)
+        ;
+
+        
+    
+    
+            var circle_marker_312a7fc2b8b6b680654f1b71f8060d26 = L.circleMarker(
+                [40.83002176962891, -73.94745069999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_cfebbed1109962dc987259cef263b7c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42fa98ea4c96598bd8da0299beda3397 = $(`<div id="html_42fa98ea4c96598bd8da0299beda3397" style="width: 100.0%; height: 100.0%;"><b>Hair Home Made</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_cfebbed1109962dc987259cef263b7c7.setContent(html_42fa98ea4c96598bd8da0299beda3397);
+            
+        
+
+        circle_marker_312a7fc2b8b6b680654f1b71f8060d26.bindPopup(popup_cfebbed1109962dc987259cef263b7c7)
+        ;
+
+        
+    
+    
+            var circle_marker_a3e0d524cd2b60ccc7cf0822e3b82b16 = L.circleMarker(
+                [40.60083881649181, -73.94402870377401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_95aefa3c7482ce4f4daf876442a7c82d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbeb843e434dd2b45da464adfd8015d4 = $(`<div id="html_bbeb843e434dd2b45da464adfd8015d4" style="width: 100.0%; height: 100.0%;"><b>Pinky Cutie</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_95aefa3c7482ce4f4daf876442a7c82d.setContent(html_bbeb843e434dd2b45da464adfd8015d4);
+            
+        
+
+        circle_marker_a3e0d524cd2b60ccc7cf0822e3b82b16.bindPopup(popup_95aefa3c7482ce4f4daf876442a7c82d)
+        ;
+
+        
+    
+    
+            var circle_marker_9de0387b3d062c10a839d86b04dc0073 = L.circleMarker(
+                [40.60083881649181, -73.94402870377401],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_83a04f3a32b77a7847988022ffdf2974 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c109de8c914b0f0d12f7b4ca52d642ab = $(`<div id="html_c109de8c914b0f0d12f7b4ca52d642ab" style="width: 100.0%; height: 100.0%;"><b>Pinky Cutie</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_83a04f3a32b77a7847988022ffdf2974.setContent(html_c109de8c914b0f0d12f7b4ca52d642ab);
+            
+        
+
+        circle_marker_9de0387b3d062c10a839d86b04dc0073.bindPopup(popup_83a04f3a32b77a7847988022ffdf2974)
+        ;
+
+        
+    
+    
+            var circle_marker_ea0db761a6dadc972ee3b07b8d07a212 = L.circleMarker(
+                [40.647676278487545, -73.8942312],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_e44e7dd4bd1843b78bd4ec8f0737d830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25d0d02a1c38b88a2e099b8c62f6606 = $(`<div id="html_a25d0d02a1c38b88a2e099b8c62f6606" style="width: 100.0%; height: 100.0%;"><b>Clipped</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_e44e7dd4bd1843b78bd4ec8f0737d830.setContent(html_a25d0d02a1c38b88a2e099b8c62f6606);
+            
+        
+
+        circle_marker_ea0db761a6dadc972ee3b07b8d07a212.bindPopup(popup_e44e7dd4bd1843b78bd4ec8f0737d830)
+        ;
+
+        
+    
+    
+            var circle_marker_77411a700ee55d22429766f103beaf0c = L.circleMarker(
+                [40.647676278487545, -73.8942312],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_1047825c7dd6603eeba2b51082522b19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a0df3e84612fae2a0e42fc7b3cdecea = $(`<div id="html_7a0df3e84612fae2a0e42fc7b3cdecea" style="width: 100.0%; height: 100.0%;"><b>Clipped</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_1047825c7dd6603eeba2b51082522b19.setContent(html_7a0df3e84612fae2a0e42fc7b3cdecea);
+            
+        
+
+        circle_marker_77411a700ee55d22429766f103beaf0c.bindPopup(popup_1047825c7dd6603eeba2b51082522b19)
+        ;
+
+        
+    
+    
+            var circle_marker_afba3184fc3ddfa98c5d8f588667aece = L.circleMarker(
+                [40.818165507536875, -73.85875502965348],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_781a1345d9aa2c04416c731116a73ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb50ff3b2ed18766686cafd743d14814 = $(`<div id="html_eb50ff3b2ed18766686cafd743d14814" style="width: 100.0%; height: 100.0%;"><b>Tishanashair4u</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_781a1345d9aa2c04416c731116a73ed2.setContent(html_eb50ff3b2ed18766686cafd743d14814);
+            
+        
+
+        circle_marker_afba3184fc3ddfa98c5d8f588667aece.bindPopup(popup_781a1345d9aa2c04416c731116a73ed2)
+        ;
+
+        
+    
+    
+            var circle_marker_68debe5f8864e0e87431a8069ef82795 = L.circleMarker(
+                [40.818165507536875, -73.85875502965348],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_d29c85521a549f2df14278416b3b2330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3e2a8c2f137c892c035de8b8cc33d19 = $(`<div id="html_f3e2a8c2f137c892c035de8b8cc33d19" style="width: 100.0%; height: 100.0%;"><b>Tishanashair4u</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d29c85521a549f2df14278416b3b2330.setContent(html_f3e2a8c2f137c892c035de8b8cc33d19);
+            
+        
+
+        circle_marker_68debe5f8864e0e87431a8069ef82795.bindPopup(popup_d29c85521a549f2df14278416b3b2330)
+        ;
+
+        
+    
+    
+            var circle_marker_f23b2b1cb4f9e4f4199acfba729fb5d3 = L.circleMarker(
+                [40.71963392976657, -74.04683762380401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_27bafbe4f36acde1d4061058cdea85c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d88b9421d8dbfcd356c90f4532cec03d = $(`<div id="html_d88b9421d8dbfcd356c90f4532cec03d" style="width: 100.0%; height: 100.0%;"><b>BraidsByNiaa</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_27bafbe4f36acde1d4061058cdea85c7.setContent(html_d88b9421d8dbfcd356c90f4532cec03d);
+            
+        
+
+        circle_marker_f23b2b1cb4f9e4f4199acfba729fb5d3.bindPopup(popup_27bafbe4f36acde1d4061058cdea85c7)
+        ;
+
+        
+    
+    
+            var circle_marker_a9d0079f546ae4356859a2de0b31eb10 = L.circleMarker(
+                [40.71963392976657, -74.04683762380401],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_1197e1543489c0ded0588f0d42139af7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1601eecd7eeb2c548c220a67f3980a96 = $(`<div id="html_1601eecd7eeb2c548c220a67f3980a96" style="width: 100.0%; height: 100.0%;"><b>BraidsByNiaa</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_1197e1543489c0ded0588f0d42139af7.setContent(html_1601eecd7eeb2c548c220a67f3980a96);
+            
+        
+
+        circle_marker_a9d0079f546ae4356859a2de0b31eb10.bindPopup(popup_1197e1543489c0ded0588f0d42139af7)
+        ;
+
+        
+    
+    
+            var circle_marker_1e713dbe891a3e17b4ac86c3c7ee412b = L.circleMarker(
+                [40.62404, -74.0253774032718],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_764287d2fc90f54488042ae4bcf9ba41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3abb8345f744c0e91d1e44dfb0cebcdd = $(`<div id="html_3abb8345f744c0e91d1e44dfb0cebcdd" style="width: 100.0%; height: 100.0%;"><b>Razer King’s Barbershop</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_764287d2fc90f54488042ae4bcf9ba41.setContent(html_3abb8345f744c0e91d1e44dfb0cebcdd);
+            
+        
+
+        circle_marker_1e713dbe891a3e17b4ac86c3c7ee412b.bindPopup(popup_764287d2fc90f54488042ae4bcf9ba41)
+        ;
+
+        
+    
+    
+            var circle_marker_9458846f1539c5f01694944bf71ffbc0 = L.circleMarker(
+                [40.62404, -74.0253774032718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7de31b66e9f4848ba510fc4b69023583 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc88ba0b337be0dafd58d05c759b09fd = $(`<div id="html_fc88ba0b337be0dafd58d05c759b09fd" style="width: 100.0%; height: 100.0%;"><b>Razer King’s Barbershop</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7de31b66e9f4848ba510fc4b69023583.setContent(html_fc88ba0b337be0dafd58d05c759b09fd);
+            
+        
+
+        circle_marker_9458846f1539c5f01694944bf71ffbc0.bindPopup(popup_7de31b66e9f4848ba510fc4b69023583)
+        ;
+
+        
+    
+    
+            var circle_marker_4d3fb621d350ad43805c486cd9425d17 = L.circleMarker(
+                [40.59686461831244, -73.97613264620304],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_2dce6e28c2b778cf9c2caee46df5ee31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58dfa67eac2ad469e2008955aeb8c9f = $(`<div id="html_a58dfa67eac2ad469e2008955aeb8c9f" style="width: 100.0%; height: 100.0%;"><b>New Selena Hair Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_2dce6e28c2b778cf9c2caee46df5ee31.setContent(html_a58dfa67eac2ad469e2008955aeb8c9f);
+            
+        
+
+        circle_marker_4d3fb621d350ad43805c486cd9425d17.bindPopup(popup_2dce6e28c2b778cf9c2caee46df5ee31)
+        ;
+
+        
+    
+    
+            var circle_marker_bada04f1cb5035710e5a4a7423e80776 = L.circleMarker(
+                [40.59686461831244, -73.97613264620304],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_9b88678676fb3b8cb68b3572923afa8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f072e41ef1fdd53909e52ebeb686b6d = $(`<div id="html_8f072e41ef1fdd53909e52ebeb686b6d" style="width: 100.0%; height: 100.0%;"><b>New Selena Hair Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_9b88678676fb3b8cb68b3572923afa8a.setContent(html_8f072e41ef1fdd53909e52ebeb686b6d);
+            
+        
+
+        circle_marker_bada04f1cb5035710e5a4a7423e80776.bindPopup(popup_9b88678676fb3b8cb68b3572923afa8a)
+        ;
+
+        
+    
+    
+            var circle_marker_298728e37d57b0118d2bd1a99e299156 = L.circleMarker(
+                [40.654572, -73.917911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_da6c6489939afaab8d370bf2b0e525fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_985de21fd87bed9fa6121a8b9f02c3ce = $(`<div id="html_985de21fd87bed9fa6121a8b9f02c3ce" style="width: 100.0%; height: 100.0%;"><b>Alan Dominican Barbeshop</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_da6c6489939afaab8d370bf2b0e525fb.setContent(html_985de21fd87bed9fa6121a8b9f02c3ce);
+            
+        
+
+        circle_marker_298728e37d57b0118d2bd1a99e299156.bindPopup(popup_da6c6489939afaab8d370bf2b0e525fb)
+        ;
+
+        
+    
+    
+            var circle_marker_4bad32d2cfdd820e0775d3eb0bc145c0 = L.circleMarker(
+                [40.654572, -73.917911],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_103ebba39bdddd019647afca32f52232 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd487c88d5864e4b4b3692a6e4c8e953 = $(`<div id="html_fd487c88d5864e4b4b3692a6e4c8e953" style="width: 100.0%; height: 100.0%;"><b>Alan Dominican Barbeshop</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_103ebba39bdddd019647afca32f52232.setContent(html_fd487c88d5864e4b4b3692a6e4c8e953);
+            
+        
+
+        circle_marker_4bad32d2cfdd820e0775d3eb0bc145c0.bindPopup(popup_103ebba39bdddd019647afca32f52232)
+        ;
+
+        
+    
+    
+            var circle_marker_a05c279e6c5aaa435abb51b19e88a9a0 = L.circleMarker(
+                [40.649868, -73.886003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_727b45dd5a6f55d6a3e8cff99b3b19d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b33f98a4d516dd5e8b7f2348de6684d = $(`<div id="html_3b33f98a4d516dd5e8b7f2348de6684d" style="width: 100.0%; height: 100.0%;"><b>Izzy On The Hands</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_727b45dd5a6f55d6a3e8cff99b3b19d7.setContent(html_3b33f98a4d516dd5e8b7f2348de6684d);
+            
+        
+
+        circle_marker_a05c279e6c5aaa435abb51b19e88a9a0.bindPopup(popup_727b45dd5a6f55d6a3e8cff99b3b19d7)
+        ;
+
+        
+    
+    
+            var circle_marker_86951d72d62cb1e9e0e761f4e8ec5ae7 = L.circleMarker(
+                [40.649868, -73.886003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_0e9134d11943dec9904e7d858d1b2f97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d2e994444c7286a04493c98a61a994a = $(`<div id="html_6d2e994444c7286a04493c98a61a994a" style="width: 100.0%; height: 100.0%;"><b>Izzy On The Hands</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_0e9134d11943dec9904e7d858d1b2f97.setContent(html_6d2e994444c7286a04493c98a61a994a);
+            
+        
+
+        circle_marker_86951d72d62cb1e9e0e761f4e8ec5ae7.bindPopup(popup_0e9134d11943dec9904e7d858d1b2f97)
+        ;
+
+        
+    
+    
+            var circle_marker_881b5ae6e4ec5d1d01a638ecdaf92a8f = L.circleMarker(
+                [40.843987, -73.82914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8aa017919d57885ffa40284692b92827 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ddfa02fae409cfb736f443be78a35de = $(`<div id="html_0ddfa02fae409cfb736f443be78a35de" style="width: 100.0%; height: 100.0%;"><b>K Klassic Hair</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_8aa017919d57885ffa40284692b92827.setContent(html_0ddfa02fae409cfb736f443be78a35de);
+            
+        
+
+        circle_marker_881b5ae6e4ec5d1d01a638ecdaf92a8f.bindPopup(popup_8aa017919d57885ffa40284692b92827)
+        ;
+
+        
+    
+    
+            var circle_marker_5306bbbc662710de02935dd8c114282b = L.circleMarker(
+                [40.843987, -73.82914],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ad1ab7f2fd835abaae9438be612f84f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e1f34e8e1856486aa9ce09770507f0 = $(`<div id="html_79e1f34e8e1856486aa9ce09770507f0" style="width: 100.0%; height: 100.0%;"><b>K Klassic Hair</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_ad1ab7f2fd835abaae9438be612f84f0.setContent(html_79e1f34e8e1856486aa9ce09770507f0);
+            
+        
+
+        circle_marker_5306bbbc662710de02935dd8c114282b.bindPopup(popup_ad1ab7f2fd835abaae9438be612f84f0)
+        ;
+
+        
+    
+    
+            var circle_marker_8de4267f44fd93ba9b4fb931922c11b5 = L.circleMarker(
+                [40.68198, -73.96033],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f4cee86c46836071ad606d7ee1ef3163 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaaca7b8421a8b64d1c6e643e25fe777 = $(`<div id="html_eaaca7b8421a8b64d1c6e643e25fe777" style="width: 100.0%; height: 100.0%;"><b>Triggins Cutz</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_f4cee86c46836071ad606d7ee1ef3163.setContent(html_eaaca7b8421a8b64d1c6e643e25fe777);
+            
+        
+
+        circle_marker_8de4267f44fd93ba9b4fb931922c11b5.bindPopup(popup_f4cee86c46836071ad606d7ee1ef3163)
+        ;
+
+        
+    
+    
+            var circle_marker_091770abf1930d4b18154cb78cdfa81b = L.circleMarker(
+                [40.68198, -73.96033],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_cba8cdd86a6a9ce20742a031e2a87e30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e796138aed837544d1be2142c67fa961 = $(`<div id="html_e796138aed837544d1be2142c67fa961" style="width: 100.0%; height: 100.0%;"><b>Triggins Cutz</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_cba8cdd86a6a9ce20742a031e2a87e30.setContent(html_e796138aed837544d1be2142c67fa961);
+            
+        
+
+        circle_marker_091770abf1930d4b18154cb78cdfa81b.bindPopup(popup_cba8cdd86a6a9ce20742a031e2a87e30)
+        ;
+
+        
+    
+    
+            var circle_marker_df47dfb54b1de108eda2d4eba16a4558 = L.circleMarker(
+                [40.65557, -73.95315],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_546c0e10b25e1c8f6425b0da58552881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a544b781e7cbcc181139c3ec8c6f0ce1 = $(`<div id="html_a544b781e7cbcc181139c3ec8c6f0ce1" style="width: 100.0%; height: 100.0%;"><b>Timmitwist</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_546c0e10b25e1c8f6425b0da58552881.setContent(html_a544b781e7cbcc181139c3ec8c6f0ce1);
+            
+        
+
+        circle_marker_df47dfb54b1de108eda2d4eba16a4558.bindPopup(popup_546c0e10b25e1c8f6425b0da58552881)
+        ;
+
+        
+    
+    
+            var circle_marker_16c925e6b0ca44cb89c552a5af564627 = L.circleMarker(
+                [40.65557, -73.95315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_4a0a939d7bb206a698aa30e67e0481e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6c19ced69d1d3e30b2d84791e542e9 = $(`<div id="html_8e6c19ced69d1d3e30b2d84791e542e9" style="width: 100.0%; height: 100.0%;"><b>Timmitwist</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_4a0a939d7bb206a698aa30e67e0481e9.setContent(html_8e6c19ced69d1d3e30b2d84791e542e9);
+            
+        
+
+        circle_marker_16c925e6b0ca44cb89c552a5af564627.bindPopup(popup_4a0a939d7bb206a698aa30e67e0481e9)
+        ;
+
+        
+    
+    
+            var circle_marker_e9764873c08a661184dd11e6d65bef2f = L.circleMarker(
+                [40.731741, -73.949938],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_c29494fe91ccbb4ff07689387f4b40d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a93ffb3a6ac0a1e7afe5ca214d48798b = $(`<div id="html_a93ffb3a6ac0a1e7afe5ca214d48798b" style="width: 100.0%; height: 100.0%;"><b>Junkie Naturals</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_c29494fe91ccbb4ff07689387f4b40d2.setContent(html_a93ffb3a6ac0a1e7afe5ca214d48798b);
+            
+        
+
+        circle_marker_e9764873c08a661184dd11e6d65bef2f.bindPopup(popup_c29494fe91ccbb4ff07689387f4b40d2)
+        ;
+
+        
+    
+    
+            var circle_marker_762ab75d24deb24564b2dda3932095c7 = L.circleMarker(
+                [40.731741, -73.949938],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_8da9765aa8daa65181a749e480db3c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b2cef43f837bc812fd3efc7095df856 = $(`<div id="html_3b2cef43f837bc812fd3efc7095df856" style="width: 100.0%; height: 100.0%;"><b>Junkie Naturals</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_8da9765aa8daa65181a749e480db3c26.setContent(html_3b2cef43f837bc812fd3efc7095df856);
+            
+        
+
+        circle_marker_762ab75d24deb24564b2dda3932095c7.bindPopup(popup_8da9765aa8daa65181a749e480db3c26)
+        ;
+
+        
+    
+    
+            var circle_marker_76cea76f2daedb21c0adc0360367524f = L.circleMarker(
+                [40.67998523, -73.84181075],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_f1d2e46b8799e6137a823751ae455cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dbb8a7b17964531f8426b3d94435518 = $(`<div id="html_9dbb8a7b17964531f8426b3d94435518" style="width: 100.0%; height: 100.0%;"><b>VIP Mens</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_f1d2e46b8799e6137a823751ae455cf4.setContent(html_9dbb8a7b17964531f8426b3d94435518);
+            
+        
+
+        circle_marker_76cea76f2daedb21c0adc0360367524f.bindPopup(popup_f1d2e46b8799e6137a823751ae455cf4)
+        ;
+
+        
+    
+    
+            var circle_marker_8200264d47baaee3501def7cd5426081 = L.circleMarker(
+                [40.67998523, -73.84181075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_00afc5b6708fb85b306ed3fe1df01735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ecd386f72ef7febab419038674cb854 = $(`<div id="html_8ecd386f72ef7febab419038674cb854" style="width: 100.0%; height: 100.0%;"><b>VIP Mens</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_00afc5b6708fb85b306ed3fe1df01735.setContent(html_8ecd386f72ef7febab419038674cb854);
+            
+        
+
+        circle_marker_8200264d47baaee3501def7cd5426081.bindPopup(popup_00afc5b6708fb85b306ed3fe1df01735)
+        ;
+
+        
+    
+    
+            var circle_marker_3287fb6dfc9ec944f760fbe772abe76a = L.circleMarker(
+                [40.649555, -73.934441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_41895d40b7becd555eb949703cabe2a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1f173436ef3a26f60dd8b6328f16e6b = $(`<div id="html_c1f173436ef3a26f60dd8b6328f16e6b" style="width: 100.0%; height: 100.0%;"><b>Versatility for Kids</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_41895d40b7becd555eb949703cabe2a0.setContent(html_c1f173436ef3a26f60dd8b6328f16e6b);
+            
+        
+
+        circle_marker_3287fb6dfc9ec944f760fbe772abe76a.bindPopup(popup_41895d40b7becd555eb949703cabe2a0)
+        ;
+
+        
+    
+    
+            var circle_marker_01933e7d38452eb80ef159e4a925f2ea = L.circleMarker(
+                [40.649555, -73.934441],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_205e9e9abde1548537fc73d31216a86e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9edd8cd8279049fc9de4316d9b4d385 = $(`<div id="html_a9edd8cd8279049fc9de4316d9b4d385" style="width: 100.0%; height: 100.0%;"><b>Versatility for Kids</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_205e9e9abde1548537fc73d31216a86e.setContent(html_a9edd8cd8279049fc9de4316d9b4d385);
+            
+        
+
+        circle_marker_01933e7d38452eb80ef159e4a925f2ea.bindPopup(popup_205e9e9abde1548537fc73d31216a86e)
+        ;
+
+        
+    
+    
+            var circle_marker_24b49372310bc55313a0802504354005 = L.circleMarker(
+                [40.81786, -73.89438],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_fb173cb35d96802295855eabb0377e34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5479176b619014b445dfe02fe3f8d30 = $(`<div id="html_e5479176b619014b445dfe02fe3f8d30" style="width: 100.0%; height: 100.0%;"><b>Pinky Promise kids spa</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_fb173cb35d96802295855eabb0377e34.setContent(html_e5479176b619014b445dfe02fe3f8d30);
+            
+        
+
+        circle_marker_24b49372310bc55313a0802504354005.bindPopup(popup_fb173cb35d96802295855eabb0377e34)
+        ;
+
+        
+    
+    
+            var circle_marker_ded03a9a3e71e7f9f1497272194c233d = L.circleMarker(
+                [40.81786, -73.89438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_19664ca64471c2673e8cb1a916902696 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b221a9bf8d41ca281f65cfa22d69791 = $(`<div id="html_4b221a9bf8d41ca281f65cfa22d69791" style="width: 100.0%; height: 100.0%;"><b>Pinky Promise kids spa</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_19664ca64471c2673e8cb1a916902696.setContent(html_4b221a9bf8d41ca281f65cfa22d69791);
+            
+        
+
+        circle_marker_ded03a9a3e71e7f9f1497272194c233d.bindPopup(popup_19664ca64471c2673e8cb1a916902696)
+        ;
+
+        
+    
+    
+            var circle_marker_9a3593cf970fdceef0cef17ca60dfc70 = L.circleMarker(
+                [40.807764, -73.948689],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7b6bb70228b213b1ce3722fb9289a57f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce6feead609dd1f4dbc3867030f0ba17 = $(`<div id="html_ce6feead609dd1f4dbc3867030f0ba17" style="width: 100.0%; height: 100.0%;"><b>Afroexcentric Vegan Holistic Hair Beauty</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7b6bb70228b213b1ce3722fb9289a57f.setContent(html_ce6feead609dd1f4dbc3867030f0ba17);
+            
+        
+
+        circle_marker_9a3593cf970fdceef0cef17ca60dfc70.bindPopup(popup_7b6bb70228b213b1ce3722fb9289a57f)
+        ;
+
+        
+    
+    
+            var circle_marker_1659fe9eb0571e79a8fa1e6a39f338c9 = L.circleMarker(
+                [40.807764, -73.948689],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_657849d025566fccc053f0556b2e11fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9b6cd0e3c4276d26938c71c08bb6d14 = $(`<div id="html_c9b6cd0e3c4276d26938c71c08bb6d14" style="width: 100.0%; height: 100.0%;"><b>Afroexcentric Vegan Holistic Hair Beauty</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_657849d025566fccc053f0556b2e11fc.setContent(html_c9b6cd0e3c4276d26938c71c08bb6d14);
+            
+        
+
+        circle_marker_1659fe9eb0571e79a8fa1e6a39f338c9.bindPopup(popup_657849d025566fccc053f0556b2e11fc)
+        ;
+
+        
+    
+    
+            var circle_marker_0411eed380db454f10532903659f48b2 = L.circleMarker(
+                [40.64004037440342, -73.9662445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_ecfc280605d602e33eb031a0d4d6516e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f36ae2f9cb005d91065e99df26cc24b1 = $(`<div id="html_f36ae2f9cb005d91065e99df26cc24b1" style="width: 100.0%; height: 100.0%;"><b>Barberians on Cortelyou</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_ecfc280605d602e33eb031a0d4d6516e.setContent(html_f36ae2f9cb005d91065e99df26cc24b1);
+            
+        
+
+        circle_marker_0411eed380db454f10532903659f48b2.bindPopup(popup_ecfc280605d602e33eb031a0d4d6516e)
+        ;
+
+        
+    
+    
+            var circle_marker_78295007bcf68905f7c4b95dd6aaaacf = L.circleMarker(
+                [40.64004037440342, -73.9662445],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_d706d333199b78bcc310de6bd301fe5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da7326b0bcf50f70b669cd44cd07f29d = $(`<div id="html_da7326b0bcf50f70b669cd44cd07f29d" style="width: 100.0%; height: 100.0%;"><b>Barberians on Cortelyou</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d706d333199b78bcc310de6bd301fe5f.setContent(html_da7326b0bcf50f70b669cd44cd07f29d);
+            
+        
+
+        circle_marker_78295007bcf68905f7c4b95dd6aaaacf.bindPopup(popup_d706d333199b78bcc310de6bd301fe5f)
+        ;
+
+        
+    
+    
+            var circle_marker_4a02caa695701b5699335c40ea05df43 = L.circleMarker(
+                [40.73077097473661, -74.03537284455227],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_d8440212f10eead67a61ebf8573ffc5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_435c8fe72be0607ca09a1ea5a6a94413 = $(`<div id="html_435c8fe72be0607ca09a1ea5a6a94413" style="width: 100.0%; height: 100.0%;"><b>Little Kidz Crown</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d8440212f10eead67a61ebf8573ffc5b.setContent(html_435c8fe72be0607ca09a1ea5a6a94413);
+            
+        
+
+        circle_marker_4a02caa695701b5699335c40ea05df43.bindPopup(popup_d8440212f10eead67a61ebf8573ffc5b)
+        ;
+
+        
+    
+    
+            var circle_marker_363c2e3d79c8319fcee7217c424464c6 = L.circleMarker(
+                [40.73077097473661, -74.03537284455227],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_aaaf764300ecdba42503db46aa814b8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7353def3ed52b43bd82cf1f676d9581e = $(`<div id="html_7353def3ed52b43bd82cf1f676d9581e" style="width: 100.0%; height: 100.0%;"><b>Little Kidz Crown</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_aaaf764300ecdba42503db46aa814b8b.setContent(html_7353def3ed52b43bd82cf1f676d9581e);
+            
+        
+
+        circle_marker_363c2e3d79c8319fcee7217c424464c6.bindPopup(popup_aaaf764300ecdba42503db46aa814b8b)
+        ;
+
+        
+    
+    
+            var circle_marker_61aab07174d30e445935b69ee9025a9d = L.circleMarker(
+                [40.851513, -73.923388],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_64ec694dc5069a5335096874505da0cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a8b20a1c611c12b73e4e66674c1703 = $(`<div id="html_a3a8b20a1c611c12b73e4e66674c1703" style="width: 100.0%; height: 100.0%;"><b>Biluxe Hair</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_64ec694dc5069a5335096874505da0cb.setContent(html_a3a8b20a1c611c12b73e4e66674c1703);
+            
+        
+
+        circle_marker_61aab07174d30e445935b69ee9025a9d.bindPopup(popup_64ec694dc5069a5335096874505da0cb)
+        ;
+
+        
+    
+    
+            var circle_marker_ae3b0293ec3974fd0362f65b90e35fc8 = L.circleMarker(
+                [40.851513, -73.923388],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_62db798f2130db7372618fd329dd9eaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1124c18fcdd3901474497496510f2f4 = $(`<div id="html_b1124c18fcdd3901474497496510f2f4" style="width: 100.0%; height: 100.0%;"><b>Biluxe Hair</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_62db798f2130db7372618fd329dd9eaf.setContent(html_b1124c18fcdd3901474497496510f2f4);
+            
+        
+
+        circle_marker_ae3b0293ec3974fd0362f65b90e35fc8.bindPopup(popup_62db798f2130db7372618fd329dd9eaf)
+        ;
+
+        
+    
+    
+            var circle_marker_0dbfcb70a601bf8bbabfb0c261e047bd = L.circleMarker(
+                [40.678349, -73.86867],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_26e02e9557c9a0b90db076d247246fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a677764237683059f16bd5d1220e7a8 = $(`<div id="html_7a677764237683059f16bd5d1220e7a8" style="width: 100.0%; height: 100.0%;"><b>Coco Ice Boutique</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_26e02e9557c9a0b90db076d247246fe4.setContent(html_7a677764237683059f16bd5d1220e7a8);
+            
+        
+
+        circle_marker_0dbfcb70a601bf8bbabfb0c261e047bd.bindPopup(popup_26e02e9557c9a0b90db076d247246fe4)
+        ;
+
+        
+    
+    
+            var circle_marker_331b36849149c222039836770b138db4 = L.circleMarker(
+                [40.678349, -73.86867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_7f4f1f079343ca0d0a03e1da0f741083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb9292c6134a29e4366f35451d9ab9c7 = $(`<div id="html_cb9292c6134a29e4366f35451d9ab9c7" style="width: 100.0%; height: 100.0%;"><b>Coco Ice Boutique</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_7f4f1f079343ca0d0a03e1da0f741083.setContent(html_cb9292c6134a29e4366f35451d9ab9c7);
+            
+        
+
+        circle_marker_331b36849149c222039836770b138db4.bindPopup(popup_7f4f1f079343ca0d0a03e1da0f741083)
+        ;
+
+        
+    
+    
+            var circle_marker_2bcec46b6810418208f86e066fbd006d = L.circleMarker(
+                [40.807120064203914, -73.9463378],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_535ed103bc1697a07cde507725e382ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b92e10dc477eee738b1b94f8c194816a = $(`<div id="html_b92e10dc477eee738b1b94f8c194816a" style="width: 100.0%; height: 100.0%;"><b>Girls Pop-Up Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_535ed103bc1697a07cde507725e382ba.setContent(html_b92e10dc477eee738b1b94f8c194816a);
+            
+        
+
+        circle_marker_2bcec46b6810418208f86e066fbd006d.bindPopup(popup_535ed103bc1697a07cde507725e382ba)
+        ;
+
+        
+    
+    
+            var circle_marker_a2aae5570c0b8ed89c583f9cbff23f74 = L.circleMarker(
+                [40.807120064203914, -73.9463378],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_62618d17b348c2a95eff15f083f2059c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_199ba12beb21b716419054998da412da = $(`<div id="html_199ba12beb21b716419054998da412da" style="width: 100.0%; height: 100.0%;"><b>Girls Pop-Up Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_62618d17b348c2a95eff15f083f2059c.setContent(html_199ba12beb21b716419054998da412da);
+            
+        
+
+        circle_marker_a2aae5570c0b8ed89c583f9cbff23f74.bindPopup(popup_62618d17b348c2a95eff15f083f2059c)
+        ;
+
+        
+    
+    
+            var circle_marker_9b6584d20b0f5b14a32029807daf71f5 = L.circleMarker(
+                [40.59369349666133, -73.79231456667127],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_bd4e0e474cf042e83d50c38ac215683e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb3412d1b852fa305cfadb0bcca0bd8 = $(`<div id="html_0bb3412d1b852fa305cfadb0bcca0bd8" style="width: 100.0%; height: 100.0%;"><b>Beauty Remedies</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_bd4e0e474cf042e83d50c38ac215683e.setContent(html_0bb3412d1b852fa305cfadb0bcca0bd8);
+            
+        
+
+        circle_marker_9b6584d20b0f5b14a32029807daf71f5.bindPopup(popup_bd4e0e474cf042e83d50c38ac215683e)
+        ;
+
+        
+    
+    
+            var circle_marker_0e947cf68517754a8bbf564ba7fa725f = L.circleMarker(
+                [40.59369349666133, -73.79231456667127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_db28f508818e992c9835a11d7ed4cfb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_906c27312dd25db40e0de27c8c453406 = $(`<div id="html_906c27312dd25db40e0de27c8c453406" style="width: 100.0%; height: 100.0%;"><b>Beauty Remedies</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_db28f508818e992c9835a11d7ed4cfb8.setContent(html_906c27312dd25db40e0de27c8c453406);
+            
+        
+
+        circle_marker_0e947cf68517754a8bbf564ba7fa725f.bindPopup(popup_db28f508818e992c9835a11d7ed4cfb8)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa80139ecdebcb15bdd2f4316ead316 = L.circleMarker(
+                [40.73427, -74.19718],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_181ce88996721f650b43985800d69d60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_541732a658ce6c8db35958c46f8142e5 = $(`<div id="html_541732a658ce6c8db35958c46f8142e5" style="width: 100.0%; height: 100.0%;"><b>Young Beauty's World</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_181ce88996721f650b43985800d69d60.setContent(html_541732a658ce6c8db35958c46f8142e5);
+            
+        
+
+        circle_marker_4fa80139ecdebcb15bdd2f4316ead316.bindPopup(popup_181ce88996721f650b43985800d69d60)
+        ;
+
+        
+    
+    
+            var circle_marker_8f7663c9290c6a2dee0d63a2a506562f = L.circleMarker(
+                [40.73427, -74.19718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_1f63cbad98ce9e432b34034afb495d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9946e16deb64ed92066efc7dcdbcdaed = $(`<div id="html_9946e16deb64ed92066efc7dcdbcdaed" style="width: 100.0%; height: 100.0%;"><b>Young Beauty's World</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_1f63cbad98ce9e432b34034afb495d01.setContent(html_9946e16deb64ed92066efc7dcdbcdaed);
+            
+        
+
+        circle_marker_8f7663c9290c6a2dee0d63a2a506562f.bindPopup(popup_1f63cbad98ce9e432b34034afb495d01)
+        ;
+
+        
+    
+    
+            var circle_marker_51f9de58c201bf8c555710d2684e84d9 = L.circleMarker(
+                [40.82999, -73.94738],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_bc63da3c1fb7f2d8262f404a637d0c8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_422bb32613d1d67edc33606df4253f2c = $(`<div id="html_422bb32613d1d67edc33606df4253f2c" style="width: 100.0%; height: 100.0%;"><b>Laced By Brown</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_bc63da3c1fb7f2d8262f404a637d0c8b.setContent(html_422bb32613d1d67edc33606df4253f2c);
+            
+        
+
+        circle_marker_51f9de58c201bf8c555710d2684e84d9.bindPopup(popup_bc63da3c1fb7f2d8262f404a637d0c8b)
+        ;
+
+        
+    
+    
+            var circle_marker_549fba5091b7614d0e5542822803371b = L.circleMarker(
+                [40.82999, -73.94738],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_654017de3f9a599df4a403a34ff4c934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d81328e0045cb79ca4cfce3ff90e37a = $(`<div id="html_3d81328e0045cb79ca4cfce3ff90e37a" style="width: 100.0%; height: 100.0%;"><b>Laced By Brown</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_654017de3f9a599df4a403a34ff4c934.setContent(html_3d81328e0045cb79ca4cfce3ff90e37a);
+            
+        
+
+        circle_marker_549fba5091b7614d0e5542822803371b.bindPopup(popup_654017de3f9a599df4a403a34ff4c934)
+        ;
+
+        
+    
+    
+            var circle_marker_d65cce7d0e66fa9f9632c559d25b4562 = L.circleMarker(
+                [40.811445, -73.953621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_3fc73310ea48121f7e73cd697634f3db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_948ee86ca69b84665657dbfc481fc1a9 = $(`<div id="html_948ee86ca69b84665657dbfc481fc1a9" style="width: 100.0%; height: 100.0%;"><b>Aku Briads</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_3fc73310ea48121f7e73cd697634f3db.setContent(html_948ee86ca69b84665657dbfc481fc1a9);
+            
+        
+
+        circle_marker_d65cce7d0e66fa9f9632c559d25b4562.bindPopup(popup_3fc73310ea48121f7e73cd697634f3db)
+        ;
+
+        
+    
+    
+            var circle_marker_eafde30a77ecfbbbafd3027e5d6a5eb5 = L.circleMarker(
+                [40.811445, -73.953621],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_3feb9d22d60ecbc34db77d88b9deddbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60f9ba49bd675906974e0faef315f7eb = $(`<div id="html_60f9ba49bd675906974e0faef315f7eb" style="width: 100.0%; height: 100.0%;"><b>Aku Briads</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_3feb9d22d60ecbc34db77d88b9deddbd.setContent(html_60f9ba49bd675906974e0faef315f7eb);
+            
+        
+
+        circle_marker_eafde30a77ecfbbbafd3027e5d6a5eb5.bindPopup(popup_3feb9d22d60ecbc34db77d88b9deddbd)
+        ;
+
+        
+    
+    
+            var circle_marker_5cdc4cbf40a48626af6d5d63c42689d0 = L.circleMarker(
+                [40.6511018869173, -73.9462562902268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_9f6c13dca4980cbe86bcd9ca7fd1384c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c052e2e4e3f6f056c784e37f7a12b9 = $(`<div id="html_c1c052e2e4e3f6f056c784e37f7a12b9" style="width: 100.0%; height: 100.0%;"><b>Cee's Top Notch Styles Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_9f6c13dca4980cbe86bcd9ca7fd1384c.setContent(html_c1c052e2e4e3f6f056c784e37f7a12b9);
+            
+        
+
+        circle_marker_5cdc4cbf40a48626af6d5d63c42689d0.bindPopup(popup_9f6c13dca4980cbe86bcd9ca7fd1384c)
+        ;
+
+        
+    
+    
+            var circle_marker_fde73b108f85f17135be41fe9a25313f = L.circleMarker(
+                [40.6511018869173, -73.9462562902268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_826e53d7014b43338b0db1463e8c1589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41fae5e353f840e97828b808f87a8b74 = $(`<div id="html_41fae5e353f840e97828b808f87a8b74" style="width: 100.0%; height: 100.0%;"><b>Cee's Top Notch Styles Salon</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_826e53d7014b43338b0db1463e8c1589.setContent(html_41fae5e353f840e97828b808f87a8b74);
+            
+        
+
+        circle_marker_fde73b108f85f17135be41fe9a25313f.bindPopup(popup_826e53d7014b43338b0db1463e8c1589)
+        ;
+
+        
+    
+    
+            var circle_marker_35890883910f8164a7675b331cafd267 = L.circleMarker(
+                [40.80388, -73.94783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_23f1509f822cdc21b220ba6276fe2edd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff59d68d6fc0b771f6e3501aa70519e = $(`<div id="html_aff59d68d6fc0b771f6e3501aa70519e" style="width: 100.0%; height: 100.0%;"><b>Beauty dispatch plus</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_23f1509f822cdc21b220ba6276fe2edd.setContent(html_aff59d68d6fc0b771f6e3501aa70519e);
+            
+        
+
+        circle_marker_35890883910f8164a7675b331cafd267.bindPopup(popup_23f1509f822cdc21b220ba6276fe2edd)
+        ;
+
+        
+    
+    
+            var circle_marker_6e6b70aa8f1cf8ecf0ec1bfd76fde69a = L.circleMarker(
+                [40.80388, -73.94783],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_58e15b7455a194344c7f6fe28c1b17be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d26671006869edae1f027eddd46fc168 = $(`<div id="html_d26671006869edae1f027eddd46fc168" style="width: 100.0%; height: 100.0%;"><b>Beauty dispatch plus</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_58e15b7455a194344c7f6fe28c1b17be.setContent(html_d26671006869edae1f027eddd46fc168);
+            
+        
+
+        circle_marker_6e6b70aa8f1cf8ecf0ec1bfd76fde69a.bindPopup(popup_58e15b7455a194344c7f6fe28c1b17be)
+        ;
+
+        
+    
+    
+            var circle_marker_14c128706d6f98e7ece74d6389567a29 = L.circleMarker(
+                [40.57665208274649, -73.98877000747137],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_878f18e29c4502fe4c131ee6719c738e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bd291cae578b8fc23c1e0429f3594eb = $(`<div id="html_1bd291cae578b8fc23c1e0429f3594eb" style="width: 100.0%; height: 100.0%;"><b>House Of Love Thy Self</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_878f18e29c4502fe4c131ee6719c738e.setContent(html_1bd291cae578b8fc23c1e0429f3594eb);
+            
+        
+
+        circle_marker_14c128706d6f98e7ece74d6389567a29.bindPopup(popup_878f18e29c4502fe4c131ee6719c738e)
+        ;
+
+        
+    
+    
+            var circle_marker_6a2b418abbc2efdc8efe149df87c3b34 = L.circleMarker(
+                [40.57665208274649, -73.98877000747137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3372fbe861591980d5e57f0e9e491bf8);
+        
+    
+        var popup_49214aa5f4253416002b3b1c312df797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99d75400316ebbf647ef362b3e689715 = $(`<div id="html_99d75400316ebbf647ef362b3e689715" style="width: 100.0%; height: 100.0%;"><b>House Of Love Thy Self</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_49214aa5f4253416002b3b1c312df797.setContent(html_99d75400316ebbf647ef362b3e689715);
+            
+        
+
+        circle_marker_6a2b418abbc2efdc8efe149df87c3b34.bindPopup(popup_49214aa5f4253416002b3b1c312df797)
+        ;
+
+        
+    
+</script>
+</html>

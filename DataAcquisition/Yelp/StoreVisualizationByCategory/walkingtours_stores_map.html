@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58ef88fe1f75ea7196a8371e868a3660 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_58ef88fe1f75ea7196a8371e868a3660" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58ef88fe1f75ea7196a8371e868a3660 = L.map(
+                "map_58ef88fe1f75ea7196a8371e868a3660",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0966918972348c2c1988742804db04f1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+            var circle_marker_8076c887d1f6cbc9bca7b015275ade5b = L.circleMarker(
+                [40.7633087, -73.9732639],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.2, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_92d1b684049f9c2745bab7b56a8cded8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7abdea12c8438d2d654d0cd6fa2ab37b = $(`<div id="html_7abdea12c8438d2d654d0cd6fa2ab37b" style="width: 100.0%; height: 100.0%;"><b>Central Park Sunset Tours</b><br>Rating: 4.8<br>Reviews: 25<br>Success Score: 4.80</div>`)[0];
+                popup_92d1b684049f9c2745bab7b56a8cded8.setContent(html_7abdea12c8438d2d654d0cd6fa2ab37b);
+            
+        
+
+        circle_marker_8076c887d1f6cbc9bca7b015275ade5b.bindPopup(popup_92d1b684049f9c2745bab7b56a8cded8)
+        ;
+
+        
+    
+    
+            var circle_marker_c7dac53778638062cd48016def6d6cbd = L.circleMarker(
+                [40.7633087, -73.9732639],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.2195121951219512, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_81c188ba24c1b886a5f7412d0478c95d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae8e2608d0059749c67b92fe7e972b38 = $(`<div id="html_ae8e2608d0059749c67b92fe7e972b38" style="width: 100.0%; height: 100.0%;"><b>Central Park Sunset Tours</b><br>Rating: 4.8<br>Reviews: 25<br>Success Score: 4.80</div>`)[0];
+                popup_81c188ba24c1b886a5f7412d0478c95d.setContent(html_ae8e2608d0059749c67b92fe7e972b38);
+            
+        
+
+        circle_marker_c7dac53778638062cd48016def6d6cbd.bindPopup(popup_81c188ba24c1b886a5f7412d0478c95d)
+        ;
+
+        
+    
+    
+            var circle_marker_bd7160323fce562f09c4c28b30f7baeb = L.circleMarker(
+                [40.7188299, -73.98998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_5a3eb7c62ac6fa2ef12a6ec7bdd7b66e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c80ead8337440f2341026926612db847 = $(`<div id="html_c80ead8337440f2341026926612db847" style="width: 100.0%; height: 100.0%;"><b>Tenement Museum</b><br>Rating: 4.1<br>Reviews: 820<br>Success Score: 4.10</div>`)[0];
+                popup_5a3eb7c62ac6fa2ef12a6ec7bdd7b66e.setContent(html_c80ead8337440f2341026926612db847);
+            
+        
+
+        circle_marker_bd7160323fce562f09c4c28b30f7baeb.bindPopup(popup_5a3eb7c62ac6fa2ef12a6ec7bdd7b66e)
+        ;
+
+        
+    
+    
+            var circle_marker_19a4f982963d9cdf890938f57a2f6097 = L.circleMarker(
+                [40.7188299, -73.98998],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_8c73fa1d7721fabd9c8c6bcf1634ac66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1d2b43d8a2653084de4d7bd31994100 = $(`<div id="html_d1d2b43d8a2653084de4d7bd31994100" style="width: 100.0%; height: 100.0%;"><b>Tenement Museum</b><br>Rating: 4.1<br>Reviews: 820<br>Success Score: 4.10</div>`)[0];
+                popup_8c73fa1d7721fabd9c8c6bcf1634ac66.setContent(html_d1d2b43d8a2653084de4d7bd31994100);
+            
+        
+
+        circle_marker_19a4f982963d9cdf890938f57a2f6097.bindPopup(popup_8c73fa1d7721fabd9c8c6bcf1634ac66)
+        ;
+
+        
+    
+    
+            var circle_marker_aad4ce4cc7fa41c351470c32620463c1 = L.circleMarker(
+                [40.7355834975302, -74.0062268809509],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.8, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_6274af1e277e2e7295b6f100073c66bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4c42f277e3f3596df991316e7f7c04 = $(`<div id="html_ca4c42f277e3f3596df991316e7f7c04" style="width: 100.0%; height: 100.0%;"><b>Greenwich Village Literary Pub Crawl</b><br>Rating: 4.7<br>Reviews: 10<br>Success Score: 4.70</div>`)[0];
+                popup_6274af1e277e2e7295b6f100073c66bd.setContent(html_ca4c42f277e3f3596df991316e7f7c04);
+            
+        
+
+        circle_marker_aad4ce4cc7fa41c351470c32620463c1.bindPopup(popup_6274af1e277e2e7295b6f100073c66bd)
+        ;
+
+        
+    
+    
+            var circle_marker_e6db5d889ed7c4d104fedaf4fb4a76c1 = L.circleMarker(
+                [40.7355834975302, -74.0062268809509],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4878048780487805, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_4d312f828b9c3f23768cdf448ed59121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60f0a33d7a2af4e265dd571dabec7cdd = $(`<div id="html_60f0a33d7a2af4e265dd571dabec7cdd" style="width: 100.0%; height: 100.0%;"><b>Greenwich Village Literary Pub Crawl</b><br>Rating: 4.7<br>Reviews: 10<br>Success Score: 4.70</div>`)[0];
+                popup_4d312f828b9c3f23768cdf448ed59121.setContent(html_60f0a33d7a2af4e265dd571dabec7cdd);
+            
+        
+
+        circle_marker_e6db5d889ed7c4d104fedaf4fb4a76c1.bindPopup(popup_4d312f828b9c3f23768cdf448ed59121)
+        ;
+
+        
+    
+    
+            var circle_marker_251676084046a3449eed2be1afdd96fc = L.circleMarker(
+                [40.760532, -73.977401],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_05763e5068a4dc4598ab0d5a7ed22d0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd03b9035f9025c7dc7ca115895c66cf = $(`<div id="html_bd03b9035f9025c7dc7ca115895c66cf" style="width: 100.0%; height: 100.0%;"><b>Telltale Tours</b><br>Rating: 5.0<br>Reviews: 10<br>Success Score: 5.00</div>`)[0];
+                popup_05763e5068a4dc4598ab0d5a7ed22d0f.setContent(html_bd03b9035f9025c7dc7ca115895c66cf);
+            
+        
+
+        circle_marker_251676084046a3449eed2be1afdd96fc.bindPopup(popup_05763e5068a4dc4598ab0d5a7ed22d0f)
+        ;
+
+        
+    
+    
+            var circle_marker_653e920f33f579a491975bd2c24ab96d = L.circleMarker(
+                [40.760532, -73.977401],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.4878048780487805, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_24434f6a4312f3b948584e74ee0ea902 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1cd9bafd46b5b187522a3b094a34e19 = $(`<div id="html_d1cd9bafd46b5b187522a3b094a34e19" style="width: 100.0%; height: 100.0%;"><b>Telltale Tours</b><br>Rating: 5.0<br>Reviews: 10<br>Success Score: 5.00</div>`)[0];
+                popup_24434f6a4312f3b948584e74ee0ea902.setContent(html_d1cd9bafd46b5b187522a3b094a34e19);
+            
+        
+
+        circle_marker_653e920f33f579a491975bd2c24ab96d.bindPopup(popup_24434f6a4312f3b948584e74ee0ea902)
+        ;
+
+        
+    
+    
+            var circle_marker_3ac30a4e14e1532d3956ef89b729f32a = L.circleMarker(
+                [40.779345, -73.9806865],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.2, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_d4b6f457d3c9b3bd05aa64a8a23d265c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e4309dda6eef5c58c140dfe9aac50b7 = $(`<div id="html_5e4309dda6eef5c58c140dfe9aac50b7" style="width: 100.0%; height: 100.0%;"><b>New York City Photo Safari</b><br>Rating: 4.8<br>Reviews: 29<br>Success Score: 4.80</div>`)[0];
+                popup_d4b6f457d3c9b3bd05aa64a8a23d265c.setContent(html_5e4309dda6eef5c58c140dfe9aac50b7);
+            
+        
+
+        circle_marker_3ac30a4e14e1532d3956ef89b729f32a.bindPopup(popup_d4b6f457d3c9b3bd05aa64a8a23d265c)
+        ;
+
+        
+    
+    
+            var circle_marker_bd1ea7c86884aca3f84ef954a972edbd = L.circleMarker(
+                [40.779345, -73.9806865],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.4146341463414633, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_520e47283c784bf4752e6ca1d47c0e13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789ce6d0a0ea23fa1e73d2f45e33be75 = $(`<div id="html_789ce6d0a0ea23fa1e73d2f45e33be75" style="width: 100.0%; height: 100.0%;"><b>New York City Photo Safari</b><br>Rating: 4.8<br>Reviews: 29<br>Success Score: 4.80</div>`)[0];
+                popup_520e47283c784bf4752e6ca1d47c0e13.setContent(html_789ce6d0a0ea23fa1e73d2f45e33be75);
+            
+        
+
+        circle_marker_bd1ea7c86884aca3f84ef954a972edbd.bindPopup(popup_520e47283c784bf4752e6ca1d47c0e13)
+        ;
+
+        
+    
+    
+            var circle_marker_40676c57fe7b94af3b7cdadf6115203c = L.circleMarker(
+                [40.7753299, -73.952],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_600005ec3bfca2ecf172092afede8ba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bbc7e32da4ababa0ff50987acce663f = $(`<div id="html_1bbc7e32da4ababa0ff50987acce663f" style="width: 100.0%; height: 100.0%;"><b>Tis Travels</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_600005ec3bfca2ecf172092afede8ba7.setContent(html_1bbc7e32da4ababa0ff50987acce663f);
+            
+        
+
+        circle_marker_40676c57fe7b94af3b7cdadf6115203c.bindPopup(popup_600005ec3bfca2ecf172092afede8ba7)
+        ;
+
+        
+    
+    
+            var circle_marker_277b2f8dab99431852243d3ad87bdce9 = L.circleMarker(
+                [40.7753299, -73.952],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_58ef88fe1f75ea7196a8371e868a3660);
+        
+    
+        var popup_57978b3bac0bab75539b6692a4bdc734 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_344a2f239930c3ea4ce9e79754328935 = $(`<div id="html_344a2f239930c3ea4ce9e79754328935" style="width: 100.0%; height: 100.0%;"><b>Tis Travels</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_57978b3bac0bab75539b6692a4bdc734.setContent(html_344a2f239930c3ea4ce9e79754328935);
+            
+        
+
+        circle_marker_277b2f8dab99431852243d3ad87bdce9.bindPopup(popup_57978b3bac0bab75539b6692a4bdc734)
+        ;
+
+        
+    
+</script>
+</html>

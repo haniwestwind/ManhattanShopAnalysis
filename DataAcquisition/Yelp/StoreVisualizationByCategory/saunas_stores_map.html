@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cfd5c8e9ec638e24585b4d36b025ab50 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cfd5c8e9ec638e24585b4d36b025ab50" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cfd5c8e9ec638e24585b4d36b025ab50 = L.map(
+                "map_cfd5c8e9ec638e24585b4d36b025ab50",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d79a768a11fd3d5a49b18dd8cbd4a05 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+            var circle_marker_b82759575a058dd4cff54d4eca8b6e66 = L.circleMarker(
+                [40.7210556, -74.039277],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.36734693877551, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_74f5d1c2669dcd6561979955781eca71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df1a5ff77b015df78f75e6ce571ed584 = $(`<div id="html_df1a5ff77b015df78f75e6ce571ed584" style="width: 100.0%; height: 100.0%;"><b>Salvation Wellness</b><br>Rating: 4.5<br>Reviews: 172<br>Success Score: 4.50</div>`)[0];
+                popup_74f5d1c2669dcd6561979955781eca71.setContent(html_df1a5ff77b015df78f75e6ce571ed584);
+            
+        
+
+        circle_marker_b82759575a058dd4cff54d4eca8b6e66.bindPopup(popup_74f5d1c2669dcd6561979955781eca71)
+        ;
+
+        
+    
+    
+            var circle_marker_69917cee85a4727f4cd835d5a0d602d1 = L.circleMarker(
+                [40.7210556, -74.039277],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.917726887192536, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_72e13d9cce0532a3e2b033d265f9e1ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebb4fb6894b6d8a4d206f35fc8acab32 = $(`<div id="html_ebb4fb6894b6d8a4d206f35fc8acab32" style="width: 100.0%; height: 100.0%;"><b>Salvation Wellness</b><br>Rating: 4.5<br>Reviews: 172<br>Success Score: 4.50</div>`)[0];
+                popup_72e13d9cce0532a3e2b033d265f9e1ad.setContent(html_ebb4fb6894b6d8a4d206f35fc8acab32);
+            
+        
+
+        circle_marker_69917cee85a4727f4cd835d5a0d602d1.bindPopup(popup_72e13d9cce0532a3e2b033d265f9e1ad)
+        ;
+
+        
+    
+    
+            var circle_marker_006746a58072fca7c2d6bfba632cb493 = L.circleMarker(
+                [40.7593798, -73.9646707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.142857142857142, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_11c88b7a294c03d4d3883342ec2adab2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7639fd0446a6ac11dca0378953b31d97 = $(`<div id="html_7639fd0446a6ac11dca0378953b31d97" style="width: 100.0%; height: 100.0%;"><b>CompleteBody Midtown East</b><br>Rating: 4.2<br>Reviews: 79<br>Success Score: 4.20</div>`)[0];
+                popup_11c88b7a294c03d4d3883342ec2adab2.setContent(html_7639fd0446a6ac11dca0378953b31d97);
+            
+        
+
+        circle_marker_006746a58072fca7c2d6bfba632cb493.bindPopup(popup_11c88b7a294c03d4d3883342ec2adab2)
+        ;
+
+        
+    
+    
+            var circle_marker_ebdd67ba36b354f4ba41adc1694ec4cf = L.circleMarker(
+                [40.7593798, -73.9646707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3401187446988974, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_19fd3793634f8cbe1219c6662132f1c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_525a85675103518e9bf0229dd7227371 = $(`<div id="html_525a85675103518e9bf0229dd7227371" style="width: 100.0%; height: 100.0%;"><b>CompleteBody Midtown East</b><br>Rating: 4.2<br>Reviews: 79<br>Success Score: 4.20</div>`)[0];
+                popup_19fd3793634f8cbe1219c6662132f1c7.setContent(html_525a85675103518e9bf0229dd7227371);
+            
+        
+
+        circle_marker_ebdd67ba36b354f4ba41adc1694ec4cf.bindPopup(popup_19fd3793634f8cbe1219c6662132f1c7)
+        ;
+
+        
+    
+    
+            var circle_marker_96b66c881c2176b37c72429feb9f8cf3 = L.circleMarker(
+                [40.77707920386305, -73.97842866976094],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.183673469387756, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_491c553a0856c14f53aa3a4498627b6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c538aa00953b52644401e033d4f8ee8 = $(`<div id="html_4c538aa00953b52644401e033d4f8ee8" style="width: 100.0%; height: 100.0%;"><b>Nexa Studios</b><br>Rating: 4.7<br>Reviews: 15<br>Success Score: 4.70</div>`)[0];
+                popup_491c553a0856c14f53aa3a4498627b6e.setContent(html_4c538aa00953b52644401e033d4f8ee8);
+            
+        
+
+        circle_marker_96b66c881c2176b37c72429feb9f8cf3.bindPopup(popup_491c553a0856c14f53aa3a4498627b6e)
+        ;
+
+        
+    
+    
+            var circle_marker_8f6c2ee900a29ac7bf0d84ba18763bd3 = L.circleMarker(
+                [40.77707920386305, -73.97842866976094],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2544529262086514, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_4625b1dc98a9b3005bd043c3195ad327 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c995a391b126269adc04fae45f2798c6 = $(`<div id="html_c995a391b126269adc04fae45f2798c6" style="width: 100.0%; height: 100.0%;"><b>Nexa Studios</b><br>Rating: 4.7<br>Reviews: 15<br>Success Score: 4.70</div>`)[0];
+                popup_4625b1dc98a9b3005bd043c3195ad327.setContent(html_c995a391b126269adc04fae45f2798c6);
+            
+        
+
+        circle_marker_8f6c2ee900a29ac7bf0d84ba18763bd3.bindPopup(popup_4625b1dc98a9b3005bd043c3195ad327)
+        ;
+
+        
+    
+    
+            var circle_marker_feca2531d8c40143c3eb4ddc6c658384 = L.circleMarker(
+                [40.746229184630955, -74.04959376223934],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_ab3c2cb2ceb6fc1e677124cf3795a01b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ad0ea7a3b70b09a1f27f6816d08305 = $(`<div id="html_04ad0ea7a3b70b09a1f27f6816d08305" style="width: 100.0%; height: 100.0%;"><b>SW3AT Wellness- Jersey City</b><br>Rating: 4.9<br>Reviews: 31<br>Success Score: 4.90</div>`)[0];
+                popup_ab3c2cb2ceb6fc1e677124cf3795a01b.setContent(html_04ad0ea7a3b70b09a1f27f6816d08305);
+            
+        
+
+        circle_marker_feca2531d8c40143c3eb4ddc6c658384.bindPopup(popup_ab3c2cb2ceb6fc1e677124cf3795a01b)
+        ;
+
+        
+    
+    
+            var circle_marker_f8b0bb86e26a93297a898d1128a9319d = L.circleMarker(
+                [40.746229184630955, -74.04959376223934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5258693808312129, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_c0ee6223dde69baec583b7f8a1dfc879 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed82ab01bbfaf09a5a92d7ff8d4c621b = $(`<div id="html_ed82ab01bbfaf09a5a92d7ff8d4c621b" style="width: 100.0%; height: 100.0%;"><b>SW3AT Wellness- Jersey City</b><br>Rating: 4.9<br>Reviews: 31<br>Success Score: 4.90</div>`)[0];
+                popup_c0ee6223dde69baec583b7f8a1dfc879.setContent(html_ed82ab01bbfaf09a5a92d7ff8d4c621b);
+            
+        
+
+        circle_marker_f8b0bb86e26a93297a898d1128a9319d.bindPopup(popup_c0ee6223dde69baec583b7f8a1dfc879)
+        ;
+
+        
+    
+    
+            var circle_marker_9d405ee1ccf84fc83eed1cdca3d34a14 = L.circleMarker(
+                [40.818741262942275, -73.9792653444425],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.693877551020407, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_ec0f0762f5d3c13b8d116c5e440bf96a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1af6dcf022409d632cb80112cb2c507c = $(`<div id="html_1af6dcf022409d632cb80112cb2c507c" style="width: 100.0%; height: 100.0%;"><b>SoJo Spa Club</b><br>Rating: 3.6<br>Reviews: 2358<br>Success Score: 3.60</div>`)[0];
+                popup_ec0f0762f5d3c13b8d116c5e440bf96a.setContent(html_1af6dcf022409d632cb80112cb2c507c);
+            
+        
+
+        circle_marker_9d405ee1ccf84fc83eed1cdca3d34a14.bindPopup(popup_ec0f0762f5d3c13b8d116c5e440bf96a)
+        ;
+
+        
+    
+    
+            var circle_marker_3b7de9858d5ddee82f122e58b504df96 = L.circleMarker(
+                [40.818741262942275, -73.9792653444425],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_3746aeac60e0474b3b82bee60e44a8b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dca2fbef3b127624b65ae357f84276c = $(`<div id="html_9dca2fbef3b127624b65ae357f84276c" style="width: 100.0%; height: 100.0%;"><b>SoJo Spa Club</b><br>Rating: 3.6<br>Reviews: 2358<br>Success Score: 3.60</div>`)[0];
+                popup_3746aeac60e0474b3b82bee60e44a8b9.setContent(html_9dca2fbef3b127624b65ae357f84276c);
+            
+        
+
+        circle_marker_3b7de9858d5ddee82f122e58b504df96.bindPopup(popup_3746aeac60e0474b3b82bee60e44a8b9)
+        ;
+
+        
+    
+    
+            var circle_marker_b280d5fc3a50c00cae0deca4ae7eb878 = L.circleMarker(
+                [40.6153224, -73.9738431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.244897959183671, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_007e3886394367e8ad13d592068339c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eacb31052345065b92ad939ec5ea7926 = $(`<div id="html_eacb31052345065b92ad939ec5ea7926" style="width: 100.0%; height: 100.0%;"><b>World Spa</b><br>Rating: 3.0<br>Reviews: 280<br>Success Score: 3.00</div>`)[0];
+                popup_007e3886394367e8ad13d592068339c2.setContent(html_eacb31052345065b92ad939ec5ea7926);
+            
+        
+
+        circle_marker_b280d5fc3a50c00cae0deca4ae7eb878.bindPopup(popup_007e3886394367e8ad13d592068339c2)
+        ;
+
+        
+    
+    
+            var circle_marker_4cb8f7e506d9d6ea20e2ae0e126eaaf5 = L.circleMarker(
+                [40.6153224, -73.9738431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.749787955894826, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_4c4e14a8b01fc452fde134e9843fbe9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12debbe1b7b4d82a34552328eaa9a815 = $(`<div id="html_12debbe1b7b4d82a34552328eaa9a815" style="width: 100.0%; height: 100.0%;"><b>World Spa</b><br>Rating: 3.0<br>Reviews: 280<br>Success Score: 3.00</div>`)[0];
+                popup_4c4e14a8b01fc452fde134e9843fbe9b.setContent(html_12debbe1b7b4d82a34552328eaa9a815);
+            
+        
+
+        circle_marker_4cb8f7e506d9d6ea20e2ae0e126eaaf5.bindPopup(popup_4c4e14a8b01fc452fde134e9843fbe9b)
+        ;
+
+        
+    
+    
+            var circle_marker_13bb04b15a5fd836c94f864d2e6fbacf = L.circleMarker(
+                [40.6924353, -74.0168892],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.877551020408161, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_23d5f802059983a4b34c3127141af556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86622b2c6f14ce343b7e051308ac7648 = $(`<div id="html_86622b2c6f14ce343b7e051308ac7648" style="width: 100.0%; height: 100.0%;"><b>QC NY</b><br>Rating: 3.4<br>Reviews: 249<br>Success Score: 3.40</div>`)[0];
+                popup_23d5f802059983a4b34c3127141af556.setContent(html_86622b2c6f14ce343b7e051308ac7648);
+            
+        
+
+        circle_marker_13bb04b15a5fd836c94f864d2e6fbacf.bindPopup(popup_23d5f802059983a4b34c3127141af556)
+        ;
+
+        
+    
+    
+            var circle_marker_8f416e2b8eae6d1f7e0bdfb37ed5926d = L.circleMarker(
+                [40.6924353, -74.0168892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.223918575063613, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_489974cf72f6351cc72f55dc3bdd8d4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63088909fb9a77857bad33aed82d1320 = $(`<div id="html_63088909fb9a77857bad33aed82d1320" style="width: 100.0%; height: 100.0%;"><b>QC NY</b><br>Rating: 3.4<br>Reviews: 249<br>Success Score: 3.40</div>`)[0];
+                popup_489974cf72f6351cc72f55dc3bdd8d4e.setContent(html_63088909fb9a77857bad33aed82d1320);
+            
+        
+
+        circle_marker_8f416e2b8eae6d1f7e0bdfb37ed5926d.bindPopup(popup_489974cf72f6351cc72f55dc3bdd8d4e)
+        ;
+
+        
+    
+    
+            var circle_marker_ce8786fd8d0465cd88bc4ba12e2446c2 = L.circleMarker(
+                [40.71676, -73.95621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.918367346938773, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_2ea74f78c26b56da02352066b70b8e53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_911c9adbd361a6f4b830d422e4886de3 = $(`<div id="html_911c9adbd361a6f4b830d422e4886de3" style="width: 100.0%; height: 100.0%;"><b>Greenhouse Holistic</b><br>Rating: 3.9<br>Reviews: 204<br>Success Score: 3.90</div>`)[0];
+                popup_2ea74f78c26b56da02352066b70b8e53.setContent(html_911c9adbd361a6f4b830d422e4886de3);
+            
+        
+
+        circle_marker_ce8786fd8d0465cd88bc4ba12e2446c2.bindPopup(popup_2ea74f78c26b56da02352066b70b8e53)
+        ;
+
+        
+    
+    
+            var circle_marker_6b05cce644a15d61ae9a3a491e676983 = L.circleMarker(
+                [40.71676, -73.95621],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.460559796437659, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_0ebfd0d2e792ae188e237590c6e16a20 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c06b02b47c32e555b94b78532d6655f5 = $(`<div id="html_c06b02b47c32e555b94b78532d6655f5" style="width: 100.0%; height: 100.0%;"><b>Greenhouse Holistic</b><br>Rating: 3.9<br>Reviews: 204<br>Success Score: 3.90</div>`)[0];
+                popup_0ebfd0d2e792ae188e237590c6e16a20.setContent(html_c06b02b47c32e555b94b78532d6655f5);
+            
+        
+
+        circle_marker_6b05cce644a15d61ae9a3a491e676983.bindPopup(popup_0ebfd0d2e792ae188e237590c6e16a20)
+        ;
+
+        
+    
+    
+            var circle_marker_b81f837a63c87a38c453469f6492fc4c = L.circleMarker(
+                [40.762921, -73.973152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.55102040816326, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_75547aa635ea8875f92abe9c42c83942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788537b7989b33b286976f4f6f27df6b = $(`<div id="html_788537b7989b33b286976f4f6f27df6b" style="width: 100.0%; height: 100.0%;"><b>Salon De Tokyo</b><br>Rating: 4.3<br>Reviews: 127<br>Success Score: 4.30</div>`)[0];
+                popup_75547aa635ea8875f92abe9c42c83942.setContent(html_788537b7989b33b286976f4f6f27df6b);
+            
+        
+
+        circle_marker_b81f837a63c87a38c453469f6492fc4c.bindPopup(popup_75547aa635ea8875f92abe9c42c83942)
+        ;
+
+        
+    
+    
+            var circle_marker_e4d4c95f0cdf28773f899133b392d136 = L.circleMarker(
+                [40.762921, -73.973152],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.154368108566582, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_22a3d243153c22ed33febadaa6399fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aab177047b60ed341ef6e0b71dcaef78 = $(`<div id="html_aab177047b60ed341ef6e0b71dcaef78" style="width: 100.0%; height: 100.0%;"><b>Salon De Tokyo</b><br>Rating: 4.3<br>Reviews: 127<br>Success Score: 4.30</div>`)[0];
+                popup_22a3d243153c22ed33febadaa6399fe5.setContent(html_aab177047b60ed341ef6e0b71dcaef78);
+            
+        
+
+        circle_marker_e4d4c95f0cdf28773f899133b392d136.bindPopup(popup_22a3d243153c22ed33febadaa6399fe5)
+        ;
+
+        
+    
+    
+            var circle_marker_5582e3b464ed600bded365bda1b39bab = L.circleMarker(
+                [40.57489, -74.00302],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.877551020408161, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_92ba72c5a96c735cf6bd4417e57bbd3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7f88467d4d7e08b7870616eb5bdf0a7 = $(`<div id="html_b7f88467d4d7e08b7870616eb5bdf0a7" style="width: 100.0%; height: 100.0%;"><b>Mermaid Spa</b><br>Rating: 3.4<br>Reviews: 111<br>Success Score: 3.40</div>`)[0];
+                popup_92ba72c5a96c735cf6bd4417e57bbd3f.setContent(html_b7f88467d4d7e08b7870616eb5bdf0a7);
+            
+        
+
+        circle_marker_5582e3b464ed600bded365bda1b39bab.bindPopup(popup_92ba72c5a96c735cf6bd4417e57bbd3f)
+        ;
+
+        
+    
+    
+            var circle_marker_a66678ce54d81d49727f97893be562a8 = L.circleMarker(
+                [40.57489, -74.00302],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8829516539440203, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_da938be488b992460ffa1c43e8bf58e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4906b03c9aceae72529f71bb1ec761a7 = $(`<div id="html_4906b03c9aceae72529f71bb1ec761a7" style="width: 100.0%; height: 100.0%;"><b>Mermaid Spa</b><br>Rating: 3.4<br>Reviews: 111<br>Success Score: 3.40</div>`)[0];
+                popup_da938be488b992460ffa1c43e8bf58e1.setContent(html_4906b03c9aceae72529f71bb1ec761a7);
+            
+        
+
+        circle_marker_a66678ce54d81d49727f97893be562a8.bindPopup(popup_da938be488b992460ffa1c43e8bf58e1)
+        ;
+
+        
+    
+    
+            var circle_marker_1cdf3dd4a2b78495ad77b35d549608f8 = L.circleMarker(
+                [40.86082, -73.97103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.061224489795917, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_013bab0e6f90f1c6d5177f2e9bcb1dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ce4fb9c6077fdeb6492a91ad8d3f580 = $(`<div id="html_2ce4fb9c6077fdeb6492a91ad8d3f580" style="width: 100.0%; height: 100.0%;"><b>Paradise Spa & Sauna</b><br>Rating: 3.2<br>Reviews: 92<br>Success Score: 3.20</div>`)[0];
+                popup_013bab0e6f90f1c6d5177f2e9bcb1dc4.setContent(html_2ce4fb9c6077fdeb6492a91ad8d3f580);
+            
+        
+
+        circle_marker_1cdf3dd4a2b78495ad77b35d549608f8.bindPopup(popup_013bab0e6f90f1c6d5177f2e9bcb1dc4)
+        ;
+
+        
+    
+    
+            var circle_marker_56ad3fd95e0ccd5bd389ca616856710c = L.circleMarker(
+                [40.86082, -73.97103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5606446140797288, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_325bed4fcef8e876f1d5f17f0965c4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8fcfb3379e898b7ddde97b99912c82 = $(`<div id="html_dc8fcfb3379e898b7ddde97b99912c82" style="width: 100.0%; height: 100.0%;"><b>Paradise Spa & Sauna</b><br>Rating: 3.2<br>Reviews: 92<br>Success Score: 3.20</div>`)[0];
+                popup_325bed4fcef8e876f1d5f17f0965c4c7.setContent(html_dc8fcfb3379e898b7ddde97b99912c82);
+            
+        
+
+        circle_marker_56ad3fd95e0ccd5bd389ca616856710c.bindPopup(popup_325bed4fcef8e876f1d5f17f0965c4c7)
+        ;
+
+        
+    
+    
+            var circle_marker_20b1c395051c6f866d6f78ec4de8cc1a = L.circleMarker(
+                [40.76763678080228, -73.83205945932285],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.734693877551017, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_b36ef9c45ae2d23b57d88c2bb298f643 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_213083c323edb4b913fe61bc159d148f = $(`<div id="html_213083c323edb4b913fe61bc159d148f" style="width: 100.0%; height: 100.0%;"><b>Fountain of Youth Health Spa</b><br>Rating: 4.1<br>Reviews: 91<br>Success Score: 4.10</div>`)[0];
+                popup_b36ef9c45ae2d23b57d88c2bb298f643.setContent(html_213083c323edb4b913fe61bc159d148f);
+            
+        
+
+        circle_marker_20b1c395051c6f866d6f78ec4de8cc1a.bindPopup(popup_b36ef9c45ae2d23b57d88c2bb298f643)
+        ;
+
+        
+    
+    
+            var circle_marker_ea5aec2ec82fec7f681aa89f3fa9082a = L.circleMarker(
+                [40.76763678080228, -73.83205945932285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5436810856658183, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_5c5cea0ac1fe5c3957300b6a2490de3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8aebc7c5ea8dc887787e7061e53faffc = $(`<div id="html_8aebc7c5ea8dc887787e7061e53faffc" style="width: 100.0%; height: 100.0%;"><b>Fountain of Youth Health Spa</b><br>Rating: 4.1<br>Reviews: 91<br>Success Score: 4.10</div>`)[0];
+                popup_5c5cea0ac1fe5c3957300b6a2490de3f.setContent(html_8aebc7c5ea8dc887787e7061e53faffc);
+            
+        
+
+        circle_marker_ea5aec2ec82fec7f681aa89f3fa9082a.bindPopup(popup_5c5cea0ac1fe5c3957300b6a2490de3f)
+        ;
+
+        
+    
+    
+            var circle_marker_d71a60016a7c38640b8144f82a42b101 = L.circleMarker(
+                [40.851914, -74.00229854110451],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.877551020408161, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_f7d165b3efb0f1ee206f4823b076df08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35cf89a920d9782fa44091c880fd10c5 = $(`<div id="html_35cf89a920d9782fa44091c880fd10c5" style="width: 100.0%; height: 100.0%;"><b>King Spa & Sauna</b><br>Rating: 3.4<br>Reviews: 1344<br>Success Score: 3.40</div>`)[0];
+                popup_f7d165b3efb0f1ee206f4823b076df08.setContent(html_35cf89a920d9782fa44091c880fd10c5);
+            
+        
+
+        circle_marker_d71a60016a7c38640b8144f82a42b101.bindPopup(popup_f7d165b3efb0f1ee206f4823b076df08)
+        ;
+
+        
+    
+    
+            var circle_marker_45396b628406d58cb028051a66da1231 = L.circleMarker(
+                [40.851914, -74.00229854110451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.798982188295163, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_c7a9bcb74517c1f907b9f35b16b3a360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d24a36a561760505c40893d4165784ee = $(`<div id="html_d24a36a561760505c40893d4165784ee" style="width: 100.0%; height: 100.0%;"><b>King Spa & Sauna</b><br>Rating: 3.4<br>Reviews: 1344<br>Success Score: 3.40</div>`)[0];
+                popup_c7a9bcb74517c1f907b9f35b16b3a360.setContent(html_d24a36a561760505c40893d4165784ee);
+            
+        
+
+        circle_marker_45396b628406d58cb028051a66da1231.bindPopup(popup_c7a9bcb74517c1f907b9f35b16b3a360)
+        ;
+
+        
+    
+    
+            var circle_marker_c9dd32b1b3f55efa1f1ce3641774b681 = L.circleMarker(
+                [40.71823, -74.00473],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.326530612244895, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_6fc3a3f4b9cf02c759340651e8951465 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2042842307af606eedbc430602c73e20 = $(`<div id="html_2042842307af606eedbc430602c73e20" style="width: 100.0%; height: 100.0%;"><b>Aire Ancient Baths - New York</b><br>Rating: 4.0<br>Reviews: 1063<br>Success Score: 4.00</div>`)[0];
+                popup_6fc3a3f4b9cf02c759340651e8951465.setContent(html_2042842307af606eedbc430602c73e20);
+            
+        
+
+        circle_marker_c9dd32b1b3f55efa1f1ce3641774b681.bindPopup(popup_6fc3a3f4b9cf02c759340651e8951465)
+        ;
+
+        
+    
+    
+            var circle_marker_abb8f6e8ab51b021e3bae832677a4a67 = L.circleMarker(
+                [40.71823, -74.00473],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.03223070398643, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_3b4c676ea568efcaee497ecb883f512b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b680cfe935fd2421f72238b86c52fd3 = $(`<div id="html_6b680cfe935fd2421f72238b86c52fd3" style="width: 100.0%; height: 100.0%;"><b>Aire Ancient Baths - New York</b><br>Rating: 4.0<br>Reviews: 1063<br>Success Score: 4.00</div>`)[0];
+                popup_3b4c676ea568efcaee497ecb883f512b.setContent(html_6b680cfe935fd2421f72238b86c52fd3);
+            
+        
+
+        circle_marker_abb8f6e8ab51b021e3bae832677a4a67.bindPopup(popup_3b4c676ea568efcaee497ecb883f512b)
+        ;
+
+        
+    
+    
+            var circle_marker_82a741c70cb1e435e0f8f1dc2bc19d74 = L.circleMarker(
+                [40.72053, -73.95741],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.244897959183671, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_1269be06c90c291c57aa4789a9a9a13d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80eb7db754fe909122f48a9a54a27264 = $(`<div id="html_80eb7db754fe909122f48a9a54a27264" style="width: 100.0%; height: 100.0%;"><b>Bathhouse</b><br>Rating: 3.0<br>Reviews: 386<br>Success Score: 3.00</div>`)[0];
+                popup_1269be06c90c291c57aa4789a9a9a13d.setContent(html_80eb7db754fe909122f48a9a54a27264);
+            
+        
+
+        circle_marker_82a741c70cb1e435e0f8f1dc2bc19d74.bindPopup(popup_1269be06c90c291c57aa4789a9a9a13d)
+        ;
+
+        
+    
+    
+            var circle_marker_aab9491ca7bdb6f11651d4cb6c7bda88 = L.circleMarker(
+                [40.72053, -73.95741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5479219677692955, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_1cd5a4dfc8a2a6abc217c8218bb7073c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a966c82851e28c1a3886b7c293427d3c = $(`<div id="html_a966c82851e28c1a3886b7c293427d3c" style="width: 100.0%; height: 100.0%;"><b>Bathhouse</b><br>Rating: 3.0<br>Reviews: 386<br>Success Score: 3.00</div>`)[0];
+                popup_1cd5a4dfc8a2a6abc217c8218bb7073c.setContent(html_a966c82851e28c1a3886b7c293427d3c);
+            
+        
+
+        circle_marker_aab9491ca7bdb6f11651d4cb6c7bda88.bindPopup(popup_1cd5a4dfc8a2a6abc217c8218bb7073c)
+        ;
+
+        
+    
+    
+            var circle_marker_420d37d4eea59f8ee03a9950c2570884 = L.circleMarker(
+                [40.70912, -74.00578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.653061224489795, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_40df70a9567a533f993b323b6d5d14ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd73e483995b73ac65387b8801c4d5f1 = $(`<div id="html_bd73e483995b73ac65387b8801c4d5f1" style="width: 100.0%; height: 100.0%;"><b>Wall Street Bath & Spa</b><br>Rating: 3.1<br>Reviews: 249<br>Success Score: 3.10</div>`)[0];
+                popup_40df70a9567a533f993b323b6d5d14ee.setContent(html_bd73e483995b73ac65387b8801c4d5f1);
+            
+        
+
+        circle_marker_420d37d4eea59f8ee03a9950c2570884.bindPopup(popup_40df70a9567a533f993b323b6d5d14ee)
+        ;
+
+        
+    
+    
+            var circle_marker_7a9859ee3321e5283d7bdc264d656fed = L.circleMarker(
+                [40.70912, -74.00578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.223918575063613, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_eccc6adf7f400568182ba788d560a6e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a21c5c21bc7b869782cd7d85b481bb1 = $(`<div id="html_4a21c5c21bc7b869782cd7d85b481bb1" style="width: 100.0%; height: 100.0%;"><b>Wall Street Bath & Spa</b><br>Rating: 3.1<br>Reviews: 249<br>Success Score: 3.10</div>`)[0];
+                popup_eccc6adf7f400568182ba788d560a6e4.setContent(html_4a21c5c21bc7b869782cd7d85b481bb1);
+            
+        
+
+        circle_marker_7a9859ee3321e5283d7bdc264d656fed.bindPopup(popup_eccc6adf7f400568182ba788d560a6e4)
+        ;
+
+        
+    
+    
+            var circle_marker_a71e4952d8d58ab87f502e54b455085a = L.circleMarker(
+                [40.74763, -73.98686],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.102040816326529, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_44fd3235d09c9c6987950b42b4b54db1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34231b6dd1e059f7ed262e72ea960ff8 = $(`<div id="html_34231b6dd1e059f7ed262e72ea960ff8" style="width: 100.0%; height: 100.0%;"><b>The SPA Club</b><br>Rating: 3.7<br>Reviews: 115<br>Success Score: 3.70</div>`)[0];
+                popup_44fd3235d09c9c6987950b42b4b54db1.setContent(html_34231b6dd1e059f7ed262e72ea960ff8);
+            
+        
+
+        circle_marker_a71e4952d8d58ab87f502e54b455085a.bindPopup(popup_44fd3235d09c9c6987950b42b4b54db1)
+        ;
+
+        
+    
+    
+            var circle_marker_ef2d7393c03f3c10dc9db7057dae3bb4 = L.circleMarker(
+                [40.74763, -73.98686],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.9508057675996606, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_489c9c84084166fe24a19b6ca1ed6516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_591f277e8f2e68bbeb1d5ef802f11642 = $(`<div id="html_591f277e8f2e68bbeb1d5ef802f11642" style="width: 100.0%; height: 100.0%;"><b>The SPA Club</b><br>Rating: 3.7<br>Reviews: 115<br>Success Score: 3.70</div>`)[0];
+                popup_489c9c84084166fe24a19b6ca1ed6516.setContent(html_591f277e8f2e68bbeb1d5ef802f11642);
+            
+        
+
+        circle_marker_ef2d7393c03f3c10dc9db7057dae3bb4.bindPopup(popup_489c9c84084166fe24a19b6ca1ed6516)
+        ;
+
+        
+    
+    
+            var circle_marker_51c5ee2651fc1364a9d32a5122427c53 = L.circleMarker(
+                [40.679431780020224, -73.99254209934084],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.183673469387756, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_3730d9afe9652e6d354426b6951f1286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_136d8ebd5dee048fe66985ee3d0d8bba = $(`<div id="html_136d8ebd5dee048fe66985ee3d0d8bba" style="width: 100.0%; height: 100.0%;"><b>Lumena Aesthetics</b><br>Rating: 4.7<br>Reviews: 61<br>Success Score: 4.70</div>`)[0];
+                popup_3730d9afe9652e6d354426b6951f1286.setContent(html_136d8ebd5dee048fe66985ee3d0d8bba);
+            
+        
+
+        circle_marker_51c5ee2651fc1364a9d32a5122427c53.bindPopup(popup_3730d9afe9652e6d354426b6951f1286)
+        ;
+
+        
+    
+    
+            var circle_marker_47bcd98a21e0fdaa7ec6925f6264c1d9 = L.circleMarker(
+                [40.679431780020224, -73.99254209934084],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0347752332485156, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_de73ad8f0a29ce1ae6b38ee1a3d22f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e506475e71ed0d35fdcd088f08b1d190 = $(`<div id="html_e506475e71ed0d35fdcd088f08b1d190" style="width: 100.0%; height: 100.0%;"><b>Lumena Aesthetics</b><br>Rating: 4.7<br>Reviews: 61<br>Success Score: 4.70</div>`)[0];
+                popup_de73ad8f0a29ce1ae6b38ee1a3d22f6f.setContent(html_e506475e71ed0d35fdcd088f08b1d190);
+            
+        
+
+        circle_marker_47bcd98a21e0fdaa7ec6925f6264c1d9.bindPopup(popup_de73ad8f0a29ce1ae6b38ee1a3d22f6f)
+        ;
+
+        
+    
+    
+            var circle_marker_aafb9a103dd910d7fdd13f83b228bb89 = L.circleMarker(
+                [40.72005395665143, -73.84332301877659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_98f80414bacd6def674c573f5ba4bc55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a08dff4641bd4fea3a5e66fb9ce92f8 = $(`<div id="html_4a08dff4641bd4fea3a5e66fb9ce92f8" style="width: 100.0%; height: 100.0%;"><b>Sandra Velandia</b><br>Rating: 4.9<br>Reviews: 45<br>Success Score: 4.90</div>`)[0];
+                popup_98f80414bacd6def674c573f5ba4bc55.setContent(html_4a08dff4641bd4fea3a5e66fb9ce92f8);
+            
+        
+
+        circle_marker_aafb9a103dd910d7fdd13f83b228bb89.bindPopup(popup_98f80414bacd6def674c573f5ba4bc55)
+        ;
+
+        
+    
+    
+            var circle_marker_0b95de067ab4c1200abf553c13f58a01 = L.circleMarker(
+                [40.72005395665143, -73.84332301877659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7633587786259542, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_d985d24a5c90be96f791f1c4f110f4fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7801bacf3df8de7aa29337b5581223 = $(`<div id="html_2b7801bacf3df8de7aa29337b5581223" style="width: 100.0%; height: 100.0%;"><b>Sandra Velandia</b><br>Rating: 4.9<br>Reviews: 45<br>Success Score: 4.90</div>`)[0];
+                popup_d985d24a5c90be96f791f1c4f110f4fc.setContent(html_2b7801bacf3df8de7aa29337b5581223);
+            
+        
+
+        circle_marker_0b95de067ab4c1200abf553c13f58a01.bindPopup(popup_d985d24a5c90be96f791f1c4f110f4fc)
+        ;
+
+        
+    
+    
+            var circle_marker_f8804f582b6fb93ec95566e1dd728e09 = L.circleMarker(
+                [40.753842421511976, -73.9690831602693],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.183673469387756, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_a08cb3b5f0555e19f97649e115b1b48f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7caba3b99b3f6760c55ab2dde3ad37 = $(`<div id="html_ea7caba3b99b3f6760c55ab2dde3ad37" style="width: 100.0%; height: 100.0%;"><b>Yihan Spa</b><br>Rating: 4.7<br>Reviews: 363<br>Success Score: 4.70</div>`)[0];
+                popup_a08cb3b5f0555e19f97649e115b1b48f.setContent(html_ea7caba3b99b3f6760c55ab2dde3ad37);
+            
+        
+
+        circle_marker_f8804f582b6fb93ec95566e1dd728e09.bindPopup(popup_a08cb3b5f0555e19f97649e115b1b48f)
+        ;
+
+        
+    
+    
+            var circle_marker_24dff15ddffa39b1b5e5cbec64c87590 = L.circleMarker(
+                [40.753842421511976, -73.9690831602693],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.157760814249364, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_c8b332bf3b59f7713c5f9a8e47046897 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_008f9fecaca6b80be889f24a1c1b67c6 = $(`<div id="html_008f9fecaca6b80be889f24a1c1b67c6" style="width: 100.0%; height: 100.0%;"><b>Yihan Spa</b><br>Rating: 4.7<br>Reviews: 363<br>Success Score: 4.70</div>`)[0];
+                popup_c8b332bf3b59f7713c5f9a8e47046897.setContent(html_008f9fecaca6b80be889f24a1c1b67c6);
+            
+        
+
+        circle_marker_24dff15ddffa39b1b5e5cbec64c87590.bindPopup(popup_c8b332bf3b59f7713c5f9a8e47046897)
+        ;
+
+        
+    
+    
+            var circle_marker_2df73aa8740a3b0fa25f2128dd06cc23 = L.circleMarker(
+                [40.85279, -73.83888],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_2479bc8399c3fe7059abe1c837d5da72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2b9dd8c7e4161f21a60ff63cf08c8c6 = $(`<div id="html_b2b9dd8c7e4161f21a60ff63cf08c8c6" style="width: 100.0%; height: 100.0%;"><b>Vitality Medicine</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_2479bc8399c3fe7059abe1c837d5da72.setContent(html_b2b9dd8c7e4161f21a60ff63cf08c8c6);
+            
+        
+
+        circle_marker_2df73aa8740a3b0fa25f2128dd06cc23.bindPopup(popup_2479bc8399c3fe7059abe1c837d5da72)
+        ;
+
+        
+    
+    
+            var circle_marker_e1207ce0c62ca03add8870c888aad4d0 = L.circleMarker(
+                [40.85279, -73.83888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_ec0194ef7affcdadd306fdc354785831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_314ed877fffda86f9cb59798770a93e2 = $(`<div id="html_314ed877fffda86f9cb59798770a93e2" style="width: 100.0%; height: 100.0%;"><b>Vitality Medicine</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_ec0194ef7affcdadd306fdc354785831.setContent(html_314ed877fffda86f9cb59798770a93e2);
+            
+        
+
+        circle_marker_e1207ce0c62ca03add8870c888aad4d0.bindPopup(popup_ec0194ef7affcdadd306fdc354785831)
+        ;
+
+        
+    
+    
+            var circle_marker_afd5a7e9e26d94ddd4e643ba91212583 = L.circleMarker(
+                [40.74118213582338, -73.99131629616022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.877551020408161, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_bdee660c6c2ad1d39dfb9884ce947aea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dca11cb9198a3f6fba1ab8d8d33d035 = $(`<div id="html_5dca11cb9198a3f6fba1ab8d8d33d035" style="width: 100.0%; height: 100.0%;"><b>Bathhouse Flatiron</b><br>Rating: 3.4<br>Reviews: 83<br>Success Score: 3.40</div>`)[0];
+                popup_bdee660c6c2ad1d39dfb9884ce947aea.setContent(html_5dca11cb9198a3f6fba1ab8d8d33d035);
+            
+        
+
+        circle_marker_afd5a7e9e26d94ddd4e643ba91212583.bindPopup(popup_bdee660c6c2ad1d39dfb9884ce947aea)
+        ;
+
+        
+    
+    
+            var circle_marker_1f33433da96df5d8544033224a9c1a59 = L.circleMarker(
+                [40.74118213582338, -73.99131629616022],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.407972858354538, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_b99d81f36a4c1d937f0d69a43376721b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6729d6f6ff118cea1c615b4acbd93f7 = $(`<div id="html_f6729d6f6ff118cea1c615b4acbd93f7" style="width: 100.0%; height: 100.0%;"><b>Bathhouse Flatiron</b><br>Rating: 3.4<br>Reviews: 83<br>Success Score: 3.40</div>`)[0];
+                popup_b99d81f36a4c1d937f0d69a43376721b.setContent(html_f6729d6f6ff118cea1c615b4acbd93f7);
+            
+        
+
+        circle_marker_1f33433da96df5d8544033224a9c1a59.bindPopup(popup_b99d81f36a4c1d937f0d69a43376721b)
+        ;
+
+        
+    
+    
+            var circle_marker_717dd0f5086621062a8a3455be2a98f6 = L.circleMarker(
+                [40.6947, -73.95415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.36734693877551, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_a8a01aca2cf17330c7e3f0fc8138abff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dffee1d1e31895e01197293130eca19 = $(`<div id="html_8dffee1d1e31895e01197293130eca19" style="width: 100.0%; height: 100.0%;"><b>Your Health Success</b><br>Rating: 4.5<br>Reviews: 34<br>Success Score: 4.50</div>`)[0];
+                popup_a8a01aca2cf17330c7e3f0fc8138abff.setContent(html_8dffee1d1e31895e01197293130eca19);
+            
+        
+
+        circle_marker_717dd0f5086621062a8a3455be2a98f6.bindPopup(popup_a8a01aca2cf17330c7e3f0fc8138abff)
+        ;
+
+        
+    
+    
+            var circle_marker_f14ea83b7102f9b07fedc1169a7c8606 = L.circleMarker(
+                [40.6947, -73.95415],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5767599660729432, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_8c9dd16f6e479ed940ef32d72d930ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ac047350af336a27dbb3d16c3b13b3 = $(`<div id="html_88ac047350af336a27dbb3d16c3b13b3" style="width: 100.0%; height: 100.0%;"><b>Your Health Success</b><br>Rating: 4.5<br>Reviews: 34<br>Success Score: 4.50</div>`)[0];
+                popup_8c9dd16f6e479ed940ef32d72d930ae2.setContent(html_88ac047350af336a27dbb3d16c3b13b3);
+            
+        
+
+        circle_marker_f14ea83b7102f9b07fedc1169a7c8606.bindPopup(popup_8c9dd16f6e479ed940ef32d72d930ae2)
+        ;
+
+        
+    
+    
+            var circle_marker_90edf657c21d6dd421515bedd6c48062 = L.circleMarker(
+                [40.72471, -73.98347],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.142857142857142, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_cba5ea02e8d92e30c6487b334b6006ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbdb421489ba2a1309f840cded3c30a6 = $(`<div id="html_dbdb421489ba2a1309f840cded3c30a6" style="width: 100.0%; height: 100.0%;"><b>Gravity East Village</b><br>Rating: 4.2<br>Reviews: 45<br>Success Score: 4.20</div>`)[0];
+                popup_cba5ea02e8d92e30c6487b334b6006ca.setContent(html_dbdb421489ba2a1309f840cded3c30a6);
+            
+        
+
+        circle_marker_90edf657c21d6dd421515bedd6c48062.bindPopup(popup_cba5ea02e8d92e30c6487b334b6006ca)
+        ;
+
+        
+    
+    
+            var circle_marker_6a2435c8d496697335953cf71b3ec96e = L.circleMarker(
+                [40.72471, -73.98347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7633587786259542, "stroke": true, "weight": 3}
+            ).addTo(map_cfd5c8e9ec638e24585b4d36b025ab50);
+        
+    
+        var popup_3197a87918f3310ece3d9dde2a4cc894 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ceec53de7cdce4fab170cab4b96c11 = $(`<div id="html_d5ceec53de7cdce4fab170cab4b96c11" style="width: 100.0%; height: 100.0%;"><b>Gravity East Village</b><br>Rating: 4.2<br>Reviews: 45<br>Success Score: 4.20</div>`)[0];
+                popup_3197a87918f3310ece3d9dde2a4cc894.setContent(html_d5ceec53de7cdce4fab170cab4b96c11);
+            
+        
+
+        circle_marker_6a2435c8d496697335953cf71b3ec96e.bindPopup(popup_3197a87918f3310ece3d9dde2a4cc894)
+        ;
+
+        
+    
+</script>
+</html>

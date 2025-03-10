@@ -1,0 +1,6 @@
+Bayesian Model Compile Time: 1.0698 seconds
+Bayesian Model Fit Time: 6472.2779 seconds
+Bayesian Model RMSE: 0.3923
+Success Model Compile Time: 0.1987 seconds
+Success Model Fit Time: 5265.4364 seconds
+Success Model Accuracy: 0.7818

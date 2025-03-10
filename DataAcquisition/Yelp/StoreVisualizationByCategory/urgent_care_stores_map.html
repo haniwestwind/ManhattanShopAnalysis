@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f6e3dc3360101b574b7c4b3be2b8cf7a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f6e3dc3360101b574b7c4b3be2b8cf7a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f6e3dc3360101b574b7c4b3be2b8cf7a = L.map(
+                "map_f6e3dc3360101b574b7c4b3be2b8cf7a",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b2aef5fbdab2ca39074e846beaf2a3f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+            var circle_marker_6c8a135df63e48299557c039bf65cad4 = L.circleMarker(
+                [40.813373856031674, -74.1199172],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.200000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_bb459185dab93468316b5014ae7e8c07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7a929902a17b9f9cee71ec7371f9094 = $(`<div id="html_f7a929902a17b9f9cee71ec7371f9094" style="width: 100.0%; height: 100.0%;"><b>AFC Urgent Care Lyndhurst</b><br>Rating: 3.3<br>Reviews: 170<br>Success Score: 3.30</div>`)[0];
+                popup_bb459185dab93468316b5014ae7e8c07.setContent(html_f7a929902a17b9f9cee71ec7371f9094);
+            
+        
+
+        circle_marker_6c8a135df63e48299557c039bf65cad4.bindPopup(popup_bb459185dab93468316b5014ae7e8c07)
+        ;
+
+        
+    
+    
+            var circle_marker_07e3b4422bbbc23e384ecedc2ad1fd8e = L.circleMarker(
+                [40.813373856031674, -74.1199172],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_3b7c0093c486f84c8f2d8fa24a11adbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67432458dcdae926dcdb54df1a6303c1 = $(`<div id="html_67432458dcdae926dcdb54df1a6303c1" style="width: 100.0%; height: 100.0%;"><b>AFC Urgent Care Lyndhurst</b><br>Rating: 3.3<br>Reviews: 170<br>Success Score: 3.30</div>`)[0];
+                popup_3b7c0093c486f84c8f2d8fa24a11adbf.setContent(html_67432458dcdae926dcdb54df1a6303c1);
+            
+        
+
+        circle_marker_07e3b4422bbbc23e384ecedc2ad1fd8e.bindPopup(popup_3b7c0093c486f84c8f2d8fa24a11adbf)
+        ;
+
+        
+    
+    
+            var circle_marker_3902470af781fcaec6889f9114266236 = L.circleMarker(
+                [40.78962, -73.970198],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.6, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_703a82e5b85095c767fbbc9b8e430526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3fa81028be368190abccb614df2527d = $(`<div id="html_c3fa81028be368190abccb614df2527d" style="width: 100.0%; height: 100.0%;"><b>Mount Sinai Urgent Care</b><br>Rating: 2.9<br>Reviews: 86<br>Success Score: 2.90</div>`)[0];
+                popup_703a82e5b85095c767fbbc9b8e430526.setContent(html_c3fa81028be368190abccb614df2527d);
+            
+        
+
+        circle_marker_3902470af781fcaec6889f9114266236.bindPopup(popup_703a82e5b85095c767fbbc9b8e430526)
+        ;
+
+        
+    
+    
+            var circle_marker_5479f33e68ec06db6a95fe7510be8078 = L.circleMarker(
+                [40.78962, -73.970198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.235294117647058, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_8b54391e02a1725640af4e471ca390b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a4bdd3110dec392ad5c61dbe8515181 = $(`<div id="html_0a4bdd3110dec392ad5c61dbe8515181" style="width: 100.0%; height: 100.0%;"><b>Mount Sinai Urgent Care</b><br>Rating: 2.9<br>Reviews: 86<br>Success Score: 2.90</div>`)[0];
+                popup_8b54391e02a1725640af4e471ca390b7.setContent(html_0a4bdd3110dec392ad5c61dbe8515181);
+            
+        
+
+        circle_marker_5479f33e68ec06db6a95fe7510be8078.bindPopup(popup_8b54391e02a1725640af4e471ca390b7)
+        ;
+
+        
+    
+    
+            var circle_marker_cfa1b9ed7b106cca4d84ada75b4fc5d1 = L.circleMarker(
+                [40.70034, -73.9215399],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_ba28e5ef3d2c3594a3447bee1dda5c66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9ebbac2c16020c66ddbbfeb8bc501b7 = $(`<div id="html_d9ebbac2c16020c66ddbbfeb8bc501b7" style="width: 100.0%; height: 100.0%;"><b>ModernMD Urgent Care - Bushwick</b><br>Rating: 3.5<br>Reviews: 68<br>Success Score: 3.50</div>`)[0];
+                popup_ba28e5ef3d2c3594a3447bee1dda5c66.setContent(html_d9ebbac2c16020c66ddbbfeb8bc501b7);
+            
+        
+
+        circle_marker_cfa1b9ed7b106cca4d84ada75b4fc5d1.bindPopup(popup_ba28e5ef3d2c3594a3447bee1dda5c66)
+        ;
+
+        
+    
+    
+            var circle_marker_6ae77b3e2687c80d5a904357e1d0e0cf = L.circleMarker(
+                [40.70034, -73.9215399],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_dc487c50fef2ee1a82269355457dbbb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_664d7c3046acae40a40e3a7c9edda96a = $(`<div id="html_664d7c3046acae40a40e3a7c9edda96a" style="width: 100.0%; height: 100.0%;"><b>ModernMD Urgent Care - Bushwick</b><br>Rating: 3.5<br>Reviews: 68<br>Success Score: 3.50</div>`)[0];
+                popup_dc487c50fef2ee1a82269355457dbbb1.setContent(html_664d7c3046acae40a40e3a7c9edda96a);
+            
+        
+
+        circle_marker_6ae77b3e2687c80d5a904357e1d0e0cf.bindPopup(popup_dc487c50fef2ee1a82269355457dbbb1)
+        ;
+
+        
+    
+    
+            var circle_marker_7115c8e3a1341639876aec36e9cfa5dc = L.circleMarker(
+                [40.7074856, -73.7959657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_254cc955f5f8771d982c60ff760004a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eac1ef36cb8db2fff9b6f97a2bed270e = $(`<div id="html_eac1ef36cb8db2fff9b6f97a2bed270e" style="width: 100.0%; height: 100.0%;"><b>UMD Urgent Care - Union Square</b><br>Rating: 3.5<br>Reviews: 58<br>Success Score: 3.50</div>`)[0];
+                popup_254cc955f5f8771d982c60ff760004a9.setContent(html_eac1ef36cb8db2fff9b6f97a2bed270e);
+            
+        
+
+        circle_marker_7115c8e3a1341639876aec36e9cfa5dc.bindPopup(popup_254cc955f5f8771d982c60ff760004a9)
+        ;
+
+        
+    
+    
+            var circle_marker_19c71895196e5f788152a52c27d4daed = L.circleMarker(
+                [40.7074856, -73.7959657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.647058823529413, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_7757e6f61764d7fc4f272a935c1e1615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25985f66e1525b7546dc8185fc05733b = $(`<div id="html_25985f66e1525b7546dc8185fc05733b" style="width: 100.0%; height: 100.0%;"><b>UMD Urgent Care - Union Square</b><br>Rating: 3.5<br>Reviews: 58<br>Success Score: 3.50</div>`)[0];
+                popup_7757e6f61764d7fc4f272a935c1e1615.setContent(html_25985f66e1525b7546dc8185fc05733b);
+            
+        
+
+        circle_marker_19c71895196e5f788152a52c27d4daed.bindPopup(popup_7757e6f61764d7fc4f272a935c1e1615)
+        ;
+
+        
+    
+    
+            var circle_marker_7bf2a4b37e202307643c1b62ad1f6460 = L.circleMarker(
+                [40.7597024, -73.977487],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_e8cfb5dd4a3d286c670791bf08dcd083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dff573b6ff7b65a6a84387f9665cb0b = $(`<div id="html_5dff573b6ff7b65a6a84387f9665cb0b" style="width: 100.0%; height: 100.0%;"><b>Total Urology Care of New York</b><br>Rating: 4.0<br>Reviews: 52<br>Success Score: 4.00</div>`)[0];
+                popup_e8cfb5dd4a3d286c670791bf08dcd083.setContent(html_5dff573b6ff7b65a6a84387f9665cb0b);
+            
+        
+
+        circle_marker_7bf2a4b37e202307643c1b62ad1f6460.bindPopup(popup_e8cfb5dd4a3d286c670791bf08dcd083)
+        ;
+
+        
+    
+    
+            var circle_marker_7172b18d487bf6225498fb668692fd31 = L.circleMarker(
+                [40.7597024, -73.977487],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.23529411764706, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_13191e3fc30011c8b16612b8a84861b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3468db917b1a979eab7fec888899c2d9 = $(`<div id="html_3468db917b1a979eab7fec888899c2d9" style="width: 100.0%; height: 100.0%;"><b>Total Urology Care of New York</b><br>Rating: 4.0<br>Reviews: 52<br>Success Score: 4.00</div>`)[0];
+                popup_13191e3fc30011c8b16612b8a84861b2.setContent(html_3468db917b1a979eab7fec888899c2d9);
+            
+        
+
+        circle_marker_7172b18d487bf6225498fb668692fd31.bindPopup(popup_13191e3fc30011c8b16612b8a84861b2)
+        ;
+
+        
+    
+    
+            var circle_marker_bcbf1b65f8c96072246c5a58a28e420c = L.circleMarker(
+                [40.85063649999935, -74.1797521411042],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.800000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_c02eac6200f45152a3e057d9b1586b63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18c3ed843ed15fc00fa0e48289575b03 = $(`<div id="html_18c3ed843ed15fc00fa0e48289575b03" style="width: 100.0%; height: 100.0%;"><b>Immedicenter</b><br>Rating: 1.7<br>Reviews: 51<br>Success Score: 1.70</div>`)[0];
+                popup_c02eac6200f45152a3e057d9b1586b63.setContent(html_18c3ed843ed15fc00fa0e48289575b03);
+            
+        
+
+        circle_marker_bcbf1b65f8c96072246c5a58a28e420c.bindPopup(popup_c02eac6200f45152a3e057d9b1586b63)
+        ;
+
+        
+    
+    
+            var circle_marker_6b56794980e235f15823ef12c68309eb = L.circleMarker(
+                [40.85063649999935, -74.1797521411042],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_cdb97104ceb5a5306feddf0e75311f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac0bdafad7c49f8c34c51fa155b1343f = $(`<div id="html_ac0bdafad7c49f8c34c51fa155b1343f" style="width: 100.0%; height: 100.0%;"><b>Immedicenter</b><br>Rating: 1.7<br>Reviews: 51<br>Success Score: 1.70</div>`)[0];
+                popup_cdb97104ceb5a5306feddf0e75311f60.setContent(html_ac0bdafad7c49f8c34c51fa155b1343f);
+            
+        
+
+        circle_marker_6b56794980e235f15823ef12c68309eb.bindPopup(popup_cdb97104ceb5a5306feddf0e75311f60)
+        ;
+
+        
+    
+    
+            var circle_marker_fa3bd8a05376c53cdd66cc346ac162e7 = L.circleMarker(
+                [40.7169049, -74.0401437],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_3bc9aaa36e21817a90883e7818f7b450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d0220e9b4bc36bf912ad4e53cd544c4 = $(`<div id="html_1d0220e9b4bc36bf912ad4e53cd544c4" style="width: 100.0%; height: 100.0%;"><b>Vanguard Medical Group</b><br>Rating: 2.8<br>Reviews: 49<br>Success Score: 2.80</div>`)[0];
+                popup_3bc9aaa36e21817a90883e7818f7b450.setContent(html_1d0220e9b4bc36bf912ad4e53cd544c4);
+            
+        
+
+        circle_marker_fa3bd8a05376c53cdd66cc346ac162e7.bindPopup(popup_3bc9aaa36e21817a90883e7818f7b450)
+        ;
+
+        
+    
+    
+            var circle_marker_6dbebf9901c077cc1d30d7c8867ffbad = L.circleMarker(
+                [40.7169049, -74.0401437],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.52941176470588, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_60212d5afbc16f117cd2acd41d9229eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d6d478154a5843e59960613f64ba51b = $(`<div id="html_6d6d478154a5843e59960613f64ba51b" style="width: 100.0%; height: 100.0%;"><b>Vanguard Medical Group</b><br>Rating: 2.8<br>Reviews: 49<br>Success Score: 2.80</div>`)[0];
+                popup_60212d5afbc16f117cd2acd41d9229eb.setContent(html_6d6d478154a5843e59960613f64ba51b);
+            
+        
+
+        circle_marker_6dbebf9901c077cc1d30d7c8867ffbad.bindPopup(popup_60212d5afbc16f117cd2acd41d9229eb)
+        ;
+
+        
+    
+    
+            var circle_marker_3327dc3e39071b7e8ae1b64d86a72d7c = L.circleMarker(
+                [40.70334, -73.94222],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_8c4dbaa265705d46d6f6e8596dd7741d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_723556ac5befca21012404175582a560 = $(`<div id="html_723556ac5befca21012404175582a560" style="width: 100.0%; height: 100.0%;"><b>ModernMD Urgent Care - S.E. Williamsburg</b><br>Rating: 3.0<br>Reviews: 47<br>Success Score: 3.00</div>`)[0];
+                popup_8c4dbaa265705d46d6f6e8596dd7741d.setContent(html_723556ac5befca21012404175582a560);
+            
+        
+
+        circle_marker_3327dc3e39071b7e8ae1b64d86a72d7c.bindPopup(popup_8c4dbaa265705d46d6f6e8596dd7741d)
+        ;
+
+        
+    
+    
+            var circle_marker_be49944f648ed9f0ba69757290cab1fa = L.circleMarker(
+                [40.70334, -73.94222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.058823529411764, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_6bfc88be00e40cf19e98eb0c93e1e1e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae5c4a7c066aec358f42a9241b92091b = $(`<div id="html_ae5c4a7c066aec358f42a9241b92091b" style="width: 100.0%; height: 100.0%;"><b>ModernMD Urgent Care - S.E. Williamsburg</b><br>Rating: 3.0<br>Reviews: 47<br>Success Score: 3.00</div>`)[0];
+                popup_6bfc88be00e40cf19e98eb0c93e1e1e4.setContent(html_ae5c4a7c066aec358f42a9241b92091b);
+            
+        
+
+        circle_marker_be49944f648ed9f0ba69757290cab1fa.bindPopup(popup_6bfc88be00e40cf19e98eb0c93e1e1e4)
+        ;
+
+        
+    
+    
+            var circle_marker_2d8ef43f18fd21733c2295e39574b266 = L.circleMarker(
+                [40.798842, -74.00919],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.400000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_3bc5d24810f4cc8d32e6934af3b6d191 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beb3fb4495db46289dffe36fd618417a = $(`<div id="html_beb3fb4495db46289dffe36fd618417a" style="width: 100.0%; height: 100.0%;"><b>AM/PM Walk-in Urgent Care</b><br>Rating: 3.1<br>Reviews: 47<br>Success Score: 3.10</div>`)[0];
+                popup_3bc5d24810f4cc8d32e6934af3b6d191.setContent(html_beb3fb4495db46289dffe36fd618417a);
+            
+        
+
+        circle_marker_2d8ef43f18fd21733c2295e39574b266.bindPopup(popup_3bc5d24810f4cc8d32e6934af3b6d191)
+        ;
+
+        
+    
+    
+            var circle_marker_5225f542011e14f654506a1e7911eff7 = L.circleMarker(
+                [40.798842, -74.00919],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.058823529411764, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_a70498a2f6009608bfd5b1832fcfba74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e118ee2e3b9402ade51bb03f2206e5b5 = $(`<div id="html_e118ee2e3b9402ade51bb03f2206e5b5" style="width: 100.0%; height: 100.0%;"><b>AM/PM Walk-in Urgent Care</b><br>Rating: 3.1<br>Reviews: 47<br>Success Score: 3.10</div>`)[0];
+                popup_a70498a2f6009608bfd5b1832fcfba74.setContent(html_e118ee2e3b9402ade51bb03f2206e5b5);
+            
+        
+
+        circle_marker_5225f542011e14f654506a1e7911eff7.bindPopup(popup_a70498a2f6009608bfd5b1832fcfba74)
+        ;
+
+        
+    
+    
+            var circle_marker_7832aee3c8edff4959b82902facc789c = L.circleMarker(
+                [40.70446, -73.809269],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_02ea9af62537c1907fce02c697c42bb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a88592991560ac548c33b60465e8651e = $(`<div id="html_a88592991560ac548c33b60465e8651e" style="width: 100.0%; height: 100.0%;"><b>Rock Medical PC</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_02ea9af62537c1907fce02c697c42bb1.setContent(html_a88592991560ac548c33b60465e8651e);
+            
+        
+
+        circle_marker_7832aee3c8edff4959b82902facc789c.bindPopup(popup_02ea9af62537c1907fce02c697c42bb1)
+        ;
+
+        
+    
+    
+            var circle_marker_bfb8550c52472a9acc2f14a77c53509f = L.circleMarker(
+                [40.70446, -73.809269],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_a9382d9ecff9fd59aad0b939125ef4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3241c61a6d6e7a36f4177487b608732 = $(`<div id="html_f3241c61a6d6e7a36f4177487b608732" style="width: 100.0%; height: 100.0%;"><b>Rock Medical PC</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_a9382d9ecff9fd59aad0b939125ef4f4.setContent(html_f3241c61a6d6e7a36f4177487b608732);
+            
+        
+
+        circle_marker_bfb8550c52472a9acc2f14a77c53509f.bindPopup(popup_a9382d9ecff9fd59aad0b939125ef4f4)
+        ;
+
+        
+    
+    
+            var circle_marker_eb644e2e3e1f7840afdcc0c7e04c4a43 = L.circleMarker(
+                [40.78457, -74.16056],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_30ff182278320f3d0e93da65ff553ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0da13017978ea5c6a072181ca3ebd17 = $(`<div id="html_a0da13017978ea5c6a072181ca3ebd17" style="width: 100.0%; height: 100.0%;"><b>Lenoymed - Belleville</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_30ff182278320f3d0e93da65ff553ab3.setContent(html_a0da13017978ea5c6a072181ca3ebd17);
+            
+        
+
+        circle_marker_eb644e2e3e1f7840afdcc0c7e04c4a43.bindPopup(popup_30ff182278320f3d0e93da65ff553ab3)
+        ;
+
+        
+    
+    
+            var circle_marker_5d359357bd0275650c1c8aa9157654de = L.circleMarker(
+                [40.78457, -74.16056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.23529411764705882, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_5092aeabbe65e8795aa60f7ed184be1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48b6534877da2fc2736268faa1953358 = $(`<div id="html_48b6534877da2fc2736268faa1953358" style="width: 100.0%; height: 100.0%;"><b>Lenoymed - Belleville</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_5092aeabbe65e8795aa60f7ed184be1e.setContent(html_48b6534877da2fc2736268faa1953358);
+            
+        
+
+        circle_marker_5d359357bd0275650c1c8aa9157654de.bindPopup(popup_5092aeabbe65e8795aa60f7ed184be1e)
+        ;
+
+        
+    
+    
+            var circle_marker_4cbd85ca9cf411cf39486fae39db40e0 = L.circleMarker(
+                [40.579233012932406, -73.97229827386546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_77ee0d7ed1b209d99462198e02979657 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a07abf89dc1067e252dbd71f1cee507 = $(`<div id="html_0a07abf89dc1067e252dbd71f1cee507" style="width: 100.0%; height: 100.0%;"><b>MyDoc Urgent Care</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_77ee0d7ed1b209d99462198e02979657.setContent(html_0a07abf89dc1067e252dbd71f1cee507);
+            
+        
+
+        circle_marker_4cbd85ca9cf411cf39486fae39db40e0.bindPopup(popup_77ee0d7ed1b209d99462198e02979657)
+        ;
+
+        
+    
+    
+            var circle_marker_8d1f5ffdb70d5627e25da74008d0c2bb = L.circleMarker(
+                [40.579233012932406, -73.97229827386546],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.47058823529411764, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_ea4a7a3e6bfb5618e7326919baff2d7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_325d16e85372bc0ca8fc2ee2eaa0a147 = $(`<div id="html_325d16e85372bc0ca8fc2ee2eaa0a147" style="width: 100.0%; height: 100.0%;"><b>MyDoc Urgent Care</b><br>Rating: 3.0<br>Reviews: 2<br>Success Score: 3.00</div>`)[0];
+                popup_ea4a7a3e6bfb5618e7326919baff2d7e.setContent(html_325d16e85372bc0ca8fc2ee2eaa0a147);
+            
+        
+
+        circle_marker_8d1f5ffdb70d5627e25da74008d0c2bb.bindPopup(popup_ea4a7a3e6bfb5618e7326919baff2d7e)
+        ;
+
+        
+    
+    
+            var circle_marker_3201c0938ec7cc224a478a857ba4ba91 = L.circleMarker(
+                [40.725789, -73.952249],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_86e6067fd20fa6c2cf2d818ba2873bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_042c74109292d6779c82b131c041a327 = $(`<div id="html_042c74109292d6779c82b131c041a327" style="width: 100.0%; height: 100.0%;"><b>Chai Care</b><br>Rating: 1.0<br>Reviews: 2<br>Success Score: 1.00</div>`)[0];
+                popup_86e6067fd20fa6c2cf2d818ba2873bb9.setContent(html_042c74109292d6779c82b131c041a327);
+            
+        
+
+        circle_marker_3201c0938ec7cc224a478a857ba4ba91.bindPopup(popup_86e6067fd20fa6c2cf2d818ba2873bb9)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d0affaa180d72351a7f50ec1146f92 = L.circleMarker(
+                [40.725789, -73.952249],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.47058823529411764, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_5ff663abc223db01ddd1fc870ffc1103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f8364fa678fef8eff37922eedd878f1 = $(`<div id="html_8f8364fa678fef8eff37922eedd878f1" style="width: 100.0%; height: 100.0%;"><b>Chai Care</b><br>Rating: 1.0<br>Reviews: 2<br>Success Score: 1.00</div>`)[0];
+                popup_5ff663abc223db01ddd1fc870ffc1103.setContent(html_8f8364fa678fef8eff37922eedd878f1);
+            
+        
+
+        circle_marker_d8d0affaa180d72351a7f50ec1146f92.bindPopup(popup_5ff663abc223db01ddd1fc870ffc1103)
+        ;
+
+        
+    
+    
+            var circle_marker_7a6539931ae1c83fe07955d031f6f164 = L.circleMarker(
+                [40.84604583818629, -73.92092342660567],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_05d0b8f88b5ac600c6f687a684a48cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d5e6647a658fa575aa29cfe6459b5a4 = $(`<div id="html_9d5e6647a658fa575aa29cfe6459b5a4" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_05d0b8f88b5ac600c6f687a684a48cc1.setContent(html_9d5e6647a658fa575aa29cfe6459b5a4);
+            
+        
+
+        circle_marker_7a6539931ae1c83fe07955d031f6f164.bindPopup(popup_05d0b8f88b5ac600c6f687a684a48cc1)
+        ;
+
+        
+    
+    
+            var circle_marker_577bf2404748272144ef92a5999ff650 = L.circleMarker(
+                [40.84604583818629, -73.92092342660567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_6280fb1f0c78fb8b50173323b1228af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9826a446ef315327c099b52b72c9a5d0 = $(`<div id="html_9826a446ef315327c099b52b72c9a5d0" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_6280fb1f0c78fb8b50173323b1228af4.setContent(html_9826a446ef315327c099b52b72c9a5d0);
+            
+        
+
+        circle_marker_577bf2404748272144ef92a5999ff650.bindPopup(popup_6280fb1f0c78fb8b50173323b1228af4)
+        ;
+
+        
+    
+    
+            var circle_marker_577942f6c897cd6e1b90b4538649e50c = L.circleMarker(
+                [40.83404426967256, -73.918653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_d9ea11433be8669302e1d252da4fa4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f5cea38df34e70decc8459641b67c89 = $(`<div id="html_1f5cea38df34e70decc8459641b67c89" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_d9ea11433be8669302e1d252da4fa4a5.setContent(html_1f5cea38df34e70decc8459641b67c89);
+            
+        
+
+        circle_marker_577942f6c897cd6e1b90b4538649e50c.bindPopup(popup_d9ea11433be8669302e1d252da4fa4a5)
+        ;
+
+        
+    
+    
+            var circle_marker_773e0b3d9f4544d6306e4a580b8441af = L.circleMarker(
+                [40.83404426967256, -73.918653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_f82be9938414f2c5d08c3059d4f99de3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dd10da71812ca874abd9470a9667c40 = $(`<div id="html_9dd10da71812ca874abd9470a9667c40" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_f82be9938414f2c5d08c3059d4f99de3.setContent(html_9dd10da71812ca874abd9470a9667c40);
+            
+        
+
+        circle_marker_773e0b3d9f4544d6306e4a580b8441af.bindPopup(popup_f82be9938414f2c5d08c3059d4f99de3)
+        ;
+
+        
+    
+    
+            var circle_marker_ea7da44aa85e6f8bdf9544b676953f76 = L.circleMarker(
+                [40.82399814948611, -73.911822],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_74a9cbc94d93222d604fe081c2dd010e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dce20a594f3558302665e1bcf10660e = $(`<div id="html_8dce20a594f3558302665e1bcf10660e" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_74a9cbc94d93222d604fe081c2dd010e.setContent(html_8dce20a594f3558302665e1bcf10660e);
+            
+        
+
+        circle_marker_ea7da44aa85e6f8bdf9544b676953f76.bindPopup(popup_74a9cbc94d93222d604fe081c2dd010e)
+        ;
+
+        
+    
+    
+            var circle_marker_4f5a3483d2c1798ef3995559541eba47 = L.circleMarker(
+                [40.82399814948611, -73.911822],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_23428fa5737c0f62f5edecd0c1dd41e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae9957b868fe6efb6930aba0c7d9a4e3 = $(`<div id="html_ae9957b868fe6efb6930aba0c7d9a4e3" style="width: 100.0%; height: 100.0%;"><b>Essen Health Care</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_23428fa5737c0f62f5edecd0c1dd41e9.setContent(html_ae9957b868fe6efb6930aba0c7d9a4e3);
+            
+        
+
+        circle_marker_4f5a3483d2c1798ef3995559541eba47.bindPopup(popup_23428fa5737c0f62f5edecd0c1dd41e9)
+        ;
+
+        
+    
+    
+            var circle_marker_2bbcb30f0ada21363e9dfc035fa50682 = L.circleMarker(
+                [40.84884775977462, -73.93203040707287],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_2652287efa5972f5cae4fc26fa77ac5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7824717c3aed4f53e650c0059efe80ea = $(`<div id="html_7824717c3aed4f53e650c0059efe80ea" style="width: 100.0%; height: 100.0%;"><b>181st Street Urgent Care Center</b><br>Rating: 2.4<br>Reviews: 37<br>Success Score: 2.40</div>`)[0];
+                popup_2652287efa5972f5cae4fc26fa77ac5d.setContent(html_7824717c3aed4f53e650c0059efe80ea);
+            
+        
+
+        circle_marker_2bbcb30f0ada21363e9dfc035fa50682.bindPopup(popup_2652287efa5972f5cae4fc26fa77ac5d)
+        ;
+
+        
+    
+    
+            var circle_marker_15b65911f4e7cd7a80a69c01d1d4f08c = L.circleMarker(
+                [40.84884775977462, -73.93203040707287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.705882352941178, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_14cf3c978f9bb5fe2dff853af3193010 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d29d01b9ce81176facf949eec19716c9 = $(`<div id="html_d29d01b9ce81176facf949eec19716c9" style="width: 100.0%; height: 100.0%;"><b>181st Street Urgent Care Center</b><br>Rating: 2.4<br>Reviews: 37<br>Success Score: 2.40</div>`)[0];
+                popup_14cf3c978f9bb5fe2dff853af3193010.setContent(html_d29d01b9ce81176facf949eec19716c9);
+            
+        
+
+        circle_marker_15b65911f4e7cd7a80a69c01d1d4f08c.bindPopup(popup_14cf3c978f9bb5fe2dff853af3193010)
+        ;
+
+        
+    
+    
+            var circle_marker_3fc28e6a7052af3938fce47f6b03db0d = L.circleMarker(
+                [40.6918027354924, -73.9781423245369],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.000000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_681b9f9bd4474852c5e2d9b6e4d02a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0efa32e7167efda04db414a44bfc2896 = $(`<div id="html_0efa32e7167efda04db414a44bfc2896" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Hospital</b><br>Rating: 3.0<br>Reviews: 5<br>Success Score: 3.00</div>`)[0];
+                popup_681b9f9bd4474852c5e2d9b6e4d02a51.setContent(html_0efa32e7167efda04db414a44bfc2896);
+            
+        
+
+        circle_marker_3fc28e6a7052af3938fce47f6b03db0d.bindPopup(popup_681b9f9bd4474852c5e2d9b6e4d02a51)
+        ;
+
+        
+    
+    
+            var circle_marker_9e55a09ce7cf6d8203f52549bf9c4600 = L.circleMarker(
+                [40.6918027354924, -73.9781423245369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.1764705882352942, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_1e51c6d1db88165527890e40817f1cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed8884d6015a5a8626e8f4fb778e83d = $(`<div id="html_8ed8884d6015a5a8626e8f4fb778e83d" style="width: 100.0%; height: 100.0%;"><b>Brooklyn Hospital</b><br>Rating: 3.0<br>Reviews: 5<br>Success Score: 3.00</div>`)[0];
+                popup_1e51c6d1db88165527890e40817f1cc1.setContent(html_8ed8884d6015a5a8626e8f4fb778e83d);
+            
+        
+
+        circle_marker_9e55a09ce7cf6d8203f52549bf9c4600.bindPopup(popup_1e51c6d1db88165527890e40817f1cc1)
+        ;
+
+        
+    
+    
+            var circle_marker_aed5e828a6530361ffb8dbe0d19a8df2 = L.circleMarker(
+                [40.74247, -73.9173],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.6, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_9de3972e8676a0884a272430db1b2635 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d8f336f7f90e3c2b387af7a0777bab4 = $(`<div id="html_8d8f336f7f90e3c2b387af7a0777bab4" style="width: 100.0%; height: 100.0%;"><b>CityMD - Sunnyside Urgent Care</b><br>Rating: 2.4<br>Reviews: 27<br>Success Score: 2.40</div>`)[0];
+                popup_9de3972e8676a0884a272430db1b2635.setContent(html_8d8f336f7f90e3c2b387af7a0777bab4);
+            
+        
+
+        circle_marker_aed5e828a6530361ffb8dbe0d19a8df2.bindPopup(popup_9de3972e8676a0884a272430db1b2635)
+        ;
+
+        
+    
+    
+            var circle_marker_0983b1ff608489b63dce83124ba82346 = L.circleMarker(
+                [40.74247, -73.9173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.352941176470588, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_c184ee197d12760bad1021f87190bdc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839925df4af8c70759d32d97c7d7de49 = $(`<div id="html_839925df4af8c70759d32d97c7d7de49" style="width: 100.0%; height: 100.0%;"><b>CityMD - Sunnyside Urgent Care</b><br>Rating: 2.4<br>Reviews: 27<br>Success Score: 2.40</div>`)[0];
+                popup_c184ee197d12760bad1021f87190bdc9.setContent(html_839925df4af8c70759d32d97c7d7de49);
+            
+        
+
+        circle_marker_0983b1ff608489b63dce83124ba82346.bindPopup(popup_c184ee197d12760bad1021f87190bdc9)
+        ;
+
+        
+    
+    
+            var circle_marker_8d872f2090984e609190eb33fb63f52f = L.circleMarker(
+                [40.6550664, -73.9125793],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.800000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_09e5ef3c8b372c7136f5a0cf3012456c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad25bb21e41a52466ea7c5fe0b2f943f = $(`<div id="html_ad25bb21e41a52466ea7c5fe0b2f943f" style="width: 100.0%; height: 100.0%;"><b>Brookdale Hospital Medical Center</b><br>Rating: 1.7<br>Reviews: 85<br>Success Score: 1.70</div>`)[0];
+                popup_09e5ef3c8b372c7136f5a0cf3012456c.setContent(html_ad25bb21e41a52466ea7c5fe0b2f943f);
+            
+        
+
+        circle_marker_8d872f2090984e609190eb33fb63f52f.bindPopup(popup_09e5ef3c8b372c7136f5a0cf3012456c)
+        ;
+
+        
+    
+    
+            var circle_marker_8c4042f941163ead5238dbbb375105e4 = L.circleMarker(
+                [40.6550664, -73.9125793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_d2ec07c655b2988ae7e490eed1bce32b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d78e625e2d8d5d4d1d12648848832dd = $(`<div id="html_6d78e625e2d8d5d4d1d12648848832dd" style="width: 100.0%; height: 100.0%;"><b>Brookdale Hospital Medical Center</b><br>Rating: 1.7<br>Reviews: 85<br>Success Score: 1.70</div>`)[0];
+                popup_d2ec07c655b2988ae7e490eed1bce32b.setContent(html_6d78e625e2d8d5d4d1d12648848832dd);
+            
+        
+
+        circle_marker_8c4042f941163ead5238dbbb375105e4.bindPopup(popup_d2ec07c655b2988ae7e490eed1bce32b)
+        ;
+
+        
+    
+    
+            var circle_marker_34183b02975fc91bb81f029efc2519b1 = L.circleMarker(
+                [40.7844692, -73.9485762],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.200000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_2f6923b712672f21bc72a73e391c67a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7c712688e453caad6a49cff29264e7f = $(`<div id="html_c7c712688e453caad6a49cff29264e7f" style="width: 100.0%; height: 100.0%;"><b>AdvantageCare Physicians - Upper East Side Medical Office</b><br>Rating: 1.8<br>Reviews: 44<br>Success Score: 1.80</div>`)[0];
+                popup_2f6923b712672f21bc72a73e391c67a0.setContent(html_c7c712688e453caad6a49cff29264e7f);
+            
+        
+
+        circle_marker_34183b02975fc91bb81f029efc2519b1.bindPopup(popup_2f6923b712672f21bc72a73e391c67a0)
+        ;
+
+        
+    
+    
+            var circle_marker_cb5190c3c2a31b0dfa63f42d4492bb1a = L.circleMarker(
+                [40.7844692, -73.9485762],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.352941176470587, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_cff1e9615df5e4a9f1e5b73dada7a29a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75055603ddf7690eb6f705b2edd90581 = $(`<div id="html_75055603ddf7690eb6f705b2edd90581" style="width: 100.0%; height: 100.0%;"><b>AdvantageCare Physicians - Upper East Side Medical Office</b><br>Rating: 1.8<br>Reviews: 44<br>Success Score: 1.80</div>`)[0];
+                popup_cff1e9615df5e4a9f1e5b73dada7a29a.setContent(html_75055603ddf7690eb6f705b2edd90581);
+            
+        
+
+        circle_marker_cb5190c3c2a31b0dfa63f42d4492bb1a.bindPopup(popup_cff1e9615df5e4a9f1e5b73dada7a29a)
+        ;
+
+        
+    
+    
+            var circle_marker_0958b149b98d33579be650472a40b288 = L.circleMarker(
+                [40.74124183556984, -74.00686939325354],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_62411b814ebb02535ea6265460b40b9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e0e853529ef96e978241cd39fbb668 = $(`<div id="html_00e0e853529ef96e978241cd39fbb668" style="width: 100.0%; height: 100.0%;"><b>Doctor K</b><br>Rating: 5.0<br>Reviews: 14<br>Success Score: 5.00</div>`)[0];
+                popup_62411b814ebb02535ea6265460b40b9c.setContent(html_00e0e853529ef96e978241cd39fbb668);
+            
+        
+
+        circle_marker_0958b149b98d33579be650472a40b288.bindPopup(popup_62411b814ebb02535ea6265460b40b9c)
+        ;
+
+        
+    
+    
+            var circle_marker_d9a574a2fd22b72ef55e3f9aa931a5ee = L.circleMarker(
+                [40.74124183556984, -74.00686939325354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2941176470588234, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_8e8106d961b2a31681164fb8b99268e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06966f88c4ef374bef21c567fd031a02 = $(`<div id="html_06966f88c4ef374bef21c567fd031a02" style="width: 100.0%; height: 100.0%;"><b>Doctor K</b><br>Rating: 5.0<br>Reviews: 14<br>Success Score: 5.00</div>`)[0];
+                popup_8e8106d961b2a31681164fb8b99268e1.setContent(html_06966f88c4ef374bef21c567fd031a02);
+            
+        
+
+        circle_marker_d9a574a2fd22b72ef55e3f9aa931a5ee.bindPopup(popup_8e8106d961b2a31681164fb8b99268e1)
+        ;
+
+        
+    
+    
+            var circle_marker_86aa8d4ddfb58203c0438a8247a62b81 = L.circleMarker(
+                [40.733733, -73.9991937],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_62b04008db3d9034ffd6605cc8904dda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65cd8a475a8b2477322a60a35ce28773 = $(`<div id="html_65cd8a475a8b2477322a60a35ce28773" style="width: 100.0%; height: 100.0%;"><b>Doctor K</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_62b04008db3d9034ffd6605cc8904dda.setContent(html_65cd8a475a8b2477322a60a35ce28773);
+            
+        
+
+        circle_marker_86aa8d4ddfb58203c0438a8247a62b81.bindPopup(popup_62b04008db3d9034ffd6605cc8904dda)
+        ;
+
+        
+    
+    
+            var circle_marker_1a1f2cb03202e1f2b8cd94aa6c23cb99 = L.circleMarker(
+                [40.733733, -73.9991937],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.23529411764705882, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_a3787a082938cafed746126878c5f241 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ec3de5f548519e539fdfe6d71f4011 = $(`<div id="html_e8ec3de5f548519e539fdfe6d71f4011" style="width: 100.0%; height: 100.0%;"><b>Doctor K</b><br>Rating: 1.0<br>Reviews: 1<br>Success Score: 1.00</div>`)[0];
+                popup_a3787a082938cafed746126878c5f241.setContent(html_e8ec3de5f548519e539fdfe6d71f4011);
+            
+        
+
+        circle_marker_1a1f2cb03202e1f2b8cd94aa6c23cb99.bindPopup(popup_a3787a082938cafed746126878c5f241)
+        ;
+
+        
+    
+    
+            var circle_marker_0658aee60c2b8316c59aa0024f2e8423 = L.circleMarker(
+                [40.75703, -73.83466],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_36f26d772d57062294e7aa766d7df993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99a44a003d86b2744eb5ab54e79c2120 = $(`<div id="html_99a44a003d86b2744eb5ab54e79c2120" style="width: 100.0%; height: 100.0%;"><b>Jin Family Medical</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_36f26d772d57062294e7aa766d7df993.setContent(html_99a44a003d86b2744eb5ab54e79c2120);
+            
+        
+
+        circle_marker_0658aee60c2b8316c59aa0024f2e8423.bindPopup(popup_36f26d772d57062294e7aa766d7df993)
+        ;
+
+        
+    
+    
+            var circle_marker_5c77bc91f7201799cd856b576b348f5e = L.circleMarker(
+                [40.75703, -73.83466],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_259c44e297bc35f08dfbb13381c3ad92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bceea98cd6753a8cf2ee9eb4da756ca0 = $(`<div id="html_bceea98cd6753a8cf2ee9eb4da756ca0" style="width: 100.0%; height: 100.0%;"><b>Jin Family Medical</b><br>Rating: 0.0<br>Reviews: 0<br>Success Score: 0.00</div>`)[0];
+                popup_259c44e297bc35f08dfbb13381c3ad92.setContent(html_bceea98cd6753a8cf2ee9eb4da756ca0);
+            
+        
+
+        circle_marker_5c77bc91f7201799cd856b576b348f5e.bindPopup(popup_259c44e297bc35f08dfbb13381c3ad92)
+        ;
+
+        
+    
+    
+            var circle_marker_2927747892c3ece72d059682f8aebde8 = L.circleMarker(
+                [40.611658, -74.13802],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.400000000000002, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_dafea1ef6f19a876f1e752b5166da335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e017d4bf62e37d411dc2e3d0fcd0c38 = $(`<div id="html_4e017d4bf62e37d411dc2e3d0fcd0c38" style="width: 100.0%; height: 100.0%;"><b>Arthur Sigelman M.D</b><br>Rating: 3.6<br>Reviews: 7<br>Success Score: 3.60</div>`)[0];
+                popup_dafea1ef6f19a876f1e752b5166da335.setContent(html_4e017d4bf62e37d411dc2e3d0fcd0c38);
+            
+        
+
+        circle_marker_2927747892c3ece72d059682f8aebde8.bindPopup(popup_dafea1ef6f19a876f1e752b5166da335)
+        ;
+
+        
+    
+    
+            var circle_marker_30442b7f7b2004ad0ecc87b279bba14c = L.circleMarker(
+                [40.611658, -74.13802],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightcoral", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.6470588235294117, "stroke": true, "weight": 3}
+            ).addTo(map_f6e3dc3360101b574b7c4b3be2b8cf7a);
+        
+    
+        var popup_70116f90d7a0193894b25d2aaad5dd31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb667d58edc3b25b2f06e20d9c29f87 = $(`<div id="html_cbb667d58edc3b25b2f06e20d9c29f87" style="width: 100.0%; height: 100.0%;"><b>Arthur Sigelman M.D</b><br>Rating: 3.6<br>Reviews: 7<br>Success Score: 3.60</div>`)[0];
+                popup_70116f90d7a0193894b25d2aaad5dd31.setContent(html_cbb667d58edc3b25b2f06e20d9c29f87);
+            
+        
+
+        circle_marker_30442b7f7b2004ad0ecc87b279bba14c.bindPopup(popup_70116f90d7a0193894b25d2aaad5dd31)
+        ;
+
+        
+    
+</script>
+</html>
